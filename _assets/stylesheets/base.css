@@ -1,0 +1,63 @@
+/* line 3, ../sass/base.sass */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* line 8, ../sass/base.sass */
+img, video, object {
+  max-width: 100%;
+}
+
+/* line 11, ../sass/base.sass */
+article, header, nav, section {
+  display: block;
+}
+
+/* line 14, ../sass/base.sass */
+ul {
+  list-style: none;
+}
+/* line 11, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* line 17, ../sass/base.sass */
+.wrap {
+  margin: 60px auto;
+  max-width: 1200px;
+  overflow: hidden;
+  width: 90%;
+}
+
+/* line 23, ../sass/base.sass */
+a {
+  color: #0091e5;
+  text-decoration: none;
+}
+/* line 26, ../sass/base.sass */
+a.selected {
+  color: black;
+}
+
+/* line 30, ../sass/base.sass */
+.list_horizontal li {
+  float: left;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 1085px) {
+  /* line 36, ../sass/base.sass */
+  body {
+    font-size: 16px;
+  }
+
+  /* line 38, ../sass/base.sass */
+  .wrap {
+    margin: 15px auto;
+  }
+}

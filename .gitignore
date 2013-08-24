@@ -1,0 +1,4 @@
+.DS_Store
+.sass-cache
+config.ru
+config.rb

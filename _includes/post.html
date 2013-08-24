@@ -1,0 +1,23 @@
+<article>
+
+  {{post.body}}
+
+  <footer>
+    {{post.date | date: "%b %d, %Y"}}
+  </footer>
+
+</article>
+
+{% if parent %}
+  <footer>
+    <ul>
+      {% if post.previous %}
+        <li><a href="{{post.previous.url}}">Previous</a></li>
+      {% endif %}
+      {% if post.next %}
+        <li><a href="{{post.next.url}}">Next</a></li>
+      {% endif %}
+      <li><a href="{{parent.url}}">Back to {{parent.title}}</a></li>
+    </ul>
+  </footer>
+{% endif %}

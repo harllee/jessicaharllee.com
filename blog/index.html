@@ -1,0 +1,12 @@
+{% capture content %}
+
+  <p>This blog has {{posts | size}} posts.</p>
+
+  {% for post in posts limit:20 %}
+    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+    <h6>{{post.date | date: "%b %d, %Y"}}</h6>
+  {% endfor %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}
