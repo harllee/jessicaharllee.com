@@ -2,3 +2,4 @@
 .sass-cache
 config.ru
 config.rb
+tmp
