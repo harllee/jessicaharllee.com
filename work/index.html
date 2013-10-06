@@ -1,0 +1,15 @@
+{% capture content %}
+
+  <ul>
+    {% for post in posts limit:20 %}
+      <li>
+        <a class="image_header" href="{{post.url}}" style="{% if post.assets.size > 0 %}background: url('{{post.assets[0].permalink}}') no-repeat center center; background-size: cover;{% endif %}">
+          <h2>{{post.title}}</h2>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endcapture %}
+
+{% include 'layouts/default' %}
