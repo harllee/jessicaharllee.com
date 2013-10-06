@@ -2,22 +2,22 @@
 
   {{post.body}}
 
-  <footer>
-    {{post.date | date: "%b %d, %Y"}}
-  </footer>
+  {% if parent.slug == "notes" %}
+    <h6>Posted {{post.date | date: "%b %d, %Y"}}</h6>
+  {% endif %}
 
 </article>
 
 {% if parent %}
-  <footer>
-    <ul>
-      {% if post.previous %}
-        <li><a href="{{post.previous.url}}">Previous</a></li>
+  <footer class="section">
+    <ul class="list_horizontal post_nav">
+      {% if previous %}
+        <li class="post_nav_arrow"><a href="{{post.previous.url}}">&larr; Previous</a></li>
       {% endif %}
-      {% if post.next %}
-        <li><a href="{{post.next.url}}">Next</a></li>
+      {% if next %}
+        <li class="post_nav_arrow"><a href="{{post.next.url}}">Next &rarr;</a></li>
       {% endif %}
-      <li><a href="{{parent.url}}">Back to {{parent.title}}</a></li>
+      <li class="right"><a href="{{parent.url}}">Back to {{parent.title}}</a></li>
     </ul>
   </footer>
 {% endif %}

@@ -6,36 +6,67 @@
   <title>{{site.title}} | {{title}}</title>
   <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
   <link rel="stylesheet" type="text/css" href="/_assets/stylesheets/base.css" />
+  <script type="text/javascript" src="//use.typekit.net/rjw6ujq.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22573894-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 
-<body class="{% if post.parent %}{{post.parent.title}}{% else %}{{title | downcase}}{% endif %}">
+<body>
 
-  <header class="wrap">
-    <h1>{{site.title}}</h1>
-    <nav>
-      <ul class="list_horizontal">
+  <header class="main_nav wrap">
+    <h1 class="logo left">
+      <a href="/" class="link_dark">{{site.title}}</a>
+    </h1>
+    <ul class="nav list_horizontal right">
       {% for page in site.pages %}
         <li>
           <a href="{{page.url}}"{% if page.url == parent.url or page.url == url %} class="selected"{% endif %}>{{page.title}}</a>
         </li>
       {% endfor %}
-      </ul>
-    </nav>
+    </ul>
   </header>
 
-  <section class="wrap">
+  <section>
 
-    <header>
-      <h2>
-        <a href="{{post.url}}">
-          {{post.title}}
-        </a>
-      </h2>
-    </header>
+    {% if parent %}
+      {% if parent.slug == "work" %}
+        <header class="image_header" style="{% if post.assets.size > 0 %}background: url('{{post.assets[0].permalink}}') no-repeat center center; background-size: cover;{% endif %}">
+          <h2>
+            {{post.title}}
+          </h2>
+        </header>
+      {% else %}
+        <header class="section wrap">
+          <h2>
+            {{post.title}}
+          </h2>
+        </header>
+      {% endif %}
+    {% endif %}
 
-    {{content}}
+    <div class="section wrap">
+
+      {{content}}
+
+    </div>
 
   </section>
+
+  <footer class="section">
+    <h6 class="center">&copy; 2013 Jessica Harllee</h6>
+  </footer>
 
 </body>
 </html>
