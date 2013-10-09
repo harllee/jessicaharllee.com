@@ -31,9 +31,11 @@
     </h1>
     <ul class="nav list_horizontal right">
       {% for page in site.pages %}
-        <li>
-          <a href="{{page.url}}"{% if page.url == parent.url or page.url == url %} class="selected"{% endif %}>{{page.title}}</a>
-        </li>
+        {% unless page.url == "/" %}
+          <li>
+            <a href="{{page.url}}"{% if page.url == parent.url or page.url == url %} class="selected"{% endif %}>{{page.title}}</a>
+          </li>
+        {% endunless %}
       {% endfor %}
     </ul>
   </header>
