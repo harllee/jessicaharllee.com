@@ -33,7 +33,7 @@
       {% for page in site.pages %}
         {% unless page.url == "/" %}
           <li>
-            <a href="{{page.url}}"{% if page.url == parent.url or page.url == url %} class="selected"{% endif %}>
+            <a href="{{page.url}}"{% if page.url == parent.url or page.url == url or current.url == "/" %} class="selected"{% endif %}>
               {{page.title}}
             </a>
           </li>
