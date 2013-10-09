@@ -33,7 +33,9 @@
       {% for page in site.pages %}
         {% unless page.url == "/" %}
           <li>
-            <a href="{{page.url}}"{% if page.url == parent.url or page.url == url %} class="selected"{% endif %}>{{page.title}}</a>
+            <a href="{{page.url}}"{% if page.url == parent.url or page.url == url %} class="selected"{% endif %}>
+              {{page.title}}
+            </a>
           </li>
         {% endunless %}
       {% endfor %}
@@ -44,7 +46,7 @@
 
     {% if parent %}
       {% if parent.slug == "work" %}
-        <header class="image_header" style="{% if post.assets.size > 0 %}background: url('{{post.assets[0].permalink}}') no-repeat center center; background-size: cover;{% endif %}">
+        <header class="image_header" style="{% if post.assets.size > 0 %}background: url('{{post.assets[0].url}}') no-repeat center center; background-size: cover;{% endif %}">
           <h2>
             {{post.title}}
           </h2>
