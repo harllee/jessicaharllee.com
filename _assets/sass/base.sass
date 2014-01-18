@@ -1,12 +1,31 @@
 @import "compass"
 @import "_fonts"
-@import "_colors"
 @import "_media"
+@import "_colors"
+@import "_text"
+@import "_forms"
+@import "_buttons"
+@import "_grid"
+@import "_images"
+@import "_nav"
+@import "_lists"
+@import "_table"
+@import "_badge"
+@import "_banner"
+@import "_pagination"
+@import "_image_header"
+@import "_image_gallery"
+@import "_flag"
+@import "_media_object"
+
+@import "_positioning"
+@import "_spacing"
+
 
 body
   font-family: $rooney
   font-weight: 200
-  font-size: 24px
+  font-size: $base-font-size
   line-height: 1.5
   color: $grey-dark
   margin: 0
@@ -31,6 +50,7 @@ ul
 a
   color: $red
   text-decoration: none
+  +transition(.07s ease-in color)
   &:hover
     color: $grey-dark
   &.link_dark
@@ -38,17 +58,23 @@ a
     &:hover
       color: $red
 
+a
+  img
+    +transition(.07s ease-in opacity)
+    &:hover
+      +opacity(.95)
+
 hr
-  margin: 4em 0
+  margin: 2em 0
   border: 0
   height: 0
   border-top: 1px solid $grey-light
 
 
-//// Layout
+// Layout
 
 .wrap
-  max-width: 1200px
+  max-width: 1000px
   width: 70%
 
 .section
@@ -56,163 +82,24 @@ hr
 
 @media only screen and (max-width: $break-medium)
   body
-    font-size: 20px
-  .wrap
-    margin: 15px auto
+    font-size: $base-font-size * .8333333
 @media only screen and (max-width: $break-small)
   .wrap
     width: 90%
 
 
-//// Utilities
+// Find a home for me
 
-.left
-  float: left
-.right
-  float: right
-.clear
-  clear: both
+.checkout_footer
+  @media only screen and (min-width: $break-small)
+    width: 40%
+    padding-left: 60%
 
-.center
-  text-align: center
-
-.block
-  display: block
-.inline-block
-  display: inline-block
-  vertical-align: middle
-.inline
-  display: inline
-
-.list_horizontal
-  overflow: hidden
-  li
-    float: left
-    margin: 0 30px 0 0
-    display: inline-block
-    &:last-child
-      margin: 0
-    &.right
-      float: right
-
-
-//// Text
-
-p, li
-  margin-bottom: 1em
-
-h2
-  font-style: italic
-  font-weight: 700
-  font-size: 1.75em
-  line-height: 1em
-
-h6
-  font-size: .75em
-  color: $grey-light
-  font-family: $proxima-nova
-  font-weight: 300
-
-dl
-  font-size: 80%
-  line-height: 1.2em
-  margin: 2em 0
-  @media only screen and (max-width: $break-small)
-    font-size: 100%
-  dt
-    font-weight: bold
-    width: 19%
-    min-width: 80px
-    display: inline-block
-    vertical-align: top
-    margin: 0 0 .5em 0
-  dd
-    margin: 0 0 1em 0
-    width: 80%
-    display: inline-block
-
-
-
-//// Site navigation
-
-.main_nav
-  background: #fff
-  padding: 45px 0
-  margin: 0 auto
-  overflow: hidden
-  .logo
-    font-family: $proxima-nova
-    font-size: 20px
-    font-weight: 600
-    text-transform: uppercase
-    letter-spacing: 2px
-    -webkit-font-smoothing: antialiased
-    display: inline
+.item
+  margin-bottom: 3em
+  img
     margin: 0
-  .nav
-    display: inline
-    a
-      display: block
-      font-family: $proxima-nova
-      font-weight: 300
-      font-size: 14px
-      line-height: 30px
-      text-transform: uppercase
-      color: $grey-light
-      letter-spacing: 1px
-      -webkit-font-smoothing: antialiased
-      &:hover
-        color: $grey-dark
-      &.selected
-        color: $red
-        font-weight: 600
-@media only screen and (max-width: $break-small)
-  .main_nav
-    padding: 20px 0
-    .logo,
-    .nav
-      float: none
-      display: block
-      margin: 1em auto
-      text-align: center
-      li
-        float: none
 
-
-//// Post navigation
-
-@media only screen and (max-width: $break-small)
-  .post_nav li
-    margin: 1em auto
-    text-align: center
-    float: none
-  .post_nav li.right
-    display: block
-    float: none
-  .post_nav_arrow
-    display: inline-block
-    width: 49%
-
-
-//// Image headers
-
-.image_header
-  width: 100%
-  height: 16em
-  display: table
-  color: #fff
-  background-color: $grey-light
-  &:hover
-    color: #fff
-  h2
-    margin: 0
-    text-align: center
-    display: table-cell
-    vertical-align: middle
-    +text-shadow(0 0 10px #000)
-
-// Image header as a link (work index)
-a.image_header
-  &:hover
-    +opacity(.95)
+.border_top
+  border-top: 1px solid $grey-lightest
 

@@ -6,6 +6,7 @@
   <title>{{site.title}} | {{title}}</title>
   <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
   <link rel="stylesheet" type="text/css" href="/_assets/stylesheets/base.css" />
+  <link rel="stylesheet" type="text/css" href="/_assets/webfonts/ss-junior.css" />
   <script type="text/javascript" src="//use.typekit.net/rjw6ujq.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript">
@@ -25,20 +26,26 @@
 
 <body>
 
-  <header class="main_nav wrap">
+  <header class="main_nav section wrap clearfix">
     <h1 class="logo left">
       <a href="/" class="link_dark">{{site.title}}</a>
     </h1>
-    <ul class="nav list_horizontal right">
-      {% for page in site.pages %}
-        {% unless page.url == "/" %}
-          <li>
-            <a href="{{page.url}}"{% if page.url == parent.url or page.url == url or current.url == "/" %} class="selected"{% endif %}>
-              {{page.title}}
-            </a>
-          </li>
-        {% endunless %}
-      {% endfor %}
+    <ul class="nav h6 list_horizontal right">
+      <li>
+        <a href="/work" class="link_grey{% if url == '/work' or parent.url == '/work' %} selected{% endif %}">
+          Work
+        </a>
+      </li>
+      <li>
+        <a href="/notes" class="link_grey{% if url == '/notes' or parent.url == '/notes' %} selected{% endif %}">
+          Notes
+        </a>
+      </li>
+      <li>
+        <a href="/about" class="link_grey{% if url == '/about' or parent.url == '/about' %} selected{% endif %}">
+          About
+        </a>
+      </li>
     </ul>
   </header>
 
@@ -68,8 +75,23 @@
 
   </section>
 
-  <footer class="section">
-    <h6 class="center">&copy; 2014 Jessica Harllee</h6>
+  <footer class="py1 bg_grey_lightest">
+    <div class="section wrap" clearfix>
+      <ul class="h6 inline_block list_horizontal">
+        <li>
+          <a href="/work" class="link_grey">Work</a>
+        </li>
+        <li>
+          <a href="/notes" class="link_grey">Notes</a>
+        </li>
+        <li>
+          <a href="/about" class="link_grey">About</a>
+        </li>
+      </ul>
+      <a href="http://rd.io/x/QVkUBzMyohk/" target="_blank" class="block right link_grey">
+        <span class="ss-icon">Flash</span>
+      </a>
+    </div>
   </footer>
 
 </body>
