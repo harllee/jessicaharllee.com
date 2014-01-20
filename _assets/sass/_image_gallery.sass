@@ -1,0 +1,17 @@
+// Product detail page gallery (ugh, this is hacky)
+// Make the first image full-width and the subsequent images half-width
+// Assumes there are an odd number of photos and at least one
+
+.image_gallery
+  margin-bottom: 3em
+  overflow: hidden
+  img
+    margin: 0
+  @media only screen and (min-width: $break-small)
+    li:not(:first-child)
+      display: inline-block
+      float: left
+      width: 48%
+      margin-right: 4%
+    li:nth-child(2n + 1)
+      margin-right: 0

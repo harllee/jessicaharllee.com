@@ -1,0 +1,69 @@
+// Text
+
+$base-font-size: 24px
+
+p, li
+  margin-bottom: 1em
+
+h2
+  font-style: italic
+  font-weight: 700
+  font-size: 1.75em
+  line-height: 1em
+
+h4
+  font-weight: normal
+  line-height: 1em
+
+=h5
+  font-size: 18px
+  line-height: 30px
+
+=h6
+  font-size: 16px
+  color: $grey
+  font-family: $proxima-nova
+  text-transform: uppercase
+  font-weight: 300
+  letter-spacing: 1px
+
+h5, .h5
+  +h5
+
+h6, .h6
+  +h6
+
+
+dl
+  font-size: 80%
+  line-height: 1.2em
+  margin: 2em 0
+  @media (max-width: $break-small)
+    font-size: 100%
+  dt
+    font-weight: bold
+    width: 19%
+    min-width: 80px
+    display: inline-block
+    vertical-align: top
+    margin: 0 0 .5em 0
+  dd
+    margin: 0 0 1em 0
+    width: 80%
+    display: inline-block
+
+.dl_small
+  dt,dd
+    width: 49%
+
+
+// Classes
+
+.normal
+  font-weight: normal
+
+.small_type
+  font-size: .83333em
+
+.big_type
+  font-size: 1.5em

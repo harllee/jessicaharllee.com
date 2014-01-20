@@ -1,0 +1,66 @@
+// Positioning
+
+
+// Floats
+
+.left
+  float: left
+.right
+  float: right
+.clearfix
+  overflow: hidden
+
+
+// Text-align
+
+.center
+  text-align: center
+.align_right
+  text-align: right
+
+
+// Display
+
+.block
+  display: block
+.inline_block
+  display: inline-block
+  vertical-align: middle
+.inline
+  display: inline
+
+.mobile-hide
+  @media only screen and (max-width: $break-small)
+    display: none
+
+.hover_show
+  .hover_show_target
+    +opacity(0)
+    +transition(.07s ease-in opacity)
+  &:hover
+    .hover_show_target
+      +opacity(1)
+
+
+// Positioning
+
+.relative
+  position: relative
+.absolute
+  position: absolute
+
+.absolute_center
+  position: absolute
+  top: 50%
+  left: 0
+  right: 0
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+.absolute_fill
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0

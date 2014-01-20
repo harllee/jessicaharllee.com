@@ -1,0 +1,66 @@
+.button
+  display: inline-block
+  text-align: center
+  padding: 14px 16px
+  border-radius: 6px
+  font-size: .83333em
+  font-family: inherit
+  border: 0
+  outline: none
+  cursor: pointer
+  margin-top: 0
+  margin-bottom: 0
+  +transition(.07s ease-in all)
+  white-space: nowrap
+  &:not(.button_icon)
+    .ss-icon
+      font-size: .9em
+      vertical-align: -2px
+  @media only screen and (max-width: $break-small)
+    &:not(.button_icon)
+      display: block
+      width: 100%
+      margin: .5em 0
+
+
+// A button that's just an icon
+// Displayed as a circle
+
+.button_icon
+  padding: 5px
+  height: 1em
+  width: 1em
+  border-radius: 50%
+
+
+// Button themes
+
+.button_red
+  color: #fff
+  background-color: $red
+  &:hover
+    background-color: $red-hover
+
+.button_grey_dark
+  color: #fff
+  background-color: $grey-dark
+  &:hover
+    background-color: $grey-hover
+
+
+// Buttons with MEANING
+
+.button_delete
+  color: #fff
+  background-color: $grey-light
+  &:hover
+    color: #fff
+    background-color: $red
+
+.button_disabled
+  color: #fff
+  background-color: $grey-light
+  cursor: default
+  &:hover
+    color: #fff
+    background-color: $grey-light
