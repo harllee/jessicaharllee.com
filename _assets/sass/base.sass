@@ -1,4 +1,5 @@
 @import "compass"
+@import "_mixins"
 @import "_fonts"
 @import "_media"
 @import "_colors"
@@ -48,7 +49,7 @@ ul
   padding: 0
 
 a
-  color: $red
+  color: $blue
   text-decoration: none
   +transition(.07s ease-in color)
   &:hover
@@ -56,7 +57,7 @@ a
   &.link_dark
     color: $grey-dark
     &:hover
-      color: $red
+      color: $blue
 
 a
   img

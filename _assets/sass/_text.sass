@@ -6,7 +6,7 @@ p, li
   margin-bottom: 1em
 
 h2
-  font-style: italic
+  //font-style: italic
   font-weight: 700
   font-size: 1.75em
   line-height: 1em
@@ -55,6 +55,19 @@ dl
 .dl_small
   dt,dd
     width: 49%
+
+pre
+  background-color: rgba($grey-lightest, .5)
+  padding: 1em
+  +vendor-prefix(white-space, pre-wrap)
+  border-radius: 3px
+  code
+    color: $grey-dark
+
+code
+  font-family: $source-code
+  font-size: .8em
+  color: $red
 
 
 // Classes
