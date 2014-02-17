@@ -56,21 +56,18 @@
 
   <section>
 
-    {% if parent %}
-      {% if parent.slug == "work" %}
-        <header class="image_header" style="{% if post.assets.size > 0 %}background: url('{{post.assets[0].url}}') no-repeat center center; background-size: cover;{% endif %}">
-          <h2>
-            {{post.title}}
-          </h2>
-        </header>
-      {% else %}
-        <header class="section wrap">
-          <h2>
-            {{post.title}}
-          </h2>
+    {% for asset in assets %}
+      {% if asset.meta.type == "header" %}
+        <header class="image_header" style="background: url('{{asset.url}}') no-repeat center center; background-size: cover;">
         </header>
       {% endif %}
-    {% endif %}
+    {% endfor %}
+    
+    <div class="section wrap">
+      <h2>
+        {{post.title}}
+      </h2>
+    </div>
 
     <div class="section wrap">
 
