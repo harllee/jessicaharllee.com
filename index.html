@@ -3,8 +3,13 @@
   <ul>
     {% for post in site.pages['work'].posts limit:20 %}
       <li>
-        <a class="image_header" href="{{post.url}}" style="{% if post.assets.size > 0 %}background: url('{{post.assets[0].url}}') no-repeat center center; background-size: cover;{% endif %}">
-          <h2>{{post.title}}</h2>
+        <a href="{{post.url}}" class="thumb_link block">
+          {% for asset in post.assets %}
+          {% if asset.meta.type == "header" %}
+            <img src="{{asset.url}}">
+          {% endif %}
+          {% endfor %}
+          <h3>{{post.title}}</h3>
         </a>
       </li>
     {% endfor %}
