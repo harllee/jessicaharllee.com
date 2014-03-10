@@ -1,0 +1,46 @@
+// An image wrapper that makes the image appear contained in a browser window
+
+.browser_wrapper
+  margin: 2em 0
+  padding-top: 40px
+  background: $grey-light
+  border: 2px solid $grey-light
+  border-radius: 6px
+  width: 100%
+  position: relative
+  &:before
+    content: '...'
+    position: absolute
+    top: -0.65em
+    left: 0.25em
+    font-size: 2em
+    color: #fff
+
+  .image_wrapper
+    height: 20em
+    overflow-y: scroll
+    background-color: #fff
+  img
+    display: block
+    margin: 0
+    border-radius: 0
+
+  // Make the scrollbar appear by default
+  ::-webkit-scrollbar
+    -webkit-appearance: none
+    width: 12px
+  ::-webkit-scrollbar-thumb
+    background-color: rgba($grey,.5)
+    border-radius: 10px
+  ::-webkit-scrollbar-track-piece
+    background-color: rgba($grey-lightest, 0.5)
+  
+  // On mobile, show the whole image
+  @media only screen and (max-width: $break-small)
+    padding-top: 20px
+    margin: 1em 0
+    &:before
+      top: -0.85em
+    .image_wrapper
+      overflow: visible
+      height: auto
