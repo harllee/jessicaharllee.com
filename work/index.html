@@ -1,15 +1,15 @@
 {% capture content %}
 
-  <ul>
+  <ul class="grid_container clearfix">
     {% for post in posts limit:20 %}
-      <li>
+      <li class="grid grid_3">
         <a href="{{post.url}}" class="thumb_link block">
           {% for asset in post.assets %}
           {% if asset.meta.type == "header" %}
-            <img src="{{asset.url}}">
+            <div class="background_cover" style="background-image: url('{{asset.url}}');"></div>
           {% endif %}
           {% endfor %}
-          <h3>{{post.title}}</h3>
+          <h4>{{post.title}}</h4>
         </a>
       </li>
     {% endfor %}
