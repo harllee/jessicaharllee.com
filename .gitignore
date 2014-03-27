@@ -4,4 +4,4 @@ config.ru
 config.rb
 tmp
 _assets/images
-_assets/stylesheets/base.css
+_assets/stylesheets
