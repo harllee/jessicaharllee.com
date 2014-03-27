@@ -1,28 +1,36 @@
 // Apply .grid to anything being treated as part of the grid
+
+
+.grid_container
+  @media only screen and (min-width: $break-small)
+    margin-left: -1%
+    margin-right: -1%
+
 .grid
   @media only screen and (min-width: $break-small)
     display: inline
     float: left
-    margin-right: 20px / 1000px * 100%
+    margin-left: 1%
+    margin-right: 1%
 .grid:last-child
   margin-right: 0
 
 
 .grid_1
   @media only screen and (min-width: $break-small)
-    width: 150px / 1000px * 100%
+    width: 15%
 .grid_2
   @media only screen and (min-width: $break-small)
-    width: 320px / 1000px * 100%
+    width: 32%
 .grid_3
   @media only screen and (min-width: $break-small)
-    width: 490px / 1000px * 100%
+    width: 48%
 .grid_4
   @media only screen and (min-width: $break-small)
-    width: 660px / 1000px * 100%
+    width: 66%
 .grid_5
   @media only screen and (min-width: $break-small)
-    width: 830px / 1000px * 100%
+    width: 83%
 .grid_6
   @media only screen and (min-width: $break-small)
     width: 100%
