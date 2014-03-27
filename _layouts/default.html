@@ -58,7 +58,7 @@
 
     {% for asset in assets %}
       {% if asset.meta.type == "header" %}
-        <header class="image_header" style="background: url('{{asset.url}}') no-repeat center center; background-size: cover;">
+        <header class="image_header background_cover" style="background-image: url('{{asset.url}}');">
         </header>
       {% endif %}
     {% endfor %}
