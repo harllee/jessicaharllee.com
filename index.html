@@ -1,14 +1,30 @@
 {% capture content %}
 
-  <ul>
-    {% for post in site.pages['work'].posts limit:20 %}
-      <li>
+  <h2 class="center">Latest work</h2>
+
+  <ul class="grid_container clearfix">
+    {% for post in site.pages['work'].posts limit:4 %}
+      <li class="grid grid_3">
         <a href="{{post.url}}" class="thumb_link block">
           {% for asset in post.assets %}
           {% if asset.meta.type == "header" %}
-            <img src="{{asset.url}}">
+            <div class="background_cover" style="background-image: url('{{asset.url}}');"></div>
           {% endif %}
           {% endfor %}
+          <h4>{{post.title}}</h4>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h2 class="center">Latest notes</h2>
+
+  <ul>
+    {% for post in site.pages['notes'].posts limit:3 %}
+      <li>
+        <a href="{{post.url}}">
           <h3>{{post.title}}</h3>
         </a>
       </li>
