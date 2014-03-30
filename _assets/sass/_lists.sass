@@ -1,14 +1,25 @@
 // Lists
 
+ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+  li
+    margin: 0
+    padding: 0
+
+
 .list_horizontal
   overflow: hidden
   li
-    float: left
-    margin: 0 1.5em 0 0
     display: inline-block
-    @media only screen and (max-width: $break-small)
-      margin-right: 1em
-    &:last-child
-      margin-right: 0
     &.right
       float: right
+
+.list_horizontal_spaced li
+  margin: 0 1.5em 0 0
+  @media only screen and (max-width: $break-small)
+    margin-right: 1em
+  &:last-child
+    margin-right: 0

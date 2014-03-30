@@ -1,0 +1,17 @@
+{% assign post = current %}
+
+{% capture content %}
+
+    {% for post in posts %}
+    
+      {% include 'includes/post_preview' %}
+
+    {% endfor %}
+
+    <hr>
+
+    {% include 'includes/topics' %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

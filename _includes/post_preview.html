@@ -1,0 +1,21 @@
+<div class="grid_container clearfix">
+  <div class="grid grid_6">
+    <h2 class="mb0"><a href="{{ post.url }}" class="link_dark">{{post.title}}</a></h2>
+    {{ post.excerpt }}
+    {% if post.excerpt != post.body %}
+      <a href="{{post.url}}" class="link_red my1">Read more &rarr;</a>
+    {% endif %}
+    </a>
+  </div>
+  <div class="grid grid_6">
+    <ul class="list_horizontal my1">
+      {% for tag in post.taxonomy.topics | limit: 5 %}
+      <li>
+        <a class="tag tag_grey" href="{{tag.url}}">
+          {{ tag.value }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

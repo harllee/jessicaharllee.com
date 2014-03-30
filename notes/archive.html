@@ -1,0 +1,21 @@
+{% assign post = current %}
+
+{% capture content %}
+
+  <ul>
+
+    {% for post in posts %}
+    
+      {% include 'includes/post_mini' %}
+
+    {% endfor %}
+
+  </ul>
+
+  <hr>
+
+  {% include 'includes/topics' %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}

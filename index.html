@@ -22,12 +22,8 @@
   <h2 class="center">Latest notes</h2>
 
   <ul>
-    {% for post in site.pages['notes'].posts limit:3 %}
-      <li>
-        <a href="{{post.url}}">
-          <h3>{{post.title}}</h3>
-        </a>
-      </li>
+    {% for post in site.pages.notes.posts limit:3 %}
+      {% include 'includes/post_mini' %}
     {% endfor %}
   </ul>
 

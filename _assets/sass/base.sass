@@ -10,6 +10,7 @@
 @import "_images"
 @import "_nav"
 @import "_lists"
+@import "_tags"
 @import "_table"
 @import "_badge"
 @import "_banner"
@@ -50,10 +51,6 @@ figure
 article, header, nav, section
   display: block
 
-ul
-  +no-bullets
-  margin: 0
-  padding: 0
 
 a
   color: $blue-dark
@@ -63,6 +60,8 @@ a
     color: $blue
   &.link_dark
     color: $grey-dark
+    &:hover
+      color: $blue
 
 a
   img

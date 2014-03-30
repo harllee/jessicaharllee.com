@@ -30,14 +30,14 @@
     <h1 class="logo left">
       <a href="/" class="link_dark">{{site.title}}</a>
     </h1>
-    <ul class="nav h6 list_horizontal right">
+    <ul class="nav h6 list_horizontal list_horizontal_spaced right">
       <li>
         <a href="/work" class="link_grey{% if url == '/work' or parent.url == '/work' %} selected{% endif %}">
           Work
         </a>
       </li>
       <li>
-        <a href="/notes" class="link_grey{% if url == '/notes' or parent.url == '/notes' %} selected{% endif %}">
+        <a href="/notes" class="link_grey{% if url == '/notes' or parent.url == '/notes' or parent.parent.url == '/notes' %} selected{% endif %}">
           Notes
         </a>
       </li>
@@ -65,7 +65,7 @@
     
     <div class="section wrap">
       <h2>
-        {{post.title}}
+        {{post.title | capitalize }}
       </h2>
     </div>
 
@@ -79,7 +79,7 @@
 
   <footer class="py1 bg_grey_lightest clearfix">
     <div class="section wrap clearfix">
-      <ul class="h6 inline_block list_horizontal">
+      <ul class="h6 inline_block list_horizontal list_horizontal_spaced">
         <li>
           <a href="/work" class="link_grey">Work</a>
         </li>
