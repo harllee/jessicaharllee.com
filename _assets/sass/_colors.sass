@@ -11,42 +11,106 @@ $red-hover: #ff554d
 $blue: #00c7f2
 $blue-dark: #4d8e9c
 
+$white: #fff
+$black: #000
 
 
-.link_white
-  color: #fff
+// Links
+
+.link_grey_dark
+  color: $grey-dark
   &:hover
-    color: $grey-dark
+    color: darken($grey-dark, 5%)
 
 .link_grey
   color: $grey
   &:hover
     color: $grey-dark
 
+.link_grey_light
+  color: $grey-light
+  &:hover
+    color: $grey
+
+.link_grey_lightest
+  color: $grey-lightest
+  &:hover
+    color: $grey-light
+
 .link_red
   color: $red
   &:hover
     color: $grey-dark
 
-.white
-  color: #fff
-.grey
-  color: $grey
+.blue
+  color: $blue
+  &:hover
+    color: $blue-dark
+
+.blue_dark
+  color: $blue-dark
+  &:hover
+    color: darken($blue-dark, 5%)
+
+.link_white
+  color: $white
+  &:hover
+    color: $grey-dark
+
+.link_black
+  color: $black
+  &:hover
+    color: $red
+
+
+
+// Text colors
+
 .grey_dark
   color: $grey-dark
+.grey
+  color: $grey
+.grey_light
+  color: $grey-light
+.grey_lightest
+  color: $grey-lightest
 
+.red
+  color: $red
+
+.blue
+  color: $blue
+.blue_dark
+  color: $blue-dark
+
+.white
+  color: $white
+.black
+  color: $black
+
+
+// Background colors
 
 .bg_grey_dark
   background-color: $grey-dark
-
+.bg_grey
+  background-color: $grey
 .bg_grey_light
   background-color: $grey-light
-
 .bg_grey_lightest
   background-color: $grey-lightest
 
-.bg_black_overlay
-  background-color: rgba(#000, .7)
-
 .bg_red
   background-color: $red
+
+.bg_blue
+  background-color: $blue
+.bg_blue_dark
+  background-color: $blue-dark
+
+.bg_white
+  background-color: $white
+.bg_black
+  background-color: $black
+.bg_black_overlay
+  background-color: rgba($black, .7)
