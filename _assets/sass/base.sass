@@ -1,22 +1,16 @@
-@import "compass"
+@import "_units"
 @import "_mixins"
 @import "_fonts"
 @import "_media"
 @import "_colors"
 @import "_text"
-@import "_forms"
 @import "_buttons"
 @import "_grid"
+@import "_layout"
 @import "_images"
-@import "_nav"
+//@import "_nav"
 @import "_lists"
-@import "_tags"
-@import "_table"
-@import "_badge"
-@import "_banner"
-@import "_pagination"
 @import "_image_header"
-@import "_image_gallery"
 @import "_browser_wrapper"
 @import "_flag"
 @import "_media_object"
@@ -24,26 +18,8 @@
 @import "_positioning"
 @import "_spacing"
 
-
-body
-  font-family: $rooney
-  font-weight: 200
-  font-size: $base-font-size
-  line-height: 1.5
-  color: $grey-dark
-  margin: 0
-  padding: 0
-
-img, video, object
-  width: 100%
-  height: auto
-  margin: 1em 0
-
-img.img-no-resize
-  @media only screen and (min-width: $break-medium)
-    height: auto
-    width: auto
-    border: 3px
+*
+  box-sizing: border-box
 
 figure
   margin: 0
@@ -51,60 +27,10 @@ figure
 article, header, nav, section
   display: block
 
-
-a
-  color: $blue-dark
-  text-decoration: none
-  +transition(.07s ease-in color)
-  &:hover
-    color: $blue
-  &.link_dark
-    color: $grey-dark
-    &:hover
-      color: $blue
-
-a
-  img
-    +transition(.07s ease-in opacity)
-    &:hover
-      +opacity(.95)
-
 hr
   margin: 2em 0
   border: 0
   height: 0
   border-top: 1px solid $grey-light
 
-
-// Layout
-
-.wrap
-  max-width: 1000px
-  width: 70%
-
-.section
-  margin: 2em auto
-
-@media only screen and (max-width: $break-medium)
-  body
-    font-size: $base-font-size * .8333333
-@media only screen and (max-width: $break-small)
-  .wrap
-    width: 90%
-
-
-// Find a home for me
-
-.checkout_footer
-  @media only screen and (min-width: $break-small)
-    width: 40%
-    padding-left: 60%
-
-.item
-  margin-bottom: .5em
-  img
-    margin: 0
-
-.border_top
-  border-top: 1px solid $grey-lightest
 

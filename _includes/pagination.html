@@ -1,11 +1,11 @@
 {% if parent %}
-  <footer class="section">
-    <ul class="list_horizontal list_horizontal_spaced post_nav">
+  <footer class="section prose">
+    <ul class="list_horizontal">
       {% if previous %}
-        <li class="post_nav_arrow"><a href="{{post.previous.url}}">&larr; Previous</a></li>
+        <li class="mr1"><a href="{{post.previous.url}}">&larr; Previous</a></li>
       {% endif %}
       {% if next %}
-        <li class="post_nav_arrow"><a href="{{post.next.url}}">Next &rarr;</a></li>
+        <li><a href="{{post.next.url}}">Next &rarr;</a></li>
       {% endif %}
       <li class="right"><a href="{{parent.url}}">Back to {{parent.title}}</a></li>
     </ul>

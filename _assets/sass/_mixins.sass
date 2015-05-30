@@ -4,3 +4,11 @@
   -moz-#{$name}: #{$value}
   -o-#{$name}: #{$value}
   #{$name}: #{$value}
+
+
+= transition($property)
+  -webkit-transition: 0.07s ease-in $property
+  -ms-transition: 0.07s ease-in $property
+  -moz-transition: 0.07s ease-in $property
+  -o-transition: 0.07s ease-in $property
+  transition: 0.07s ease-in $property

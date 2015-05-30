@@ -1,6 +1,21 @@
 // Text
 
-$base-font-size: 24px
+body
+  font-family: $rooney
+  font-weight: 200
+  font-size: $base-font-size
+  line-height: 1.5
+  color: $grey-dark
+
+  @media only screen and (max-width: $break-medium)
+    font-size: $base-font-size * .8333333
+
+a
+  color: $blue-dark
+  text-decoration: none
+  +transition(color)
+  &:hover
+    color: $blue
 
 p, li
   margin-bottom: 1em
@@ -19,12 +34,12 @@ h4
   font-weight: normal
   line-height: 1em
 
-=h5
+h5, .h6
   font-size: 18px
   line-height: 30px
   font-weight: 300
 
-=h6
+h6, .h6
   font-size: 16px
   color: $grey
   font-family: $proxima-nova
@@ -32,63 +47,44 @@ h4
   font-weight: 300
   letter-spacing: 1px
 
-h5, .h5
-  +h5
-
-h6, .h6
-  +h6
-
-
-dl
-  font-size: 80%
-  line-height: 1.2em
-  margin: 2em 0
-  @media (max-width: $break-small)
-    font-size: 100%
-  dt
-    font-weight: bold
-    width: 19%
-    min-width: 80px
-    display: inline-block
-    vertical-align: top
-    margin: 0 0 .5em 0
-    @media (max-width: $break-small)
-      width: 100%
-  dd
-    margin: 0 0 1em 0
-    width: 80%
-    display: inline-block
-    @media (max-width: $break-small)
-      width: 100%
-
-.dl_small
-  dt,dd
-    width: 49%
-
 pre
-  background-color: rgba($grey-lightest, .5)
+  background-color: rgba($grey-lightest, 0.5)
   padding: 1em
   +vendor-prefix(white-space, pre-wrap)
-  border-radius: 3px
+  border-radius: $radius/2
   code
     color: $grey-dark
 
 code
   font-family: $source-code
-  font-size: .8em
+  font-size: 0.8em
   color: $red
 
 blockquote
   margin: 1em
 
 
-// Classes
+// Logo
+
+.logo
+  font-family: $proxima-nova
+  font-size: 20px
+  font-weight: 600
+  text-transform: uppercase
+  letter-spacing: 2px
+  -webkit-font-smoothing: antialiased
+  white-space: nowrap
+  @media only screen and (min-width: $break-small)
+    margin: 0
+
+
+// Utility
 
 .normal
   font-weight: normal
 
 .small_type
-  font-size: .83333em
+  font-size: 0.83333em
 
 .big_type
   font-size: 1.5em

@@ -4,11 +4,17 @@
 // Floats
 
 .left
-  float: left
+  @media (min-width: $break-small)
+    float: left
 .right
-  float: right
-.clearfix
+  @media (min-width: $break-small)
+    float: right
+.overflow_hide
   overflow: hidden
+.group:after
+  content: ""
+  display: table
+  clear: both
 
 
 // Text-align
@@ -35,11 +41,11 @@
 
 .hover_show
   .hover_show_target
-    +opacity(0)
-    +transition(.07s ease-in opacity)
+    opacity: 0
+    +transition(opacity)
   &:hover
     .hover_show_target
-      +opacity(1)
+      opacity: 1
 
 
 // Positioning

@@ -26,32 +26,36 @@
 
 <body>
 
-  <header class="main_nav section wrap clearfix">
-    <h1 class="logo left">
-      <a href="/" class="link_dark">{{site.title}}</a>
-    </h1>
-    <ul class="nav h6 list_horizontal list_horizontal_spaced right">
-      <li>
-        <a href="/work" class="link_grey{% if url == '/work' or parent.url == '/work' %} selected{% endif %}">
-          Work
-        </a>
-      </li>
-      <li>
-        <a href="/notes" class="link_grey{% if url == '/notes' or parent.url == '/notes' or parent.parent.url == '/notes' %} selected{% endif %}">
-          Notes
-        </a>
-      </li>
-      <li>
-        <a href="/about" class="link_grey{% if url == '/about' or parent.url == '/about' %} selected{% endif %}">
-          About
-        </a>
-      </li>
-      <li>
-        <a href="http://harllee.etsy.com" class="link_grey">
-          Store
-        </a>
-      </li>
-    </ul>
+  <header class="section wrap grid_container group">
+    <div class="grid grid_2">
+      <h1 class="logo mobile_center">
+        <a href="/" class="link_grey_dark">{{site.title}}</a>
+      </h1>
+    </div>
+    <div class="grid grid_4">
+      <ul class="list_horizontal h6 right mobile_center">
+        <li>
+          <a href="/work" class="mr1-r link_grey{% if url == '/work' or parent.url == '/work' %} link_selected{% endif %}">
+            Work
+          </a>
+        </li>
+        <li>
+          <a href="/notes" class="mr1-r link_grey{% if url == '/notes' or parent.url == '/notes' or parent.parent.url == '/notes' %} link_selected{% endif %}">
+            Notes
+          </a>
+        </li>
+        <li>
+          <a href="/about" class="mr1-r link_grey{% if url == '/about' or parent.url == '/about' %} link_selected{% endif %}">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="http://harllee.etsy.com" class="link_grey">
+            Store
+          </a>
+        </li>
+      </ul>
+    </div>
   </header>
 
   <section>
@@ -77,22 +81,22 @@
 
   </section>
 
-  <footer class="py1 bg_grey_lightest clearfix">
-    <div class="section wrap clearfix">
-      <ul class="h6 inline_block list_horizontal list_horizontal_spaced">
+  <footer class="bg_grey_lightest overflow_hide">
+    <div class="section wrap grid_container group">
+      <ul class="grid grid_5 list_horizontal h6 mobile_center">
         <li>
-          <a href="/work" class="link_grey">Work</a>
+          <a href="/work" class="mr1-r link_grey">Work</a>
         </li>
         <li>
-          <a href="/notes" class="link_grey">Notes</a>
+          <a href="/notes" class="mr1-r link_grey">Notes</a>
         </li>
         <li>
-          <a href="/about" class="link_grey">About</a>
+          <a href="/about" class="mr1-r link_grey">About</a>
         </li>
-        <a href="http://harllee.bigcartel.com" class="link_grey">Store</a>
+        <a href="http://harllee.bigcartel.com" class="mr1-r link_grey">Store</a>
       </ul>
-      <a href="http://rd.io/x/QVkUBzMyohk/" target="_blank" class="block right link_grey">
-        <span class="ss-icon">Flash</span>
+      <a href="http://rd.io/x/QVkUBzMyohk/" target="_blank" class="grid grid_1 link_grey mobile_center">
+        <span class="ss-icon right">Flash</span>
       </a>
     </div>
   </footer>

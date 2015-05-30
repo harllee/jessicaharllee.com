@@ -1,22 +1,51 @@
+figure
+  margin: 0
+
+// Responsive images
+
+img, video, object
+  width: 100%
+  height: auto
+  margin: 1em 0
+
+
+// Images at actual size
+
+img.img-no-resize
+  @media only screen and (min-width: $break-medium)
+    height: auto
+    width: auto
+    border: 3px
+
+
+// Images as links
+a
+  img
+    +transition(opacity)
+    &:hover
+      opacity: .95
+
 
 // Thumbnail image
 
 .thumb
-  width: 144px
-  height: 144px
+  width: 6em
+  height: 6em
   overflow: hidden
   display: block
-  border-radius: 3px
+  border-radius: $radius/2
   img
     display: block
-    height: 144px
+    height: 6em
     width: auto
     margin: 0
-    margin-left: -20px
+    margin-left: -1em
+
+
+// Icons
 
 .ss-icon
   line-height: 1em
-
 
 
 // Background images
