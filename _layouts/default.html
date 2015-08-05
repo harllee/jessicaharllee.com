@@ -5,8 +5,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>{{site.title}} | {{title}}</title>
   <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-  <link rel="stylesheet" type="text/css" href="/_assets/stylesheets/base.css" />
-  <link rel="stylesheet" type="text/css" href="/_assets/webfonts/ss-junior.css" />
+  <link rel="stylesheet" type="text/css" href="/_assets/stylesheets/new-base.css" />
   <script type="text/javascript" src="//use.typekit.net/rjw6ujq.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript">
@@ -24,82 +23,86 @@
 </script>
 </head>
 
-<body>
+<body class="bg-glitch">
 
-  <header class="section wrap grid_container group">
-    <div class="grid grid_2">
-      <h1 class="logo mobile_center">
-        <a href="/" class="link_grey_dark">{{site.title}}</a>
-      </h1>
-    </div>
-    <div class="grid grid_4">
-      <ul class="list_horizontal h6 right mobile_center">
-        <li>
-          <a href="/work" class="mr1-r link_grey{% if url == '/work' or parent.url == '/work' %} link_selected{% endif %}">
-            Work
-          </a>
-        </li>
-        <li>
-          <a href="/notes" class="mr1-r link_grey{% if url == '/notes' or parent.url == '/notes' or parent.parent.url == '/notes' %} link_selected{% endif %}">
-            Notes
-          </a>
-        </li>
-        <li>
-          <a href="/about" class="mr1-r link_grey{% if url == '/about' or parent.url == '/about' %} link_selected{% endif %}">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="http://harllee.etsy.com" class="link_grey">
-            Store
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
-
-  <section>
-
-    {% for asset in assets %}
-      {% if asset.meta.type == "header" %}
-        <header class="image_header background_cover" style="background-image: url('{{asset.url}}');">
-        </header>
-      {% endif %}
-    {% endfor %}
-    
-    <div class="section wrap">
-      <h2>
-        {{post.title | capitalize }}
-      </h2>
+  <div class="pt-sm-3 pb-md-3">
+        <div class="container pl-sm-2 pl-md-4 pr-sm-2 pr-md-4">
+            <div class="col-group">
+                <div class="col col-sm-12 col-md-6">
+                    <h1 class="h3 mb-sm-0"><a href="/" class="link-gray">{{site.title}}</a></h1>
+                </div>
+                <div class="col col-sm-12 col-md-6">
+                    <ol class="hide-md hide-lg list-unstyled text-small">
+                        <li class="display-inline-block mr-sm-2 {% if url == '/work' or parent.url == '/work' %}bb-3 b-blue{% endif %}">
+                            <a href="/work" class="link-gray">Work</a>
+                        </li>
+                        <li class="display-inline-block mr-sm-2 {% if url == '/notes' or parent.url == '/notes' %}bb-3 b-blue{% endif %}">
+                            <a href="/notes" class="link-gray">Notes</a>
+                        </li>
+                        <li class="display-inline-block {% if url == '/about' or parent.url == '/about' %}bb-3 b-blue{% endif %}">
+                            <a href="/about" class="link-gray">About</a>
+                        </li>
+                    </ol>
+                    <ol class="hide-sm list-unstyled text-small text-right">
+                        <li class="display-inline-block mr-sm-2 {% if url == '/work' or parent.url == '/work' %}bb-3 b-{{ meta.color | fallback: parent.meta.color | fallback: 'blue' }}{% endif %}">
+                            <a href="/work" class="link-gray">Work</a>
+                        </li>
+                        <li class="display-inline-block mr-sm-2 {% if url == '/notes' or parent.url == '/notes' %}bb-3 b-{{ meta.color | fallback: parent.meta.color | fallback: 'blue' }}{% endif %}">
+                            <a href="/notes" class="link-gray">Notes</a>
+                        </li>
+                        <li class="display-inline-block {% if url == '/about' or parent.url == '/about' %}bb-3 b-{{ meta.color | fallback: parent.meta.color | fallback: 'blue' }}{% endif %}">
+                            <a href="/about" class="link-gray">About</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="section wrap">
+    {% if parent.url == '/work' %}
+        {% for asset in assets %}
+            {% if asset.meta.type == "header" %}
+                <div class="bg-{{ meta.bg-color | fallback: parent.meta.bg-color | fallback: 'yellow' }} bg-glitch mb-sm-2 mb-md-3 mb-lg-4">
+                    <div class="container position-relative height-header bg-header bg-position p-sm-2 p-md-4" style="background-image: url('{{asset.url}}');">
+                        <h2 class="position-absolute position-overlap text-headline text-{{ meta.color | fallback: parent.meta.color | fallback: 'blue' }} mt-sm-0 pr-md-4">{{post.title | capitalize }}</h2>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% elsif post.title %}
+        <div class="container mt-sm-2 mb-sm-2 mb-md-4 pl-sm-2 pl-md-4 pr-sm-2 pr-md-4">
+            <h2 class="text-headline text-{{ meta.color | fallback: parent.meta.color | fallback: 'green' }}">{{post.title | capitalize }}</h2>
+        </div>
+    {% endif %}
+
+    <div class="container pl-sm-2 pl-md-4 pr-sm-2 pr-md-4 mt-sm-2 mt-md-3 mt-lg-4 pt-sm-2 mb-sm-2 prose">
 
       {{content}}
 
     </div>
 
-  </section>
+    <div class="bg-{{ meta.color | fallback: parent.meta.color | fallback: 'blue' }} bg-glitch mt-sm-4 pt-sm-4 pb-sm-4">
+        <div class="container col-group pl-sm-2 pl-md-4 pr-sm-2 pr-md-4">
+            <div class="col col-sm-12 col-md-8">
+                <p class="prose {% if meta.color == "yellow" or meta.color == "green" %}text-gray{% else %}text-white{% endif %} mb-sm-3">Jessica Harllee is a product designer at Etsy in Brooklyn, an avid crafter, and an amateur writer.</p>
 
-  <footer class="bg_grey_lightest overflow_hide">
-    <div class="section wrap grid_container group">
-      <ul class="grid grid_5 list_horizontal h6 mobile_center">
-        <li>
-          <a href="/work" class="mr1-r link_grey">Work</a>
-        </li>
-        <li>
-          <a href="/notes" class="mr1-r link_grey">Notes</a>
-        </li>
-        <li>
-          <a href="/about" class="mr1-r link_grey">About</a>
-        </li>
-        <a href="http://harllee.bigcartel.com" class="mr1-r link_grey">Store</a>
-      </ul>
-      <a href="http://rd.io/x/QVkUBzMyohk/" target="_blank" class="grid grid_1 link_grey mobile_center">
-        <span class="ss-icon right">Flash</span>
-      </a>
+                <ol class="list-unstyled mt-sm-2 text-small">
+                    <li class="display-inline-block mr-sm-2">
+                        <a href="http://twitter.com/harllee" class="{% if meta.color == "yellow" or meta.color == "green" %}link-gray{% else %}link-gray-lightest{% endif %}">Twitter</a>
+                    </li>
+                    <li class="display-inline-block mr-sm-2">
+                        <a href="http://harllee.etsy.com" class="{% if meta.color == "yellow" or meta.color == "green" %}link-gray{% else %}link-gray-lightest{% endif %}">Etsy</a>
+                    </li>
+                    <li class="display-inline-block mr-sm-2">
+                        <a href="http://instagram.com/harllee" class="{% if meta.color == "yellow" or meta.color == "green" %}link-gray{% else %}link-gray-lightest{% endif %}">Instagram</a>
+                    </li>
+                    <li class="display-inline-block">
+                        <a href="http://www.rdio.com/people/harllee/" class="{% if meta.color == "yellow" or meta.color == "green" %}link-gray{% else %}link-gray-lightest{% endif %}">Rdio</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
     </div>
-  </footer>
 
 </body>
 </html>

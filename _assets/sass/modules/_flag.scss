@@ -1,0 +1,25 @@
+// Flag object
+
+.flag {
+    display: table;
+    width: 100%;
+}
+
+.flag-img,
+.flag-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flag-img {
+    padding-right: $space;
+
+    img {
+        display: block;
+    }
+}
+
+.flag-right {
+    padding-right: 0;
+    padding-left: $space;
+}

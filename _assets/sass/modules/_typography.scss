@@ -1,0 +1,168 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: $merriweather;
+    font-size: 100%;
+    line-height: 1.4;
+
+    @include breakpoint(lg-up) {
+        font-size: 125%;
+    }
+}
+
+h1,
+.h1 {
+    font-family: $merriweather;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: $space * 2;
+    margin-bottom: $space * 2;
+}
+
+h2,
+.h2 {
+    font-family: $merriweather;
+    font-size: 1.625em;
+    font-weight: 700;
+    margin-top: $space * 2;
+    margin-bottom: $space * 2;
+}
+
+h3,
+.h3 {
+    font-family: $merriweather;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-top: $space * 2;
+    margin-bottom: $space * 2;
+}
+
+p {
+    font-family: $merriweather;
+    font-size: 1em;
+    font-weight: 300;
+    color: $gray-text;
+    margin-top: $space * 2;
+    margin-bottom: $space * 2;
+}
+
+
+a {
+    color: $blue;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+        color: $green;
+    }
+}
+
+
+.prose {
+    p {
+        line-height: 1.75;
+    }
+
+    li {
+        line-height: 1.75;
+
+        &:not(:first-child) {
+            margin-top: $space;
+        }
+    }
+}
+
+
+// Typographic size utilities
+
+.text-headline {
+    font-family: $din-condensed;
+    font-size: 6.75em;
+    letter-spacing: -1px;
+    line-height: 1em;
+    text-transform: uppercase;
+
+    @include breakpoint(md-only) {
+        font-size: 5.5em;
+    }
+
+    @include breakpoint(sm-only) {
+        font-size: 4em;
+    }
+}
+
+.text-small {
+    font-size: 0.875em;
+}
+
+.text-smallest {
+    font-size: 0.75em;
+}
+
+
+.text-large {
+    font-size: 2.625em;
+}
+
+
+
+
+// Typographic style utilities
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+
+// Text alignment
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+// Lists
+
+.list-unstyled {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+// Code
+
+code {
+    color: $red;
+    font-size: 1.2em;
+}
+
+pre {
+    background-color: $gray-lightest;
+    padding: $space * 2;
+    -webkit-white-space: pre-wrap;
+    -ms-white-space: pre-wrap;
+    -moz-white-space: pre-wrap;
+    -o-white-space: pre-wrap;
+    white-space: pre-wrap;
+
+    code {
+        color: $gray-text;
+    }
+}
+

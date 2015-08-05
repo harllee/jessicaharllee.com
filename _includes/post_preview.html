@@ -1,21 +1,9 @@
-<div class="grid_container prose group">
-  <div class="grid grid_6">
-    <h2 class="mb0"><a href="{{ post.url }}" class="link_grey_dark">{{post.title}}</a></h2>
+<div class="prose mb-sm-4">
+    <h2>
+        <a href="{{ post.url }}" class="link-gray">{{post.title}}</a>
+    </h2>
     {{ post.excerpt }}
     {% if post.excerpt != post.body %}
-      <a href="{{post.url}}" class="link_red mt1 mb1">Read more &rarr;</a>
+      <a href="{{post.url}}" class="btn btn-black">Read more</a>
     {% endif %}
-    </a>
-  </div>
-  <div class="grid grid_6">
-    <ul class="list_horizontal mt1 mb1">
-      {% for tag in post.taxonomy.topics | limit: 5 %}
-      <li>
-        <a class="button button_small button_grey_light" href="{{tag.url}}">
-          {{ tag.value }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
 </div>

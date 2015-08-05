@@ -2,19 +2,17 @@
 
 {% capture content %}
 
-  <ul>
+    <ul class="list-unstyled">
 
-    {% for post in posts %}
-    
-      {% include 'includes/post_mini' %}
+        {% for post in posts %}
 
-    {% endfor %}
+            {% include 'includes/post_mini' %}
 
-  </ul>
+        {% endfor %}
 
-  <hr>
+    </ul>
 
-  {% include 'includes/topics' %}
+    {% include 'includes/topics' %}
 
 {% endcapture %}
 

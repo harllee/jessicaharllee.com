@@ -1,31 +1,39 @@
 {% capture content %}
 
-  <h2 class="center">Latest work</h2>
+    <h2 class="text-center mt-sm-0">Latest work</h2>
 
-  <ul class="grid_container group">
-    {% for post in site.pages['work'].posts limit:4 %}
-      <li class="grid grid_3">
-        <a href="{{post.url}}" class="thumb_link block">
-          {% for asset in post.assets %}
-          {% if asset.meta.type == "header" %}
-            <div class="background_cover" style="background-image: url('{{asset.url}}');"></div>
-          {% endif %}
-          {% endfor %}
-          <h4>{{post.title}}</h4>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="col-group">
+        {% for post in site.pages['work'].posts limit:4 %}
+            {% for asset in post.assets %}
+                {% if asset.meta.type == "header" %}
+                    <div class="col col-sm-12 mb-sm-2">
+                        <div class="display-table b-1 b-gray-light">
+                            <div class="hide-sm display-table-cell width-50 height-16m bg-position bg-{{ post.meta.bg-color | fallback: post.parent.meta.bg-color | fallback: 'yellow' }}" style="background-image: url('{{asset.url}}');">
+                                &nbsp;
+                            </div>
+                            <div class="display-table-cell vertical-align-middle p-sm-3">
+                                <a href="{{post.url}}" class="link-gray">
+                                    <h4 class="mt-sm-0 mb-sm-1">{{post.title}}</h4>
+                                    <p class="mb-sm-3">{{post.meta['description']}}</p>
+                                    <a href="{{post.url}}" class="btn btn-black">View project</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
 
-  <hr>
+    <h2 class="text-center mt-sm-4">Latest notes</h2>
 
-  <h2 class="center">Latest notes</h2>
-
-  <ul>
-    {% for post in site.pages.notes.posts limit:3 %}
-      {% include 'includes/post_mini' %}
-    {% endfor %}
-  </ul>
+    <div class="col-group">
+        {% for post in site.pages.notes.posts limit:2 %}
+            <div class="col col-sm-12 col-lg-6 mb-sm-3 pr-md-4">
+                {% include 'includes/post_mini' %}
+            </div>
+        {% endfor %}
+    </div>
 
 
 {% endcapture %}

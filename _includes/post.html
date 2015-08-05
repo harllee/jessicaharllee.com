@@ -1,19 +1,21 @@
-<article class="prose">
+<div class="prose">
 
   {{post.body}}
 
-  <ul class="list_horizontal">
-  {% for tag in taxonomy.topics %}
+</div>
 
-    <li><a class="button button_small button_grey_light" href="{{tag.url}}">{{tag.value}}</a></li>
+{% if parent.slug == "notes" %}
+    <div class="mt-4 mb-4 pl-4 pr-4">
+        <p class="text-smaller text-gray-light">Posted {{post.date | date: "%b %d, %Y"}}</p>
+    </div>
+{% endif %}
 
-  {% endfor %}
-  </ul>
-
-  {% if parent.slug == "notes" %}
-    <h6>Posted {{post.date | date: "%b %d, %Y"}}</h6>
-  {% endif %}
-
-</article>
-
-{% include 'includes/pagination' %}
+<div class="mt-sm-4 mb-sm-4">
+    <ul class="list-unstyled mt-sm-2">
+        {% for tag in taxonomy.topics %}
+            <li class="display-inline-block mb-sm-1">
+                <a class="btn btn-green" href="{{tag.url}}">{{tag.value}}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

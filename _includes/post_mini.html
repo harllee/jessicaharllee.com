@@ -1,6 +1,7 @@
-<li>
-  <a href="{{post.url}}" class="link_grey_dark">
-    <h3 class="mb0">{{post.title}}</h3>
-  </a>
-  <h6 class="mt0 mb0">Posted {{post.date | date: "%b %d, %Y"}}</h6>
-</li>
+<div class="prose">
+    <h4>
+        <a href="{{ post.url }}" class="link-gray">{{post.title}}</a>
+    </h4>
+    <p>{{ post.body | strip_html | truncatewords: 30 }}</p>
+    <a href="{{post.url}}" class="btn btn-black">Read more</a>
+</div>

@@ -1,0 +1,238 @@
+
+
+// Text colors
+
+.text-white {
+    color: $white;
+}
+
+.text-black {
+    color: $black;
+}
+
+.text-gray {
+    color: $gray-text;
+}
+
+.text-gray-light {
+    color: $gray-light;
+}
+
+.text-gray-lightest {
+    color: $gray-lightest;
+}
+
+.text-blue {
+    color: $blue;
+}
+
+.text-blue-dark {
+    color: $blue-dark;
+}
+
+.text-green {
+    color: $green;
+}
+
+.text-yellow {
+    color: $yellow;
+}
+
+.text-red {
+    color: $red;
+}
+
+.text-purple {
+    color: $purple;
+}
+
+
+
+// Background colors
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+.bg-gray-light {
+    background-color: $gray-light;
+}
+
+.bg-gray-lightest {
+    background-color: $gray-lightest;
+}
+
+.bg-t-gray-lightest {
+    background-color: rgba($gray, 0.1);
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-blue-dark {
+    background-color: $blue-dark;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-purple {
+    background-color: $purple;
+}
+
+
+// Link colors
+
+.link-white {
+    color: $white;
+
+    &:hover {
+        color: darken($white, 8%);
+    }
+}
+
+.link-black {
+    color: $black;
+
+    &:hover {
+        color: lighten($black, 8%);
+    }
+}
+
+.link-gray {
+    color: $gray;
+
+    &:hover {
+        color: lighten($gray, 8%);
+    }
+}
+
+.link-gray-light {
+    color: $gray-light;
+
+    &:hover {
+        color: darken($gray-light, 8%);
+    }
+}
+
+.link-gray-lightest {
+    color: $gray-lightest;
+
+    &:hover {
+        color: darken($gray-lightest, 8%);
+    }
+}
+
+.link-blue {
+    color: $blue;
+
+    &:hover {
+        color: darken($blue, 8%);
+    }
+}
+
+.link-blue-dark {
+    color: $blue-dark;
+
+    &:hover {
+        color: lighten($blue-dark, 8%);
+    }
+}
+
+.link-green {
+    color: $green;
+
+    &:hover {
+        color: darken($green, 8%);
+    }
+}
+
+.link-yellow {
+    color: $yellow;
+
+    &:hover {
+        color: darken($yellow, 8%);
+    }
+}
+
+.link-red {
+    color: $red;
+
+    &:hover {
+        color: darken($red, 8%);
+    }
+}
+
+.link-purple {
+    color: $purple;
+
+    &:hover {
+        color: darken($purple, 8%);
+    }
+}
+
+
+
+// Border colors
+
+.b-white {
+    border-color: $white;
+}
+
+.b-black {
+    border-color: $black;
+}
+
+.b-gray {
+    border-color: $gray;
+}
+
+.b-gray-light {
+    border-color: $gray-light;
+}
+
+.b-gray-lightest {
+    border-color: $gray-lightest;
+}
+
+.b-blue {
+    border-color: $blue;
+}
+
+.b-blue-dark {
+    border-color: $blue-dark;
+}
+
+.b-green {
+    border-color: $green;
+}
+
+.b-yellow {
+    border-color: $yellow;
+}
+
+.b-red {
+    border-color: $red;
+}
+
+.b-purple {
+    border-color: $purple;
+}
