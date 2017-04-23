@@ -74,21 +74,6 @@ a {
 
 // Typographic size utilities
 
-.text-headline {
-    font-family: $din-condensed;
-    font-size: 6.75em;
-    letter-spacing: -1px;
-    line-height: 1em;
-    text-transform: uppercase;
-
-    @include breakpoint(md-only) {
-        font-size: 5.5em;
-    }
-
-    @include breakpoint(sm-only) {
-        font-size: 4em;
-    }
-}
 
 .text-small {
     font-size: 0.875em;
@@ -97,7 +82,6 @@ a {
 .text-smallest {
     font-size: 0.75em;
 }
-
 
 .text-large {
     font-size: 2.625em;

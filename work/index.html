@@ -1,24 +1,12 @@
 {% capture content %}
     <div class="col-group">
         {% for post in posts limit:20 %}
-            {% for asset in post.assets %}
-                {% if asset.meta.type == "header" %}
-                    <div class="col col-sm-12 mb-sm-2">
-                        <div class="display-table b-1 b-gray-light">
-                            <div class="hide-sm display-table-cell width-50 height-16m bg-position bg-{{ post.meta.bg-color | fallback: post.parent.meta.bg-color | fallback: 'yellow' }}" style="background-image: url('{{asset.url}}');">
-                                &nbsp;
-                            </div>
-                            <div class="display-table-cell vertical-align-middle p-sm-3">
-                                <a href="{{post.url}}" class="link-gray">
-                                    <h4 class="mt-sm-0 mb-sm-1">{{post.title}}</h4>
-                                    <p class="mb-sm-3">{{post.meta['description']}}</p>
-                                    <a href="{{post.url}}" class="btn btn-black">View project</a>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
+            <div class="col col-sm-12 mb-sm-4">
+                <a href="{{post.url}}" class="link-gray">
+                    <h2 class="mt-sm-0 mb-sm-1">{{post.title}}</h2>
+                    <p class="mb-sm-2">{{post.meta['description']}}</p>
+                </a>
+            </div>
         {% endfor %}
     </div>
 
