@@ -1,0 +1,4 @@
+---
+title: dev life
+alias: Dev life
+---

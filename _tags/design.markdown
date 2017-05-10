@@ -1,0 +1,4 @@
+---
+title: design
+alias: Design
+---

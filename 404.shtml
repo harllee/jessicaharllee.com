@@ -5,7 +5,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>Jessica Harllee</title>
   <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-  <link rel="stylesheet" type="text/css" href="/_assets/stylesheets/new-base.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/base.css" />
   <script type="text/javascript" src="//use.typekit.net/rjw6ujq.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript">

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1 class="mb-sm-3">{{page.title}}</h1>
+
+<div class="col-group">
+	{% assign sorted_work = site.work | sort: 'position' %}
+    {% for item in sorted_work %}
+        <div class="col col-sm-12 mb-sm-4">
+            <a href="{{item.url}}" class="link-gray">
+                <h2 class="mt-sm-0 mb-sm-1">{{item.title}}</h2>
+                <p class="mb-sm-2">{{item.description}}</p>
+            </a>
+        </div>
+    {% endfor %}
+</div>

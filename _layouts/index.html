@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h2 class="mb-sm-4">Latest work</h2>
+
+<div class="col-group">
+	{% assign sorted_work = site.work | sort: 'position' %}
+    {% for item in sorted_work limit:4 %}
+        <div class="col col-sm-12 mb-sm-3">
+            <a href="{{item.url}}" class="link-gray">
+                <h3 class="mt-sm-0 mb-sm-1">{{item.title}}</h3>
+                <p class="mb-sm-2">{{item.description}}</p>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
+<h2 class="mt-sm-4">Latest notes</h2>
+
+<div class="col-group">
+    {% for post in site.posts limit:2 %}
+        <div class="col col-sm-12 mb-sm-3 pr-md-4">
+            {% include post.html post=post is_excerpt=true %}
+        </div>
+    {% endfor %}
+</div>

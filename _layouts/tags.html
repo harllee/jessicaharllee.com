@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1 class="mb-sm-3">
+	{% if page.alias %}
+		Notes tagged: {{page.alias}}
+	{% else %}
+		{{page.title}}
+	{% endif %}
+</h1>
+
+{% for post in site.posts %}
+	{% for tag in post.tags %}
+		{% if tag == page.title %}
+			{% include post.html post=post is_excerpt=true %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+
+{% include tags.html %}
