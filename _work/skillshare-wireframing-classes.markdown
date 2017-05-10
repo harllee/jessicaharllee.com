@@ -1,7 +1,7 @@
 ---
 title: Skillshare wireframing classes
 published: false
-position: 0
+position: 5
 assets:
 - path: "/uploads/portfolio_header_skillshare2.png"
   name: portfolio_header_skillshare2
