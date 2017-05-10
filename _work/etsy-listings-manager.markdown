@@ -1,6 +1,6 @@
 ---
 title: Etsy Listings Manager
-position: 1
+position: 0
 color: green
 bg-color: red
 description: A redesign and rewrite of the core of Etsy's seller tools.
