@@ -1,10 +1,10 @@
 ---
 title: Balance
-date: 2014-10-22 16:22:00 Z
-color: blue
+date: 2014-10-22 12:22:00 -04:00
 tags:
 - reflections
 - personal
+color: blue
 ---
 
 This week the project that I had been working on for the past nine months launched to an [open prototype](https://www.etsy.com/teams/21438/listing-management-prototype). It was a huge undertaking. It may be the hardest project I've worked on. It'll easily be the most trafficked. I'm incredibly proud of the work my fantastic team and I did. And I'm proud of myself, but for slightly different reasons. 

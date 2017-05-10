@@ -1,7 +1,6 @@
 ---
 title: Allowing imperfection
-date: 2013-11-11 15:39:00 Z
-published: false
+date: 2013-11-11 10:39:00 -05:00
 ---
 
 Erin Nolan:

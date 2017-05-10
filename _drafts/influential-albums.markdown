@@ -1,7 +1,6 @@
 ---
 title: influential albums
-date: 2014-02-11 02:48:00 Z
-published: false
+date: 2014-02-10 21:48:00 -05:00
 ---
 
 This isn't about the albums that were my first CD or my first concert or whatever. These albums made me feel alive and the pain of relationships and everything amazing and awful in between. Most of them came at really important times in my life and probably meant more because of that than anything else.

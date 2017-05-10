@@ -1,11 +1,11 @@
 ---
 title: Pricing my embroidery
-date: 2014-10-17 13:43:00 Z
-color: yellow
+date: 2014-10-17 09:43:00 -04:00
 tags:
 - embroidery
 - reflections
 - etsy
+color: yellow
 ---
 
 Pricing your work is hard. Whether you're a freelancer or you sell handmade goods, putting a value on something you've created is tough. It requires balancing a competitive rate with paying yourself what your time is worth, and for many people (myself included), it's easy to undervalue your time.

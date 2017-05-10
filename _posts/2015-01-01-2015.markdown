@@ -1,11 +1,11 @@
 ---
 title: '2015'
-date: 2015-01-02 03:54:00 Z
-color: purple
+date: 2015-01-01 22:54:00 -05:00
 tags:
 - reflections
 - personal
 - yoga
+color: purple
 ---
 
 The other day I had a yoga-fueled epiphany.

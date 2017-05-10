@@ -1,11 +1,11 @@
 ---
 title: What blameless really means
-date: 2014-03-10 13:40:00 Z
-color: green
+date: 2014-03-10 09:40:00 -04:00
 tags:
 - dev life
 - reflections
 - etsy
+color: green
 ---
 
 Part of Etsy culture is [blameless post-mortems](http://codeascraft.com/2012/05/22/blameless-postmortems/). It's a term I've heard used a lot and up until last week I thought I thoroughly understood. Etsy supports an environment of learning, people make mistakes, don't point fingers, etc. All good things and things I believe in.

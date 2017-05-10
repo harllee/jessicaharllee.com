@@ -1,7 +1,6 @@
 ---
 title: diary
-date: 2013-09-04 12:46:00 Z
-published: false
+date: 2013-09-04 08:46:00 -04:00
 ---
 
 About a year ago, I started a diary. Moving to New York was harder than I thought it'd be; I thrive on familiarity and had spent the past six years in a small town in Virginia building a circle of friends and a routine. No topic was left untouched, from the city to my job to boys to my stupid landlord.

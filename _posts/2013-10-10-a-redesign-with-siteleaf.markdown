@@ -1,13 +1,13 @@
 ---
 title: A redesign with Siteleaf
-date: 2013-10-10 13:30:00 Z
-color: green
+date: 2013-10-10 09:30:00 -04:00
 tags:
 - dev life
 - design
 - siteleaf
 - how to
 - reflections
+color: green
 ---
 
 The last time I redid my website was almost exactly two years ago. I was ready to leave my job and needed a refreshed portfolio. *(Side note: why are so many of us terrible about updating our websites unless we're looking for a job?)* It had been a bit of time since I built a website from start to finish (designers at that company weren't allowed to touch code), and I spent a three-day weekend proudly handcoding my brand new site. It was a completely static site with no templating and probably some terribly-written CSS, but it worked.
