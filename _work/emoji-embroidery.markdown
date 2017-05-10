@@ -1,6 +1,6 @@
 ---
 title: Emoji embroidery
-position: 1
+position: 3
 color: yellow
 bg-color: blue
 description: A series of hand-embroidered wall hangings.

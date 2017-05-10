@@ -1,6 +1,6 @@
 ---
 title: Kickstarter Year in Review 2012
-position: 3
+position: 2
 bg-color: green
 color: blue-dark
 description: A showcase of the best of Kickstarter during 2012.
