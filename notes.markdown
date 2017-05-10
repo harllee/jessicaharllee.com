@@ -1,7 +1,7 @@
 ---
 title: Notes
 permalink: "/notes/"
-position: 3
+position: 2
 layout: notes
 ---
 

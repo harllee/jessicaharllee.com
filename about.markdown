@@ -1,6 +1,6 @@
 ---
 title: About
-position: 1
+position: 4
 color: red
 assets:
 - path: "/uploads/jess-red-shirt-full.jpg"
