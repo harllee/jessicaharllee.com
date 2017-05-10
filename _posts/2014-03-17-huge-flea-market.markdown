@@ -1,12 +1,12 @@
 ---
 title: Huge flea market
-date: 2014-03-17 04:03:00 Z
-color: purple
-assets:
-- path: "/uploads/huge_flea_flyer.gif"
+date: 2014-03-17 00:03:00 -04:00
 tags:
 - embroidery
 - irl
+color: purple
+assets:
+- path: "/uploads/huge_flea_flyer.gif"
 ---
 
 On Tuesday, March 18th, [Huge](http://hugeinc.com) is having a flea market for local Brooklyn artists from 5:30-8PM. I'll be selling emoji embroidery there AND introducing a new pattern. Come hang!

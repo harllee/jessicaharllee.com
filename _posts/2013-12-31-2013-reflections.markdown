@@ -1,10 +1,10 @@
 ---
 title: 2013 reflections
-date: 2013-12-31 19:09:00 Z
-color: gray
+date: 2013-12-31 14:09:00 -05:00
 tags:
 - reflections
 - personal
+color: gray
 ---
 
 I can be really bad at stopping to reflect on my accomplishments, but so much has happened this year that I feel really great about. Here are some things from the past year of which I'm most proud (in no particular order):

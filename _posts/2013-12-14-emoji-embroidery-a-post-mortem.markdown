@@ -1,16 +1,16 @@
 ---
 title: 'Emoji embroidery: a post-mortem'
-date: 2013-12-15 03:37:00 Z
+date: 2013-12-14 22:37:00 -05:00
+tags:
+- embroidery
+- reflections
+- design
 color: yellow
 assets:
 - path: "/uploads/GCfltIhy6CJLM4B7XDe6eWoAFQbyxIEt_9ZQCpTKpaQ.jpeg"
 - path: "/uploads/notes-popup-shop.png"
   name: notes-popup-shop
   type: header
-tags:
-- embroidery
-- reflections
-- design
 ---
 
 On Thursday night, my [emoji embroidery](http://jessicaharllee.com/work/emoji-embroidery/) was part of the first-ever [emoji pop-up market](http://www.emojishow.com) at Eyebeam Art+Technology Center in Chelsea. I had no idea what I was doing when I started. Here’s what I learned.

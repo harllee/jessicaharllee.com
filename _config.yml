@@ -1,62 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+---
 title: Jessica Harllee
-email: jessica.harllee@gmail.com
-url: jessicaharllee.com
-timezone: Eastern Time (US & Canada)
-description: > # this means to ignore newlines until "baseurl:"
-    Jessica Harllee is a product designer at Etsy based out of Brooklyn, NY.
-twitter_username: harllee
-github_username:  harllee
-
-# Build settings
-markdown: kramdown
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - ".gitignore"
-    - README*
-sass:
-    sass_dir: _sass # set the directory for sass files
-
-date_format: "%b %d, %Y"
-permalink: pretty
-
+timezone: UTC
 collections:
-    uploads:
-        title: Uploads
-        output: true
-    work:
-        title: Work
-        output: true
-    tags:
-        title: tags
-        output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+  tags:
+    title: tags
+    output: true
 defaults:
 - scope:
-    path: "" # all files in the project
+    path: ''
   values:
-    layout: "default" # set the default layout as "default"
+    layout: default
 - scope:
-    path: "" # all files in the project
-    type: posts 
+    path: ''
+    type: posts
   values:
-    permalink: "/notes/:title/" # set the path for posts as notes
+    permalink: "/notes/:title/"
     layout: post
-    tags:
+    tags: 
 - scope:
     path: ''
     type: tags
@@ -65,7 +34,8 @@ defaults:
     layout: tags
     alias: 
 - scope:
-    path: "" # all files in the project
-    type: work 
+    path: ''
+    type: work
   values:
     layout: post
+permalink: pretty

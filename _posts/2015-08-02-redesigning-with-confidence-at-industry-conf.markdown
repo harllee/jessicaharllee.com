@@ -1,11 +1,11 @@
 ---
 title: Redesigning with Confidence at Industry Conf
-date: 2015-08-02 19:40:00 Z
-color: yellow
+date: 2015-08-02 15:40:00 -04:00
 tags:
 - design
 - etsy
 - irl
+color: yellow
 ---
 
 This past April I spoke at [Industry Conf](https://industryconf.com) in Newcastle upon Tyne, United Kingdom. Industry Conf covers practical topics about the web, ranging from research to design to backend development.

@@ -1,12 +1,12 @@
 ---
 title: New year, new challenges
-date: 2014-01-02 17:24:00 Z
-color: red
+date: 2014-01-02 12:24:00 -05:00
 tags:
 - reflections
 - etsy
 - kickstarter
 - personal
+color: red
 ---
 
 My first job in high school was at a small store in the Washington DC-area called [Appalachian Spring](http://www.appalachianspring.com) where I sold jewelry, pottery, glass, and other crafts made by American artists. It's at Appalachian Spring where I developed a passion for all things handmade. I credit my time there (among other sources) with my desire to support artists, which brought me to New York to work at Kickstarter over two years ago.

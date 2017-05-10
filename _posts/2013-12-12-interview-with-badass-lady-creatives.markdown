@@ -1,11 +1,11 @@
 ---
 title: Interview with Badass Lady Creatives
-date: 2013-12-12 20:14:00 Z
-color: green
+date: 2013-12-12 15:14:00 -05:00
 tags:
 - design
 - dev life
 - kickstarter
+color: green
 ---
 
 I spoke with Melanie Richards from [Badass Lady Creatives](http://baladycreatives.com) in an [interview published on Design Work Life](http://www.designworklife.com/2013/12/11/interview-with-product-designer-jessica-harllee/).

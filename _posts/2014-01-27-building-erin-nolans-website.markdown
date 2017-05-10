@@ -1,6 +1,11 @@
 ---
 title: Building Erin Nolan's website
-date: 2014-01-28 00:31:00 Z
+date: 2014-01-27 19:31:00 -05:00
+tags:
+- dev life
+- design
+- siteleaf
+- how to
 color: blue
 assets:
 - path: "/uploads/Screen Shot 2014-01-28 at 10.55.52 AM.png"
@@ -8,11 +13,6 @@ assets:
 - path: "/uploads/notes-building-erin-nolans-site.png"
   name: notes-building-erin-nolans-site
   type: header
-tags:
-- dev life
-- design
-- siteleaf
-- how to
 ---
 
 For the past three weeks, I've worked with my best friend and fellow designer [Erin Nolan](http://www.madebyeno.com) on rebuilding her website to be fresh, flexible, and easily updatable. Her last site ran on Wordpress, and while it made sense for her to use a CMS to manage her site, Wordpress wasn't cutting it. After [redoing my own site](http://jessicaharllee.com/notes/a-redesign-with-siteleaf/) with [Siteleaf](http://siteleaf.com) and having a really good experience, we decided to give it a go.
