@@ -1,7 +1,7 @@
+Gemfile.lock
+_site
+_drafts
 .DS_Store
-.sass-cache
-config.ru
-config.rb
-tmp
-_assets/images
-_assets/stylesheets
+.sass-cache/
+_posts/.DS_Store
+_sass/.DS_Store
