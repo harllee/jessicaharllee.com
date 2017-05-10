@@ -1,6 +1,6 @@
 ---
-title: Jessica Harllee
-timezone: Eastern Time (US & Canada)
+title: jessicaharllee.com
+timezone: UTC
 collections:
   posts:
     title: Posts
@@ -38,21 +38,4 @@ defaults:
     type: work
   values:
     layout: post
-email: jessica.harllee@gmail.com
-url: jessicaharllee.com
-description: 'Jessica Harllee is a product designer at Etsy based out of Brooklyn,
-  NY.
-
-'
-twitter_username: harllee
-github_username: harllee
-markdown: kramdown
-exclude:
-- Gemfile
-- Gemfile.lock
-- ".gitignore"
-- README*
-sass:
-  sass_dir: _sass
-date_format: "%b %d, %Y"
 permalink: pretty
