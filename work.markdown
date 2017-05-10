@@ -1,7 +1,7 @@
 ---
 title: Work
 permalink: "/work/"
-position: 3
+position: 2
 layout: work
 ---
 
