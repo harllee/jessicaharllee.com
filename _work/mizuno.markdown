@@ -1,5 +1,6 @@
 ---
 title: Mizuno
+position: 5
 color: yellow
 bg-color: blue-dark
 description: A website redesign for one of the top manufacturers of sports equipment

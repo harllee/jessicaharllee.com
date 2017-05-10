@@ -1,6 +1,7 @@
 ---
 title: Kickstarter events and marketing
 published: false
+position: 6
 assets:
 - path: "/uploads/portfolio_header_kickstarter.png"
   name: portfolio_header_kickstarter

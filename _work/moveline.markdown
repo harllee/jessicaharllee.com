@@ -1,5 +1,6 @@
 ---
 title: Moveline
+position: 7
 color: red
 bg-color: gray-lightest
 description: Early versions of a product to help people find the best way to move
