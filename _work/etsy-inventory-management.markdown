@@ -17,6 +17,10 @@ assets:
   name: etsy-inventory-split-table
 - path: "/uploads/etsy-inventory-checkboxes.jpg"
   name: etsy-inventory-checkboxes
+- path: "/uploads/etsy-inventory-marketing.jpg"
+  name: etsy-inventory-marketing
+- path: "/uploads/etsy-inventory-instagram.gif"
+  name: etsy-inventory-instagram
 ---
 
 In 2017, we released an enormous update to the way sellers track their product inventory on Etsy by adding the ability to manage price, quantity, and stock keeping unit (SKU) for variations. This had been one of our top seller feature requests for years. These updates aligned Etsy’s inventory tools with the way that sellers thought about and kept track of their products. I was the lead designer.
@@ -86,10 +90,16 @@ But how should we let a seller choose what style of table they needed? What was 
 
 We were pretty stumped on how to ask sellers which of the 16 scenarios their item fit into in a simple and straightforward way. So we put a few really rough ideas out there as a way to get a reaction and to see what kind of vocabulary sellers were using. After entering in their variation options, we’d take them to a second step of the overlay if they had two variations. We tried asking if they needed separate or combined inventory tables as a way to get at the relationship between variations. We tried illustrating items to demonstrate different scenarios, and then tried illustrating different interfaces to demonstrate the impact of their selection.
 
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
+  <img src="/uploads/etsy-inventory-overlay-iteration.jpg">
+  <p class="text-small italic text-center">Some different approaches that we tested with sellers to understand their thinking</p>
+</div>
+
 The questions that we were trying to ask were much too focused on our interface, and not on the item itself. The real thing that determined which table we gave a seller was the relationship of price and quantity to each variation: do prices vary for each color? Do quantities vary for each color? If, say, price is impacted by both variations (such as metal and gemstone), then we create the cross-product so a seller can enter in the unique price for each combination. Ultimately, we decided to add checkboxes to each variation in the overlay with the option to select whether price, quantity, and SKU needed to vary. Based on the selection, we’d generate the appropriate table.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/etsy-inventory-checkboxes.jpg">
+  <p class="text-small italic text-center">With price checked for both variations, we'd create a table with cross-products</p>
 </div>
 
 Another challenging part of the interface was how to handle the inventory table on smaller screens. At its most complex, the table could have 7 columns, and a table with cross-products could have hundreds, even thousands of rows. For mobile web, we looked to mobile spreadsheets as a guide for how to handle the table, and decided to side-scroll any overflowing columns. Rather than leave the cells as open inputs, which could be easy to fumble around on a phone, we built them to be tap-to-edit, which also allowed us to tighten up the spacing. On native phones, we offered two ways to edit the data: by “table row” (edit all of the metadata for one option) or by “table column” (edit all of my prices).
@@ -100,15 +110,27 @@ Any change to the seller side of listings includes a change to the buyer side of
 
 In August 2016 we had end-to-end updates to variations complete, so we invited our first batch of sellers to a closed prototype group to begin testing out the new features. We targeted sellers who were already using variations and even invited sellers who had been requesting these features in the Etsy forums. The prototype group lasted for six months and was incredibly valuable for fixing issues and soliciting feedback. By the time we fully launched in February, we had thousands of sellers participating in the prototype group.
 
-For launch, we targeted in-product marketing at two groups of sellers: existing variations users who would be interested in the enhancements, and sellers with a high number of duplicate listings, who we think would benefit from the new variations tools. We collaborated with our brand design team on photography to use in an in-product tour, social posts, and targeted emails. Rather than show screenshots of the interface, we used photography to talk about the feature in terms of items by showing off items that were similar and could benefit from variations. I even got to be a hand model for part of the shoot.
+For launch, we targeted in-product marketing at two groups of sellers: existing variations users who would be interested in the enhancements, and sellers with a high number of duplicate listings, who we think would benefit from the new variations tools. We collaborated with our brand design team on photography to use in an in-product tour, social posts, and targeted emails. Rather than show screenshots of the interface, we used photography to talk about the feature in terms of items by showing off items that were similar and could benefit from variations.
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
+  <img src="/uploads/etsy-inventory-marketing.jpg">
+  <p class="text-small italic text-center">Part of the in-product tour for the launch</p>
+</div>
+
+I even got to be a hand model for part of the shoot!
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
+  <img src="/uploads/etsy-inventory-instagram.gif" class="b-1 b-gray-lightest">
+  <p class="text-small italic text-center">This is my hand</p>
+</div>
 
 Sellers were happy to finally be able to accurately track their item quantities and combine their items into fewer listings for a better buyer experience:
 
-> "These new tools are encouraging me to list more items with variations knowing I have the tools for buyers to make their personal selections... I could combine all 4 listings and offer all 8 card variations in just one listing—now that's cool."
+> *"These new tools are encouraging me to list more items with variations knowing I have the tools for buyers to make their personal selections... I could combine all 4 listings and offer all 8 card variations in just one listing—now that's cool."*
 
-> "Thank you so much for this! I was considering ceasing the adult sizes in my store, because there was no simple way to keep track of sizes without having separate listings"
+> *"Thank you so much for this! I was considering ceasing the adult sizes in my store, because there was no simple way to keep track of sizes without having separate listings"*
 
-> "This has really saved me time. I tried to add clear information that only one skein was available of each length. A few customers missed that and would order 2 or 3 of the same single skein. With the quantity number available for each different length skein, I will be set. All the information the customer needs will be readily available and no possibility for error."
+> *"This has really saved me time. I tried to add clear information that only one skein was available of each length. A few customers missed that and would order 2 or 3 of the same single skein. With the quantity number available for each different length skein, I will be set. All the information the customer needs will be readily available and no possibility for error."*
 
 <div class="col-group text-small mt-sm-4 mb-sm-4">
 	<div class="col col-sm-12 col-md-3">
