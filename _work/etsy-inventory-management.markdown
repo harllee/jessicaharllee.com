@@ -22,6 +22,8 @@ assets:
   name: etsy-inventory-marketing
 - path: "/uploads/etsy-inventory-instagram.gif"
   name: etsy-inventory-instagram
+- path: "/uploads/etsy-inventory-native.jpg"
+  name: etsy-inventory-native
 ---
 
 In 2017, we released an enormous update to the way sellers track their product inventory on Etsy by adding the ability to manage price, quantity, and stock keeping unit (SKU) for variations. This had been one of our top seller feature requests for years. These updates aligned Etsy’s inventory tools with the way that sellers thought about and kept track of their products. I was the lead designer.
@@ -105,6 +107,16 @@ The questions that we were trying to ask were much too focused on our interface,
 
 Another challenging part of the interface was how to handle the inventory table on smaller screens. At its most complex, the table could have 7 columns, and a table with cross-products could have hundreds, even thousands of rows. For mobile web, we looked to mobile spreadsheets as a guide for how to handle the table, and decided to side-scroll any overflowing columns. Rather than leave the cells as open inputs, which could be easy to fumble around on a phone, we built them to be tap-to-edit, which also allowed us to tighten up the spacing. On native phones, we offered two ways to edit the data: by “table row” (edit all of the metadata for one option) or by “table column” (edit all of my prices).
 
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/etsy-inventory-mweb.gif">
+  <p class="text-small italic text-center">Adjustments to the inventory table at smaller screen sizes on web</p>
+</div>
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/etsy-inventory-native.jpg">
+  <p class="text-small italic text-center">On native, either edit all prices or quantities at once, or edit all metadata for a given option</p>
+</div>
+
 Any change to the seller side of listings includes a change to the buyer side of listings. This work meant we had to make some small changes to the way that we were showing buyers available quantity and item prices. We worked closely with our expert buyer experience designers to think through all of the interactions for selecting variation options, communicating prices based on selections, and communicating states like sold out for a given combination of options.
 
 ### Gaining confidence and launch
@@ -115,7 +127,7 @@ For launch, we targeted in-product marketing at two groups of sellers: existing 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/etsy-inventory-marketing.jpg">
-  <p class="text-small italic text-center">Part of the in-product tour for the launch</p>
+  <p class="text-small italic text-center">Screens from the in-product tour for the launch</p>
 </div>
 
 I even got to be a hand model for part of the shoot!
@@ -138,7 +150,7 @@ Sellers were happy to finally be able to accurately track their item quantities 
 		<p class="bold mb-sm-0 mb-md-1">Role</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">Design, development</p>
+		<p class="mb-sm-1">Lead designer, front-end development, hand model</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
 		<p class="bold mb-sm-0 mb-md-1">Core team</p>
