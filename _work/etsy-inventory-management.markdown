@@ -1,7 +1,8 @@
 ---
 title: Etsy inventory management
 date: 2017-05-11 01:39:00 Z
-description: Build the tools Etsy sellers need to accurately and easily manage their inventory.
+description: Build the tools Etsy sellers need to accurately and easily manage their
+  inventory.
 assets:
 - path: "/uploads/etsy-inventory-variations-example.jpg"
   name: etsy-inventory-variations-example
