@@ -1,6 +1,8 @@
 ---
 title: Etsy inventory management
 date: 2017-05-11 01:39:00 Z
+description: Build the tools Etsy sellers need to accurately and easily manage their
+  inventory.
 ---
 
 In 2017, we released an enormous update to the way sellers track their product inventory on Etsy by adding the ability to manage price, quantity, and stock keeping unit (SKU) for variations. This had been one of our top seller feature requests for years. These updates aligned Etsy’s inventory tools with the way that sellers thought about and kept track of their products. I was the lead designer.
