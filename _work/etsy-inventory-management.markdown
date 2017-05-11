@@ -1,5 +1,5 @@
 ---
-title: Inventory management
+title: Etsy inventory management
 date: 2017-05-11 01:39:00 Z
 ---
 
@@ -58,3 +58,30 @@ Sellers were happy to finally be able to accurately track their item quantities 
 > "Thank you so much for this! I was considering ceasing the adult sizes in my store, because there was no simple way to keep track of sizes without having separate listings"
 
 > "This has really saved me time. I tried to add clear information that only one skein was available of each length. A few customers missed that and would order 2 or 3 of the same single skein. With the quantity number available for each different length skein, I will be set. All the information the customer needs will be readily available and no possibility for error."
+
+<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col col-sm-12 col-md-3">
+<p class="bold mb-sm-0 mb-md-1">Role</p>
+</div>
+<div class="col col-sm-12 col-md-9">
+<p class="mb-sm-1">Design, development</p>
+</div>
+<div class="col col-sm-12 col-md-3">
+<p class="bold mb-sm-0 mb-md-1">Team</p>
+</div>
+<div class="col col-sm-12 col-md-9">
+<p class="mb-sm-1">Amit Snyderman (engineer), Greg Guida (engineer), Ian Malpass (engineer), Johanna Beyenbach (product manager), Josh Stewart (engineer), Justin Donato (engineer), Karen D'Ambrosi (product marketing), Michael Phillips (engineer), Phoebe Ford (engineering manager)</p>
+</div>
+<div class="col col-sm-12 col-md-3">
+<p class="bold mb-sm-0 mb-md-1">Released</p>
+</div>
+<div class="col col-sm-12 col-md-9">
+<p class="mb-sm-1">February 2017</p>
+</div>
+<div class="col col-sm-12 col-md-3">
+<p class="bold mb-sm-0 mb-md-1">View live</p>
+</div>
+<div class="col col-sm-12 col-md-9">
+<p class="mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
+</div>
+</div>
