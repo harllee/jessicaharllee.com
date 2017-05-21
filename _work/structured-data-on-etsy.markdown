@@ -1,6 +1,8 @@
 ---
 title: Structured data on Etsy
 date: 2017-05-21 21:07:00 Z
+description: Collecting category-specific information from sellers to power search
+  filters
 ---
 
 A common critique of buying something on Etsy is how challenging it can be to find exactly what you’re looking for. Up until recently, buyers mostly had to rely on text searches instead of filters; there were very few ways to effectively narrow what you were looking at. In 2017, we made huge strides in collecting information from sellers in a structured way, which we could then use to power search filters. I was responsible for designing the way we’d collect this information from sellers on each of their listings.
@@ -71,3 +73,30 @@ When we announced the launch of Etsy Studio, we also announced that attributes w
 After the launch of attributes, our buyer-side team was able to start the work of implementing filters on Etsy. Even though filters didn’t yet exist on Etsy, in our launch communications we told sellers that we would be updating search, which was enough to gain adoption on a significant number of listings.
 
 Overall the reception of structured data was positive, with a lot of (expected) mixed feedback on the taxonomy and attributes themselves. The addition of a launch tool was a huge relief to many sellers and had a positive impact on structured data adoption.
+
+<div class="col-group text-small mt-sm-4 mb-sm-4">
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">Role</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1">Lead designer, front-end development</p>
+	</div>
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">Core team</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1">Amit Snyderman (engineer), Daniel Espeset (engineer), Greg Guida (engineer), Ian Malpass (engineer), Johanna Beyenbach (product manager), Josh Stewart (engineer), Justin Donato (engineer), Karen D'Ambrosi (product marketing), Michael Phillips (engineer), Phoebe Ford (engineering manager)</p>
+	</div>
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">Released</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1">February 2017</p>
+	</div>
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">View live</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
+	</div>
+</div>
