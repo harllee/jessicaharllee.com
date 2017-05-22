@@ -13,7 +13,7 @@ assets:
 
 I’m Jessica Harllee and I’m a staff product designer at [Etsy](https://www.etsy.com/people/harllee) in Brooklyn, New York. Previously, I was a designer at [Kickstarter](http://www.kickstarter.com/profile/harllee) and at [Modea](http://www.modea.com). I build software that enables independent artists and have a preference for anything handmade.
 
-I own too many sweaters, listen to a [constant stream of music](https://open.spotify.com/user/jessicaharllee), and believe that great design is nothing without great copy. I’m obsessed with process, organization, and uncovering the best way to do something. I’m probably shorter than you. Currently, my favorite emoji is the sweat smile.
+I own too many sweaters, listen to a [constant stream of music](https://open.spotify.com/user/jessicaharllee), and believe that great design is nothing without great copy. I’m obsessed with process, organization, and uncovering the best way to do something. I’m probably shorter than you. Currently, my favorite emoji is the thinking face.
 
 One day I hope to ~~run a 10K~~ ([did it!](http://jessicaharllee.com/notes/balance)), ~~sell something that I make~~ ([did it!](http://jessicaharllee.com/notes/emoji-embroidery-a-post-mortem/)), do an unassisted handstand, and have a library of floor-to-ceiling bookshelves in my home.
 
