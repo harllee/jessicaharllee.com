@@ -3,9 +3,25 @@ title: Structured data on Etsy
 date: 2017-05-21 21:07:00 Z
 description: Collecting category-specific information from sellers to power search
   filters.
+assets:
+- path: "/uploads/etsy_sd_listing_form.jpg"
+  name: etsy_sd_listing_form
+- path: "/uploads/etsy_sd_attribute_select.jpg"
+  name: etsy_sd_attribute_select
+- path: "/uploads/etsy_sd_attribute_input_unit.jpg"
+  name: etsy_sd_attribute_input_unit
+- path: "/uploads/etsy_sd_attribute_input.jpg"
+  name: etsy_sd_attribute_input
+- path: "/uploads/etsy_sd_attribute_radio.jpg"
+  name: etsy_sd_attribute_radio
 ---
 
 A common critique of buying something on Etsy is how challenging it can be to find exactly what you’re looking for. Up until recently, buyers mostly had to rely on text searches instead of filters; there were very few ways to effectively narrow what you were looking at. In 2017, we made huge strides in collecting information from sellers in a structured way, which we could then use to power search filters. I was responsible for designing the way we’d collect this information from sellers on each of their listings.
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
+  <img src="/uploads/etsy_sd_listing_form.jpg">
+  <p class="text-small italic text-center">A listing category and category-specific structured data</p>
+</div>
 
 ### Historical context
 
@@ -25,11 +41,32 @@ Once we had a first pass at a taxonomy with attributes, we saw that most attribu
 
 Select from a list was the most common. This was for attributes with a predictable or common set of responses. For example, we’d ask about the fiber type for fabric, or the weight of yarn. This also applied to attributes like color, pattern, and material.
 
-Yes/no attributes were used for common things buyers might want to filter by or exclude in their search. On some taxonomy nodes, we’d ask things like, “Is this organic?”, “Is this art yarn?”, or “Is this hand-printed?”.
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/etsy_sd_attribute_select.jpg">
+  <p class="text-small italic text-center">Selects were used for a list of common responses</p>
+</div>
+
+Yes/no attributes were used for common things buyers might want to filter by or exclude in their search. On some taxonomy nodes, we’d ask things like, “Is this organic?”, “Is this art yarn?”, or “Is this hand-painted?”.
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/etsy_sd_attribute_radio.jpg">
+  <p class="text-small italic text-center">Radios were used for yes/no responses</p>
+</div>
 
 Input with unit was for collecting measurements. The input had to be a number, and then we provided a set of units to choose from, such as inches or yards. This was helpful for nodes like fabric, where sellers could input length and width, or beads, where sellers could specify the bead diameter and hole width.
 
-Finally, numerical input was used for integers like the number of strands for beads.
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/etsy_sd_attribute_input_unit.jpg">
+  <p class="text-small italic text-center">Inputs with a unit were used for measurements</p>
+</div>
+
+Finally, numerical input was used for integers like the number of strands for beads or the number of skeins for yarn.
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/etsy_sd_attribute_input.jpg">
+  <p class="text-small italic text-center">Inputs were used for numbers</p>
+</div>
+
 
 ### Attributes and variations
 
