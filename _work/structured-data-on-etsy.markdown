@@ -1,7 +1,7 @@
 ---
 title: Structured data on Etsy
-company: Etsy
 date: 2017-05-21 21:07:00 Z
+company: Etsy
 description: Collecting category-specific information from sellers to power search
   filters.
 assets:

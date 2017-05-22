@@ -1,7 +1,7 @@
 ---
 title: Etsy inventory management
-company: Etsy
 date: 2017-05-11 01:39:00 Z
+company: Etsy
 description: Give Etsy sellers the tools they need to accurately and easily manage
   their inventory.
 assets:

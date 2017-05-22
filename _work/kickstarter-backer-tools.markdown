@@ -1,7 +1,7 @@
 ---
 title: Kickstarter backer tools
-company: Kickstarter
 position: 1
+company: Kickstarter
 color: blue
 bg-color: yellow
 description: An overhaul of two features backers use to keep up with their backed

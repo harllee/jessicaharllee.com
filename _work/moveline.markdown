@@ -1,7 +1,7 @@
 ---
 title: Moveline
-company: Modea
 position: 7
+company: Modea
 color: red
 bg-color: gray-lightest
 description: Early versions of a product to help people find the best way to move
