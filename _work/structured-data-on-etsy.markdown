@@ -29,7 +29,7 @@ Yes/no attributes were used for common things buyers might want to filter by or 
 
 Input with unit was for collecting measurements. The input had to be a number, and then we provided a set of units to choose from, such as inches or yards. This was helpful for nodes like fabric, where sellers could input length and width, or beads, where sellers could specify the bead diameter and hole width.
 
-Finally, numerical input was used for integers like the number of strands for beads.
+Finally, numerical input was used for integers like the number of strands for beads or the number of skeins for yarn.
 
 ### Attributes and variations
 
