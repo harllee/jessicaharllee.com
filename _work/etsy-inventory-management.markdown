@@ -170,4 +170,10 @@ Sellers were happy to finally be able to accurately track their item quantities 
 	<div class="col col-sm-12 col-md-9">
 		<p class="mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
 	</div>
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">Read more</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1"><a href="https://www.etsy.com/seller-news/new-tools-for-managing-your-inventory">Launch announcement</a></p>
+	</div>
 </div>
