@@ -67,7 +67,6 @@ Finally, numerical input was used for integers like the number of strands for be
   <p class="text-small italic text-center">Inputs were used for numbers</p>
 </div>
 
-
 ### Attributes and variations
 
 At the same time that we were adding structured data to the listing form, we were overhauling the way that inventory worked on Etsy, specifically a part of the form called variations. Variations are a tool used to enumerate all of the options sellers have for sale of a given product; often, these variations are different sizes, colors, finishes, fabrics, or measurements that the seller offers. Sound familiar? The defining characteristics of an item, or its attributes, are also probably the things of which a seller might offer variations. If you’re selling hand-dyed yarn, Etsy wants to know what the color of the yarn is and its weight, and those might also be different options that a buyer can choose from when purchasing. There needed to be some kind of connection between attributes and variations.
