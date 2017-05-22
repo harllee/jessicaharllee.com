@@ -1,5 +1,6 @@
 ---
 title: Moveline
+company: Modea
 position: 7
 color: red
 bg-color: gray-lightest

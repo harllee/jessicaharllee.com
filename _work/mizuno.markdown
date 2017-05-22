@@ -1,5 +1,6 @@
 ---
 title: Mizuno
+company: Modea
 position: 6
 color: yellow
 bg-color: blue-dark

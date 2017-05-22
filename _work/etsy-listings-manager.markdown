@@ -1,5 +1,6 @@
 ---
 title: Etsy Listings Manager
+company: Etsy
 position: 0
 color: green
 bg-color: red
@@ -26,7 +27,7 @@ assets:
 In 2014, we redesigned the core of Etsy’s seller tools, the Listings Manager. The Listings Manager is where Etsy sellers edit and organize all of the listings in their shops. Sellers use it to add and edit listings via the listing form, modify large quantities of listings at once with the bulk editor, and make small one-off changes with a quick editor.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-<img src="/uploads/listings-manager-old.png" class="b-1 b-gray-lightest">
+  <img src="/uploads/listings-manager-old.png" class="b-1 b-gray-lightest">
 </div>
 
 It had been years since there were major updates made to the Listings Manager and its age was showing. The interface had become cramped from multiple teams adding features over the years. It also wasn’t designed with workflows in mind; these new features tended to occupy subpages of the Listings Manager instead of being integrated into common seller flows. It wasn’t mobile-optimized, either, despite increasing mobile traffic to Etsy.

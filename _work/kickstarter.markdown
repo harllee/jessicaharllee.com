@@ -1,5 +1,6 @@
 ---
 title: Kickstarter events and marketing
+company: Kickstarter
 published: false
 position: 5
 assets:

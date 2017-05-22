@@ -1,5 +1,6 @@
 ---
 title: Kickstarter backer tools
+company: Kickstarter
 position: 1
 color: blue
 bg-color: yellow
