@@ -17,7 +17,7 @@ First and foremost, working groups are created to solve a specific problem facin
 
 When the Design Team leads communicated our team-wide strategy of achieving “design excellence”, a lot of questions came up around what exactly “excellence” meant. To help answer those questions, the Design Principles working group was formed with the clear goal of creating design principles to define design excellence.
 
-![1*qh199hbi4KotZw2JCBap1A.jpeg](/uploads/1*qh199hbi4KotZw2JCBap1A.jpeg)
+![principles.jpeg](/uploads/principles.jpeg)
 *We reviewed the goals of the Design Principles working group at every meeting*
 
 Once you have a goal, make sure everyone understands it. Review the goal at the beginning of every meeting to remind group members of what they’re trying to achieve. Communicate the goal of the group broadly as a way to establish yourselves as the people dedicated to, and invested in, finding a solution.
