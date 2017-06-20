@@ -6,6 +6,7 @@ date: 2017-06-20 12:35:00 Z
 *This post originally appeared on [Etsy Design's Medium blog](https://medium.com/etsy-design)*
 
 At Etsy, some of the most interesting (and most difficult!) challenges we face as a design team don’t always have a clear or obvious owner. Our initiatives can span multiple product teams or even multiple disciplines. Without a dedicated team of people solving these problems, they’re easy to ignore.
+
 One way that we try and tackle cross-team challenges at Etsy is by using working groups. A working group is a defined set of people, usually coming from multiple teams or disciplines, with a clear problem to overcome. Some have very specific goals and disband after a few months, others have existed over multiple years and evolved over time.
 
 I’ve been involved in a number of design-focused working groups at Etsy, both in a leadership role and as a participant. I’ve seen things that work really well, and I’ve also seen them struggle to align and hit their goals. To help you set your working group up for success, I’ve put together some guidelines for organizing an effective one.
@@ -13,6 +14,7 @@ I’ve been involved in a number of design-focused working groups at Etsy, both 
 ## 1. Establish a goal
 
 First and foremost, working groups are created to solve a specific problem facing an organization. When the group is created, spend some time defining the goal. Since the problems you’re tackling can be broad and fuzzy, having an explicit goal can also help you decide what is and isn’t the responsibility of the group. Creating alignment on what the goal is will help you evaluate whether the group is successful down the line.
+
 When the Design Team leads communicated our team-wide strategy of achieving “design excellence”, a lot of questions came up around what exactly “excellence” meant. To help answer those questions, the Design Principles working group was formed with the clear goal of creating design principles to define design excellence.
 
 ![1*qh199hbi4KotZw2JCBap1A.jpeg](/uploads/1*qh199hbi4KotZw2JCBap1A.jpeg)
@@ -51,6 +53,7 @@ There may be other project rituals that your company uses, like Jira boards or w
 Okay, so now you have the mission of the group, the facilitator, and some guidelines for operating. Time to start getting to work, right? Hold your horses.
 
 One of the reasons I’ve seen working groups struggle to move forward and make progress is a lack of milestones.
+
 Without clear milestones, it’s impossible to judge the pace at which you must work. This is especially true when the work is done on top of your regular workload. The worst thing that could happen to your working group would be that everyone chips away at the problem but never actually ships anything. In order to be effective, the group has to ship; in order to ship, milestones should be established from the beginning.
 
 The Style Guide working group operated on a quarterly basis. At the beginning of each quarter, we kicked off a round of projects with the expectation that you’d be able to finish the work by the end of the quarter. Having a timeline helped designers scope their work; group members would only commit to doing projects they knew they could ship within a quarter.
