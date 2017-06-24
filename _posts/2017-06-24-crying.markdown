@@ -3,9 +3,7 @@ title: Crying
 date: 2017-06-24 02:01:00 Z
 ---
 
-I cry pretty easily.
-
-It's usually a sign of stress or feeling overwhelmed. Crying is emotional relief for me. It's not always a bad thing, either; I cry at commercials, at weddings, while watching Grey's. But usually if I'm crying, it's because of some kind of intense emotion.
+I cry pretty easily. It's usually a sign of stress or feeling overwhelmed. Crying is emotional relief for me. It's not always a bad thing, either; I cry at commercials, at weddings, while watching Grey's. But usually if I'm crying, it's because of some kind of intense emotion.
 
 The past year was pretty tough on me at work. I was working on a project that I loved, but it was incredibly complex and overwhelming at times. I was promoted, which was amazing, but it came with an intense set of self-imposed expectations and a huge dose of imposter syndrome. For awhile I was able to juggle all of the work and the emotions. Until suddenly I wasn't. And I found myself crying a lot.
 
@@ -15,7 +13,9 @@ It took me about 3 years to really hit my crying stride at my current job; for a
 
 Around this time, we implemented a goal-setting process at work. Goals could be tied to larger team goals, to professional development, or they could be personal goals. I joked to Erin that my goal should be to not cry at work. I smirked at the thought of entering that ridiculous, snarky goal into our HR system. But then I realized that if I was taking care of myself and dealing with my problems in a healthy way, then there should be no reason to cry at work.
 
-![dont-cry-workday.jpg](/uploads/dont-cry-workday.jpg)
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/dont-cry-workday.jpg">
+</div>
 
 So, I converted a pink Field Notes into a daily cry journal (I got the notebook from [XOXO](http://xoxofest.com), which felt pretty appropriate). At the end of each day, I drew a face illustrating my emotions and marked whether I had cried (yes, no, almost). If I cried, I wrote down what the trigger was. This way, I could keep track of the things that were causing me stress and setting me off. And I told my manager, [Jason](http://jason-huff.com), about this plan so he could hold me accountable.
 
@@ -27,11 +27,15 @@ Second, that data made me realize that I wasn't crying as often as I told myself
 
 Third, I could pinpoint exactly what was triggering me. And I talked to Jason about those things. And we worked together to figure out how to make those things better. It's easy to get overwhelmed by stress, especially when it feels like it's coming from all sides. Understanding the source of the stress, big or small, was an important part of this process.
 
-![dont-cry.gif](/uploads/dont-cry.gif)
-All of my feelings
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/dont-cry.gif">
+  <p class="text-small italic text-center">All of my feelings</p>
+</div>
 
 Technically, I didn't hit my goal. I haven't stopped crying and I don't think I will; crying will always be part of how I deal with my emotions. But I feel more capable of recognizing the good kind of crying from the bad kind. And I feel more equipped to handle my next slump, whenever that may be.
 
+---
+
+*Around the same time that I was keeping the cry journal, I saw this incredibly apt question in the  [Strengthsfinder](http://www.strengthsfinder.com/home.aspx) quiz:*
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Too real. <a href="https://t.co/lFL8GzqFfx">pic.twitter.com/lFL8GzqFfx</a></p>&mdash; Jessica Harllee 🌞 (@harllee) <a href="https://twitter.com/harllee/status/817026056616022017">January 5, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-*Around the same time that I was keeping the cry journal, I saw this incredibly apt question in the  [Strengthsfinder](http://www.strengthsfinder.com/home.aspx) quiz*
