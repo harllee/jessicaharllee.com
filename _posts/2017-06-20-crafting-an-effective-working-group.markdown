@@ -1,6 +1,11 @@
 ---
 title: Crafting an effective working group
 date: 2017-06-20 12:35:00 Z
+tags:
+- etsy
+- how to
+- design
+- process
 ---
 
 *This post originally appeared on [Etsy Design's Medium blog](https://medium.com/etsy-design)*
