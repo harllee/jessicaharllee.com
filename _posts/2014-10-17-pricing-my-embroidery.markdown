@@ -1,6 +1,6 @@
 ---
 title: Pricing my embroidery
-date: 2014-10-17 09:43:00 -04:00
+date: 2014-10-17 13:43:00 Z
 tags:
 - embroidery
 - reflections
