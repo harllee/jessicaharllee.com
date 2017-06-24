@@ -2,7 +2,7 @@
 {% assign is_excerpt = include.is_excerpt %}
 
 {% if is_excerpt %}
-	<h2 class="mb-sm-3"><a href="{{post.url}}" class="link-gray">{{post.title}}</a></h2>
+	<h3 class="mb-sm-3"><a href="{{post.url}}" class="link-gray">{{post.title}}</a></h3>
 {% else %}
 	<h1 class="mb-sm-3">{{post.title}}</h1>
 {% endif %}
