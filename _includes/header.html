@@ -1,18 +1,24 @@
-<div class="pt-sm-3 pb-md-3">
+<div class="bg-yellow pt-sm-3 pb-sm-3 pt-lg-5 pb-lg-5">
     <div class="container pl-sm-2 pl-md-4 pr-sm-2 pr-md-4">
         <div class="col-group">
-            <div class="col col-sm-12 col-md-6">
-                <h1 class="h3 mb-sm-0"><a href="/" class="link-gray">{{site.title}}</a></h1>
+            <div class="col col-sm-12 col-lg-6">
+                <h1 class="h2 mt-sm-0 mb-sm-0"><a href="/" class="link-gray">{{site.title}}</a></h1>
             </div>
-            <div class="col col-sm-12 col-md-6">
-                <ol class="list-unstyled text-small text-right mt-sm-2">
-                    <li class="display-inline-block mr-sm-2 mr-md-3 {% if page.url contains '/work/' %}bb-3{% endif %} b-red">
+            <div class="col col-sm-12 col-lg-6">
+                <ol class="list-unstyled text-small text-right-lg-up mt-sm-2 mt-lg-1 mb-lg-0">
+                    <li class="display-inline-block mr-sm-2 {% if page.url contains '/work/' %}bold{% endif %}">
                         <a href="/work" class="link-gray">Work</a>
                     </li>
-                    <li class="display-inline-block mr-sm-2 mr-md-3 {% if page.url contains '/notes/' %}bb-3{% endif %} b-red">
+                    <!-- <li class="display-inline-block mr-sm-2 {% if page.url contains '/textiles/' %}bold{% endif %}">
+                        <a href="/textiles" class="link-gray">Textiles</a>
+                    </li> -->
+                    <li class="display-inline-block mr-sm-2 {% if page.url contains '/notes/' %}bold{% endif %}">
                         <a href="/notes" class="link-gray">Notes</a>
                     </li>
-                    <li class="display-inline-block {% if page.url contains '/about/' %}bb-3{% endif %} b-red">
+                    <li class="display-inline-block mr-sm-2">
+                        <a href="http://harllee.etsy.com" class="link-gray">Shop</a>
+                    </li>
+                    <li class="display-inline-block {% if page.url contains '/about/' %}bold{% endif %}">
                         <a href="/about" class="link-gray">About</a>
                     </li>
                 </ol>

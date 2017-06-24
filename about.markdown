@@ -21,35 +21,37 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 
 
 <div class="col-group mt-sm-2 mt-md-4 mb-sm-2 mb-md-4">
-	<div class="col col-sm-12 col-md-4">
-		<h4>Writing</h4>
-		<ul class="list-unstyled">
-			<li><a href="http://alistapart.com/article/sharing-our-work-testing-feedback-in-design">A List Apart</a>, 2015</li>
-			<li><a href="https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/">Code as Craft</a>, 2015</li>
+	<div class="col col-sm-12 col-lg-4">
+		<h2>Writing</h2>
+		<ul class="list-unstyled text-small">
+			<li class="mb-sm-1"><a href="https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf">Etsy Design</a>, 2017</li>
+			<li class="mb-sm-1"><a href="http://alistapart.com/article/sharing-our-work-testing-feedback-in-design">A List Apart</a>, 2015</li>
+			<li class="mb-sm-1"><a href="https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/">Code as Craft</a>, 2015</li>
 			<li><a href="http://etsydesign.com/news/improving-our-seller-onboarding/">Etsy Design</a>, 2015</li>
 		</ul>
 	</div>
 
-	<div class="col col-sm-12 col-md-4">
-		<h4>Interviews</h4>
-		<ul class="list-unstyled">
-			<li><a href="http://spec.fm/podcasts/design-details/21184">Design Details</a>, 2015</li>
-			<li><a href="http://www.500.co/qa-jessicaharllee-warmgun/">500 Startups</a>, 2014</li>
+	<div class="col col-sm-12 col-lg-4">
+		<h2>Interviews</h2>
+		<ul class="list-unstyled text-small">
+			<li class="mb-sm-1"><a href="http://spec.fm/podcasts/design-details/21184">Design Details</a>, 2015</li>
+			<li class="mb-sm-1"><a href="http://www.500.co/qa-jessicaharllee-warmgun/">500 Startups</a>, 2014</li>
 			<li><a href="http://www.designworklife.com/2013/12/11/interview-with-product-designer-jessica-harllee/">Design Work Life</a>, 2013</li>
 		</ul>
 	</div>
 
-	<div class="col col-sm-12 col-md-4">
-		<h4>Speaking</h4>
-		<ul class="list-unstyled">
-			<li><a href="http://2015.industryconf.com/talks/#jessica">Industry Conference</a>, 2015</li>
-			<li><a href="http://warmgun.com/agenda#jessica-harllee">Warm Gun</a>, 2014</li>
+	<div class="col col-sm-12 col-lg-4">
+		<h2>Speaking</h2>
+		<ul class="list-unstyled text-small">
+			<li class="mb-sm-1"><a href="https://codeascraft.com/speakers/womenby-tech-lightning-talks/">Code as Craft</a>, 2017</li>
+			<li class="mb-sm-1"><a href="http://2015.industryconf.com/talks/#jessica">Industry Conference</a>, 2015</li>
+			<li class="mb-sm-1"><a href="http://warmgun.com/agenda#jessica-harllee">Warm Gun</a>, 2014</li>
 			<li><a href="http://moso2015.com/2014/speakers">MoSo Conference</a>, 2014</li>
 		</ul>
 	</div>
 </div>
 
 
-This site was built using [SiteLeaf](http://siteleaf.com) (largely thanks to the [SiteLeaf Hackday](http://jessicaharllee.com/notes/a-redesign-with-siteleaf)), [Sublime](http://www.sublimetext.com), Terminal, [Sass](http://sass-lang.com), [Github](https://github.com/harllee), Photoshop, [Typekit](http://typekit.com), [Editorially](http://editorially.com), and [Trello](https://trello.com).
+This site was built using [SiteLeaf](http://siteleaf.com) (largely thanks to the [SiteLeaf Hackday](http://jessicaharllee.com/notes/a-redesign-with-siteleaf)), [Sublime](http://www.sublimetext.com), Terminal, [Sass](http://sass-lang.com), [Github](https://github.com/harllee), Photoshop, Sketch, and [Typekit](http://typekit.com).
 
 Photo by the talented [Erin Nolan](http://www.madebyeno.com).

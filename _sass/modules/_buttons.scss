@@ -122,20 +122,6 @@
     }
 }
 
-.btn-green {
-    background-color: $green;
-    color: $white;
-
-    &:hover {
-        color: $white;
-        background-color: darken($green, 7%);
-    }
-
-    &:focus {
-        border-color: $blue;
-        outline: 0;
-    }
-}
 
 .btn-yellow {
     background-color: $yellow;
@@ -159,21 +145,6 @@
     &:hover {
         color: $white;
         background-color: darken($red, 5%);
-    }
-
-    &:focus {
-        border-color: $blue;
-        outline: 0;
-    }
-}
-
-.btn-purple {
-    background-color: $purple;
-    color: $white;
-
-    &:hover {
-        color: $white;
-        background-color: darken($purple, 5%);
     }
 
     &:focus {

@@ -2,31 +2,33 @@
 {% assign is_excerpt = include.is_excerpt %}
 
 {% if is_excerpt %}
-	<h3 class="mb-sm-3"><a href="{{post.url}}" class="link-gray">{{post.title}}</a></h3>
+	<h2><a href="{{post.url}}" class="link-gray">{{post.title}}</a></h2>
 {% else %}
-	<h1 class="mb-sm-3">{{post.title}}</h1>
+	{% if post.company %}
+		<a class="text-small link-gray-light" href="/work">{{post.company}}</a>
+	{% endif %}
+	<h1>{{post.title}}</h1>
 {% endif %}
 
-<div class="prose">
-
-    {% if is_excerpt %}
-      {{ post.excerpt | markdownify }}
-    {% else %}
-      {{ post.content | markdownify }}
-    {% endif %}
-
-</div>
 
 {% if is_excerpt %}
-	
-	<a href="{{post.url}}" class="btn btn-black mb-sm-4">Read more</a>
-
+	<div class="prose">
+      	{{ post.excerpt | markdownify }}
+    </div>
 {% else %}
+	<div class="prose mt-sm-4">
+	  {{ post.content | markdownify }}
+	</div>
+{% endif %}
 
+
+{% if is_excerpt %}
+	<a href="{{post.url}}" class="btn btn-black mt-sm-2 mb-sm-4">Read more</a>
+{% else %}
 	{% if page.url contains '/notes/' %}
 		{% if post.date %}
 			<div class="mt-4 mb-4 pl-4 pr-4">
-			    <p class="text-smaller text-gray-light">Posted {{ post.date | date: site.date_format }}</p>
+			    <p class="text-small text-gray-light">Posted {{ post.date | date: site.date_format }}</p>
 			</div>
 		{% endif %}
 	{% endif %}
@@ -35,10 +37,9 @@
 	    <ul class="list-unstyled mt-sm-2">
 	        {% for tag in post.tags %}
 	            <li class="display-inline-block mb-sm-1">
-	                <a class="btn btn-green" href="/notes/tags/{{ tag | slugify }}">{{tag}}</a>
+	                <a class="btn btn-blue" href="/notes/tags/{{ tag | slugify }}">{{tag}}</a>
 	            </li>
 	        {% endfor %}
 	    </ul>
 	</div>
-
 {% endif %}

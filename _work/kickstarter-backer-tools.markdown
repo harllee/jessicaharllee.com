@@ -2,8 +2,7 @@
 title: Kickstarter backer tools
 position: 1
 company: Kickstarter
-color: blue
-bg-color: yellow
+year: 2013
 description: An overhaul of two features backers use to keep up with their backed
   projects.
 assets:
@@ -24,7 +23,7 @@ assets:
 When a project hits its funding goal on Kickstarter, it's only the first milestone in the larger process of making a project come to life. As the project progresses and becomes more fully developed, creators use updates and surveys to keep their backers informed of how the project is going. The two primary pages for keeping track of backed projects, the backer history and the activity feed, weren't friendly toward people with more than a couple of backed projects and our support team frequently got requests from backers for more robust tools. As people backed more projects, we wanted to come up with better ways for backers to keep up with project activity, quickly access reward details, and stay up-to-date with the fulfillment process.
 
 
-<h3 class="mt-sm-4">Backer history</h3>
+## Backer history
 
 The backer history needed a big overhaul. It serves as a transactional history, so it was full of specifics but was hard to wade through the details. It was the only place on the site where you could find out all of the details about your backed projects, but the information wasn't prioritized well. It worked in the early days of Kickstarter but needed to work for the growing number of repeat backers, too.
 
@@ -49,7 +48,7 @@ If you wanted to investigate a little deeper into a project (what address did I 
 One of the most exciting parts about this project was adding in a checkbox so backers could say "got it!" when they received a reward. This was an oft-requested feature from frequent backers that made a long list of projects a little less daunting.
 
 
-<h3 class="mt-sm-4">Activity feed</h3>
+## Activity feed
 
 The activity feed aggregates all of the project updates that a backer gets, any friend backings, and any project state changes all into one place, which means that this page houses a lot of different types of information. We wanted to create more hierarchy between the content from projects that you've backed and projects that your friends backed.
 

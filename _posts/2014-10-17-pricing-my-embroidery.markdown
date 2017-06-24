@@ -14,7 +14,7 @@ In the past few weeks I've had a few people reach out to me asking about how I p
 
 
 
-<hr class="b-gray-lightest mt-sm-4 mb-sm-4">
+<hr>
 
 First, here are some posts that I found to be helpful:
 

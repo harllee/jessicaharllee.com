@@ -8,8 +8,6 @@ tags:
 - process
 ---
 
-*This post originally appeared on [Etsy Design's Medium blog](https://medium.com/etsy-design)*
-
 At Etsy, some of the most interesting (and most difficult!) challenges we face as a design team don’t always have a clear or obvious owner. Our initiatives can span multiple product teams or even multiple disciplines. Without a dedicated team of people solving these problems, they’re easy to ignore.
 
 One way that we try and tackle cross-team challenges at Etsy is by using working groups. A working group is a defined set of people, usually coming from multiple teams or disciplines, with a clear problem to overcome. Some have very specific goals and disband after a few months, others have existed over multiple years and evolved over time.
@@ -134,7 +132,7 @@ The best part of the Style Guide working group was the demo day at the end of th
 </div>
 
 
-Demo days are just one way to celebrate work. Team-wide emails are a low-investment way to share progress and to give shoutouts to working group members. Regular team meetings like an All Hands can be an opportunity to give a quick plug for the working group and an overview of your progress. We’ve also used [[our Medium blog]](http://medium.com/etsy-design) as a way to celebrate our work and share learnings outside of Etsy.
+Demo days are just one way to celebrate work. Team-wide emails are a low-investment way to share progress and to give shoutouts to working group members. Regular team meetings like an All Hands can be an opportunity to give a quick plug for the working group and an overview of your progress. We’ve also used [our Medium blog](http://medium.com/etsy-design) as a way to celebrate our work and share learnings outside of Etsy.
 
 Whatever your company’s practices for recognition, make sure that your group takes the time to celebrate accomplishments. You’ve earned it!
 
@@ -156,3 +154,6 @@ Working groups can help your team solve complex, cross-functional problems. The 
 
 
 *Thanks to Jason Huff and Jedediah Baker*
+
+
+*This post originally appeared on [Etsy Design's Medium blog](https://medium.com/etsy-design)*

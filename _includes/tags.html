@@ -1,9 +1,9 @@
 <div class="mt-sm-4 mb-sm-4">
-	<h3>Browse tags</h3>
+	<h2 class="mb-sm-3">Browse tags</h2>
     <ul class="list-unstyled mt-sm-2">
 		{% for tag in site.tags %}
 		    <li class="display-inline-block mb-sm-1">
-                <a class="btn btn-green" href="{{ tag.url }}">{{ tag.alias }}</a>
+                <a class="btn btn-blue" href="{{ tag.url }}">{{ tag.alias }}</a>
             </li>
 		{% endfor %}
 	</ul>

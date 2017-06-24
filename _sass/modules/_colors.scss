@@ -70,6 +70,10 @@
     background-color: $gray-lightest;
 }
 
+.bg-beige {
+    background-color: $beige;
+}
+
 .bg-t-gray-lightest {
     background-color: rgba($gray, 0.1);
 }
@@ -118,10 +122,10 @@
 }
 
 .link-gray {
-    color: $gray;
+    color: $gray-text;
 
     &:hover {
-        color: lighten($gray, 8%);
+        color: lighten($gray-text, 14%);
     }
 }
 

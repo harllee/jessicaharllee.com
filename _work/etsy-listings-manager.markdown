@@ -1,9 +1,8 @@
 ---
-title: Etsy Listings Manager
+title: Listings Manager
 position: 0
 company: Etsy
-color: green
-bg-color: red
+year: 2015
 description: A redesign and rewrite of the core of Etsy's seller tools.
 assets:
 - path: "/uploads/listing-form-crop.jpg"

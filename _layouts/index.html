@@ -2,26 +2,38 @@
 layout: default
 ---
 
-<h2 class="mb-sm-4">Latest work</h2>
+<div class="mb-sm-4">
+    <p class="h1">Jessica Harllee is a product designer, crafter, and snacker. Currently she's a Staff Product Designer at Etsy building tools for Etsy sellers.</p>
+</div>
+
+<hr>
+
+<h1 class="mb-sm-3">Latest work at Etsy</h2>
 
 <div class="col-group">
 	{% assign sorted_work = site.work | sort: 'position' %}
-    {% for item in sorted_work limit:4 %}
+    {% for item in sorted_work limit:3 %}
         <div class="col col-sm-12 mb-sm-3">
-            <a href="{{item.url}}" class="link-gray">
-                <h3 class="mt-sm-0 mb-sm-1">{{item.title}}</h3>
-                <p class="mb-sm-2">{{item.description}}</p>
+            <a href="{{item.url}}" class="display-block link-gray">
+                <h2 class="mb-sm-0">{{item.title}}</h2>
+                <p class="mt-sm-0">{{item.description}}</p>
             </a>
         </div>
     {% endfor %}
 </div>
 
-<h2 class="mt-sm-4">Latest notes</h2>
+<hr>
+
+<h1 class="mt-sm-4">Latest notes and updates</h2>
 
 <div class="col-group">
-    {% for post in site.posts limit:2 %}
-        <div class="col col-sm-12 mb-sm-3 pr-md-4">
-            {% include post.html post=post is_excerpt=true %}
+    {% for post in site.posts limit:3 %}
+        <div class="col col-sm-12 prose">
+            <a href="{{post.url}}" class="display-block link-gray">
+                <h2 class="mb-sm-0">{{post.title}}</h2>
+            </a>
+            <p class="mt-sm-0">{{ post.excerpt | markdownify }}</p>
+            <a href="{{post.url}}" class="btn btn-black mt-sm-2 mb-sm-4">Read more</a>
         </div>
     {% endfor %}
 </div>

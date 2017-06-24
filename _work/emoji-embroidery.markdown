@@ -1,5 +1,6 @@
 ---
 title: Emoji embroidery
+published: false
 position: 3
 color: yellow
 bg-color: blue

@@ -1,7 +1,8 @@
 ---
-title: Structured data on Etsy
+title: Structured data
 date: 2017-05-21 21:07:00 Z
 company: Etsy
+year: 2017
 description: Collecting category-specific information from sellers to power search
   filters.
 assets:
@@ -32,7 +33,7 @@ A common critique of buying something on Etsy is how challenging it can be to fi
   <p class="text-small italic text-center">A listing category and category-specific structured data</p>
 </div>
 
-### Historical context
+## Historical context
 
 There are certain standards for a search experience on most ecommerce sites. You’d expect filters, faceting, and robust tools for narrowing down what you’re looking at to find the perfect item. Having quality, structured information about each item isn’t an issue for most sites, since typically these places manufacture and own their inventory, so that information is readily available and easy to populate. This makes searching and filtering rather straightforward.
 
@@ -40,7 +41,7 @@ Etsy is a marketplace comprised of the inventory of over a million shops; Etsy d
 
 We’d made some attempts in the past to collect structured information. For a few years, we had three fields, “style”, “recipient”, and “occasion” that appeared on every listing. Each had a dropdown with a number of options to choose from, such as “goth” or “boho” for style, and “birthday” or “Valentine’s Day” for occasion. The plan was for these fields to power search and browse pages eventually, but we never hit a critical mass of listings with these fields filled out. Sellers were waiting for those fields to actually power search to fill them out since they weren’t sure how it would impact the findability of their items. They also felt that the fields were too broad and not tailored to their items enough. There was a huge chicken-egg problem. To work really well in search, our structured data needed to be specific to the category a seller listed her item in.
 
-### Our approach
+## Our approach
 
 In the early days of research for our newest marketplace for craft supplies, Etsy Studio, we learned filters were incredibly important for craft supply shoppers, since they were often looking for something very specific (such as yarn of a certain weight, or a bead of a certain dimension) to do a specific craft. We saw the launch of this new marketplace as an opportunity to start collecting structured data from sellers the right way and to finally add filters to search. So, we started the project by focusing on craft supplies.
 
@@ -76,7 +77,7 @@ Finally, numerical input was used for integers like the number of strands for be
   <p class="text-small italic text-center">Inputs were used for numbers</p>
 </div>
 
-### Attributes and variations
+## Attributes and variations
 
 At the same time that we were adding structured data to the listing form, we were [overhauling the way that inventory worked on Etsy](../etsy-inventory-management), specifically a part of the form called variations. Variations are a tool used to enumerate all of the options sellers have for sale of a given product; often, these variations are different sizes, colors, finishes, fabrics, or measurements that the seller offers. Sound familiar? The defining characteristics of an item, or its attributes, are also probably the things of which a seller might offer variations. If you’re selling hand-dyed yarn, Etsy wants to know what the color of the yarn is and its weight, and those might also be different options that a buyer can choose from when purchasing. There needed to be some kind of connection between attributes and variations.
 
@@ -103,7 +104,7 @@ To establish the relationship between attributes and variations, we gave sellers
   <p class="text-small italic text-center">A seller could indicate that an attribute was a variation by selecting "I offer more than one"</p>
 </div>
 
-### Validating our work
+## Validating our work
 
 Once we had defined an early version of the taxonomy with attributes, we got to usability testing. We knew sellers would have a lot of feedback about attributes, since we know how deeply sellers care about the way search works on Etsy and how findable their items are. Categorization is also a very personal topic for many sellers, and as experts on their items, we knew they’d have a lot of feedback about the different values they could select for each attribute. We went into usability testing hoping for feedback on two topics: the taxonomy and the attributes themselves, and the relationship between attributes and variations.
 
@@ -113,7 +114,7 @@ We consistently heard two main pieces of feedback around the listing form. One, 
 
 Adding attributes to each listing was going to be a huge win for search. In research, sellers were enthusiastic that they had a designated place to put these important details about their items and that it was going to help them in search. But every time we add form fields to the listing form, it adds more work for sellers. They told us that they’d do the work to update their listings because they knew it was important, but they were concerned about how much time it would take to update every single listing. We needed to build a tool that sellers could use at launch to help them with this work.
 
-### Creating a launch tool
+## Creating a launch tool
 
 There were a lot of different directions a launch tool could take. We decided to set some targets and constraints to keep things as simple as possible. We wanted to target high volume sellers, since we knew that this launch would be the most stressful for those sellers; some of our craft supply sellers have thousands of items in their shops! We considered building tooling to edit listings in bulk, but thought it could be more trouble than it was worth; the many connections between attributes, categories, and variations felt like there were too many opportunities to accidentally overwrite data. So, we decided to build a tool that isolated all of the new fields and helped sellers go through listings one-by-one to fill out the new details.
 
@@ -135,7 +136,7 @@ The easiest way for a seller to go through all of their listings was going to be
 Finally, we added banners to the listings manager, where sellers maintain their listings, to indicate that there was a tool they could use to quickly fill out attributes. After a seller used the tool for the first time, we updated the banners with the progress bar to show how many listings were left.
 
 
-### Launch and reception
+## Launch and reception
 
 Before our full launch, we used the same seller prototype as the inventory management project to beta test attributes with sellers. These sellers helped us find bugs, refine the attributes, and even helped us test the launch tool before we released it to all sellers.
 

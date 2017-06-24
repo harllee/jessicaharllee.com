@@ -2,8 +2,7 @@
 title: Mizuno
 position: 6
 company: Modea
-color: yellow
-bg-color: blue-dark
+year: 2011
 description: A website redesign for one of the top manufacturers of sports equipment
   and apparel.
 assets:

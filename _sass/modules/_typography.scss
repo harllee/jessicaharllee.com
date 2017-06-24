@@ -1,7 +1,8 @@
 body {
     -webkit-font-smoothing: antialiased;
+    color: $gray-text;
     font-family: $merriweather;
-    font-size: 100%;
+    font-size: 110%;
     line-height: 1.4;
 
     @include breakpoint(lg-up) {
@@ -13,7 +14,7 @@ h1,
 .h1 {
     font-family: $merriweather;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
     margin-top: $space * 2;
     margin-bottom: $space * 2;
 }
@@ -21,8 +22,8 @@ h1,
 h2,
 .h2 {
     font-family: $merriweather;
-    font-size: 1.625em;
-    font-weight: 700;
+    font-size: 1.25em;
+    font-weight: 500;
     margin-top: $space * 2;
     margin-bottom: $space * 2;
 }
@@ -30,8 +31,8 @@ h2,
 h3,
 .h3 {
     font-family: $merriweather;
-    font-size: 1.25em;
-    font-weight: 700;
+    font-size: 0.8em;
+    font-weight: 500;
     margin-top: $space * 2;
     margin-bottom: $space * 2;
 }
@@ -40,24 +41,32 @@ p {
     font-family: $merriweather;
     font-size: 1em;
     font-weight: 300;
-    color: $gray-text;
     margin-top: $space * 2;
     margin-bottom: $space * 2;
 }
 
 
 a {
-    color: $blue;
-    font-weight: 700;
+    color: $blue-dark;
     text-decoration: none;
 
     &:hover {
-        color: $green;
+        color: $red;
     }
+}
+
+p a {
+    font-weight: 500;
 }
 
 
 .prose {
+    
+    h1, h2, h3 {
+        margin-top: $space * 6;
+        margin-bottom: $space * 4;
+    }
+
     p {
         line-height: 1.75;
     }
@@ -76,7 +85,7 @@ a {
 
 
 .text-small {
-    font-size: 0.875em;
+    font-size: 0.8em;
 }
 
 .text-smallest {
@@ -93,7 +102,7 @@ a {
 // Typographic style utilities
 
 .bold {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .italic {
@@ -117,6 +126,12 @@ a {
 
 .text-right {
     text-align: right;
+}
+
+@include breakpoint(lg-up) {
+    .text-right-lg-up {
+        text-align: right;
+    }
 }
 
 

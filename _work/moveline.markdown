@@ -2,8 +2,7 @@
 title: Moveline
 position: 7
 company: Modea
-color: red
-bg-color: gray-lightest
+year: 2011
 description: Early versions of a product to help people find the best way to move
   their homes.
 assets:

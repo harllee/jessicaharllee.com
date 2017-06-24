@@ -1,7 +1,8 @@
 ---
-title: Etsy inventory management
+title: Inventory management
 date: 2017-05-11 01:39:00 Z
 company: Etsy
+year: 2017
 description: Give Etsy sellers the tools they need to accurately and easily manage
   their inventory.
 assets:
@@ -30,7 +31,7 @@ assets:
 In 2017, we released an enormous update to the way sellers track their product inventory on Etsy by adding the ability to manage price, quantity, and stock keeping unit (SKU) for variations. This had been one of our top seller feature requests for years. These updates aligned Etsy’s inventory tools with the way that sellers thought about and kept track of their products. I was the lead designer.
 
 
-### Historical context
+## Historical context
 
 Sellers use a tool called variations to enumerate all of the options they have for sale of a given product; often, these variations are different sizes, colors, finishes, fabrics, or measurements that the sellers offers. For example, sellers might have one listing for a t-shirt in which the buyer can choose which color (red, blue, yellow) and which size (small, medium, large) they want to purchase. Color and size are the variations.
 
@@ -45,7 +46,7 @@ Sellers were using a number of different workarounds to list their items. Instea
 
 Updating variations to have price and quantity tools was work that had started and stopped a few times at Etsy due to the sheer complexity; it required numerous back-end changes, coordination with the buyer experience teams, and touched the entire purchasing process. It quickly grew to become our top seller feature request in our regular surveys with sellers, and is a basic ecommerce feature that we were noticeably lacking. So, we entered 2016 deciding to solve the issue once and for all.
 
-### Our approach
+## Our approach
 
 We were lucky in that we had done many interviews with sellers about their inventory prior to the kickoff of this project, and had even done extensive usability testing in previous attempts at this work. We felt a deep understanding of the problem to solve, and the challenges were mainly around managing complexity.
 
@@ -120,7 +121,7 @@ Another challenging part of the interface was how to handle the inventory table 
 
 Any change to the seller side of listings includes a change to the buyer side of listings. This work meant we had to make some small changes to the way that we were showing buyers available quantity and item prices. We worked closely with our expert buyer experience designers to think through all of the interactions for selecting variation options, communicating prices based on selections, and communicating states like sold out for a given combination of options.
 
-### Gaining confidence and launch
+## Gaining confidence and launch
 
 In August 2016 we had end-to-end updates to variations complete, so we invited our first batch of sellers to a closed prototype group to begin testing out the new features. We targeted sellers who were already using variations and even invited sellers who had been requesting these features in the Etsy forums. The prototype group lasted for six months and was incredibly valuable for fixing issues and soliciting feedback. By the time we fully launched in February, we had thousands of sellers participating in the prototype group.
 
@@ -146,35 +147,35 @@ Sellers were happy to finally be able to accurately track their item quantities 
 
 > *"This has really saved me time. I tried to add clear information that only one skein was available of each length. A few customers missed that and would order 2 or 3 of the same single skein. With the quantity number available for each different length skein, I will be set. All the information the customer needs will be readily available and no possibility for error."*
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group mt-sm-4 mb-sm-4">
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Role</p>
+		<p class="h3 mb-sm-0 mb-md-1">Role</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">Lead designer, front-end development, hand model</p>
+		<p class="text-small mb-sm-1">Lead designer, front-end development, hand model</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Core team</p>
+		<p class="h3 mb-sm-0 mb-md-1">Core team</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">Amit Snyderman (engineer), Daniel Espeset (engineer), Greg Guida (engineer), Ian Malpass (engineer), Johanna Beyenbach (product manager), Josh Stewart (engineer), Justin Donato (engineer), Karen D'Ambrosi (product marketing), Michael Phillips (engineer), Phoebe Ford (engineering manager)</p>
+		<p class="text-small mb-sm-1">Amit Snyderman (engineer), Daniel Espeset (engineer), Greg Guida (engineer), Ian Malpass (engineer), Johanna Beyenbach (product manager), Josh Stewart (engineer), Justin Donato (engineer), Karen D'Ambrosi (product marketing), Michael Phillips (engineer), Phoebe Ford (engineering manager)</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Released</p>
+		<p class="h3 mb-sm-0 mb-md-1">Released</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">February 2017</p>
+		<p class="text-small mb-sm-1">February 2017</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">View live</p>
+		<p class="h3 mb-sm-0 mb-md-1">View live</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
+		<p class="text-small mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Read more</p>
+		<p class="h3 mb-sm-0 mb-md-1">Read more</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1"><a href="https://www.etsy.com/seller-news/new-tools-for-managing-your-inventory">Launch announcement</a></p>
+		<p class="text-small mb-sm-1"><a href="https://www.etsy.com/seller-news/new-tools-for-managing-your-inventory">Launch announcement</a></p>
 	</div>
 </div>

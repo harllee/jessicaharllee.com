@@ -2,8 +2,7 @@
 title: Kickstarter Year in Review 2012
 position: 2
 company: Kickstarter
-bg-color: green
-color: blue-dark
+year: 2012
 description: A showcase of the best of Kickstarter during 2012.
 assets:
 - path: "/uploads/kickstarter_yir_2012_01_intro.jpg"
