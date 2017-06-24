@@ -157,6 +157,10 @@ hr {
     border-bottom: 0;
     border-top-width: 1px;
     border-top-style: solid;
+    width: 25%;
+    border-color: $gray-light;
+    margin-top: $space * 6;
+    margin-bottom: $space * 6;
 }
 
 .b-1 {
