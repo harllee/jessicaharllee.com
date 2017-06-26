@@ -1,6 +1,6 @@
 ---
 title: 'Sharing Our Work: Testing and Feedback in Design on A List Apart'
-date: 2015-08-11 15:31:00 -04:00
+date: 2015-08-11 19:31:00 Z
 tags:
 - design
 - etsy
