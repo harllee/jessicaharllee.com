@@ -1,6 +1,7 @@
 ---
 title: Jessica Harllee
-timezone: UTC
+url: http://www.jessicaharllee.com
+description: Jessica Harllee is a product designer at Etsy in Brooklyn, New York
 collections:
   posts:
     title: Posts
@@ -39,3 +40,5 @@ defaults:
   values:
     layout: post
 permalink: pretty
+timezone: America/New_York
+date_format: "%b %d, %Y"
