@@ -1,6 +1,6 @@
 ---
 title: Crying
-date: 2017-06-26 08:00:00 Z
+date: 2017-06-25 20:00:00 Z
 tags:
 - personal
 - reflections
