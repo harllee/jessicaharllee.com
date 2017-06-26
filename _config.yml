@@ -1,7 +1,6 @@
 ---
 title: Jessica Harllee
-url: http://www.jessicaharllee.com
-description: Jessica Harllee is a product designer at Etsy in Brooklyn, New York
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -39,6 +38,7 @@ defaults:
     type: work
   values:
     layout: post
+url: http://www.jessicaharllee.com
+description: Jessica Harllee is a product designer at Etsy in Brooklyn, New York
 permalink: pretty
-timezone: America/New_York
 date_format: "%b %d, %Y"
