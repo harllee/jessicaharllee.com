@@ -1,6 +1,6 @@
 ---
 title: Moveline
-position: 7
+date: 2011-09-21 21:07:00 Z
 company: Modea
 year: 2011
 description: Early versions of a product to help people find the best way to move

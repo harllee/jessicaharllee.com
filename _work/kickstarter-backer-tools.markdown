@@ -1,5 +1,6 @@
 ---
 title: Kickstarter backer tools
+date: 2013-10-21 21:07:00 Z
 company: Kickstarter
 year: 2013
 description: An overhaul of two features backers use to keep up with their backed

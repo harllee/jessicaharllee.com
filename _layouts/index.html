@@ -11,7 +11,7 @@ layout: default
 <h1 class="mb-sm-3">Latest work at Etsy</h2>
 
 <div class="col-group">
-	{% assign sorted_work = site.work | sort: 'date' %}
+	{% assign sorted_work = site.work | sort: 'date' | reverse %}
     {% for item in sorted_work limit:3 %}
         <div class="col col-sm-12 mb-sm-3">
             <a href="{{item.url}}" class="display-block link-gray">

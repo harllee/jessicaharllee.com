@@ -1,5 +1,6 @@
 ---
 title: Kickstarter Year in Review 2012
+date: 2012-12-31 21:07:00 Z
 company: Kickstarter
 year: 2012
 description: A showcase of the best of Kickstarter during 2012.

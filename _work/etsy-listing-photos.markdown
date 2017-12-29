@@ -1,5 +1,5 @@
 ---
-title: Improving listing photos on Etsy
+title: Improving listing photos
 date: 2017-07-21 21:07:00 Z
 company: Etsy
 year: 2017
