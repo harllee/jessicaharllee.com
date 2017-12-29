@@ -1,6 +1,5 @@
 ---
 title: Kickstarter Year in Review 2012
-position: 2
 company: Kickstarter
 year: 2012
 description: A showcase of the best of Kickstarter during 2012.
@@ -56,6 +55,12 @@ Featured on [SiteInspire](http://www.siteinspire.com/websites/3105-the-best-of-k
     </div>
     <div class="col col-sm-12 col-md-9">
         <p class="mb-sm-1">Design, development</p>
+    </div>
+    <div class="col col-sm-12 col-md-3">
+        <p class="bold mb-sm-0 mb-md-1">Core team</p>
+    </div>
+    <div class="col col-sm-12 col-md-9">
+        <p class="mb-sm-1">4 designers, 1 writer, 1 engineer</p>
     </div>
     <div class="col col-sm-12 col-md-3">
         <p class="bold mb-sm-0 mb-md-1">Released</p>

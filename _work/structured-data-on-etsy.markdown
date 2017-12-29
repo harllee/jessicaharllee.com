@@ -157,7 +157,7 @@ Overall the reception of structured data was positive, with a lot of (expected) 
 		<p class="bold mb-sm-0 mb-md-1">Core team</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">Amit Snyderman (engineer), Daniel Espeset (engineer), Greg Guida (engineer), Ian Malpass (engineer), Johanna Beyenbach (product manager), Josh Stewart (engineer), Justin Donato (engineer), Karen D'Ambrosi (product marketing), Michael Phillips (engineer), Phoebe Ford (engineering manager)</p>
+		<p class="mb-sm-1">1 product manager, 1 engineering manager, 7 engineers, 1 product marketing manager, 1 product education specialist</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
 		<p class="bold mb-sm-0 mb-md-1">Released</p>

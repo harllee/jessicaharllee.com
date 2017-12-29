@@ -1,6 +1,6 @@
 ---
-title: Listings Manager
-position: 0
+title: Listings Manager redesign
+date: 2015-04-21 21:07:00 Z
 company: Etsy
 year: 2015
 description: A redesign and rewrite of the core of Etsy's seller tools.
@@ -87,7 +87,7 @@ When we had hit 10,000 shops in the prototype group, we were ready to announce t
 <p class="bold mb-sm-0 mb-md-1">Team</p>
 </div>
 <div class="col col-sm-12 col-md-9">
-<p class="mb-sm-1">Aaron Shapiro (designer), Amit Snyderman (engineer), Brenna Lynch (user researcher), Cap Watkins (design lead), David Bendet (data analyst), Dennis Kramer (designer), Diana Mounter (designer), Greg Guida (engineer), Jason Huff (design lead), Jason Laster (engineer), Joan Huang (product manager), Justin Donato (engineer), Karen D’Ambrosi (product educator), Krunal Patel (engineer), Kyle Turman (designer), Nickey Skarstad (product manager), Ron Sharon-Zipser (engineering manager), Russ Posluszny (engineering manager), Wayne Gerard (engineer), Zachary Garrett (engineer)</p>
+<p class="mb-sm-1">4 designers, 2 design leads, 2 product managers, 2 engineering managers, 7 engineers, 1 user researcher, 1 data analyst, 1 product education specialist</p>
 </div>
 <div class="col col-sm-12 col-md-3">
 <p class="bold mb-sm-0 mb-md-1">Released</p>

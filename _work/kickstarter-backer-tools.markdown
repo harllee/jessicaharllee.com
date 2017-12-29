@@ -1,6 +1,5 @@
 ---
 title: Kickstarter backer tools
-position: 1
 company: Kickstarter
 year: 2013
 description: An overhaul of two features backers use to keep up with their backed
@@ -81,10 +80,10 @@ We grouped social notifications if multiple friends backed the same project to d
 <p class="mb-sm-1">Design, development</p>
 </div>
 <div class="col col-sm-12 col-md-3">
-<p class="bold mb-sm-0 mb-md-1">Team</p>
+<p class="bold mb-sm-0 mb-md-1">Core team</p>
 </div>
 <div class="col col-sm-12 col-md-9">
-<p class="mb-sm-1">Ellen Chisa (product manager), Christopher Wright (engineer), Samuel Cole (engineer)</p>
+<p class="mb-sm-1">1 product manager, 2 engineers</p>
 </div>
 <div class="col col-sm-12 col-md-3">
 <p class="bold mb-sm-0 mb-md-1">Released</p>

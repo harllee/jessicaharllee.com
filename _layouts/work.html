@@ -18,7 +18,7 @@ layout: default
 		<p class="text-small">{{company.years}}</p>
 	</div>
 	<div class="col col-sm-12 col-md-8">
-		{% for item in site.work %}
+		{% for item in site.work reversed %}
 			{% if item.company == company.name %}
 				<a href="{{item.url}}" class="display-block link-gray mb-sm-3 mb-lg-4">
 	                <h3 class="mb-sm-0">{{item.title}}</h3>
