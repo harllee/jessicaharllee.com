@@ -1,6 +1,6 @@
 ---
 title: Crying
-date: 2017-06-25 20:00:00 Z
+date: 2017-06-25 16:00:00 -04:00
 tags:
 - personal
 - reflections
@@ -8,7 +8,7 @@ tags:
 
 I cry pretty easily. Crying is emotional relief for me and is usually a sign of stress or feeling overwhelmed. It's not always a bad thing, either; I cry at commercials, at weddings, while watching Grey's. But usually if I'm crying, it's because of some kind of intense emotion.
 
-The past year was pretty tough on me at work. I was working on a project that I loved, but it was incredibly complex and overwhelming at times. I was promoted, which was amazing, but it came with an intense set of self-imposed expectations and a huge dose of imposter syndrome. For awhile, I was able to juggle all of the work and the emotions. Until suddenly I wasn't. And I found myself crying a lot.
+The past year was pretty tough on me at work. I was working on a project that I loved, but it was incredibly complex and overwhelming at times. I was promoted, which was amazing, but it came with self-imposed expectations and a huge dose of imposter syndrome. For awhile, I was able to juggle all of the work and the emotions. Until suddenly I wasn't. And I found myself crying a lot.
 
 Crying about work (and at work) is not new to me. [Erin](http://madebyeno.com) and I would escape to the top of the parking garage at our first job and cry. I cried in the bathroom at my previous job (luckily it was a  single-occupancy bathroom), or I'd walk around the Lower East Side and cry on the street. (Public crying in New York is quite the phenomenon.)
 
@@ -30,9 +30,11 @@ I did this for two and a half months. And I realized a few things.
 
 First, I realized that I was crying more than I thought I was. I have a habit of suppressing emotions at times ("I'm fine", "It's fine") and this gave me *data* on how fine I actually was. I couldn't hide from the fact that there was a lot that was stressing me out.
 
-Second, that data made me realize that I wasn't crying as often as I told myself I was. I know that's in complete contradiction to the previous statement, but this journal made me appreciate how many tear-free days I had. A side effect of stress and anxiety is thinking that everything is awful. There were some really good days, and I had a *record* of those days. (One day, I even cried happy tears.)
+Second, that data made me realize that I wasn't crying as often as I told myself I was. I know that's in complete contradiction to the previous statement, but this journal made me appreciate how many tear-free days I had. A side effect of stress and anxiety is thinking that **everything** is awful. There were some really good days, and I had a *record* of those days. (One day, I even cried happy tears.)
 
-Third, I could pinpoint exactly what was triggering me. And I talked to Jason about those things. And we worked together to figure out how to make those things better. It's easy to get overwhelmed by stress, especially when it feels like it's coming from all sides. Understanding the source of the stress, big or small, was an important part of this process.
+Third, I could pinpoint exactly what was triggering me. It's easy to get overwhelmed by stress, especially when it feels like it's coming from all sides. Understanding the source of the stress, big or small, was an important part of this process.
+
+And most importantly, I practiced asking for help. I talked to Jason about what was triggering me. And we worked together to figure out how to make those things better. I can't expect to be able to handle everything on my own, no matter my title, and the pressure I was putting on myself was incredibly unhealthy. One by one, Jason and I came up with plans to deal with the things causing me stress.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/dont-cry.gif">
@@ -43,6 +45,5 @@ Technically, I didn't hit my goal. I haven't stopped crying and I don't think I 
 
 ---
 
-*Around the same time that I was keeping the cry journal, I saw this incredibly apt question in the  [Strengthsfinder](http://www.strengthsfinder.com/home.aspx) quiz:*
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Too real. <a href="https://t.co/lFL8GzqFfx">pic.twitter.com/lFL8GzqFfx</a></p>&mdash; Jessica Harllee 🌞 (@harllee) <a href="https://twitter.com/harllee/status/817026056616022017">January 5, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
