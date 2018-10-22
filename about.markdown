@@ -56,4 +56,4 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 
 This site was built using [SiteLeaf](http://siteleaf.com) (largely thanks to the [SiteLeaf Hackday](http://jessicaharllee.com/notes/a-redesign-with-siteleaf)), [Sublime](http://www.sublimetext.com), Terminal, [Sass](http://sass-lang.com), [Github](https://github.com/harllee), Photoshop, Sketch, and [Typekit](http://typekit.com).
 
-Photo by the talented [Erin Nolan](http://www.madebyeno.com).
+Photo by the amazing [Mike Edmonds](http://www.edmonds.photo), hire him!.
