@@ -5,10 +5,12 @@ color: red
 assets:
 - path: "/uploads/jess-red-shirt-full.jpg"
   name: jess-red-shirt-full
+- path: "/uploads/jessica-red-wall-landscape.jpg"
+  name: jessica-red-wall-landscape
 ---
 
 <div class="ml-md-n4 mr-md-n4 mb-sm-4">
-	<img src="/uploads/jess-red-shirt-full.jpg">
+	<img src="/uploads/jessica-red-wall-landscape.jpg">
 </div>
 
 I’m Jessica Harllee and I’m a staff product designer at [Etsy](https://www.etsy.com/people/harllee) in Brooklyn, New York. Previously, I was a designer at [Kickstarter](http://www.kickstarter.com/profile/harllee) and at [Modea](http://www.modea.com). I build software that enables independent artists and have a preference for anything handmade.
