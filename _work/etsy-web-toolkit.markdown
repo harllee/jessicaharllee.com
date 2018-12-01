@@ -1,5 +1,5 @@
 ---
-title: Etsy web toolkit
+title: Web toolkit
 date: 2018-12-01 17:17:00 -05:00
 company: Etsy
 year: 2016
