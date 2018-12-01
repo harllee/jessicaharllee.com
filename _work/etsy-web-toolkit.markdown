@@ -24,7 +24,7 @@ Most importantly, I was one of the main educators and evangelists of the web too
 
 Because this work all happened on the side, I also acted in a number of other capacities, including project manager and working group facilitator.
 
-## How we did it
+## How we created the web toolkit
 
 The original CSS framework, or toolkit (as we called it), was developed alongside the development of the listings manager. As we found new UI elements that we needed, such as dropdowns, overlays, and form fields, we designed those elements, wrote and reviewed the CSS, drafted documentation, and then submitted a PR to the group to add it to the toolkit. This meant that our framework grew with and reflected the needs of the product.
 [You can read more about the development of the listings manager here](https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/).
@@ -53,7 +53,7 @@ Third, __we spent a lot of time on "internal advertising"__ to raise awareness o
 
 The majority of the web toolkit's success and adoption came from  our ability to navigate Etsy's internal structures and the strong relationships that our group of designers had. But there were also __technical solutions__ that accounted for its success. We worked with our front-end engineering team to create a version of the toolkit that was scoped behind a parent class so that you could use web toolkit classes on a page primarily built with our old CSS and the styles wouldn't collide. Even though a main selling point of the web toolkit was that it was responsive, we also created a version of it that was fixed-width. Most of Etsy's pages at the time were not responsive, so if it was going to gain traction it also needed to work on our fixed-width pages. And finally, we spent a lot of time updating all of the old, page-specific CSS that existed across our core experience to look like the web toolkit so teams could use the web toolkit on an older page without it looking too out of place.
 
-## How we maintained it
+## How we maintained the web toolkit
 
 Eventually, so many teams across Etsy were using the web toolkit that we needed a maintenance process. This was a very good problem to have!
 
@@ -67,7 +67,7 @@ As more and more product teams used the toolkit, they inevitably encountered iss
 
 You can [read more about how I ran the web toolkit working group here](https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf).
 
-## How we know it was successful
+## How we know we were successful
 
 Looking back four years later, I can say with confidence that the web toolkit has had a profound and lasting impact on the way that designers and engineers build features at Etsy.
 
@@ -81,3 +81,31 @@ Looking back four years later, I can say with confidence that the web toolkit ha
 Today, the web toolkit exists on every page of Etsy. No new markup goes out without the web toolkit.
 
 The creation of the web toolkit, its high adoption rate, and our working group eventually helped make the case for establishing a full-time design systems team. It was staffed with designers, a product manager, and engineers, and they are able to own the web toolkit full time and do things that our small group couldn't have imagined possible.
+
+
+<div class="col-group text-small mt-sm-4 mb-sm-4">
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">Role</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1">Design, front-end development, documentation, project management, working group facilitator, evangelist and educator</p>
+	</div>
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">Core team</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1">4 product designers, including myself, in the original core team. Later, a rotating group of designers and engineers were involved on a volunteer basis.</p>
+	</div>
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">Years active</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1">2014–2016</p>
+	</div>
+	<div class="col col-sm-12 col-md-3">
+		<p class="bold mb-sm-0 mb-md-1">View live</p>
+	</div>
+	<div class="col col-sm-12 col-md-9">
+		<p class="mb-sm-1"><a href="http://etsy.com">Etsy.com</a></p>
+	</div>
+</div>
