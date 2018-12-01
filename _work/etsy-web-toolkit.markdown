@@ -72,15 +72,10 @@ You can [read more about how I ran the web toolkit working group here](https://m
 Looking back four years later, I can say with confidence that the web toolkit has had a profound and lasting impact on the way that designers and engineers build features at Etsy.
 
 * It's easier for designers and engineers to collaborate, since they now have a common language (and design language) to do so.
-
 * It's sped up feature development time by an order of magnitude, since it almost completely eliminates all new CSS writing.
-
 * It's (nearly) eliminated situations in which designers reinvent the wheel.
-
 * Making large-scale visual design changes across the site now takes minutes, not weeks, with all styles centralized.
-
 * Engineers are able to make a lot of progress when building a feature without as much design oversight.
-
 * Designers now have the space to focus on customer problems, product strategy, and user flows.
 
 Today, the web toolkit exists on every page of Etsy. No new markup goes out without the web toolkit.
