@@ -1,6 +1,6 @@
 ---
 title: Web toolkit
-date: 2018-12-01 17:17:00 -05:00
+date: 2016-12-01 17:17:00 -05:00
 company: Etsy
 year: 2016
 description: The creation and maintenance of Etsy's first design system.
