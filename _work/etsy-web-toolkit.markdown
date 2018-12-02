@@ -66,7 +66,7 @@ Second, __we invested heavily in training for designers and engineers__. If the 
 It was also important to set the tone for new designers and engineers at Etsy that they should be using web toolkit. So we created training on the web toolkit for our designer onboarding program, and we all took turns running these sessions each time new designers were hired. For engineering onboarding, we created a web toolkit "code lab", which was basically a series of exercises that engineers could go through to get started with the web toolkit.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/Screen%20Shot%202018-12-02%20at%204.28.40%20PM.png">
+  <img src="/uploads/Screen%20Shot%202018-12-02%20at%204.28.40%20PM-789134.png">
   <p class="text-small italic text-center">A slide from our presentation on how to use the web toolkit. Training was key for web toolkit adoption, since it was a huge departure from how we wrote CSS at the time.</p>
 </div>
 
