@@ -36,7 +36,8 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 	<div class="col col-sm-12 col-lg-4">
 		<h2>Interviews</h2>
 		<ul class="list-unstyled text-small">
-			<li class="mb-sm-1"><a href="http://spec.fm/podcasts/design-details/21184">Design Details</a>, 2015</li>
+			<li class="mb-sm-1"><a href="https://interfacelovers.com/interviews/jessica-harllee">Interface Lovers</a>, 2019</li>
+<li class="mb-sm-1"><a href="http://spec.fm/podcasts/design-details/21184">Design Details</a>, 2015</li>
 			<li class="mb-sm-1"><a href="http://www.500.co/qa-jessicaharllee-warmgun/">500 Startups</a>, 2014</li>
 			<li><a href="http://www.designworklife.com/2013/12/11/interview-with-product-designer-jessica-harllee/">Design Work Life</a>, 2013</li>
 		</ul>
