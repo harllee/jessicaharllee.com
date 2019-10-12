@@ -1,6 +1,6 @@
 ---
 title: Improving listing photos
-date: 2017-07-21 21:07:00 Z
+date: 2017-07-21 17:07:00 -04:00
 company: Etsy
 year: 2017
 description: Increase the number and quality of Etsy listing photos.
@@ -24,7 +24,6 @@ assets:
 - path: "/uploads/empty-state-illos.jpg"
   name: empty-state-illos
 ---
-
 
 In the summer of 2017, we did a series of small, iterative projects focused on improving the quality of listing information on Etsy. These projects started with us asking what information buyers relied on most when evaluating a listing on Etsy, then figuring out how to collect that information from our sellers. Since Etsy doesn't own the inventory on the platform, it's on us to educate our sellers on what information is going to help them make sales. Unsurprisingly, the more high-quality listing photos the seller uploads, the more confidence buyers have purchasing an item. We decided to double the number of photos a seller can upload from 5 to 10 photos.
 

@@ -1,6 +1,6 @@
 ---
 title: Listings Manager redesign
-date: 2015-04-21 21:07:00 Z
+date: 2015-04-21 17:07:00 -04:00
 company: Etsy
 year: 2015
 description: A redesign and rewrite of the core of Etsy's seller tools.

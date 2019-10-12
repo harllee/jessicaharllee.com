@@ -1,7 +1,7 @@
 ---
 title: Gift wrap on Etsy
+date: 2017-11-21 16:07:00 -05:00
 published: false
-date: 2017-11-21 21:07:00 Z
 company: Etsy
 year: 2017
 description: Let buyers pay sellers to gift wrap their orders.
@@ -9,6 +9,7 @@ assets:
 - path: "/uploads/etsy_sd_listing_form.jpg"
   name: etsy_sd_listing_form
 ---
+
 Etsy is the perfect destination for finding a one-of-a-kind gift for someone special. From past qualitative research with buyers, we knew that a significant number of orders on Etsy are gifts, especially those orders leading up to major holidays.
 
 The winter holiday shopping season tends to end early on Etsy because, generally speaking, handmade items require longer processing times, so buyers stop shopping well before Christmas. Last-minute gift shoppers can be in a real time crunch if they have to ship a gift to themselves, wrap it and sign a card, and *then* ship it to the gift recipient. In 2017, we saw an opportunity to extend the holiday shopping season on Etsy by letting our sellers offer gift wrapping services, buying shoppers some time. It would also give our sellers a longer window to leave their shops up and running, since they could capture the last-minute shopping traffic.

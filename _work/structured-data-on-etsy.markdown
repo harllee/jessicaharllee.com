@@ -1,6 +1,6 @@
 ---
 title: Structured data
-date: 2017-05-21 21:07:00 Z
+date: 2017-05-21 17:07:00 -04:00
 company: Etsy
 year: 2017
 description: Collecting category-specific information from sellers to power search

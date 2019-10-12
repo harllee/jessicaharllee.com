@@ -1,7 +1,7 @@
 ---
 title: Structured return policies
+date: 2017-08-21 17:07:00 -04:00
 published: false
-date: 2017-08-21 21:07:00 Z
 company: Etsy
 year: 2017
 description: Increasing the number of Etsy sellers with clear return policies.
@@ -9,7 +9,6 @@ assets:
 - path: "/uploads/etsy_sd_listing_form.jpg"
   name: etsy_sd_listing_form
 ---
-
 
 In the summer of 2017, we did a series of small, iterative projects focused on improving the quality of listing information on Etsy. These projects started with us asking what information buyers relied on most when evaluating a listing on Etsy, then figuring out how to collect that information from our sellers. Since Etsy doesn't own the inventory on the platform, it's on us to educate our sellers on what information is going to help them make sales. An important consideration for buyers is knowing whether an item can be returned. However, most shops on Etsy did not have their return policies defined in a clear, structured way. We decided to work on a quick project focused on increasing the number of shops with a clearly defined return policy.
 
