@@ -209,7 +209,7 @@ Beyond becoming really self aware, how can you learn to identify these situation
 
 For the past few months, I’ve been in a book club with Kristen and Erin. We’ve been reading this book, [Designing Your Life](https://designingyour.life), which is all about using the design process to create the life that you want to live. There’s a ton of activities, and it’s totally cheesy but great.
 
-> “You can’t change gravity… Just accept it. When you accept it, you’re free to work around that situation and find something that is actionable.” – Designing Your Life
+> *“You can’t change gravity… Just accept it. When you accept it, you’re free to work around that situation and find something that is actionable.” – Designing Your Life*
 
 In the book, they talk about this concept called a “gravity problem”. Gravity problems are things that you just can’t change. They’re out of your control. They’re a circumstance, not something you can act on. You either need to accept it and embrace it, like I ended up doing in the case of [the buyer-facing project], and when my friends started leaving. Or you need to realize that there is nothing that you can do, like in the case of [the project that was too much work]. I couldn’t duplicate myself. And the timeline was not going to change. So I needed to adjust my expectations and find a different way to solve the problem, instead of hoping that more time was going to appear out of thin air.
 
