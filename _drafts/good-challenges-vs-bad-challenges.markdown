@@ -68,7 +68,9 @@ To get this work done in time, we quickly spun up another squad of engineers to 
 
 Why was that? A few reasons:
 * I remember thinking a lot about my title, senior designer, and that part of being senior was handling increasingly complex work. Well, this was harder than anything I had ever done, so I assumed this must be what being a senior designer was like.
+
 * I like working on complex projects, and I know that I’m good at it. But I was worried about what it would mean about myself if I thought this project was too much work, or too complex.
+
 * Also, I’m really hard on myself. I hold myself to high standards. And I’m bad at asking for help, and even recognizing that I should be asking for help. 
 
 This was the first time maybe ever where I felt positively incapable of doing the work. Not because I wasn’t skilled enough. But because I didn’t have enough time to do it. It seemed like the only way to execute on the massive amount of work on my plate was to find some way to duplicate myself.
@@ -77,7 +79,7 @@ One day, I finally broke down into tears and admitted to my manager, Jason, that
 
 Anything that culminates in a nervous breakdown? **Bad kind of challenging**. Of course, nothing bad happened when I admitted that I couldn’t do it. Jason was like, I’m sorry that you’ve been going through this and felt like you couldn’t speak up about it. Let’s brainstorm ways that we can try and lighten your workload and get you some support. It was such a relief to know that my manager knew I was struggling. I felt like this huge burden that I had been secretly carrying was lifted. And, of course, I didn’t get in trouble for admitting that I couldn’t do something. My senior title wasn’t revoked. But, boy, was it reflected in my yearly review from that time. All of the comments were like, she’s doing a lot of good work but... is she okay?
 
-> “Jessica could focus her development on being more open about her needs and challenges... she is able to execute on a ton of work in high pressure situations... but I think Jessica could better express when she feels like she has too much on her plate... and making it clear with her product and engineering teammates if she needs help.” 
+> *“Jessica could focus her development on being more open about her needs and challenges... she is able to execute on a ton of work in high pressure situations... but I think Jessica could better express when she feels like she has too much on her plate... and making it clear with her product and engineering teammates if she needs help.”*
 
 Asking for help isn’t admitting weakness. If anything, I’ve learned that it’s a sign of maturity and self-awareness to be able to say that you can’t do something. It’s especially hard when you’re struggling with things that are close to your core identity of who you are. I self-identified as someone who was good at complex projects, and was really good at managing my time. Struggling with this project didn’t make those things less true.
 
