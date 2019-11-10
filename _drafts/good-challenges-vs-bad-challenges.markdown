@@ -29,7 +29,7 @@ So to answer this question, I thought I’d reflect on a bunch of challenges tha
 A quick note: I’d be remiss if I didn’t acknowledge the fact that I experience many privileges, and that overall, I’ve felt very safe in my job here. All of that dictates how I’ve been able to respond to challenging situations, and more importantly, how other people have responded to me. I’m sharing what worked for me when I was faced with challenges, but I also recognize the role that privilege plays in that.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/my-etsy-journey-map.png">
+  <img src="/uploads/my-etsy-journey-map-009822.png">
 </div>
 
 (Yes, I made a journey map of my time at Etsy.)
@@ -187,7 +187,7 @@ As you now know, I hate saying no and admitting that I can’t do something. But
 We had a retro at the six month mark, focused on identifying the situations in which design lead makes sense and when it doesn’t. It actually ended up being a really interesting experiment having me and El try out two different iterations of the role. Because of this, I think we ended up having a better understanding of how we might ensure that future design leads are set up for success.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/my-etsy-journey-map.png">
+  <img src="/uploads/my-etsy-journey-map-009822.png">
 </div>
 
 Here’s the full journey map! Pretty wild.
