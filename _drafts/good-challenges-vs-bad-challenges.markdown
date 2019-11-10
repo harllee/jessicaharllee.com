@@ -1,5 +1,5 @@
 ---
-title: Good challenges vs. bad challenges
+title: Good challenges vs. bad challenges (Etsy last lecture)
 date: 2019-11-10 16:22:00 -05:00
 tags:
 - personal
@@ -18,7 +18,7 @@ I wanted to talk about something that’s been on my mind for the past six month
 
 If you want to learn and you want to grow, you need to challenge yourself. You have to get out of your comfort zone and try something you’ve never done, or that you didn’t think you could do. Learning is supposed to be a little uncomfortable, otherwise you’re not learning. It’s supposed to be challenging.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How do you know if something is the good kind of challenging (pushes you to grow and stretch) versus the bad kind of challenging (not something you can/should do)?</p>&mdash; Jessica Harllee (@harllee) <a href="https://twitter.com/harllee/status/1118284489069858821?ref_src=twsrc%5Etfw">April 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center twitter-tweet"><p lang="en" dir="ltr">How do you know if something is the good kind of challenging (pushes you to grow and stretch) versus the bad kind of challenging (not something you can/should do)?</p>&mdash; Jessica Harllee (@harllee) <a href="https://twitter.com/harllee/status/1118284489069858821?ref_src=twsrc%5Etfw">April 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 But how do you know when something is the good kind of challenging versus the bad kind of challenging? You know what I mean? Like, there’s the kind of challenging that really pushes you, and you come out the other side even stronger and wiser than before. You feel capable of anything. And then there’s the kind of challenging that is nearly impossible to overcome. It brings you down a notch. It feels bad. Without challenges, we don’t grow or develop new skills. But not all challenges should be treated equally.
 
@@ -28,7 +28,9 @@ So to answer this question, I thought I’d reflect on a bunch of challenges tha
 
 A quick note: I’d be remiss if I didn’t acknowledge the fact that I experience many privileges, and that overall, I’ve felt very safe in my job here. All of that dictates how I’ve been able to respond to challenging situations, and more importantly, how other people have responded to me. I’m sharing what worked for me when I was faced with challenges, but I also recognize the role that privilege plays in that.
 
-![my-etsy-journey-map.png](/uploads/my-etsy-journey-map.png)
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/my-etsy-journey-map.png">
+</div>
 
 ## Challenge: Get over my fear of public speaking
 
@@ -102,13 +104,17 @@ This was definitely the **bad kind of challenging**. Jason asked me to outline a
 
 I ended up turning the list I made of everything going wrong with the group into [a post on the Etsy Medium blog about the elements of an effective working group](https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf). The whole situation sucked, but I have a much stronger opinion on how to effectively work as a group: a clear facilitator. A clear, measurable goal. Clear roles.
 
-![2017-06-24-15.47.14-2.jpg](/uploads/2017-06-24-15.47.14-2.jpg)
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/2017-06-24-15.47.14-2.jpg">
+</div>
 
 This is the situation that ultimately sparked my crying journal. I was crying so often that I started a journal to keep track of whether I cried each day, and if I did, what the trigger was. Tracking this helped me unpack my feelings around what was frustrating me and why. I also wrote [a blog post on my personal website about the experience of crying at work](http://jessicaharllee.com/notes/crying/) and shared it broadly. Three years later, people still tell me that it made them feel more comfortable with their own emotions.
 
 Again, this ended up being a bad situation for me. It sucked to go through. But boy, did I learn a lot…
 
-![best-places-to-cry-in-117-adams.png](/uploads/best-places-to-cry-in-117-adams.png)
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/best-places-to-cry-in-117-adams.png">
+</div>
 
 … including learning the best (and worst) rooms to cry while you’re in the office.
 
@@ -178,7 +184,9 @@ As you now know, I hate saying no and admitting that I can’t do something. But
 
 We had a retro at the six month mark, focused on identifying the situations in which design lead makes sense and when it doesn’t. It actually ended up being a really interesting experiment having me and El try out two different iterations of the role. Because of this, I think we ended up having a better understanding of how we might ensure that future design leads are set up for success.
 
-![my-etsy-journey-map.png](/uploads/my-etsy-journey-map.png)
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/my-etsy-journey-map.png">
+</div>
 
 Here’s the full journey map! Pretty wild.
 
@@ -219,11 +227,17 @@ As the book says, an important part of the design process is reframing the probl
 
 One important factor in a good challenge is whether the things that you’re learning are aligned with your goals and interests. This can require a ton of self-awareness, which can be really hard to have in the midst of a challenge.
 
-![strengths-profile.png](/uploads/strengths-profile.png)
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/strengths-profile.png">
+</div>
 
 There’s a strengths test called [Strengths Profile](https://strengthsprofile.com) that all of the staff designers and design managers did at the beginning of the year. This one’s mine. According to Strengths Profile, there are things that energize you, which are the top two boxes here, and things that drain you, the bottom two boxes. I’ve done similar tests before, but what I really love about this test is that they aren’t afraid to acknowledge weaknesses. This framework says that instead of focusing on our weaknesses, we should spend our time on the things that energize us, and learn to maximize them, and even use them to work around our weaknesses. I love that it gives people permission not to focus on the things that are draining, and also acknowledges that everyone has things they aren’t good at, and that’s okay.
 
-![designing-your-life-example.png](/uploads/designing-your-life-example.png)
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/designing-your-life-example.png">
+</div>
+
 
 I also love journaling as a way to identify patterns and unpack your feelings. In Designing Your Life, we tracked our day-to-day activities, how energizing or engaging they were, and whether we entered into a flow state. This is a sample from the book. While I was doing the design lead pilot, it helped me realize how I was spending my time, and that the things I found most energizing weren’t my design lead responsibilities. It reinforced that I still really loved day-to-day design work, and that I shouldn’t give it up.
 
