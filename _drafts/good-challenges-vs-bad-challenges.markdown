@@ -196,16 +196,24 @@ Ok, so reflecting back on all of these examples, what are some things that they 
 
 **Good kind of challenging:**
 * It’s not easy, but it’s not terrible
+
 * The learning that I’m doing aligns with my goals
+
 * I feel supported and safe
+
 * I have a certain amount of control over the situation
+
 * I come out the other side grateful for the opportunity
 
 **Bad kind of challenging:**
 * I feel stressed, overwhelmed, and anxious
+
 * I’m not set up to succeed
+
 * A lot feels like it’s out of my control
+
 * Everything builds up to a breaking point
+
 * I’m just grateful that I made it out of that situation
 
 The confusing thing about a bad situation is that I’m still learning. It’s not as simple as, am I learning, or am I not learning? You can see how in some bad cases, I was able to really make the most of the situation. And after the fact, I’ve always learned something. But the process for getting to that point doesn’t usually end up worth it.
