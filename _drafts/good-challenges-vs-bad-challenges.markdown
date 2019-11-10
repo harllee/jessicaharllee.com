@@ -110,14 +110,14 @@ Again, this ended up being a bad situation for me. It sucked to go through. But 
 
 ![best-places-to-cry-in-117-adams.png](/uploads/best-places-to-cry-in-117-adams.png)
 
-… including learning the best (and worst) rooms to cry while you’re in the office
+… including learning the best (and worst) rooms to cry while you’re in the office.
 
 
 ## Challenge: Pivot to a project I’m not invested in
 
 In 2017, I was working on a project that I really believed in, so much so that I had originally advocated for my team to work on it. But then the pre-holiday panic started to set in, and my team was told to switch projects to something different. I was heartbroken.
 
-We were told to build an end-to-end feature that would require our team to work on the buyer side. In my 3 and a half years at Etsy, I had barely touched anything on the buyer side.
+We were told to build an end-to-end feature that would require our team to work on the buyer side. In my 3.5 years at Etsy, I had barely touched anything on the buyer side.
 
 I spent the first week of the project feeling grumpy. Like, really grumpy. I thought about leaving. But then at some point, I realized that I had zero control over the situation. There was a tight deadline; we had to ship everything before the holidays, so it would be a quick project with an end in sight. I decided to just power through it.
 
