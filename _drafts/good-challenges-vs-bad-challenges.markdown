@@ -32,9 +32,11 @@ A quick note: I’d be remiss if I didn’t acknowledge the fact that I experien
   <img src="/uploads/my-etsy-journey-map.png">
 </div>
 
+(Yes, I made a journey map of my time at Etsy.)
+
 ## Challenge: Get over my fear of public speaking
 
-Let’s start with 2014. (Yes, I made a journey map of my time at Etsy.) A few months into working at Etsy and I was learning so much about design. I had all of this energy, and I wanted to share it. It felt like everyone around me was getting into public speaking. I saw designers I admired giving amazing talks. Everyone at Etsy was speaking, too. I loved it. I wanted to be a part of it. But the idea of speaking in front of people on a stage completely terrified me.
+Let’s start with 2014. A few months into working at Etsy and I was learning so much about design. I had all of this energy, and I wanted to share it. It felt like everyone around me was getting into public speaking. I saw designers I admired giving amazing talks. Everyone at Etsy was speaking, too. I loved it. I wanted to be a part of it. But the idea of speaking in front of people on a stage completely terrified me.
 
 So, I decided that it was time to get over my fear of public speaking. My manager, Cap, was frequently speaking at conferences, and I told him that I also wanted to get into public speaking. He often found himself with more invitations to speak than he could manage. So whenever an opportunity came along that he couldn’t make, he passed it along to me, helped me prepare for it, and gave me feedback along the way. I went from having no public speaking experience to giving 6 talks in a year.
 
