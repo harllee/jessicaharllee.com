@@ -133,7 +133,6 @@ Ultimately, as you might know, the project was not successful. Not enough buyers
 
 Overall, I’m really glad that I worked on this project; I ended up getting so much out of it.
 
-[journey map photo]
 
 ## Challenge: Try a totally different way of working
 
