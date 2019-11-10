@@ -207,6 +207,7 @@ Ok, so reflecting back on all of these examples, what are some things that they 
 
 * I come out the other side grateful for the opportunity
 
+
 **Bad kind of challenging:**
 * I feel stressed, overwhelmed, and anxious
 
@@ -281,7 +282,7 @@ I was lucky enough to have many, many opportunities for growth here at Etsy, and
 My time at Etsy has been full of good challenges and bad challenges. At times it’s been really hard, but it’s been so, so rewarding. I’ve learned so much. Thank you for letting me learn and grow in such a safe and supportive environment.
 
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="mt-sm-2 mb-sm-2 ml-md-n2 mr-md-n2 text-center">
   <img src="/uploads/harllee-sweat-smile-zoom.gif">
 </div>
 
