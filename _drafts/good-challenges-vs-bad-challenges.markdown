@@ -280,6 +280,11 @@ I was lucky enough to have many, many opportunities for growth here at Etsy, and
 
 My time at Etsy has been full of good challenges and bad challenges. At times it’s been really hard, but it’s been so, so rewarding. I’ve learned so much. Thank you for letting me learn and grow in such a safe and supportive environment.
 
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/harllee-sweat-smile-zoom.gif">
+</div>
+
 So, speaking of challenges, it’s time for me to dig into a new challenge, a new set of problems, and to push myself to really grow. I’m hoping that leaving Etsy will be the good kind of challenging for me. But, it’s time for me to take my own advice: I can’t know unless I try.
 
 Thank you.
