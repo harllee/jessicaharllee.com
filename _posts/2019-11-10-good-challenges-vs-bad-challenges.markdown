@@ -1,6 +1,7 @@
 ---
 title: Good challenges vs. bad challenges (Etsy last lecture)
 date: 2019-11-10 16:22:00 -05:00
+published: false
 tags:
 - personal
 - reflections
