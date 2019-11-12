@@ -30,7 +30,7 @@ So to answer this question, I thought I’d reflect on a bunch of challenges tha
 A quick note: I’d be remiss if I didn’t acknowledge the fact that I experience many privileges, and that overall, I’ve felt very safe in my job here. All of that dictates how I’ve been able to respond to challenging situations, and more importantly, how other people have responded to me. I’m sharing what worked for me when I was faced with challenges, but I also recognize the role that privilege plays in that.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/my-etsy-journey-map-009822.png">
+  <img src="/uploads/journey-map-01.jpg">
 </div>
 
 (Yes, I made a journey map of my time at Etsy.)
@@ -45,6 +45,10 @@ This was the **good kind of challenging**. I was developing an important skill t
 
 This was one of the first examples of sponsorship that I had ever experienced. I identified a skill that I wanted to develop, and put it out into the world by sharing it with my manager. He used his access to find me opportunities to develop this skill, and supported me along the way. I probably could have made it work on my own by submitting proposals and cold-emailing people, but I think that I ended up being so much more successful because my manager supported me.
 
+
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/journey-map-02.jpg">
+</div>
 
 ## Challenge: Everyone is leaving
 
@@ -62,6 +66,9 @@ This ended up being the **good kind of challenging**. Before working at Etsy, I 
 
 I reflected on this situation a lot in my time here and how it would have been such a shame if I had left after being here for only a year, and how much I would have missed out on. By pushing through something that was hard and dealing with it instead of running away, I also showed myself that I was tougher than I thought.
 
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/journey-map-03.jpg">
+</div>
 
 ## Challenge: A completely unmanageable workload
 
@@ -90,6 +97,9 @@ Asking for help isn’t admitting weakness. If anything, I’ve learned that it�
 
 One good outcome of this was that I became more comfortable giving feedback on project scope and setting boundaries for what I can and can’t work on. When we were staffing the next round of projects, I helped Jason understand which projects needed one designer and which were too big for just one person. I helped call out areas where scope might creep and where we’d need more explicit support.
 
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/journey-map-04.jpg">
+</div>
 
 ## Challenge: A totally dysfunctional working group
 
@@ -121,6 +131,9 @@ Again, this ended up being a bad situation for me. It sucked to go through. But 
 
 … including learning the best (and worst) rooms to cry while you’re in the office.
 
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/journey-map-05.jpg">
+</div>
 
 ## Challenge: Pivot to a project I’m not invested in
 
@@ -142,6 +155,9 @@ Ultimately, as you might know, the project was not successful. Not enough buyers
 
 Overall, I’m really glad that I worked on this project; I ended up getting so much out of it.
 
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/journey-map-06.jpg">
+</div>
 
 ## Challenge: Try a totally different way of working
 
@@ -161,6 +177,9 @@ We also weren’t held to a GMS goal. Our entire focus for the first few months 
 
 I think it’s also funny to look back and think about how naive I was to think that I had learned all I could learn about process. It really makes me excited to think about what I still don’t know.
 
+<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+  <img src="/uploads/journey-map-07.jpg">
+</div>
 
 ## Challenge: Try a totally different role
 
