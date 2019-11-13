@@ -93,7 +93,7 @@ Anything that culminates in a nervous breakdown? **Bad kind of challenging**. Of
 
 > *“Jessica could focus her development on being more open about her needs and challenges... she is able to execute on a ton of work in high pressure situations... but I think Jessica could better express when she feels like she has too much on her plate... and making it clear with her product and engineering teammates if she needs help.”*
 
-Asking for help isn’t admitting weakness. If anything, I’ve learned that it’s a sign of maturity and self-awareness to be able to say that you can’t do something. It’s especially hard when you’re struggling with things that are close to your core identity of who you are. I self-identified as someone who was good at complex projects, and was really good at managing my time. Struggling with this project didn’t make those things less true.
+Asking for help isn’t admitting weakness. If anything, I’ve learned that it’s a sign of maturity and self-awareness to be able to say that you can’t do something. It’s especially hard when you’re struggling with things that are close to your core identity of who you are. I self-identified as someone who was good at complex projects and was really good at managing my time. Struggling with this project didn’t make those things less true.
 
 One good outcome of this was that I became more comfortable giving feedback on project scope and setting boundaries for what I can and can’t work on. When we were staffing the next round of projects, I helped Jason understand which projects needed one designer and which were too big for just one person. I helped call out areas where scope might creep and where we’d need more explicit support.
 
