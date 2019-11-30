@@ -10,8 +10,8 @@
   logo: /uploads/kickstarter_logo.png
   position: 1
 
-- name: Modea
-  url: http://www.modea.com
-  years: 2009–2011
-  logo: /uploads/modea_logo.png
-  position: 2
+# - name: Modea
+#   url: http://www.modea.com
+#   years: 2009–2011
+#   logo: /uploads/modea_logo.png
+#   position: 2
