@@ -1,6 +1,7 @@
 ---
 title: Mizuno
-date: 2011-07-21 17:07:00 -04:00
+date: 2011-07-21 18:07:00 -04:00
+published: false
 company: Modea
 year: 2011
 description: A website redesign for one of the top manufacturers of sports equipment
