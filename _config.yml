@@ -38,6 +38,10 @@ defaults:
     type: work
   values:
     layout: post
+- scope:
+    path: "/recipes/"
+  values:
+    sitemap: false
 url: http://www.jessicaharllee.com
 description: Jessica Harllee is a Principal Product Designer at Primary in New York
   City
