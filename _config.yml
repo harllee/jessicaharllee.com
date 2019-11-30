@@ -44,4 +44,4 @@ description: Jessica Harllee is a Principal Product Designer at Primary in New Y
 permalink: pretty
 date_format: "%b %d, %Y"
 gems:
-- jekyll-feed
+- jekyll-feed, jekyll-sitemap
