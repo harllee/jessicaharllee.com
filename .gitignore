@@ -5,3 +5,4 @@ _drafts
 .sass-cache/
 _posts/.DS_Store
 _sass/.DS_Store
+.jekyll-cache/
