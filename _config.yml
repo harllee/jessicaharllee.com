@@ -50,3 +50,4 @@ date_format: "%b %d, %Y"
 gems:
 - jekyll-feed
 - jekyll-sitemap
+exclude: ["Gemfile.lock", "node_modules"]
