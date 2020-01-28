@@ -39,7 +39,7 @@ A quick note: I’d be remiss if I didn’t acknowledge the fact that I experien
 
 Let’s start with 2014. A few months into working at Etsy and I was learning so much about design. I had all of this energy, and I wanted to share it. It felt like everyone around me was getting into public speaking. I saw designers I admired giving amazing talks. Everyone at Etsy was speaking, too. I loved it. I wanted to be a part of it. But the idea of speaking in front of people on a stage completely terrified me.
 
-So, I decided that it was time to get over my fear of public speaking. My manager, Cap, was frequently speaking at conferences, and I told him that I also wanted to get into public speaking. He often found himself with more invitations to speak than he could manage. So whenever an opportunity came along that he couldn’t make, he passed it along to me, helped me prepare for it, and gave me feedback along the way. I went from having no public speaking experience to giving 6 talks in a year.
+So, I decided that it was time to get over my fear of public speaking. My manager, [Cap](http://capwatkins.com), was frequently speaking at conferences, and I told him that I also wanted to get into public speaking. He often found himself with more invitations to speak than he could manage. So whenever an opportunity came along that he couldn’t make, he passed it along to me, helped me prepare for it, and gave me feedback along the way. I went from having no public speaking experience to giving 6 talks in a year.
 
 This was the **good kind of challenging**. I was developing an important skill that I wanted to learn. I had a manager coaching me through the process and a supportive team that listened to my bad drafts and gave critical feedback. Most importantly, I hit a point where it no longer terrified me. It’s how I’m able to stand here right now before you and feel (mostly) calm. I conquered my fear.
 
@@ -54,7 +54,7 @@ This was one of the first examples of sponsorship that I had ever experienced. I
 
 It’s 2015. I was a year into my job at Etsy. I’d spent it working on a project that I loved with a team that I loved. For the first time at a job, I felt really, deeply supported. Things were going great.
 
-And then, my manager, Cap, quit. Shortly after that, the most senior designer on my team, Aaron, quit as well.
+And then, my manager, Cap, quit. Shortly after that, the most senior designer on my team, [Aaron](http://aaron.mn), quit as well.
 
 It felt like such a blow. I was so bummed out. Cap had done so much to teach me about design, and collaboration, and had coached me on my writing and my public speaking. And Aaron had brought me into developing Etsy’s very first design system, the web toolkit, and I had learned so much from him in the process. Not to mention, I really valued and trusted their opinions. If they were leaving Etsy, were things bad? Did they see something I didn’t? Should I leave?
 
@@ -87,7 +87,7 @@ Why was that? A few reasons:
 
 This was the first time maybe ever where I felt positively incapable of doing the work. Not because I wasn’t skilled enough. But because I didn’t have enough time to do it. It seemed like the only way to execute on the massive amount of work on my plate was to find some way to duplicate myself.
 
-One day, I finally broke down into tears and admitted to my manager, Jason, that this project was too much work for me and that I just wasn’t capable of doing it. I had been holding this in for months.
+One day, I finally broke down into tears and admitted to my manager, [Jason](http://jason-huff.com), that this project was too much work for me and that I just wasn’t capable of doing it. I had been holding this in for months.
 
 Anything that culminates in a nervous breakdown? **Bad kind of challenging**. Of course, nothing bad happened when I admitted that I couldn’t do it. Jason was like, I’m sorry that you’ve been going through this and felt like you couldn’t speak up about it. Let’s brainstorm ways that we can try and lighten your workload and get you some support. It was such a relief to know that my manager knew I was struggling. I felt like this huge burden that I had been secretly carrying was lifted. And, of course, I didn’t get in trouble for admitting that I couldn’t do something. My senior title wasn’t revoked. But, boy, was it reflected in my yearly review from that time. All of the comments were like, she’s doing a lot of good work but... is she okay?
 
@@ -109,7 +109,7 @@ A few meetings in, and I quickly recognized a couple of things that weren’t wo
 
 Slowly but surely, this work completely drained me. On paper, it was right up my alley and something I loved doing. But the working group itself was completely dysfunctional. It got to the point where I would have to focus all of my energy on not crying during the meetings; I was constantly on the verge of tears.
 
-I remember reaching out to Daniel, a staff engineer whom I really admired, and asking him, if you’re IC4 (staff), are you allowed to quit things? Are you allowed to just be like, I don’t want to do this?
+I remember reaching out to [Daniel](http://danielespeset.com), a staff engineer whom I really admired, and asking him, if you’re IC4 (staff), are you allowed to quit things? Are you allowed to just be like, I don’t want to do this?
 
 I don’t give up on things easily, but I was so sick of crying and feeling anxious all the time. I finally went to my manager and was like, I’m sorry, this is not like me, but I need to quit this working group. I know you asked me specifically to join this group, but please, just take me off of it.
 
@@ -246,7 +246,7 @@ Beyond becoming really self aware, how can you learn to identify these situation
 
 ## Identify gravity problems
 
-For the past few months, I’ve been in a book club with Kristen and Erin. We’ve been reading this book, [Designing Your Life](https://designingyour.life), which is all about using the design process to create the life that you want to live. There’s a ton of activities, and it’s totally cheesy but great.
+For the past few months, I’ve been in a book club with [Kristen](http://www.kristenleach.com) and [Erin](http://madebyeno.com). We’ve been reading this book, [Designing Your Life](https://designingyour.life), which is all about using the design process to create the life that you want to live. There’s a ton of activities, and it’s totally cheesy but great.
 
 > *“You can’t change gravity… Just accept it. When you accept it, you’re free to work around that situation and find something that is actionable.” – Designing Your Life*
 
