@@ -1,39 +1,40 @@
 ---
 title: Color filtering on Primary
-date: 2020-01-10 17:07:00 -04:00
+date: 2020-01-10 16:07:00 -05:00
 company: Primary
 year: 2020
-description: Rethink filtering on Primary to accommodate dozens of unique clothing colors.
+description: Rethink filtering on Primary to accommodate dozens of unique clothing
+  colors.
 assets:
 - path: "/uploads/primary-color-filter_product-card.jpg"
   name: primary-color-filter_product-card
-- path: "uploads/primary-color-filters_family-iteration.jpg"
+- path: uploads/primary-color-filters_family-iteration.jpg
   name: primary-color-filters_family-iteration
-- path: "uploads/primary-color-filters_family-palette.jpg"
+- path: uploads/primary-color-filters_family-palette.jpg
   name: primary-color-filters_family-palette
-- path: "uploads/primary-color-filters_family-original.jpg"
+- path: uploads/primary-color-filters_family-original.jpg
   name: primary-color-filters_family-original
-- path: "uploads/primary-color-filters_rainbow-family.jpg"
+- path: uploads/primary-color-filters_rainbow-family.jpg
   name: primary-color-filters_rainbow-family
-- path: "uploads/primary-color-filters_plp-before.jpg"
+- path: uploads/primary-color-filters_plp-before.jpg
   name: primary-color-filters_plp-before
-- path: "uploads/primary-color-filter-family-animation.gif"
+- path: uploads/primary-color-filter-family-animation.gif
   name: primary-color-filter-family-animation
-- path: "uploads/primary-color-filters_prototype-01.gif"
+- path: uploads/primary-color-filters_prototype-01.gif
   name: primary-color-filters_prototype-01
-- path: "uploads/primary-color-filters_admin-before.jpg"
+- path: uploads/primary-color-filters_admin-before.jpg
   name: primary-color-filters_admin-before
-- path: "uploads/primary-color-filters_admin-manage-colors.jpg"
+- path: uploads/primary-color-filters_admin-manage-colors.jpg
   name: primary-color-filters_admin-manage-colors
-- path: "uploads/primary-color-filters_admin-manage-filters.jpg"
+- path: uploads/primary-color-filters_admin-manage-filters.jpg
   name: primary-color-filters_admin-manage-filters
-- path: "uploads/primary-color-filters_admin-edit-family.jpg"
+- path: uploads/primary-color-filters_admin-edit-family.jpg
   name: primary-color-filters_admin-edit-family
-- path: "uploads/primary-color-filters_final-desktop.jpg"
+- path: uploads/primary-color-filters_final-desktop.jpg
   name: primary-color-filters_final-desktop
-- path: "uploads/primary-color-filters_final-mobile.jpg"
+- path: uploads/primary-color-filters_final-mobile.jpg
   name: primary-color-filters_final-mobile
-- path: "uploads/primary-color-filters_admin-edit-color.jpg"
+- path: uploads/primary-color-filters_admin-edit-color.jpg
   name: primary-color-filters_admin-edit-color
 ---
 
