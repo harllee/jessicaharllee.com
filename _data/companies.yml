@@ -1,14 +1,20 @@
+- name: Primary
+  url: http://www.primary.com
+  years: 2019–present
+  logo: /uploads/primary-logo.svg
+  position: 0
+
 - name: Etsy
   url: http://www.etsy.com
   years: 2014–2019
-  logo: /uploads/etsy_logo.png
-  position: 0
+  logo: /uploads/etsy-logo.svg
+  position: 1
 
 - name: Kickstarter
   url: http://www.kickstarter.com
   years: 2011–2013
-  logo: /uploads/kickstarter_logo.png
-  position: 1
+  logo: /uploads/kickstarter-logo.svg
+  position: 2
 
 # - name: Modea
 #   url: http://www.modea.com
