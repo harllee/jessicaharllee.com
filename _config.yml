@@ -43,8 +43,7 @@ defaults:
   values:
     sitemap: false
 url: http://www.jessicaharllee.com
-description: Jessica Harllee is a Principal Product Designer at Primary in New York
-  City
+description: Jessica Harllee is a Principal Product Designer at Primary in Brooklyn
 permalink: pretty
 date_format: "%b %d, %Y"
 gems:
