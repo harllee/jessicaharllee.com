@@ -1,6 +1,6 @@
 ---
 title: Crafting an effective working group
-date: 2017-06-20 12:35:00 Z
+date: 2017-06-20 08:35:00 -04:00
 tags:
 - etsy
 - how to
