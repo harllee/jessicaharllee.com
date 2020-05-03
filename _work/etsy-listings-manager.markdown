@@ -26,7 +26,7 @@ assets:
 In 2014, we redesigned the core of Etsy’s seller tools, the Listings Manager. The Listings Manager is where Etsy sellers edit and organize all of the listings in their shops. Sellers use it to add and edit listings via the listing form, modify large quantities of listings at once with the bulk editor, and make small one-off changes with a quick editor.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/listings-manager-old.png" class="b-1 b-gray-lightest">
+  <img src="/uploads/listings-manager-old.png">
 </div>
 
 It had been years since there were major updates made to the Listings Manager and its age was showing. The interface had become cramped from multiple teams adding features over the years. It also wasn’t designed with workflows in mind; these new features tended to occupy subpages of the Listings Manager instead of being integrated into common seller flows. It wasn’t mobile-optimized, either, despite increasing mobile traffic to Etsy.
@@ -34,7 +34,7 @@ It had been years since there were major updates made to the Listings Manager an
 The Shop Management team at Etsy embarked on a year-long journey to rebuild the Listings Manager from the ground up. We rethought the interface and workflows as well as the technology behind it. Knowing any work we did would be a huge change for sellers, we made it a goal of the project to get what we were building in the hands of sellers as soon as possible.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-<img src="/uploads/listings-process-old.png" class="b-1 b-gray-lightest">
+<img src="/uploads/listings-process-old.png">
 </div>
 
 The part of the Listings Manager that I focused on was the listing form. The listing form had all of the same problems as the listing manager, plus some problems of its own. The information architecture of the form fields was difficult to make sense of; there wasn’t a clear narrative from the top of the page to the bottom. There were a lot of fields, but it was unclear which were necessary to fill out. Anecdotally, it was also taking sellers a long time to add and edit listings; we often heard from sellers that they were spending valuable time that they wanted to be making their items on managing their shops.
@@ -50,13 +50,13 @@ The listing form wasn’t the same for every listing on the site; there are many
 Reorganizing the form was the first step of many to make it faster to update listings. We labeled every single field with whether it was required or optional; previously we only indicated when a field was optional. We organized the content into three columns on desktop to make everything scannable: one column on the left for the field label, one column for the form elements, and a column on the far right with any instructional copy. To minimize scrolling, we fixed the form controls in a bar at the bottom of the viewport so the preview and publish buttons were always accessible. Finally, we made a previously required preview step optional to save sellers a page view every time they went to update their listings.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-<img src="/uploads/listing-form-new.jpg" class="b-1 b-gray-lightest">
+<img src="/uploads/listing-form-new.jpg">
 </div>
 
 Once the design of the new form started to take shape, we began regular remote usability testing sessions with sellers. Every few weeks for six months, we put HTML prototypes in front of sellers and got their input on everything, including copy, form organization, image editing tools, and more experimental ways of editing the listing form. These sessions kept us on track and focused and were a constant reminder of the needs of the people for whom we were designing.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-<img src="/uploads/listing-form-web-toolkit.jpg" class="b-1 b-gray-lightest">
+<img src="/uploads/listing-form-web-toolkit.jpg">
 </div>
 
 One of the many great things about working in HTML prototypes was that they were a foundation for the engineering team to build on top of and allowed us to work in parallel. Typically, as we were building out a feature, I would provide a rough static prototype in HTML to start. The engineering team would wire it up, and then I would clean up the spacing or typographic hierarchy. The Listings Manager was built using a responsive and fluid CSS toolkit that we created in-house using component classes and utility classes. This toolkit made prototyping and tweaking the design painless. It also provided the engineering team with baseline design guidelines so they were less dependent on high-fidelity mockups. In the end, we only ended up writing a few dozen lines of page-specific CSS for the listing form.

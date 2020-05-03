@@ -121,7 +121,7 @@
 }
 
 .b-gray-light {
-    border-color: $gray-light;
+    border-color: lighten($gray-light, 40%);
 }
 
 .b-blue {

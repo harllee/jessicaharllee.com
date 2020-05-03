@@ -57,14 +57,14 @@ Rather than simply increase the number from 5 to 10, we also thought we'd make a
 ## Photo UI updates
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/listing-form-old-photos-ui.png" class="b-1 b-gray-lightest">
+  <img src="/uploads/listing-form-old-photos-ui.png">
   <p class="body-caption text-center">Before: The old seller listing photos UI in the listing form, which had been confusing to sellers</p>
 </div>
 
 First, we revisited the seller photo upload interface. Since [updating the listing form in 2014], we had heard some confusion from sellers around the photos interface, namely that they didn't realize we were showing them a crop of their images. Listing photos could be any size and any aspect ratio, so to make this easy to display we used thumbnail crops of their original photos (with the option to click to view the full size). Sellers had been so confused about this that we had added help copy next to their photos explaining that they were just seeing a crop. We could make this much clearer to them.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/listing-form-new-photos-ui.gif" class="b-1 b-gray-lightest">
+  <img src="/uploads/listing-form-new-photos-ui.gif">
   <p class="body-caption text-center">After: Sellers now have 10 listing photos, plus clearer thumbnails and editing actions.</p>
 </div>
 
@@ -89,7 +89,7 @@ Adding more photos was only part of increasing the quality of listings. We also 
 Working with product marketing and product education, we brainstormed all of the different types of images we might ask our sellers to take, such as lifestyle photos or a detail shot. One limitation was that we didn't know the seller's category at the moment they were uploading photos, so we had to keep the recommendations generic. We narrowed down all of our ideas into our top recommendations that applied to most types of items.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/listing-photos-brand-sketches.png" class="b-1 b-gray-lightest">
+  <img src="/uploads/listing-photos-brand-sketches.png">
   <p class="body-caption text-center">The output of a sketching session between our product and brand teams</p>
 </div>
 

@@ -24,7 +24,7 @@ Building out someone else's vision is a totally different experience. Rarely am 
 
 Here are some of the cooler things that we did when building her site.
 
-<hr class="b-gray-lightest mt-sm-4 mb-sm-4">
+<hr class="b-gray-light mt-sm-4 mb-sm-4">
 
 ### Theming with classes using metadata
 
@@ -64,7 +64,7 @@ Instead of potentially typing a hex code in multiple places throughout her site,
 
 See it in action here: http://madebyeno.com/work/quirky/
 
-<hr class="b-gray-lightest mt-sm-4 mb-sm-4">
+<hr class="b-gray-light mt-sm-4 mb-sm-4">
 
 ### Header images using metadata
 
@@ -114,7 +114,7 @@ Something worth noting is that an asset only shows up in the body of a post if y
 
 See it in action here: http://www.madebyeno.com/work/
 
-<hr class="b-gray-lightest mt-sm-4 mb-sm-4">
+<hr class="b-gray-light mt-sm-4 mb-sm-4">
 
 Using templates doesn’t have to require sacrificing originality; Erin designed her site to be rich with colors and imagery and Siteleaf was flexible enough (and [their documentation helpful enough](http://www.siteleaf.com/blog/)) that we could make that a reality. As Erin continues to update her site and add more work and content, everything should fall into place with little to no development effort on her part (or mine).
 

@@ -43,7 +43,7 @@ One of the most distinct features of Primary clothing is the color palette. Prim
 Not only does Primary offer a rainbow of colors, but there are many different shades of each color. Our merchandising team was planning on adding even more colors with the spring 2020 collection, which would bring the total number of unique shades to 54. Every category page on the site, such as “kids leggings” or “baby onesies”, had color filtering at the top, which allowed buyers to filter items by each shade we offered. We were worried that the addition of these new colors in the spring would make the filter UI unwieldy and unusable.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/primary-color-filters_plp-before.jpg" class="b-1 b-gray-lightest" alt="What the product list page looked like at the start of the project">
+  <img src="/uploads/primary-color-filters_plp-before.jpg" alt="What the product list page looked like at the start of the project">
   <p class="body-caption text-center">The product list page (PLP) when we started this project. Every shade Primary offers is shown in a row, which on desktop was nearly two full rows of filter options.</p>
 </div>
 
@@ -100,7 +100,7 @@ Here’s how the filter worked:
 - We also had to define a few rules, such as how the filters would interact with age filters (which appeared on any PLP with items for a mix of ages), and when we’d hide a color swatch or a color family swatch (any time the results would be zero).
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/primary-color-filter-family-animation.gif" class="b-1 b-gray-lightest" alt="Transition between the default and selected state of the filters">
+  <img src="/uploads/primary-color-filter-family-animation.gif" alt="Transition between the default and selected state of the filters">
   <p class="body-caption text-center">I prototyped a transition between the default state and the selected state of the filters, since the content was being replaced in each state.</p>
 </div>
 
@@ -170,7 +170,7 @@ Now that we had refined the interface and interactions for filtering, we decided
 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/primary-color-filters_final-desktop.jpg" class="b-gray-lightest b-1" alt="Screenshot of the family filters on desktop">
+  <img src="/uploads/primary-color-filters_final-desktop.jpg" class="b-gray-light b-1" alt="Screenshot of the family filters on desktop">
   <p class="body-caption text-center">The final filter design on desktop</p>
 </div>
 
@@ -188,7 +188,7 @@ Merch needed to be able to do things like:
 - Identify the filtering rules for complex colors like patterns or multi-colored items
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/primary-color-filters_admin-before.jpg" class="b-gray-lightest b-1" alt="Screenshot of the admin tooling for managing colors before this project.">
+  <img src="/uploads/primary-color-filters_admin-before.jpg" class="b-gray-light b-1" alt="Screenshot of the admin tooling for managing colors before this project.">
   <p class="body-caption text-center">The existing admin tooling for managing colors.</p>
 </div>
 
@@ -201,13 +201,13 @@ Our merchandising team wanted the color system to have a ton of flexibility. For
 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/primary-color-filters_admin-manage-colors.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the master color list">
+  <img src="/uploads/primary-color-filters_admin-manage-colors.jpg" alt="Screenshot of the master color list">
   <p class="body-caption text-center">The refreshed master list of colors, with links to edit each color.</p>
 </div>
 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/primary-color-filters_admin-edit-color.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the edit color page">
+  <img src="/uploads/primary-color-filters_admin-edit-color.jpg" alt="Screenshot of the edit color page">
   <p class="body-caption text-center">Editing colors happened on a page now, instead of in the master color table.</p>
 </div>
 
@@ -215,12 +215,12 @@ Our merchandising team wanted the color system to have a ton of flexibility. For
 Color management was about maintaining the master ordering and editing all of the information associated with each swatch. We moved all of the form fields for each swatch to a detail page, and added new fields for assigning color families, indicating whether the swatch was multicolored, and, if so, defining which colors it should be filterable by. For example, a solid cherry swatch was going to be filterable only by cherry, but an ivory/cherry stripe would need to be filterable by both ivory and cherry. Merch could essentially tag a swatch with as many colors as necessary to define the filter behavior.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/primary-color-filters_admin-manage-filters.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the color family manager">
+  <img src="/uploads/primary-color-filters_admin-manage-filters.jpg" alt="Screenshot of the color family manager">
   <p class="body-caption text-center">The new tool for managing color families.</p>
 </div>
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
-  <img src="/uploads/primary-color-filters_admin-edit-family.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the pink color family editor">
+  <img src="/uploads/primary-color-filters_admin-edit-family.jpg" alt="Screenshot of the pink color family editor">
   <p class="body-caption text-center">The screen for managing an individual color family.</p>
 </div>
 

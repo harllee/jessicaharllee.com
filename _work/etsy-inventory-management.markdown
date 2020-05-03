@@ -135,7 +135,7 @@ For launch, we targeted in-product marketing at two groups of sellers: existing 
 I even got to be a hand model for part of the shoot!
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/etsy-inventory-instagram.gif" class="b-1 b-gray-lightest">
+  <img src="/uploads/etsy-inventory-instagram.gif">
   <p class="body-caption text-center">This is my hand</p>
 </div>
 

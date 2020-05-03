@@ -119,7 +119,7 @@ Adding attributes to each listing was going to be a huge win for search. In rese
 There were a lot of different directions a launch tool could take. We decided to set some targets and constraints to keep things as simple as possible. We wanted to target high volume sellers, since we knew that this launch would be the most stressful for those sellers; some of our craft supply sellers have thousands of items in their shops! We considered building tooling to edit listings in bulk, but thought it could be more trouble than it was worth; the many connections between attributes, categories, and variations felt like there were too many opportunities to accidentally overwrite data. So, we decided to build a tool that isolated all of the new fields and helped sellers go through listings one-by-one to fill out the new details.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
-  <img src="/uploads/etsy_sd_attributes_tool.jpg" class="b-1 b-gray-lightest">
+  <img src="/uploads/etsy_sd_attributes_tool.jpg">
   <p class="body-caption text-center">The attributes launch tool for my Etsy shop</p>
 </div>
 
