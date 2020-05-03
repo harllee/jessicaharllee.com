@@ -13,7 +13,7 @@ In January 2014, when I started at Etsy, designers and engineers were reinventin
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/every-single-button-on-etsy.png">
-  <p class="text-small italic text-center">Every single button style on Etsy, circa 2015.</p>
+  <p class="body-caption text-center">Every single button style on Etsy, circa 2015.</p>
 </div>
 
 At the time, the larger design community was starting to talk about design systems as a necessity for any sizable design team. [Bootstrap](http://getbootstrap.com) and [object-oriented CSS](https://github.com/stubbornella/oocss/wiki) had become incredibly popular, and design teams at companies like [Salesforce](https://www.lightningdesignsystem.com) and [Mapbox](https://www.mapbox.com/) had made their CSS style guides public. When I left Kickstarter in late 2013, we had also started experimenting with a more centralized set of CSS classes, led by [Brent Jackson](https://jxnblk.com), so I had seen the benefits of a CSS style guide in action.
@@ -34,7 +34,7 @@ Because this work all happened on the side, I also acted in a number of other ca
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/Screen-Shot-2015-02-03-at-11.25.18-AM.png">
-  <p class="text-small italic text-center">The listings manager in 2015, powered by the very first version of the web toolkit.</p>
+  <p class="body-caption text-center">The listings manager in 2015, powered by the very first version of the web toolkit.</p>
 </div>
 
 The original CSS framework, or toolkit (as we called it), was developed alongside the development of the listings manager. As we found new UI elements that we needed, such as dropdowns, overlays, and form fields, we designed those elements, wrote and reviewed the CSS, drafted documentation, and then submitted a PR to the group to add it to the toolkit. This meant that our framework grew with and reflected the needs of the product.
@@ -44,7 +44,7 @@ Aaron, Diana, [Dennis Kramer](http://www.dennispkramer.com), and I unofficially 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/c6-g6vd0srcgs804.png">
-  <p class="text-small italic text-center">The web toolkit documentation, circa 2015.</p>
+  <p class="body-caption text-center">The web toolkit documentation, circa 2015.</p>
 </div>
 
 At its core, the toolkit was a combination of components and utility classes. Components are UI elements made up of a collection of CSS classes that could be mixed and matched to create different variations on buttons, inputs, banners, and more. Utilities were small but mighty classes that were focused on doing one thing and one thing well, like making text a certain color or adding margin or padding. Everything was responsive and fluid by default. All of our patterns, decisions, and philosophies were captured in our documentation, so you could see every permutation of every pattern, as well as when and why they should be implemented.
@@ -67,7 +67,7 @@ It was also important to set the tone for new designers and engineers at Etsy th
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/Screen%20Shot%202018-12-02%20at%204.28.40%20PM-789134.png">
-  <p class="text-small italic text-center">A slide from our presentation on how to use the web toolkit. Training was key for web toolkit adoption, since it was a huge departure from how we wrote CSS at the time.</p>
+  <p class="body-caption text-center">A slide from our presentation on how to use the web toolkit. Training was key for web toolkit adoption, since it was a huge departure from how we wrote CSS at the time.</p>
 </div>
 
 Third, __we spent a lot of time on "internal advertising"__ to raise awareness of the web toolkit and its benefits. It wasn't enough to just make the toolkit easy to use. People had to know about it and see it out there succeeding. Beyond our roadshows, we spent a lot of time talking to teams that were about to kick off projects, trying to convince them to use the web toolkit for their work. I remember spending one Etsy holiday party trying to sell a product manager on the benefits of the web toolkit; we were relentless. We also found a lot of key moments when people talked about their work, like launch emails, and made a point to highlight and congratulate people on using the web toolkit. We did live demos, lunch 'n' learns, and generally made a lot of noise. We were impossible to ignore.
@@ -105,29 +105,29 @@ Today, the web toolkit exists on every page of Etsy. No new markup goes out with
 The creation of the web toolkit, its high adoption rate, and our working group eventually helped make the case for establishing a full-time design systems team. It was staffed with designers, a product manager, and engineers, and they are able to own the web toolkit full time and do things that our small group couldn't have imagined possible.
 
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group mt-sm-4 mb-sm-4">
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Role</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Role</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">Design, front-end development, documentation, project management, working group facilitator, evangelist and educator</p>
+		<p class="body-mono mb-sm-1">Design, front-end development, documentation, project management, working group facilitator, evangelist and educator</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Core team</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Core team</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">4 product designers, including myself, in the original core team. Later, a rotating group of designers and engineers were involved on a volunteer basis.</p>
+		<p class="body-mono mb-sm-1">4 product designers, including myself, in the original core team. Later, a rotating group of designers and engineers were involved on a volunteer basis.</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Years active</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Years active</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">2014–2016</p>
+		<p class="body-mono mb-sm-1">2014–2016</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">View live</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">View live</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1"><a href="http://etsy.com">Etsy.com</a></p>
+		<p class="body-mono mb-sm-1"><a href="http://etsy.com">Etsy.com</a></p>
 	</div>
 </div>

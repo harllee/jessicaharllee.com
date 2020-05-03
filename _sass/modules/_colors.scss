@@ -18,10 +18,6 @@
     color: $gray-light;
 }
 
-.text-gray-lightest {
-    color: $gray-lightest;
-}
-
 .text-blue {
     color: $blue;
 }
@@ -30,20 +26,12 @@
     color: $blue-dark;
 }
 
-.text-green {
-    color: $green;
-}
-
 .text-yellow {
     color: $yellow;
 }
 
 .text-red {
     color: $red;
-}
-
-.text-purple {
-    color: $purple;
 }
 
 
@@ -58,24 +46,12 @@
     background-color: $black;
 }
 
-.bg-gray {
-    background-color: $gray;
-}
-
 .bg-gray-light {
     background-color: $gray-light;
 }
 
-.bg-gray-lightest {
-    background-color: $gray-lightest;
-}
-
 .bg-beige {
     background-color: $beige;
-}
-
-.bg-t-gray-lightest {
-    background-color: rgba($gray, 0.1);
 }
 
 .bg-blue {
@@ -86,10 +62,6 @@
     background-color: $blue-dark;
 }
 
-.bg-green {
-    background-color: $green;
-}
-
 .bg-yellow {
     background-color: $yellow;
 }
@@ -98,101 +70,44 @@
     background-color: $red;
 }
 
-.bg-purple {
-    background-color: $purple;
-}
-
 
 // Link colors
 
 .link-white {
     color: $white;
+    transition: all 100ms ease-in;
 
     &:hover {
-        color: darken($white, 8%);
+        color: $gray-text;
     }
 }
 
-.link-black {
-    color: $black;
-
-    &:hover {
-        color: lighten($black, 8%);
-    }
-}
-
-.link-gray {
+.link-gray-text {
     color: $gray-text;
+    transition: all 100ms ease-in;
 
     &:hover {
-        color: lighten($gray-text, 14%);
+        color: $blue-dark;
     }
 }
 
 .link-gray-light {
     color: $gray-light;
+    transition: all 100ms ease-in;
 
     &:hover {
         color: darken($gray-light, 8%);
     }
 }
 
-.link-gray-lightest {
-    color: $gray-lightest;
-
-    &:hover {
-        color: darken($gray-lightest, 8%);
-    }
-}
-
-.link-blue {
-    color: $blue;
-
-    &:hover {
-        color: darken($blue, 8%);
-    }
-}
-
 .link-blue-dark {
     color: $blue-dark;
+    transition: all 100ms ease-in;
 
     &:hover {
-        color: lighten($blue-dark, 8%);
+        color: $blue;
     }
 }
-
-.link-green {
-    color: $green;
-
-    &:hover {
-        color: darken($green, 8%);
-    }
-}
-
-.link-yellow {
-    color: $yellow;
-
-    &:hover {
-        color: darken($yellow, 8%);
-    }
-}
-
-.link-red {
-    color: $red;
-
-    &:hover {
-        color: darken($red, 8%);
-    }
-}
-
-.link-purple {
-    color: $purple;
-
-    &:hover {
-        color: darken($purple, 8%);
-    }
-}
-
 
 
 // Border colors
@@ -205,16 +120,8 @@
     border-color: $black;
 }
 
-.b-gray {
-    border-color: $gray;
-}
-
 .b-gray-light {
     border-color: $gray-light;
-}
-
-.b-gray-lightest {
-    border-color: $gray-lightest;
 }
 
 .b-blue {
@@ -225,18 +132,10 @@
     border-color: $blue-dark;
 }
 
-.b-green {
-    border-color: $green;
-}
-
 .b-yellow {
     border-color: $yellow;
 }
 
 .b-red {
     border-color: $red;
-}
-
-.b-purple {
-    border-color: $purple;
 }

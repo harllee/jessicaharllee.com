@@ -50,29 +50,29 @@ The design and editorial teams collaborated to create a narrative that was visua
 Featured on [SiteInspire](http://www.siteinspire.com/websites/3105-the-best-of-kickstarter-2012)
 
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group mt-sm-4 mb-sm-4">
     <div class="col col-sm-12 col-md-3">
-        <p class="bold mb-sm-0 mb-md-1">Role</p>
+        <p class="body-mono bold mb-sm-0 mb-md-1">Role</p>
     </div>
     <div class="col col-sm-12 col-md-9">
-        <p class="mb-sm-1">Design, development</p>
+        <p class="body-mono mb-sm-1">Design, development</p>
     </div>
     <div class="col col-sm-12 col-md-3">
-        <p class="bold mb-sm-0 mb-md-1">Core team</p>
+        <p class="body-mono bold mb-sm-0 mb-md-1">Core team</p>
     </div>
     <div class="col col-sm-12 col-md-9">
-        <p class="mb-sm-1">4 designers, 1 writer, 1 engineer</p>
+        <p class="body-mono mb-sm-1">4 designers, 1 writer, 1 engineer</p>
     </div>
     <div class="col col-sm-12 col-md-3">
-        <p class="bold mb-sm-0 mb-md-1">Released</p>
+        <p class="body-mono bold mb-sm-0 mb-md-1">Released</p>
     </div>
     <div class="col col-sm-12 col-md-9">
-        <p class="mb-sm-1">January 2012</p>
+        <p class="body-mono mb-sm-1">January 2012</p>
     </div>
     <div class="col col-sm-12 col-md-3">
-        <p class="bold mb-sm-0 mb-md-1">View live</p>
+        <p class="body-mono bold mb-sm-0 mb-md-1">View live</p>
     </div>
     <div class="col col-sm-12 col-md-9">
-        <p class="mb-sm-1"><a href="http://kickstarter.com/year/2012" target="_blank">Kickstarter Year in Review 2012</a></p>
+        <p class="body-mono mb-sm-1"><a href="http://kickstarter.com/year/2012" target="_blank">Kickstarter Year in Review 2012</a></p>
     </div>
 </div>

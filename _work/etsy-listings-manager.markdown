@@ -76,36 +76,36 @@ After we had spent six months refining the Listings Manager and listing form, we
 When we had hit 10,000 shops in the prototype group, we were ready to announce the new Listings Manager to all sellers and let them opt-in to the experience. We added an opt-in banner to the old Listings Manager, emailed every active seller, and posted the news in Etsy’s forums. The response was overwhelming.  Many of the sellers who were a part of the prototype group hopped in the forums to declare their approval. They were even teaching other sellers how to use the new Listings Manager and defending the decisions we made. We smoothly launched something that sellers wanted to use thanks to how closely we had worked with thousands of Etsy sellers.
 
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group mt-sm-4 mb-sm-4">
 <div class="col col-sm-12 col-md-3">
-<p class="bold mb-sm-0 mb-md-1">Role</p>
+<p class="body-mono bold mb-sm-0 mb-md-1">Role</p>
 </div>
 <div class="col col-sm-12 col-md-9">
-<p class="mb-sm-1">Design, development</p>
+<p class="body-mono mb-sm-1">Design, development</p>
 </div>
 <div class="col col-sm-12 col-md-3">
-<p class="bold mb-sm-0 mb-md-1">Team</p>
+<p class="body-mono bold mb-sm-0 mb-md-1">Team</p>
 </div>
 <div class="col col-sm-12 col-md-9">
-<p class="mb-sm-1">4 designers, 2 design leads, 2 product managers, 2 engineering managers, 7 engineers, 1 user researcher, 1 data analyst, 1 product education specialist</p>
+<p class="body-mono mb-sm-1">4 designers, 2 design leads, 2 product managers, 2 engineering managers, 7 engineers, 1 user researcher, 1 data analyst, 1 product education specialist</p>
 </div>
 <div class="col col-sm-12 col-md-3">
-<p class="bold mb-sm-0 mb-md-1">Released</p>
+<p class="body-mono bold mb-sm-0 mb-md-1">Released</p>
 </div>
 <div class="col col-sm-12 col-md-9">
-<p class="mb-sm-1">February 2015</p>
+<p class="body-mono mb-sm-1">February 2015</p>
 </div>
 <div class="col col-sm-12 col-md-3">
-<p class="bold mb-sm-0 mb-md-1">View live</p>
+<p class="body-mono bold mb-sm-0 mb-md-1">View live</p>
 </div>
 <div class="col col-sm-12 col-md-9">
-<p class="mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
+<p class="body-mono mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
 </div>
 <div class="col col-sm-12 col-md-3">
-<p class="bold mb-sm-0 mb-md-1">Read more</p>
+<p class="body-mono bold mb-sm-0 mb-md-1">Read more</p>
 </div>
 <div class="col col-sm-12 col-md-9">
-<p class="mb-sm-1"><a href="https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/">Rebuilding the Foundation of Etsy Seller Tools</a> (Code as Craft)
+<p class="body-mono mb-sm-1"><a href="https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/">Rebuilding the Foundation of Etsy Seller Tools</a> (Code as Craft)
 <br><a href="https://blog.etsy.com/news/2015/how-10000-sellers-helped-etsy-develop-new-tools/">How 10,000 Sellers Helped Etsy Develop New Tools</a> (Etsy blog)</p>
 </div>
 </div>

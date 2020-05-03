@@ -39,7 +39,7 @@ Some of our savvier sellers were "hacking" their listings to add gifting options
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/gift-wrap-before-listing.jpg">
-  <p class="text-small italic text-center">Some sellers sold a listing which served as a gift wrap add-on for buyers as a workaround for Etsy not having gift wrap functionality.</p>
+  <p class="body-caption text-center">Some sellers sold a listing which served as a gift wrap add-on for buyers as a workaround for Etsy not having gift wrap functionality.</p>
 </div>
 
 There were some small attempts at providing gifting features to buyers and sellers that existed when this project kicked off. In the order management tool, sellers had the ability to mark an order as a gift, which would remove all prices when they printed the packing slip. However, it was not something that buyers could mark on their own.
@@ -80,7 +80,7 @@ One question at the start was how much of the experience Etsy should dictate. Sh
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/gift-wrap-settings-round1.jpg" class="b-1 b-gray-light">
-  <p class="text-small italic text-center">Our first pass at the settings UI, largely based on other existing seller settings.</p>
+  <p class="body-caption text-center">Our first pass at the settings UI, largely based on other existing seller settings.</p>
 </div>
 
 In shop settings, we started by adding a shop-level setting to turn on gift wrap. Once the setting was turned on, sellers could select a price per order from a dropdown. We also built an optional description field for sellers to describe to buyers how they would gift wrap their items. We were hoping to also add a way for sellers to upload photos of their gift wrap, but needed more information to understand if it was an MVP feature or a nice-to-have; not every competitor that we researched provided a photo of their gift wrap.
@@ -91,14 +91,14 @@ Two important insights came out of the buyer survey: photos of the seller's gift
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/gift-wrap-price-recommended.jpg">
-  <p class="text-small italic">Our survey of buyers told us that $4 was the optimal price point for gift wrapping services.</p>
+  <p class="body-caption">Our survey of buyers told us that $4 was the optimal price point for gift wrapping services.</p>
 </div>
 
 When we did usability testing with sellers, we learned a ton. First, they loved the price recommendation from Etsy and thought it was helpful guidance, even if they didn't end up charging $4. Sellers also agreed with buyers; they were hoping to be able to upload a photo of their gift wrap in addition to describing it. The description was going to be helpful for explaining situations like multi-item orders or any gift wrap options they provided (such as Christmas- or birthday-themed paper). And they saw the photo as the best way to communicate with buyers about what they were getting, and as an additional opportunity to show buyers how much care they put into wrapping gifts. Lastly, they looked at an early version of our marketing materials for the feature and gave us valuable feedback: we didn't need to sell them on why they should do gift wrap, but they did want to learn about any limitations of the feature. This was especially helpful feedback since we were building an MVP; if this wasn't going to be as fully-featured as they were hoping, we needed to tell them about the restrictions. Coming out of this research session, we revisited our marketing materials and prioritized building a photo uploader.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/gift-wrap-settings-round2.jpg">
-  <p class="text-small italic text-center">We learned sellers wanted to know what they could and couldn't do with the gift wrap feature, so we included it near the settings switch.</p>
+  <p class="body-caption text-center">We learned sellers wanted to know what they could and couldn't do with the gift wrap feature, so we included it near the settings switch.</p>
 </div>
 
 
@@ -114,21 +114,21 @@ The core buyer flow began to take shape:
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/gift-wrap-listingpage.gif" class="b-1 b-gray-light">
-  <p class="text-small italic">In the shipping section of the listing page, we told buyers the seller could gift wrap their purchase.</p>
+  <p class="body-caption">In the shipping section of the listing page, we told buyers the seller could gift wrap their purchase.</p>
 </div>
 
 First, we'd need to alert buyers that gift wrap was available on the listing page, since that could inform their decision to purchase an item. Per Baymard's recommendation, we put a line item in the "Shipping" section with a popover to reveal the seller's description and photo of the gift wrap.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/gift-wrap-cart.jpg" class="b-1 b-gray-light">
-  <p class="text-small italic">In the cart, buyers could mark an order as a gift.</p>
+  <p class="body-caption">In the cart, buyers could mark an order as a gift.</p>
 </div>
 
 Next, the buyer would land on the cart, which was where the actual selection was going to happen. Since Etsy is comprised of shops, and each shop would have the option to offer gift wrap, a buyer would need to choose this option from each individual seller. So if a buyer had items from multiple sellers in her cart, she'd have to add gift wrap from each shop.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/gift-wrap-cart-interactions.gif" class="b-1 b-gray-light">
-  <p class="text-small italic">Marking an item as a gift in the cart revealed all of the gifting options.</p>
+  <p class="body-caption">Marking an item as a gift in the cart revealed all of the gifting options.</p>
 </div>
 
 To save vertical space, we hid the gift wrap selection behind the “this is a gift” checkbox. We knew that most purchases wouldn't be gifts, so we didn't want to show options that weren't relevant to most people. When the gift wrap checkbox is revealed, we reused the same popover to show the gift wrap photo from the seller.
@@ -152,7 +152,7 @@ While we were adding in the gift message, we realized that the audience of the g
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/gift-wrap-giftreceipt.jpg">
-  <p class="text-small italic">An updated gift receipt template for sellers printing their orders, with the gift message on the left.</p>
+  <p class="body-caption">An updated gift receipt template for sellers printing their orders, with the gift message on the left.</p>
 </div>
 
 Lastly, we heard from research that our sellers were concerned with wasting paper and that this sometimes prevented them from using the packing slips. We made sure most gift receipts would fit on a half sheet of paper and devised a way for them to print two to a page.
@@ -192,7 +192,7 @@ In 2019, all teams at Etsy were trained on the discovery process. The internal c
 
 
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group body-mono mt-sm-4 mb-sm-4">
 	<div class="col col-sm-12 col-md-3">
 		<p class="bold mb-sm-0 mb-md-1">Role</p>
 	</div>

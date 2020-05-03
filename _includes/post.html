@@ -2,10 +2,10 @@
 {% assign is_excerpt = include.is_excerpt %}
 
 {% if is_excerpt %}
-	<h2><a href="{{post.url}}" class="link-gray">{{post.title}}</a></h2>
+	<h2><a href="{{post.url}}" class="link-gray-text">{{post.title}}</a></h2>
 {% else %}
 	{% if post.company %}
-		<a class="text-small link-gray-light" href="/work">{{post.company}}</a>
+		<a class="body-mono link-gray-light" href="/work">{{post.company}}</a>
 	{% endif %}
 	<h1>{{post.title}}</h1>
 {% endif %}
@@ -28,7 +28,7 @@
 	{% if page.url contains '/notes/' %}
 		{% if post.date %}
 			<div class="mt-4 mb-4 pl-4 pr-4">
-			    <p class="text-small text-gray-light">Posted {{ post.date | date: site.date_format }}</p>
+			    <p class="body-mono text-gray-light">Posted {{ post.date | date: site.date_format }}</p>
 			</div>
 		{% endif %}
 	{% endif %}

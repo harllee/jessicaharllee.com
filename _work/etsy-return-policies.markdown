@@ -70,7 +70,7 @@ After ramping the new UI to sellers with untemplated policies, we sent out a (re
 
 
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group body-mono mt-sm-4 mb-sm-4">
 	<div class="col col-sm-12 col-md-3">
 		<p class="bold mb-sm-0 mb-md-1">Role</p>
 	</div>

@@ -44,7 +44,7 @@ Not only does Primary offer a rainbow of colors, but there are many different sh
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_plp-before.jpg" class="b-1 b-gray-lightest" alt="What the product list page looked like at the start of the project">
-  <p class="text-small italic text-center">The product list page (PLP) when we started this project. Every shade Primary offers is shown in a row, which on desktop was nearly two full rows of filter options.</p>
+  <p class="body-caption text-center">The product list page (PLP) when we started this project. Every shade Primary offers is shown in a row, which on desktop was nearly two full rows of filter options.</p>
 </div>
 
 A few months before the spring collection was slated to launch, we kicked off a project to revamp the user experience of the filters. Our merchandising team was going to continue to add more and more colors over time with each season, so we needed to make the customer-facing filter UI more scalable without diminishing its presence on the page.
@@ -62,12 +62,12 @@ The goal of the research wasn’t to get usability feedback or to have really so
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/primary-color-filters_prototype-01.gif" class="" alt="Prototype 1 and prototype 2">
-  <p class="text-small italic text-center">Prototype 1 (left) showed the same UI as the existing experience. Prototype 2 (right) showed a dropdown of color options.</p>
+  <p class="body-caption text-center">Prototype 1 (left) showed the same UI as the existing experience. Prototype 2 (right) showed a dropdown of color options.</p>
 </div>
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/primary-color-filters_prototype-02.gif" class="" alt="Prototype 3 and prototype 4">
-  <p class="text-small italic text-center">Prototype 3 (left) showed the cluster concept. Prototype 4 (right) showed the color families concept.</p>
+  <p class="body-caption text-center">Prototype 3 (left) showed the cluster concept. Prototype 4 (right) showed the color families concept.</p>
 </div>
 
 - Hypothesis 1: Customers want to see every single shade that Primary offers, and the existing color filter UI allows them to do so in the easiest way possible. It seemed worth testing the existing UI to validate that adding more colors will, in fact, be a less-than-ideal experience.
@@ -101,7 +101,7 @@ Here’s how the filter worked:
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/primary-color-filter-family-animation.gif" class="b-1 b-gray-lightest" alt="Transition between the default and selected state of the filters">
-  <p class="text-small italic text-center">I prototyped a transition between the default state and the selected state of the filters, since the content was being replaced in each state.</p>
+  <p class="body-caption text-center">I prototyped a transition between the default state and the selected state of the filters, since the content was being replaced in each state.</p>
 </div>
 
 Since the filter was swapping between two totally different views (the default state with all of the families and the selected state with all of the family colors), and the interfaces were quite different, we’d need some animation to make that transition smoother. I animated a few transitions between states in Principle, then re-built each piece of the animations in CSS in a CodePen to hand off to engineering.
@@ -110,7 +110,7 @@ Even though we were focused on filtering, I also wanted to think about the impac
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filter_product-card.jpg" class="" alt="Before/after comparison of the product cards">
-  <p class="text-small italic text-center">Product cards didn't include the name of the selected color and had centered text (left). We used this opportunity to clean up the information in cards (right).</p>
+  <p class="body-caption text-center">Product cards didn't include the name of the selected color and had centered text (left). We used this opportunity to clean up the information in cards (right).</p>
 </div>
 
 One thing I realized we weren’t doing in our existing product cards was identifying the name of the selected color for each product. Since we would be displaying multiple cards per product at times, and we got feedback about some colors feeling similar to one another, I added the name of the color into the product cards to make them easily identifiable. I also made a few adjustments to the information display now that we had four different elements in the cards: I left-aligned the text for legibility, bumped up the text size a hair, and moved the swatches to the bottom of the card so that key information was more likely to be in a consistent place.
@@ -126,14 +126,14 @@ I hadn’t done much exploration around how to represent the family swatch befor
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_family-original.jpg" class="" alt="Breakdown showing how the swatches were originally constructed">
-  <p class="text-small italic text-center">To easily create family swatches, I originally combined our product colors with grey slices set to multiply.</p>
+  <p class="body-caption text-center">To easily create family swatches, I originally combined our product colors with grey slices set to multiply.</p>
 </div>
 
 With one element, we needed to communicate that a family swatch wouldn’t just filter by one specific shade, but by many shades. I originally landed on a “sliced circle” mark in which I started with a color from our clothing palette and overlaid grey slices set to different levels of transparency, creating multiple shades of the same color. This read exactly as intended in research, which was great, but something was feeling off about it and we couldn’t figure out what.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_family-iteration.jpg" class="" alt="A sketch showing many different options for how to present color family swatches.">
-  <p class="text-small italic text-center">I tried a number of different ways to represent color families.</p>
+  <p class="body-caption text-center">I tried a number of different ways to represent color families.</p>
 </div>
 
 I spent some time trying different shapes (hexagons, rounded squares, donuts), patterns (stripes, gradients), and approaches to the slices (more slices, unevenly sized slices, non-linear color order). I also tried different approaches to pulling the colors, such as having each slice use Primary clothing colors instead of a color overlay, which only worked for color families in which we offered a wide variety of shades, and fell apart for families in which we only had two or three colors. 
@@ -146,14 +146,14 @@ After a few rounds of iteration and artboards full of little swatches, we took a
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_family-palette.jpg" class="" alt="Before/after comparison of how the color family palettes evolved">
-  <p class="text-small italic text-center">My first pass at color family swatches on top, in which I used greys set to multiply, compared with the final palette, in which I eyeballed the values.</p>
+  <p class="body-caption text-center">My first pass at color family swatches on top, in which I used greys set to multiply, compared with the final palette, in which I eyeballed the values.</p>
 </div>
 
 I took another pass at the original color family swatch design. This time, I lightened each color, and then began to stray from the values to inject some vibrancy into each slice. I warmed the greys, made the dark yellows feel less brown, and chose a richer purple. The colors we ended up with for the family swatches look much more at home next to our clothing than where we started.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_rainbow-family.jpg" class="" alt="A sketch showing many different options for depicting rainbow.">
-  <p class="text-small italic text-center">A round of explorations on how we might have a rainbow family swatch.</p>
+  <p class="body-caption text-center">A round of explorations on how we might have a rainbow family swatch.</p>
 </div>
 
 Something that didn’t fit nicely into our color family system was rainbow. Primary is known for offering many styles in rainbow; we have rainbow stripes, rainbow dots, and rainbow hearts, and we even have different shades of rainbow (classic and sunwashed rainbow). We needed to have a top-level color family filter for filtering by rainbows, and the sliced circle graphic wasn’t going to work. Figuring out how to visually represent rainbow in such a way where it didn’t read like “filter by stripes” or “filter by all colors” or “filter by multicolored” was also a challenge. I tried a number of different graphical representations, and we landed on a circle with a rainbow stripe.
@@ -165,13 +165,13 @@ Now that we had refined the interface and interactions for filtering, we decided
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_final-mobile.jpg" class="" alt="Screenshot of the family filters on mobile">
-  <p class="text-small italic text-center">The final filter design on mobile. Left to right: the default state with all of the color families, color family selected state, and shade selected state.</p>
+  <p class="body-caption text-center">The final filter design on mobile. Left to right: the default state with all of the color families, color family selected state, and shade selected state.</p>
 </div>
 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_final-desktop.jpg" class="b-gray-lightest b-1" alt="Screenshot of the family filters on desktop">
-  <p class="text-small italic text-center">The final filter design on desktop</p>
+  <p class="body-caption text-center">The final filter design on desktop</p>
 </div>
 
 
@@ -189,7 +189,7 @@ Merch needed to be able to do things like:
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/primary-color-filters_admin-before.jpg" class="b-gray-lightest b-1" alt="Screenshot of the admin tooling for managing colors before this project.">
-  <p class="text-small italic text-center">The existing admin tooling for managing colors.</p>
+  <p class="body-caption text-center">The existing admin tooling for managing colors.</p>
 </div>
 
 There was an existing tool for managing colors in our admin tooling, but it wasn’t very user-friendly; the copy was unclear and didn’t match the language the merch team used, and there weren’t visual representations of colors anywhere, so it made sorting the colors very difficult. There were no subpages; the table of colors had every form field exposed. If we were going to add more information to each color (the color family, filtering rules) then we’d need to rethink the architecture of color management a bit.
@@ -202,13 +202,13 @@ Our merchandising team wanted the color system to have a ton of flexibility. For
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/primary-color-filters_admin-manage-colors.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the master color list">
-  <p class="text-small italic text-center">The refreshed master list of colors, with links to edit each color.</p>
+  <p class="body-caption text-center">The refreshed master list of colors, with links to edit each color.</p>
 </div>
 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/primary-color-filters_admin-edit-color.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the edit color page">
-  <p class="text-small italic text-center">Editing colors happened on a page now, instead of in the master color table.</p>
+  <p class="body-caption text-center">Editing colors happened on a page now, instead of in the master color table.</p>
 </div>
 
 
@@ -216,12 +216,12 @@ Color management was about maintaining the master ordering and editing all of th
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/primary-color-filters_admin-manage-filters.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the color family manager">
-  <p class="text-small italic text-center">The new tool for managing color families.</p>
+  <p class="body-caption text-center">The new tool for managing color families.</p>
 </div>
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/primary-color-filters_admin-edit-family.jpg" class="b-1 b-gray-lightest" alt="Screenshot of the pink color family editor">
-  <p class="text-small italic text-center">The screen for managing an individual color family.</p>
+  <p class="body-caption text-center">The screen for managing an individual color family.</p>
 </div>
 
 Finally, we built new tools for managing families. Managing a color family was focused around managing the appearance of the family filters. Merch could reorder the color family filters, create new color families, and organize all of the colors that were a part of the family.
@@ -239,29 +239,29 @@ Overall, our merchandising team was really happy with this update, and our marke
 
 
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group mt-sm-4 mb-sm-4">
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Role</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Role</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">Design, front-end development</p>
+		<p class="body-mono mb-sm-1">Design, front-end development</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Core team</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Core team</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">1 project manager, 1 tech lead, 3 engineers, plus a contract researcher and a contract data analyst</p>
+		<p class="body-mono mb-sm-1">1 project manager, 1 tech lead, 3 engineers, plus a contract researcher and a contract data analyst</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Released</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Released</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">January 2020</p>
+		<p class="body-mono mb-sm-1">January 2020</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">View live</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">View live</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1"><a href="http://primary.com/shop/kids">Shop kids on Primary</a></p>
+		<p class="body-mono mb-sm-1"><a href="http://primary.com/shop/kids">Shop kids on Primary</a></p>
 	</div>
 </div>

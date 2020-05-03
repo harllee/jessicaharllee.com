@@ -25,7 +25,7 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 <div class="col-group mt-sm-2 mt-md-4 mb-sm-2 mb-md-4">
 	<div class="col col-sm-12 col-lg-4">
 		<h2>Writing</h2>
-		<ul class="list-unstyled text-small">
+		<ul class="list-unstyled body-mono">
 			<li class="mb-sm-1"><a href="https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf">Etsy Design</a>, 2017</li>
 			<li class="mb-sm-1"><a href="http://alistapart.com/article/sharing-our-work-testing-feedback-in-design">A List Apart</a>, 2015</li>
 			<li class="mb-sm-1"><a href="https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/">Code as Craft</a>, 2015</li>
@@ -35,10 +35,10 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 
 	<div class="col col-sm-12 col-lg-4">
 		<h2>Interviews</h2>
-		<ul class="list-unstyled text-small">
-<li class="mb-sm-1"><a href="https://theblog.adobe.com/etsy-ux-drives-customer-centric-experiences-case-study">Adobe XD Blog</a>, 2019</li>			
-<li class="mb-sm-1"><a href="https://interfacelovers.com/interviews/jessica-harllee">Interface Lovers</a>, 2019</li>
-<li class="mb-sm-1"><a href="http://spec.fm/podcasts/design-details/21184">Design Details</a>, 2015</li>
+		<ul class="list-unstyled body-mono">
+			<li class="mb-sm-1"><a href="https://theblog.adobe.com/etsy-ux-drives-customer-centric-experiences-case-study">Adobe XD Blog</a>, 2019</li>			
+			<li class="mb-sm-1"><a href="https://interfacelovers.com/interviews/jessica-harllee">Interface Lovers</a>, 2019</li>
+			<li class="mb-sm-1"><a href="http://spec.fm/podcasts/design-details/21184">Design Details</a>, 2015</li>
 			<li class="mb-sm-1"><a href="http://www.500.co/qa-jessicaharllee-warmgun/">500 Startups</a>, 2014</li>
 			<li><a href="http://www.designworklife.com/2013/12/11/interview-with-product-designer-jessica-harllee/">Design Work Life</a>, 2013</li>
 		</ul>
@@ -46,9 +46,9 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 
 	<div class="col col-sm-12 col-lg-4">
 		<h2>Speaking</h2>
-		<ul class="list-unstyled text-small">
-<li class="mb-sm-1"><a href="https://www.eventbrite.com/e/creating-a-user-centric-product-delivery-culture-etsy-tickets-59412583637">Women in Product NYC</a>, 2019</li>			
-<li class="mb-sm-1"><a href="https://codeascraft.com/speakers/womenby-tech-lightning-talks/">Code as Craft</a>, 2017</li>
+		<ul class="list-unstyled body-mono">
+			<li class="mb-sm-1"><a href="https://www.eventbrite.com/e/creating-a-user-centric-product-delivery-culture-etsy-tickets-59412583637">Women in Product NYC</a>, 2019</li>			
+			<li class="mb-sm-1"><a href="https://codeascraft.com/speakers/womenby-tech-lightning-talks/">Code as Craft</a>, 2017</li>
 			<li class="mb-sm-1"><a href="http://2015.industryconf.com/talks/#jessica">Industry Conference</a>, 2015</li>
 			<li class="mb-sm-1"><a href="http://warmgun.com/agenda#jessica-harllee">Warm Gun</a>, 2014</li>
 			<li><a href="http://moso2015.com/2014/speakers">MoSo Conference</a>, 2014</li>

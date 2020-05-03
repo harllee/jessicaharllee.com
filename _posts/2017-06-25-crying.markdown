@@ -38,7 +38,7 @@ And most importantly, I practiced asking for help. I talked to Jason about what 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/dont-cry.gif">
-  <p class="text-small italic text-center">All of my feelings</p>
+  <p class="body-caption text-center">All of my feelings</p>
 </div>
 
 Technically, I didn't hit my goal. I haven't stopped crying and I don't think I will; crying will always be part of how I deal with my emotions. But I feel more capable of recognizing the good kind of crying from the bad kind. And I feel more equipped to handle my next slump, whenever that may be.

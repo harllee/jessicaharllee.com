@@ -37,6 +37,16 @@ h3,
     margin-bottom: $space * 2;
 }
 
+.body-mono {
+    font-family: $source-code;
+    font-size: 0.8em;
+}
+
+.body-caption {
+    font-family: $source-code;
+    font-size: 0.8em;
+}
+
 p {
     font-family: $merriweather;
     font-size: 1em;
@@ -49,14 +59,21 @@ p {
 a {
     color: $blue-dark;
     text-decoration: none;
+    transition: all 100ms ease-in;
 
     &:hover {
-        color: $red;
+        color: $blue;
     }
 }
 
-p a {
+p a,
+li a {
     font-weight: 500;
+
+    &:hover {
+        color: $blue-dark;
+        background-color: $yellow;
+    }
 }
 
 
@@ -80,24 +97,6 @@ p a {
         }
     }
 }
-
-
-// Typographic size utilities
-
-
-.text-small {
-    font-size: 0.8em;
-}
-
-.text-smallest {
-    font-size: 0.75em;
-}
-
-.text-large {
-    font-size: 2.625em;
-}
-
-
 
 
 // Typographic style utilities
@@ -153,7 +152,7 @@ code {
 }
 
 pre {
-    background-color: $gray-lightest;
+    background-color: $gray-light;
     padding: $space * 2;
     -webkit-white-space: pre-wrap;
     -ms-white-space: pre-wrap;

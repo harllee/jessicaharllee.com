@@ -6,6 +6,7 @@ layout: default
 
 <div class="prose mb-sm-4">
 	<p>Currently, I’m a Principal Product Designer at <a href="http://primary.com" target="_blank">Primary</a>. To me, product design is about being a part of the product process from start to finish; I’m involved in concepting and defining scope all the way to pushing code.</p>
+	<p>Below is a sampling of some of the more in-depth projects I've done throughout the years.</p>
 </div>
 
 <h2 class="mb-sm-4">View select design projects</h2>
@@ -15,21 +16,21 @@ layout: default
 <div class="col-group mb-sm-4 mb-lg-5">
 	<div class="col col-sm-12 col-md-4 pr-sm-2 pr-lg-4 mb-sm-2 text-center">
 		<a href="{{company.url}}"><img src="{{company.logo}}" alt="{{company.name}}"></a>
-		<p class="text-small">{{company.years}}</p>
+		<p class="body-mono">{{company.years}}</p>
 	</div>
 	<div class="col col-sm-12 col-md-8">
 		{% for item in site.work reversed %}
 			{% if item.company == company.name %}
-				<a href="{{item.url}}" class="display-block link-gray mb-sm-3 mb-lg-4">
-	                <h3 class="mb-sm-0">{{item.title}}</h3>
-	                <p class="text-small mt-sm-0">{{item.description}}</p>
+				<a href="{{item.url}}" class="display-block link-gray-text mb-sm-3 mb-lg-4">
+	                <h3 class="mb-sm-1">{{item.title}}</h3>
+	                <p class="body-mono mt-sm-0">{{item.description}}</p>
 	            </a>
 			{% endif %}
 		{% endfor %}
 	</div>
 </div>
 
-{% unless company.position == 1 %}
+{% unless company.position == 2 %}
 	<hr>
 {% endunless %}
 

@@ -12,8 +12,8 @@ img {
 // image appear it's in a browser
 
 .browser {
-    background-color: $gray;
-    border: 1px solid $gray;
+    background-color: $gray-light;
+    border: 1px solid $gray-light;
     border-radius: 6px;
     padding-top: 2em;
     position: relative;
@@ -35,11 +35,11 @@ img {
         width: 0.5em;
     }
     ::-webkit-scrollbar-thumb {
-        background-color: rgba($gray-light, 0.5);
+        background-color: rgba($white, 0.7);
         border-radius: 0.4em;
     }
     ::-webkit-scrollbar-track-piece {
-        background-color: $gray-lightest;
+        background-color: $gray-text;
     }
 }
 

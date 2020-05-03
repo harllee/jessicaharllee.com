@@ -22,7 +22,7 @@ When the Design Team leads communicated our team-wide strategy of achieving “d
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/principles.jpeg">
-  <p class="text-small italic text-center">We reviewed the goals of the Design Principles working group at every meeting</p>
+  <p class="body-caption text-center">We reviewed the goals of the Design Principles working group at every meeting</p>
 </div>
 
 Once you have a goal, make sure everyone understands it. Review the goal at the beginning of every meeting to remind group members of what they’re trying to achieve. Communicate the goal of the group broadly as a way to establish yourselves as the people dedicated to, and invested in, finding a solution.
@@ -80,7 +80,7 @@ Some methods that we’ve used for creating transparency include:
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/announcements.jpeg">
-  <p class="text-small italic text-center">We frequently emailed relevant teams when there were important updates to the web toolkit</p>
+  <p class="body-caption text-center">We frequently emailed relevant teams when there were important updates to the web toolkit</p>
 </div>
 
 We maintained Etsy’s web toolkit through a working group in the early days. The web toolkit was rapidly being adopted by every product team, so there were a lot of people invested in our progress. Whenever we had new patterns, bug fixes, or major updates to functionality, we sent announcement emails across the company to make it easy for everyone to keep up with our progress.
@@ -97,7 +97,7 @@ It’s important to evaluate and iterate on how you’re working together, espec
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/retrospectives.png">
-  <p class="text-small italic text-center">The Style Guide working group ran remote-friendly retrospectives to understand what was working well and what was challenging</p>
+  <p class="body-caption text-center">The Style Guide working group ran remote-friendly retrospectives to understand what was working well and what was challenging</p>
 </div>
 
 One way that we evaluate our process at Etsy is to run retrospectives. The Style Guide working group was able to make huge improvements by running retrospectives regularly. One insight we uncovered was designers were rarely able to devote as much time to the work as they thought. This helped us encourage participants to keep projects small. Another insight was that participants didn’t realize until late in the quarter that they needed engineering help. The following quarter, we recruited engineers at the very beginning of projects.
@@ -128,7 +128,7 @@ The best part of the Style Guide working group was the demo day at the end of th
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/demo-days.jpeg">
-  <p class="text-small italic text-center">Style Guide demo days were a great way to celebrate our hard work</p>
+  <p class="body-caption text-center">Style Guide demo days were a great way to celebrate our hard work</p>
 </div>
 
 

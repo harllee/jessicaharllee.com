@@ -30,7 +30,7 @@ A common critique of buying something on Etsy is how challenging it can be to fi
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/etsy_sd_listing_form.jpg">
-  <p class="text-small italic text-center">A listing category and category-specific structured data</p>
+  <p class="body-caption text-center">A listing category and category-specific structured data</p>
 </div>
 
 ## Historical context
@@ -53,28 +53,28 @@ Select from a list was the most common. This was for attributes with a predictab
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_attribute_select.jpg">
-  <p class="text-small italic text-center">Selects were used for a list of common responses</p>
+  <p class="body-caption text-center">Selects were used for a list of common responses</p>
 </div>
 
 Yes/no attributes were used for common things buyers might want to filter by or exclude in their search. On some taxonomy nodes, we’d ask things like, “Is this organic?”, “Is this art yarn?”, or “Is this hand-painted?”.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_attribute_radio.jpg">
-  <p class="text-small italic text-center">Radios were used for yes/no responses</p>
+  <p class="body-caption text-center">Radios were used for yes/no responses</p>
 </div>
 
 Input with unit was for collecting measurements. The input had to be a number, and then we provided a set of units to choose from, such as inches or yards. This was helpful for nodes like fabric, where sellers could input length and width, or beads, where sellers could specify the bead diameter and hole width.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_attribute_input_unit.jpg">
-  <p class="text-small italic text-center">Inputs with a unit were used for measurements</p>
+  <p class="body-caption text-center">Inputs with a unit were used for measurements</p>
 </div>
 
 Finally, numerical input was used for integers like the number of strands for beads or the number of skeins for yarn.
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_attribute_input.jpg">
-  <p class="text-small italic text-center">Inputs were used for numbers</p>
+  <p class="body-caption text-center">Inputs were used for numbers</p>
 </div>
 
 ## Attributes and variations
@@ -89,19 +89,19 @@ We decided to use attributes to power variations. We updated the list of variati
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_attribute_select.jpg">
-  <p class="text-small italic text-center">The options for filling out an attribute</p>
+  <p class="body-caption text-center">The options for filling out an attribute</p>
 </div>
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_attribute_variation.jpg">
-  <p class="text-small italic text-center">The same attribute options were also used in variations</p>
+  <p class="body-caption text-center">The same attribute options were also used in variations</p>
 </div>
 
 To establish the relationship between attributes and variations, we gave sellers a way to mark an attribute as a variation. If a seller was filling out the form and encountered an attribute which was a variation, they could select “I offer more than one” at the top of the form. When they got to the variations section, we’d already have that variation added; all they had to do was add each of the options they offered. 
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_attribute_variations_selected.jpg">
-  <p class="text-small italic text-center">A seller could indicate that an attribute was a variation by selecting "I offer more than one"</p>
+  <p class="body-caption text-center">A seller could indicate that an attribute was a variation by selecting "I offer more than one"</p>
 </div>
 
 ## Validating our work
@@ -120,7 +120,7 @@ There were a lot of different directions a launch tool could take. We decided to
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
   <img src="/uploads/etsy_sd_attributes_tool.jpg" class="b-1 b-gray-lightest">
-  <p class="text-small italic text-center">The attributes launch tool for my Etsy shop</p>
+  <p class="body-caption text-center">The attributes launch tool for my Etsy shop</p>
 </div>
 
 
@@ -130,7 +130,7 @@ The easiest way for a seller to go through all of their listings was going to be
 
 <div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
   <img src="/uploads/etsy_sd_listing_form_banner_inprogress.jpg">
-  <p class="text-small italic text-center">A banner displayed in the Listings Manager when a seller had started adding attributes</p>
+  <p class="body-caption text-center">A banner displayed in the Listings Manager when a seller had started adding attributes</p>
 </div>
 
 Finally, we added banners to the listings manager, where sellers maintain their listings, to indicate that there was a tool they could use to quickly fill out attributes. After a seller used the tool for the first time, we updated the banners with the progress bar to show how many listings were left.
@@ -146,35 +146,35 @@ After the launch of attributes, our buyer-side team was able to start the work o
 
 Overall the reception of structured data was positive, with a lot of (expected) mixed feedback on the taxonomy and attributes themselves. The addition of a launch tool was a huge relief to many sellers and had a positive impact on structured data adoption.
 
-<div class="col-group text-small mt-sm-4 mb-sm-4">
+<div class="col-group mt-sm-4 mb-sm-4">
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Role</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Role</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">Lead designer, front-end development</p>
+		<p class="body-mono mb-sm-1">Lead designer, front-end development</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Core team</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Core team</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">1 product manager, 1 engineering manager, 7 engineers, 1 product marketing manager, 1 product education specialist</p>
+		<p class="body-mono mb-sm-1">1 product manager, 1 engineering manager, 7 engineers, 1 product marketing manager, 1 product education specialist</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Released</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Released</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1">February 2017</p>
+		<p class="body-mono mb-sm-1">February 2017</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">View live</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">View live</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
+		<p class="body-mono mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
 	</div>
 	<div class="col col-sm-12 col-md-3">
-		<p class="bold mb-sm-0 mb-md-1">Read more</p>
+		<p class="body-mono bold mb-sm-0 mb-md-1">Read more</p>
 	</div>
 	<div class="col col-sm-12 col-md-9">
-		<p class="mb-sm-1"><a href="https://www.etsy.com/seller-news/helping-shoppers-find-what-they-are-looking-for?ref=vision_nav">Launch announcement</a></p>
+		<p class="body-mono mb-sm-1"><a href="https://www.etsy.com/seller-news/helping-shoppers-find-what-they-are-looking-for?ref=vision_nav">Launch announcement</a></p>
 	</div>
 </div>
