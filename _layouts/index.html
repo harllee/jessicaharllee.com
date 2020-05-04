@@ -14,7 +14,6 @@ layout: default
 	{% assign sorted_work = site.work | sort: 'date' | reverse %}
     {% for item in sorted_work limit:3 %}
         <div class="col col-sm-12 mb-sm-3">
-            {{item.company}}
             <a href="{{item.url}}" class="display-block link-gray-text">
                 <h2 class="mb-sm-0">{{item.title}}</h2>
                 <p class="mt-sm-0">{{item.description}}</p>
