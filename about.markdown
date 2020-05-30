@@ -19,9 +19,7 @@ I own too much jewelry, listen to a [constant stream of music](https://open.spot
 
 One day I hope to ~~run a 10K~~ ([did it!](http://jessicaharllee.com/notes/balance)), ~~sell something that I make~~ ([did it!](http://jessicaharllee.com/notes/emoji-embroidery-a-post-mortem/)), do an unassisted handstand, and have a library of floor-to-ceiling bookshelves in my home.
 
-Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://twitter.com/harllee).
-
-I'm also currently mentoring through [Out of Office Hours](https://www.outofofficehours.com).
+Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://twitter.com/harllee). I'm also currently mentoring through [Out of Office Hours](https://www.outofofficehours.com).
 
 <div class="col-group mt-sm-2 mt-md-4 mb-sm-2 mb-md-4">
 	<div class="col col-sm-12 col-lg-4">
