@@ -21,6 +21,7 @@ One day I hope to ~~run a 10K~~ ([did it!](http://jessicaharllee.com/notes/balan
 
 Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://twitter.com/harllee).
 
+I'm also currently mentoring through [Out of Office Hours](https://www.outofofficehours.com).
 
 <div class="col-group mt-sm-2 mt-md-4 mb-sm-2 mb-md-4">
 	<div class="col col-sm-12 col-lg-4">
