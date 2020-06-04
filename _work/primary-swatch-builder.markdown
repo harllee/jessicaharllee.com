@@ -19,7 +19,6 @@ assets:
   name: primary-swatch-builder_wireframe-edit-swatch
 - path: "/uploads/primary-swatch-builder_swatch-builder-demo.gif"
   name: primary-swatch-builder_swatch-builder-demo
-
 ---
 
 When buying products online, you’ve probably encountered links to products which showed swatches of each color or pattern an item comes in. These swatches can be really useful when deciding whether to click on a product on a category page, or for selecting the right option on a product detail page.
