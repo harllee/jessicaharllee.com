@@ -16,7 +16,7 @@ assets:
 On Thursday night, my [emoji embroidery](http://jessicaharllee.com/work/emoji-embroidery/) was part of the first-ever [emoji pop-up market](http://www.emojishow.com) at Eyebeam Art+Technology Center in Chelsea. I had no idea what I was doing when I started. Here’s what I learned.
 
 
-<hr class="b-gray-light mt-sm-4 mb-sm-4">
+<hr>
 
 In search of a project to get myself off the computer and making things with my hands again, I turned to embroidery and [sewed a poop emoji](http://instagram.com/p/ga92xhhZTm/) because it was the most absurd thing I could think of. Serendipitously, there was an emoji art show accepting submissions, so I sent them a photo of my one embroidered piece and hoped for the best.  A week later I was excited to hear back, but confused when I saw that I had been accepted into the accompanying pop-up shop instead of the art show. Pop-up shops are for people with multiple pieces to sell. I had one lonely poop. 
 
@@ -24,7 +24,7 @@ I found myself with an invitation to be in a pop-up shop with zero inventory, li
 
 The next three weeks were insanity. Beyond the hours I sunk into sewing (on the train to and from Thanksgiving, during Thanksgiving, at the doctor’s office, at 6:30am before work), a lot of other things happened all at once, the *least* stressful of which was my second bout of strep throat in two months the day before the show. I had every excuse at my disposal to back out of the show and give up. I almost did.
 
-<hr class="b-gray-light mt-sm-4 mb-sm-4">
+<hr>
 
 As a designer, creating an entire set of packaging and collateral for a product is a coveted opportunity. In addition to the embroidery itself, there was packaging, price tags, displays, artist cards, receipts, and signage that needed to be made. Correction: that I wanted to make. Inventing self-imposed requirements is one of those good-but-really-sometimes-bad traits that I have, like perfectionism and impossibly high standards. 
 
@@ -34,7 +34,7 @@ So, I got crafty. I used the fact that it was the holiday season to my advantage
 
 Reminding myself how to let go and to make quick but effective decisions was perhaps the most rewarding part of the whole experience, even more so than the break from the computer I originally sought out.
 
-<hr class="b-gray-light mt-sm-4 mb-sm-4">
+<hr>
 
 Working at Kickstarter has taught me the importance of honest pricing. Creators will sometimes set their goals or their reward pricing too low to ensure that their project is successful and that people feel comfortable spending the money. In actuality, this ends up hurting creators when they have to invest more of their own money to complete the project in full, which is why we always encourage creators to be realistic about how much money it takes to make a project happen.
 
@@ -42,7 +42,7 @@ Despite being hyperaware of the impact pricing has on a creative project, I set 
 
 After (lovingly) laboring over 12 pieces, I realized that they were worth more. More because of the attention to detail that I was putting in, because of the hours that I was spending, and because there’s nothing out there like them. Putting a numerical value on something that you create is absolutely terrifying and is one of the reasons why I will probably never be a freelancer. But the reality is that I have to charge as much as will be worth it to me to make them and for someone to own one. And $50 for five hours of hand-sewing is a steal.
 
-<hr class="b-gray-light mt-sm-4 mb-sm-4">
+<hr>
 
 And the show? It was a huge success. I sold out of two of my three patterns before the first hour of the show, was mistaken for an actual textile artist, and learned that people have the same weird sense of humor that I do. When I first started down the path of a crafty side project, I never could have anticipated how much I’d learn in the process. I’m only three weeks in to figuring out how all of this works, but I have big plans for what to do next.
 

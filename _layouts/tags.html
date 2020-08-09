@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1 class="mb-sm-3">
+<h1 class="jh-header-1 jh-m-b-4">
 	{% if page.alias %}
 		Notes tagged: {{page.alias}}
 	{% else %}
@@ -13,7 +13,7 @@ layout: default
 {% for post in site.posts %}
 	{% for tag in post.tags %}
 		{% if tag == page.title %}
-			{% include post.html post=post is_excerpt=true %}
+			{% include post_excerpt.html %}
 		{% endif %}
 	{% endfor %}
 {% endfor %}

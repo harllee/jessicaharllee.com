@@ -16,13 +16,13 @@ It took me about 3 years to really hit my crying stride at my current job; for a
 
 Around this time, we implemented a goal-setting process at work. Goals could be tied to larger team goals, to professional development, or they could be personal goals. I joked to Erin that my goal should be to not cry at work. I smirked at the thought of entering that ridiculous, snarky goal into our HR system. But then I realized that if I was taking care of myself and dealing with my problems in a healthy way, then there should be no reason to cry at work.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/dont-cry-workday.jpg">
 </div>
 
 So, I converted a pink Field Notes into a daily cry journal. (I got the notebook from [XOXO](http://xoxofest.com), which felt pretty appropriate.) At the end of each day, I drew a face illustrating my emotions and marked whether I had cried (yes, no, almost). If I cried, I wrote down what the trigger was. This way, I could keep track of the things that were causing me stress and setting me off. And I told my manager, [Jason](http://jason-huff.com), about this plan so he could hold me accountable.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/2017-06-24-15.47.14-2.jpg">
 </div>
 
@@ -36,7 +36,7 @@ Third, I could pinpoint exactly what was triggering me. It's easy to get overwhe
 
 And most importantly, I practiced asking for help. I talked to Jason about what was triggering me. And we worked together to figure out how to make those things better. I can't expect to be able to handle everything on my own, no matter my title, and the pressure I was putting on myself was incredibly unhealthy. One by one, Jason and I came up with plans to deal with the things causing me stress.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/dont-cry.gif">
   <p class="body-caption text-center">All of my feelings</p>
 </div>

@@ -1,0 +1,67 @@
+//////////////////////////
+//
+//  Resets
+//
+//////////////////////////
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: $color-gray-dark;
+    font-family: $font-family-body;
+    font-size: $font-size-mobile;
+    font-weight: $font-weight-light;
+    line-height: $line-height-normal;
+
+    @include breakpoint-md-up {
+        font-size: $font-size-desktop;
+    }
+}
+
+
+// Remove default margins
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0;
+}
+
+// Responsive images
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr { border: 0; }
+
+
+// Code
+
+code {
+    color: $color-red;
+    font-size: $font-size-body-medium;
+    font-weight: $font-weight-bold;
+}
+
+pre {
+    background-color: $color-gray-dark;
+    padding: $spacer-3;
+    white-space: pre-wrap;
+
+    code {
+        color: $color-blue;
+        font-weight: $font-weight-bold;
+        font-size: $font-size-body-medium;
+        line-height: $line-height-normal;
+    }
+}
+

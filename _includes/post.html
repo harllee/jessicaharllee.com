@@ -1,45 +1,25 @@
 {% assign post = include.post %}
-{% assign is_excerpt = include.is_excerpt %}
 
-{% if is_excerpt %}
-	<h2><a href="{{post.url}}" class="link-gray-text">{{post.title}}</a></h2>
-{% else %}
-	{% if post.company %}
-		<a class="body-mono link-gray-light" href="/work">{{post.company}}</a>
+{% if post.company %}
+	<p class="jh-m-b-3"><a class="jh-body-accent jh-link-gray-light" href="/work">{{post.company}}</a></p>
+{% endif %}
+<h1 class="jh-header-1 jh-m-b-5">{{post.title}}</h1>
+<div class="jh-text-cms jh-m-b-3">
+  {{ post.content | markdownify }}
+</div>
+{% if page.url contains '/notes/' %}
+	{% if post.date %}
+		<div class="jh-m-t-5 jh-m-b-5">
+		    <p class="jh-body-accent jh-text-gray-light">Posted {{ post.date | date: site.date_format }}</p>
+		</div>
 	{% endif %}
-	<h1>{{post.title}}</h1>
 {% endif %}
-
-
-{% if is_excerpt %}
-	<div class="prose">
-      	{{ post.excerpt | markdownify }}
-    </div>
-{% else %}
-	<div class="prose mt-sm-4">
-	  {{ post.content | markdownify }}
-	</div>
-{% endif %}
-
-
-{% if is_excerpt %}
-	<a href="{{post.url}}" class="btn btn-black mt-sm-2 mb-sm-4">Read more</a>
-{% else %}
-	{% if page.url contains '/notes/' %}
-		{% if post.date %}
-			<div class="mt-4 mb-4 pl-4 pr-4">
-			    <p class="body-mono text-gray-light">Posted {{ post.date | date: site.date_format }}</p>
-			</div>
-		{% endif %}
-	{% endif %}
-
-	<div class="mt-sm-4 mb-sm-4">
-	    <ul class="list-unstyled mt-sm-2">
-	        {% for tag in post.tags %}
-	            <li class="display-inline-block mb-sm-1">
-	                <a class="btn btn-blue" href="/notes/tags/{{ tag | slugify }}">{{tag}}</a>
-	            </li>
-	        {% endfor %}
-	    </ul>
-	</div>
-{% endif %}
+<div class="jh-m-t-5 jh-m-b-5">
+    <ul class="jh-list--unstyled jh-list--inline jh-flex-wrap-wrap jh-m-t-2">
+        {% for tag in post.tags %}
+            <li class="jh-m-r-2 jh-m-b-2">
+                <a class="jh-button jh-button--small jh-button--blue" href="/notes/tags/{{ tag | slugify }}">{{tag}}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,141 +1,87 @@
+//////////////////////////
+//
+//  Color
+//
+//////////////////////////
 
 
 // Text colors
 
-.text-white {
-    color: $white;
-}
-
-.text-black {
-    color: $black;
-}
-
-.text-gray {
-    color: $gray-text;
-}
-
-.text-gray-light {
-    color: $gray-light;
-}
-
-.text-blue {
-    color: $blue;
-}
-
-.text-blue-dark {
-    color: $blue-dark;
-}
-
-.text-yellow {
-    color: $yellow;
-}
-
-.text-red {
-    color: $red;
-}
+.jh-text-white { color: $color-white; }
+.jh-text-black { color: $color-black; }
+.jh-text-gray-dark { color: $color-gray-dark; }
+.jh-text-gray-light { color: $color-gray-light; }
+.jh-text-blue { color: $color-blue; }
+.jh-text-blue-dark { color: $color-blue-dark; }
+.jh-text-yellow { color: $color-yellow; }
+.jh-text-red { color: $color-red; }
 
 
 
 // Background colors
 
-.bg-white {
-    background-color: $white;
-}
-
-.bg-black {
-    background-color: $black;
-}
-
-.bg-gray-light {
-    background-color: $gray-light;
-}
-
-.bg-beige {
-    background-color: $beige;
-}
-
-.bg-blue {
-    background-color: $blue;
-}
-
-.bg-blue-dark {
-    background-color: $blue-dark;
-}
-
-.bg-yellow {
-    background-color: $yellow;
-}
-
-.bg-red {
-    background-color: $red;
-}
+.jh-bg-white { background-color: $color-white; }
+.jh-bg-black { background-color: $color-black; }
+.jh-bg-gray-light { background-color: $color-gray-light; }
+.jh-bg-beige { background-color: $color-beige; }
+.jh-bg-blue { background-color: $color-blue; }
+.jh-bg-blue-dark { background-color: $color-blue-dark; }
+.jh-bg-yellow { background-color: $color-yellow; }
+.jh-bg-red { background-color: $color-red; }
 
 
 // Link colors
 
-.link-white {
-    color: $white;
-    transition: all 100ms ease-in;
+.jh-link-white {
+    color: $color-white;
+    transition: all $transition-hover-timing $transition-hover-easing;
+    text-decoration: none;
 
     &:hover {
-        color: $gray-text;
+        color: $color-yellow;
     }
 }
 
-.link-gray-text {
-    color: $gray-text;
-    transition: all 100ms ease-in;
+.jh-link-gray-dark {
+    color: $color-gray-dark;
+    transition: all $transition-hover-timing $transition-hover-easing;
+    text-decoration: none;
 
     &:hover {
-        color: $blue-dark;
+        color: $color-blue-dark;
     }
 }
 
-.link-gray-light {
-    color: $gray-light;
-    transition: all 100ms ease-in;
+.jh-link-gray-light {
+    color: $color-gray-light;
+    transition: all $transition-hover-timing $transition-hover-easing;
+    text-decoration: none;
 
     &:hover {
-        color: darken($gray-light, 8%);
+        color: $color-gray-dark;
     }
 }
 
-.link-blue-dark {
-    color: $blue-dark;
-    transition: all 100ms ease-in;
+.jh-link-blue-dark {
+    color: $color-blue-dark;
+    font-weight: $font-weight-regular;
+    transition: all $transition-hover-timing $transition-hover-easing;
+    text-decoration: none;
 
     &:hover {
-        color: $blue;
+        background-color: $color-yellow;
+        color: $color-blue-dark;
     }
 }
 
 
 // Border colors
 
-.b-white {
-    border-color: $white;
-}
-
-.b-black {
-    border-color: $black;
-}
-
-.b-gray-light {
-    border-color: lighten($gray-light, 40%);
-}
-
-.b-blue {
-    border-color: $blue;
-}
-
-.b-blue-dark {
-    border-color: $blue-dark;
-}
-
-.b-yellow {
-    border-color: $yellow;
-}
-
-.b-red {
-    border-color: $red;
-}
+.jh-b-white { border-color: $color-white; }
+.jh-b-black { border-color: $color-black; }
+.jh-b-gray-dark { border-color: $color-gray-dark; }
+.jh-b-gray-light { border-color: $color-gray-light; }
+.jh-b-blue { border-color: $color-blue; }
+.jh-b-blue-dark { border-color: $color-blue-dark; }
+.jh-b-yellow { border-color: $color-yellow; }
+.jh-b-red { border-color: $color-red; }

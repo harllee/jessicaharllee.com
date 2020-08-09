@@ -1,0 +1,77 @@
+//////////////////////////
+//
+//  Borders
+//
+//  - Sizes
+//
+//////////////////////////
+
+
+// hr {
+//     height: 0;
+//     border-left: 0;
+//     border-right: 0;
+//     border-bottom: 0;
+//     border-top-width: 1px;
+//     border-top-style: solid;
+//     width: 100%;
+//     border-color: $blue;
+//     margin-top: $space * 6;
+//     margin-bottom: $space * 6;
+// }
+
+
+// Thin borders
+
+.jh-b-a-1 {
+    border-width: $border-width-thin;
+    border-style: solid;
+}
+
+.jh-b-t-1 {
+    border-top-width: $border-width-thin;
+    border-top-style: solid;
+}
+
+.jh-b-r-1 {
+    border-right-width: $border-width-thin;
+    border-bottom-style: solid;
+}
+
+.jh-b-b-1 {
+    border-bottom-width: $border-width-thin;
+    border-bottom-style: solid;
+}
+
+.jh-b-l-1 {
+    border-left-width: $border-width-thin;
+    border-bottom-style: solid;
+}
+
+
+// Thick borders
+
+.jh-b-a-2 {
+    border-width: $border-width-thick;
+    border-style: solid;
+}
+
+.jh-b-t-2 {
+    border-top-width: $border-width-thick;
+    border-top-style: solid;
+}
+
+.jh-b-r-2 {
+    border-right-width: $border-width-thick;
+    border-bottom-style: solid;
+}
+
+.jh-b-b-2 {
+    border-bottom-width: $border-width-thick;
+    border-bottom-style: solid;
+}
+
+.jh-b-l-2 {
+    border-left-width: $border-width-thick;
+    border-bottom-style: solid;
+}

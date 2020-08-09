@@ -4,17 +4,24 @@
 
     {% include head.html %}
 
-    <body>
+    <body class="jh-bg-beige">
 
         {% include header.html %}
 
-        <div class="container mt-sm-3 mb-sm-3 mt-md-4 mb-md-4 mt-lg-5 mb-lg-5 pl-sm-2 pl-md-4 pr-sm-2 pr-md-4 {% if site.post %}prose{% endif%}">
+        <div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7">
 
             {{content}}
 
         </div>
 
         {% include footer.html %}
+
+        <span class="jh-p-fixed jh-p-top jh-p-right jh-bg-red jh-text-white jh-body-accent jh-p-a-1">
+        	<span class="jh-d-block jh-d-sm-none">xs</span>
+        	<span class="jh-d-none jh-d-sm-block jh-d-md-none">sm</span>
+        	<span class="jh-d-none jh-d-md-block jh-d-lg-none">md</span>
+        	<span class="jh-d-none jh-d-lg-block">lg</span>
+        </span>
 
     </body>
 

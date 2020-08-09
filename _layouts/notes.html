@@ -3,11 +3,11 @@ layout: default
 ---
 
 {% if page.title %}
-    <h1 class="mb-sm-3">{{page.title}}</h1>
+    <h1 class="jh-header-1 jh-m-b-4">{{page.title}}</h1>
 {% endif %}
 
 {% for post in site.posts %}
-  {% include post.html post=post is_excerpt=true %}
+  {% include post_excerpt.html post=post %}
 {% endfor %}
 
 {% include tags.html %}

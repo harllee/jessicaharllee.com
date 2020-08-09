@@ -28,9 +28,9 @@ assets:
 
 A common critique of buying something on Etsy is how challenging it can be to find exactly what you’re looking for. Up until recently, buyers mostly had to rely on text searches instead of filters; there were very few ways to effectively narrow what you were looking at. In 2017, we made huge strides in collecting information from sellers in a structured way, which we could then use to power search filters. I was responsible for designing the way we’d collect this information from sellers on each of their listings.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_listing_form.jpg">
-  <p class="body-caption text-center">A listing category and category-specific structured data</p>
+  <p class="jh-text-cms__img__caption">A listing category and category-specific structured data</p>
 </div>
 
 ## Historical context
@@ -51,30 +51,30 @@ Once we had a first pass at a taxonomy with attributes, we saw that most attribu
 
 Select from a list was the most common. This was for attributes with a predictable or common set of responses. For example, we’d ask about the fiber type for fabric, or the weight of yarn. This also applied to attributes like color, pattern, and material.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attribute_select.jpg">
-  <p class="body-caption text-center">Selects were used for a list of common responses</p>
+  <p class="jh-text-cms__img__caption">Selects were used for a list of common responses</p>
 </div>
 
 Yes/no attributes were used for common things buyers might want to filter by or exclude in their search. On some taxonomy nodes, we’d ask things like, “Is this organic?”, “Is this art yarn?”, or “Is this hand-painted?”.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attribute_radio.jpg">
-  <p class="body-caption text-center">Radios were used for yes/no responses</p>
+  <p class="jh-text-cms__img__caption">Radios were used for yes/no responses</p>
 </div>
 
 Input with unit was for collecting measurements. The input had to be a number, and then we provided a set of units to choose from, such as inches or yards. This was helpful for nodes like fabric, where sellers could input length and width, or beads, where sellers could specify the bead diameter and hole width.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attribute_input_unit.jpg">
-  <p class="body-caption text-center">Inputs with a unit were used for measurements</p>
+  <p class="jh-text-cms__img__caption">Inputs with a unit were used for measurements</p>
 </div>
 
 Finally, numerical input was used for integers like the number of strands for beads or the number of skeins for yarn.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attribute_input.jpg">
-  <p class="body-caption text-center">Inputs were used for numbers</p>
+  <p class="jh-text-cms__img__caption">Inputs were used for numbers</p>
 </div>
 
 ## Attributes and variations
@@ -87,21 +87,21 @@ The way sellers entered all of their variation options was also, for the most pa
 
 We decided to use attributes to power variations. We updated the list of variation types to be the same as the list of attributes for a given item, and we used the same style of entering in the attribute values (select from a list, input with unit, numerical input) for entering in the variation options. Applying the same structured data collection to variations meant that we were able to use a seller’s variations data in search.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attribute_select.jpg">
-  <p class="body-caption text-center">The options for filling out an attribute</p>
+  <p class="jh-text-cms__img__caption">The options for filling out an attribute</p>
 </div>
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attribute_variation.jpg">
-  <p class="body-caption text-center">The same attribute options were also used in variations</p>
+  <p class="jh-text-cms__img__caption">The same attribute options were also used in variations</p>
 </div>
 
 To establish the relationship between attributes and variations, we gave sellers a way to mark an attribute as a variation. If a seller was filling out the form and encountered an attribute which was a variation, they could select “I offer more than one” at the top of the form. When they got to the variations section, we’d already have that variation added; all they had to do was add each of the options they offered. 
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attribute_variations_selected.jpg">
-  <p class="body-caption text-center">A seller could indicate that an attribute was a variation by selecting "I offer more than one"</p>
+  <p class="jh-text-cms__img__caption">A seller could indicate that an attribute was a variation by selecting "I offer more than one"</p>
 </div>
 
 ## Validating our work
@@ -118,9 +118,9 @@ Adding attributes to each listing was going to be a huge win for search. In rese
 
 There were a lot of different directions a launch tool could take. We decided to set some targets and constraints to keep things as simple as possible. We wanted to target high volume sellers, since we knew that this launch would be the most stressful for those sellers; some of our craft supply sellers have thousands of items in their shops! We considered building tooling to edit listings in bulk, but thought it could be more trouble than it was worth; the many connections between attributes, categories, and variations felt like there were too many opportunities to accidentally overwrite data. So, we decided to build a tool that isolated all of the new fields and helped sellers go through listings one-by-one to fill out the new details.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_attributes_tool.jpg">
-  <p class="body-caption text-center">The attributes launch tool for my Etsy shop</p>
+  <p class="jh-text-cms__img__caption">The attributes launch tool for my Etsy shop</p>
 </div>
 
 
@@ -128,9 +128,9 @@ For each listing, sellers had two options: fill out attributes and publish the l
 
 The easiest way for a seller to go through all of their listings was going to be by category. Since attributes are category-specific, a seller would be filling out the same types of fields over and over for each listing; hopefully that would help speed the process up. We listed every taxonomy node a seller had items in on the left-hand side of the screen, like navigation. By default the tool would take you through each category in order, or you could jump to a specific category in the navigation.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/etsy_sd_listing_form_banner_inprogress.jpg">
-  <p class="body-caption text-center">A banner displayed in the Listings Manager when a seller had started adding attributes</p>
+  <p class="jh-text-cms__img__caption">A banner displayed in the Listings Manager when a seller had started adding attributes</p>
 </div>
 
 Finally, we added banners to the listings manager, where sellers maintain their listings, to indicate that there was a tool they could use to quickly fill out attributes. After a seller used the tool for the first time, we updated the banners with the progress bar to show how many listings were left.
@@ -146,35 +146,39 @@ After the launch of attributes, our buyer-side team was able to start the work o
 
 Overall the reception of structured data was positive, with a lot of (expected) mixed feedback on the taxonomy and attributes themselves. The addition of a launch tool was a huge relief to many sellers and had a positive impact on structured data adoption.
 
-<div class="col-group mt-sm-4 mb-sm-4">
-	<div class="col col-sm-12 col-md-3">
-		<p class="body-mono bold mb-sm-0 mb-md-1">Role</p>
+---
+
+## Project details
+
+<div class="jh-text-cms__project-details">
+	<div>
+		<h3>Role</h3>
 	</div>
-	<div class="col col-sm-12 col-md-9">
-		<p class="body-mono mb-sm-1">Lead designer, front-end development</p>
+	<div>
+		<p>Lead designer, front-end development</p>
 	</div>
-	<div class="col col-sm-12 col-md-3">
-		<p class="body-mono bold mb-sm-0 mb-md-1">Core team</p>
+	<div>
+		<h3>Core team</h3>
 	</div>
-	<div class="col col-sm-12 col-md-9">
-		<p class="body-mono mb-sm-1">1 product manager, 1 engineering manager, 7 engineers, 1 product marketing manager, 1 product education specialist</p>
+	<div>
+		<p>1 product manager, 1 engineering manager, 7 engineers, 1 product marketing manager, 1 product education specialist</p>
 	</div>
-	<div class="col col-sm-12 col-md-3">
-		<p class="body-mono bold mb-sm-0 mb-md-1">Released</p>
+	<div>
+		<h3>Released</h3>
 	</div>
-	<div class="col col-sm-12 col-md-9">
-		<p class="body-mono mb-sm-1">February 2017</p>
+	<div>
+		<p>February 2017</p>
 	</div>
-	<div class="col col-sm-12 col-md-3">
-		<p class="body-mono bold mb-sm-0 mb-md-1">View live</p>
+	<div>
+		<h3>View live</h3>
 	</div>
-	<div class="col col-sm-12 col-md-9">
-		<p class="body-mono mb-sm-1"><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
+	<div>
+		<p><a href="http://etsy.com/your/shops/me/tools/listings">Listings Manager</a> (for Etsy sellers only)</p>
 	</div>
-	<div class="col col-sm-12 col-md-3">
-		<p class="body-mono bold mb-sm-0 mb-md-1">Read more</p>
+	<div>
+		<h3>Read more</h3>
 	</div>
-	<div class="col col-sm-12 col-md-9">
-		<p class="body-mono mb-sm-1"><a href="https://www.etsy.com/seller-news/helping-shoppers-find-what-they-are-looking-for?ref=vision_nav">Launch announcement</a></p>
+	<div>
+		<p><a href="https://www.etsy.com/seller-news/helping-shoppers-find-what-they-are-looking-for?ref=vision_nav">Launch announcement</a></p>
 	</div>
 </div>

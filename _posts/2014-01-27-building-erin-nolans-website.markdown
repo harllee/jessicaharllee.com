@@ -24,7 +24,7 @@ Building out someone else's vision is a totally different experience. Rarely am 
 
 Here are some of the cooler things that we did when building her site.
 
-<hr class="b-gray-light mt-sm-4 mb-sm-4">
+<hr>
 
 ### Theming with classes using metadata
 
@@ -32,15 +32,22 @@ Jonnie Hallman wrote a great post about [using metadata in Siteleaf](http://dest
 
 In the `_colors.sass` file, I defined a series of color variables, such as `$teal`, `$red`, and `$green`, easily updatable if and when Erin decides to tweak the palette. I also included some of the client colors, such as Twitter blue (`$twitter`) and Mizuno blue (`$mizuno`). These color variables ended up in a series of theme classes for font color, background color, and button color like so:
 
-    $green: #95d86d
-
-    .green
-      color: $green
-    .bg_green
-      background-color: $green
-    .button_green
-      color: #fff
-      background-color: $green
+{% raw %}
+~~~html
+$green: #95d86d
+~~~
+{% endraw %}
+{% raw %}
+~~~html
+.green
+  color: $green
+.bg_green
+  background-color: $green
+.button_green
+  color: #fff
+  background-color: $green
+~~~
+{% endraw %}
 
 On any page or section of her site, Erin can add a field for a metadata key that we've called `color`.
 
@@ -50,21 +57,33 @@ This metadata gets used in a few places.
 
 The background color for her site header:
 
-    <header class="bg_{{ meta.color | fallback: parent.meta.color | fallback: 'grey_light' }}">
+{% raw %}
+~~~html
+<header class="bg_{{ meta.color | fallback: parent.meta.color | fallback: 'grey_light' }}">
+~~~
+{% endraw %}
 
 The button color to view a site in her portfolio:
 
-    <a href="{{post.meta.url}}" class="button button_{{ meta.color | fallback: 'grey' }}">View site</a>
+{% raw %}
+~~~html
+<a href="{{post.meta.url}}" class="button button_{{ meta.color | fallback: 'grey' }}">View site</a>
+~~~
+{% endraw %}
 
 The text color of the poop in the footer:
 
-    <h6>Made with <span class="ss-poo {{ meta.color | fallback: parent.meta.color | fallback: 'red' }}"></span>in Brooklyn</h6>
+{% raw %}
+~~~html
+<h6>Made with <span class="ss-poo {{ meta.color | fallback: parent.meta.color | fallback: 'red' }}"></span>in Brooklyn</h6>
+~~~
+{% endraw %}
 
 Instead of potentially typing a hex code in multiple places throughout her site, she can add a `color` value of `green`, and it will use the classes based on the Sass variable of `$green`. So in the scenario in which Erin decides to refresh her color palette, she only needs to update the hex value in one place instead of many. They all also have at least one fallback color defined in case there is no meta color.
 
 See it in action here: http://madebyeno.com/work/quirky/
 
-<hr class="b-gray-light mt-sm-4 mb-sm-4">
+<hr>
 
 ### Header images using metadata
 
@@ -76,45 +95,57 @@ The site masthead has three varieties: the default (which only contains the site
 
 In the header of a portfolio page, we used logos that showed up at a fixed size:
 
-    <header>
-      ...
-      {% for asset in assets %}
-        {% if asset.meta.type == 'fixed' %}
-          <img src="{{asset.url}}">
-        {% endif %}
-      {% endfor %}
-    </header>
+{% raw %}
+~~~html
+<header>
+  ...
+  {% for asset in assets %}
+    {% if asset.meta.type == 'fixed' %}
+      <img src="{{asset.url}}">
+    {% endif %}
+  {% endfor %}
+</header>
+~~~
+{% endraw %}
 
 For a header with a background image, we check for a `type` of `stretched`, apply an inline style with the asset as a `background-image`, and then add a class that styles that image with things like `background-size`. Note that I used the full CSS property name instead of the shorthand `background`; I want to make sure that the inline style and the styles via the class don't  compete with one another.
 
-    <header{% for asset in assets %}{% if asset.meta.type == 'stretched' %} class="header_img_stretched" style="background-image: url('{{asset.url}}')"{% endif %}{% endfor %}>
+{% raw %}
+~~~html
+<header{% for asset in assets %}{% if asset.meta.type == 'stretched' %} class="header_img_stretched" style="background-image: url('{{asset.url}}')"{% endif %}{% endfor %}>
+~~~
+{% endraw %}
 
 The site masthead appears normally if the current page doesn't have any assets with these specific `type`s. We have the flexibility to manage the header images through Siteleaf assets instead of hardcoding them, and the order of the assets doesn't matter as long as the image is defined as having a `type`. (On my own site, pre-asset metadata, I set my header image as the first image so I could call a specific image; it's super awkward.)
 
 On the blog, some posts are more text-heavy whereas sometimes Erin wants a glorious image header. To make it flexible, we look for an asset with the `type` of `hero` and display that image above the post excerpt. If there's no hero image, then the post text displays as normal.
 
-    {% for post in posts %}
-      <li class="container">
-        {% for asset in post.assets %}
-          {% if asset.meta.type == 'hero' %}
-            <div class="container_hero">
-              <a href="{{post.url}}">
-                <img src="{{asset.url}}">
-              </a>
-            </div>
-          {% endif %}
-        {% endfor %}
-        <div class="container_body bg_white">
-          ...
+{% raw %}
+~~~html
+{% for post in posts %}
+  <li class="container">
+    {% for asset in post.assets %}
+      {% if asset.meta.type == 'hero' %}
+        <div class="container_hero">
+          <a href="{{post.url}}">
+            <img src="{{asset.url}}">
+          </a>
         </div>
-      </li>
+      {% endif %}
     {% endfor %}
+    <div class="container_body bg_white">
+      ...
+    </div>
+  </li>
+{% endfor %}
+~~~
+{% endraw %}
 
 Something worth noting is that an asset only shows up in the body of a post if you specifically tell it to appear inline; assets belong to a post but never have to be used (unless you loop through them). So Erin can upload a special hero graphic for this post but not be forced to use it again in the body of the post.
 
 See it in action here: http://www.madebyeno.com/work/
 
-<hr class="b-gray-light mt-sm-4 mb-sm-4">
+<hr>
 
 Using templates doesn’t have to require sacrificing originality; Erin designed her site to be rich with colors and imagery and Siteleaf was flexible enough (and [their documentation helpful enough](http://www.siteleaf.com/blog/)) that we could make that a reality. As Erin continues to update her site and add more work and content, everything should fall into place with little to no development effort on her part (or mine).
 

@@ -1,34 +1,87 @@
+//////////////////////////
+//
+//  Variables
+// 
+//  - Breakpoints
+//  - Color
+//  - Spacing
+//  - Typography
+//
+//////////////////////////
+
 
 // Breakpoints
 
-$break-sm: 500px; // 0 to 499
-$break-md: 900px; // 500 to 899
-$break-lg: 1200px; // 900 to 1199
+$breakpoint-sm: 500px;
+$breakpoint-md: 800px;
+$breakpoint-lg: 1100px;
 
 
 // Color
 
-$white: #ffffff;
-$black: #000000;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-transparent: transparent;
 
-$gray-text: #263C32;
-$gray-light: #65746D;
+$color-gray-dark: #263C32;
+$color-gray-light: #65746D; // text? UI? check contrast
 
-$beige: #F9F5F1;
+$color-beige: #F9F5F1;
 
-$blue: #30DFEA;
-$blue-dark: #0074A1;
-$yellow: #ECFE1B;
-$red: #ED0331;
+$color-blue: #30DFEA; // check contrast
+$color-blue-dark: #0074A1; // check contrast
+$color-yellow: #ECFE1B; // check contrast
+$color-red: #ED0331; // check contrast
 
 
 // Spacing
 
-$space: 0.5rem;
+$spacer-0: 0;
+$spacer-1: 4px;
+$spacer-2: $spacer-1 * 2; // 8
+$spacer-3: $spacer-2 * 2; 
+$spacer-4: $spacer-2 * 4;
+$spacer-5: $spacer-2 * 6;
+$spacer-6: $spacer-2 * 8;
+$spacer-7: $spacer-2 * 10;
+$spacer-8: $spacer-2 * 12;
 
 
 // Typography
 
-$merriweather: "merriweather-1","merriweather-2", Georgia, Times New Roman, serif;
+$font-family-body: "merriweather-1","merriweather-2", Georgia, Times New Roman, serif;
+$font-family-accent: "source-code-pro-1","source-code-pro-2", Courier New, monospace;
 
-$source-code: "source-code-pro-1","source-code-pro-2", Courier New, monospace;
+$font-weight-light: 300;
+$font-weight-regular: 500;
+$font-weight-bold: 700;
+
+
+$font-size-mobile: 18px;
+$font-size-desktop: 20px;
+
+$font-size-body-medium: 1em;
+$font-size-body-small: $font-size-body-medium * 0.8;
+$font-size-header-small: $font-size-body-medium * 1.1;
+$font-size-header-medium: $font-size-body-medium * 1.5;
+$font-size-header-large: $font-size-body-medium * 2;
+
+$line-height-normal: 1.2;
+$line-height-loose: 1.6;
+$line-height-tight: 1;
+
+
+// Borders
+
+$border-radius-rounded: 6px;
+$border-radius-button: 64px;
+$border-radius-circle: 50%;
+
+$border-width-thin: 1px;
+$border-width-thick: 2px;
+
+
+// Animation
+
+$transition-hover-timing: 100ms;
+$transition-hover-easing: ease-in;

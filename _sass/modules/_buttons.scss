@@ -1,52 +1,86 @@
-// Buttons
+//////////////////////////
+//
+//  Buttons
+//
+//  - Sizes
+//  - Themes
+//
+//////////////////////////
 
-.btn {
-    border-radius: 64px;
-    border-width: 2px;
+
+.jh-button {
     border-style: solid;
-    border-color: transparent;
+    border-color: $color-transparent;
     display: inline-block;
-    font-size: 1em;
-    font-weight: 700;
-    padding: $space*2 $space*3;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
-    transition: all 100ms ease-in;
+    transition: all $transition-hover-timing $transition-hover-easing;
 }
+
+//////////////////////////
+
+
+// Button sizes
+
+.jh-button--regular {
+    border-radius: $border-radius-button;
+    border-width: $border-width-thick;
+    font-size: $font-size-body-medium;
+    font-weight: $font-weight-regular;
+    padding: $spacer-3 $spacer-4;
+}
+
+.jh-button--small {
+    border-radius: $border-radius-button;
+    border-width: $border-width-thick;
+    font-family: $font-family-accent;
+    font-size: $font-size-body-small;
+    font-weight: $font-weight-regular;
+    padding: $spacer-2 $spacer-3;
+}
+
+//////////////////////////
 
 
 
 // Button themes
 
-
-.btn-black {
-    background-color: $black;
-    color: $white;
+.jh-button--black {
+    background-color: $color-black;
+    color: $color-white;
 
     &:hover {
-        color: $white;
-        background-color: $blue-dark;
+        color: $color-white;
+        background-color: $color-blue-dark;
     }
 
     &:focus {
-        border-color: $blue;
+        border-color: $color-blue;
         outline: 0;
+    }
+
+    &:disabled {
+        opacity: 0.5;
     }
 }
 
 
-.btn-blue {
-    background-color: $blue-dark;
-    color: $white;
+.jh-button--blue {
+    background-color: $color-blue;
+    color: $color-black;
 
     &:hover {
-        color: $white;
-        background-color: darken($blue, 5%);
+        color: $color-white;
+        background-color: $color-black;
     }
 
     &:focus {
-        border-color: $blue;
+        border-color: $color-blue-dark;
         outline: 0;
+    }
+
+    &:disabled {
+        opacity: 0.5;
     }
 }

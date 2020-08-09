@@ -12,7 +12,9 @@ assets:
 On Tuesday, March 18th, [Huge](http://hugeinc.com) is having a flea market for local Brooklyn artists from 5:30-8PM. I'll be selling emoji embroidery there AND introducing a new pattern. Come hang!
 
 
-<div class="center"><img src="/uploads/huge_flea_flyer.gif" class="img-no-resize"></div>
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
+	<img src="/uploads/huge_flea_flyer.gif">
+</div>
 
 Tues March 18 / 5:30–8:00 PM / Snacks + drinks
 

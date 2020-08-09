@@ -1,84 +1,13 @@
+//////////////////////////
+//
+//  Resets
+//
+//////////////////////////
 
-// Responsive images
 
-img {
-    max-width: 100%;
-    height: auto;
+// Logos
+.jh-img-logo {
+	@include breakpoint-sm-down {
+		max-width: 250px;
+	}
 }
-
-
-
-// A wrapper around an image that scrolls, making the
-// image appear it's in a browser
-
-.browser {
-    background-color: $gray-light;
-    border: 1px solid $gray-light;
-    border-radius: 6px;
-    padding-top: 2em;
-    position: relative;
-
-    &:before {
-        content: '...';
-        position: absolute;
-        top: 0;
-        left: 10px;
-        line-height: 0.7rem;
-        font-size: 2.5em;
-        color: $white;
-        font-weight: bold;
-    }
-
-    // Make the scrollbar appear by default
-    ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 0.5em;
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color: rgba($white, 0.7);
-        border-radius: 0.4em;
-    }
-    ::-webkit-scrollbar-track-piece {
-        background-color: $gray-text;
-    }
-}
-
-.browser-img {
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-
-    img {
-        border-bottom-left-radius: 6px;
-    }
-
-    // Scroll the image on bigger screens
-
-    @include breakpoint(md-up) {
-        height: 30em;
-        overflow-y: scroll;
-    }
-}
-
-
-
-// Position a background image
-
-.bg-position {
-    background-position: bottom center;
-    background-repeat: no-repeat;
-}
-
-
-// Header image
-
-.bg-header {
-
-    @include breakpoint(md-only) {
-        background-size: 100% auto;
-    }
-
-    @include breakpoint(lg-up) {
-        background-size: 100% auto;
-    }
-}
-

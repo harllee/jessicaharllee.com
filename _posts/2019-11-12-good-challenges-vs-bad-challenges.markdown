@@ -19,7 +19,7 @@ I wanted to talk about something that’s been on my mind for the past six month
 
 If you want to learn and you want to grow, you need to challenge yourself. You have to get out of your comfort zone and try something you’ve never done, or that you didn’t think you could do. Learning is supposed to be a little uncomfortable, otherwise you’re not learning. It’s supposed to be challenging.
 
-<blockquote class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center twitter-tweet"><p lang="en" dir="ltr">How do you know if something is the good kind of challenging (pushes you to grow and stretch) versus the bad kind of challenging (not something you can/should do)?</p>&mdash; Jessica Harllee (@harllee) <a href="https://twitter.com/harllee/status/1118284489069858821?ref_src=twsrc%5Etfw">April 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="jh-text-cms__img jh-text-cms__img--full-width twitter-tweet"><p lang="en" dir="ltr">How do you know if something is the good kind of challenging (pushes you to grow and stretch) versus the bad kind of challenging (not something you can/should do)?</p>&mdash; Jessica Harllee (@harllee) <a href="https://twitter.com/harllee/status/1118284489069858821?ref_src=twsrc%5Etfw">April 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 But how do you know when something is the good kind of challenging versus the bad kind of challenging? You know what I mean? Like, there’s the kind of challenging that really pushes you, and you come out the other side even stronger and wiser than before. You feel capable of anything. And then there’s the kind of challenging that is nearly impossible to overcome. It brings you down a notch. It feels bad. Without challenges, we don’t grow or develop new skills. But not all challenges should be treated equally.
 
@@ -29,7 +29,7 @@ So to answer this question, I thought I’d reflect on a bunch of challenges tha
 
 A quick note: I’d be remiss if I didn’t acknowledge the fact that I experience many privileges, and that overall, I’ve felt very safe in my job here. All of that dictates how I’ve been able to respond to challenging situations, and more importantly, how other people have responded to me. I’m sharing what worked for me when I was faced with challenges, but I also recognize the role that privilege plays in that.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/journey-map-01.jpg">
 </div>
 
@@ -46,7 +46,7 @@ This was the **good kind of challenging**. I was developing an important skill t
 This was one of the first examples of sponsorship that I had ever experienced. I identified a skill that I wanted to develop, and put it out into the world by sharing it with my manager. He used his access to find me opportunities to develop this skill, and supported me along the way. I probably could have made it work on my own by submitting proposals and cold-emailing people, but I think that I ended up being so much more successful because my manager supported me.
 
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/journey-map-02.jpg">
 </div>
 
@@ -66,7 +66,7 @@ This ended up being the **good kind of challenging**. Before working at Etsy, I 
 
 I reflected on this situation a lot in my time here and how it would have been such a shame if I had left after being here for only a year, and how much I would have missed out on. By pushing through something that was hard and dealing with it instead of running away, I also showed myself that I was tougher than I thought.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/journey-map-03.jpg">
 </div>
 
@@ -80,9 +80,7 @@ To get this work done in time, we quickly spun up another squad of engineers to 
 
 Why was that? A few reasons:
 * I remember thinking a lot about my title, senior designer, and that part of being senior was handling increasingly complex work. Well, this was harder than anything I had ever done, so I assumed this must be what being a senior designer was like.
-
 * I like working on complex projects, and I know that I’m good at it. But I was worried about what it would mean about myself if I thought this project was too much work, or too complex.
-
 * Also, I’m really hard on myself. I hold myself to high standards. And I’m bad at asking for help, and even recognizing that I should be asking for help. 
 
 This was the first time maybe ever where I felt positively incapable of doing the work. Not because I wasn’t skilled enough. But because I didn’t have enough time to do it. It seemed like the only way to execute on the massive amount of work on my plate was to find some way to duplicate myself.
@@ -97,7 +95,7 @@ Asking for help isn’t admitting weakness. If anything, I’ve learned that it�
 
 One good outcome of this was that I became more comfortable giving feedback on project scope and setting boundaries for what I can and can’t work on. When we were staffing the next round of projects, I helped Jason understand which projects needed one designer and which were too big for just one person. I helped call out areas where scope might creep and where we’d need more explicit support.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/journey-map-04.jpg">
 </div>
 
@@ -117,7 +115,7 @@ This was definitely the **bad kind of challenging**. Jason asked me to outline a
 
 I ended up turning the list I made of everything going wrong with the group into [a post on the Etsy Medium blog about the elements of an effective working group](https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf). The whole situation sucked, but I have a much stronger opinion on how to effectively work as a group: a clear facilitator. A clear, measurable goal. Clear roles.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/2017-06-24-15.47.14-2.jpg">
 </div>
 
@@ -125,13 +123,13 @@ This is the situation that ultimately sparked my crying journal. I was crying so
 
 Again, this ended up being a bad situation for me. It sucked to go through. But boy, did I learn a lot…
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/best-places-to-cry-in-117-adams.png">
 </div>
 
 … including learning the best (and worst) rooms to cry while you’re in the office.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/journey-map-05.jpg">
 </div>
 
@@ -155,7 +153,7 @@ Ultimately, as you might know, the project was not successful. Not enough buyers
 
 Overall, I’m really glad that I worked on this project; I ended up getting so much out of it.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/journey-map-06.jpg">
 </div>
 
@@ -177,7 +175,7 @@ We also weren’t held to a GMS goal. Our entire focus for the first few months 
 
 I think it’s also funny to look back and think about how naive I was to think that I had learned all I could learn about process. It really makes me excited to think about what I still don’t know.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/journey-map-07.jpg">
 </div>
 
@@ -206,7 +204,7 @@ As you now know, I hate saying no and admitting that I can’t do something. But
 
 We had a retro at the six month mark, focused on identifying the situations in which design lead makes sense and when it doesn’t. It actually ended up being a really interesting experiment having me and El try out two different iterations of the role. Because of this, I think we ended up having a better understanding of how we might ensure that future design leads are set up for success.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/my-etsy-journey-map-009822.png">
 </div>
 
@@ -218,25 +216,17 @@ Ok, so reflecting back on all of these examples, what are some things that they 
 
 **Good kind of challenging:**
 * It’s not easy, but it’s not terrible
-
 * The learning that I’m doing aligns with my goals
-
 * I feel supported and safe
-
 * I have a certain amount of control over the situation
-
 * I come out the other side grateful for the opportunity
 
 
 **Bad kind of challenging:**
 * I feel stressed, overwhelmed, and anxious
-
 * I’m not set up to succeed
-
 * A lot feels like it’s out of my control
-
 * Everything builds up to a breaking point
-
 * I’m just grateful that I made it out of that situation
 
 The confusing thing about a bad situation is that I’m still learning. It’s not as simple as, am I learning, or am I not learning? You can see how in some bad cases, I was able to really make the most of the situation. And after the fact, I’ve always learned something. But the process for getting to that point doesn’t usually end up worth it.
@@ -258,14 +248,14 @@ As the book says, an important part of the design process is reframing the probl
 
 One important factor in a good challenge is whether the things that you’re learning are aligned with your goals and interests. This can require a ton of self-awareness, which can be really hard to have in the midst of a challenge.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/strengths-profile.png">
 </div>
 
 There’s a strengths test called [Strengths Profile](https://strengthsprofile.com) that all of the staff designers and design managers did at the beginning of the year. This one’s mine. According to Strengths Profile, there are things that energize you, which are the top two boxes here, and things that drain you, the bottom two boxes. I’ve done similar tests before, but what I really love about this test is that they aren’t afraid to acknowledge weaknesses. This framework says that instead of focusing on our weaknesses, we should spend our time on the things that energize us, and learn to maximize them, and even use them to work around our weaknesses. I love that it gives people permission not to focus on the things that are draining, and also acknowledges that everyone has things they aren’t good at, and that’s okay.
 
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/designing-your-life-example.png">
 </div>
 
@@ -302,7 +292,7 @@ I was lucky enough to have many, many opportunities for growth here at Etsy, and
 My time at Etsy has been full of good challenges and bad challenges. At times it’s been really hard, but it’s been so, so rewarding. I’ve learned so much. Thank you for letting me learn and grow in such a safe and supportive environment.
 
 
-<div class="mt-sm-2 mb-sm-2 ml-md-n2 mr-md-n2 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/harllee-sweat-smile-zoom.gif">
 </div>
 

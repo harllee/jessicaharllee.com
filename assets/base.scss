@@ -6,25 +6,15 @@
 @import "support/variables";
 @import "support/mixins";
 
+// Resets
+@import "modules/resets";
 
 // Modules
-
-
-// Style
-
 @import "modules/colors";
 @import "modules/typography";
-@import "modules/images";
-
-
-// Elements
-
 @import "modules/buttons";
-
-
-// Layout
-
+@import "modules/borders";
+@import "modules/images";
 @import "modules/grid";
-@import "modules/layout";
-@import "modules/flag";
-@import "modules/spacing";
+@import "modules/cms";
+@import "modules/utilities";

@@ -1,0 +1,10 @@
+{% assign post = include.post %}
+{% assign is_excerpt = include.is_excerpt %}
+
+<div class="jh-m-b-5 jh-m-b-md-7">
+	<h2 class="jh-header-2 jh-m-b-3"><a href="{{post.url}}" class="jh-link-gray-dark">{{post.title}}</a></h2>
+	<div class="jh-text-cms jh-m-b-3">
+      	{{ post.excerpt | markdownify }}
+    </div>
+    <a href="{{post.url}}" class="jh-button jh-button--regular jh-button--black">Read more</a>
+</div>

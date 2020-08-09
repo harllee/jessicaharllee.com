@@ -1,68 +1,73 @@
+//////////////////////////
+//
+//  Mixins
+// 
+//  - Media queries
+//
+//////////////////////////
 
-// Breakpoints
 
-@mixin breakpoint($point) {
-    
-    // 0 to 499
-    @if $point == "sm-down" {
-        @media (min-width: 0) and (max-width: $break-sm - 1) { 
-            @content;
-        }
+// Media queries
+
+
+// Up
+
+@mixin breakpoint-sm-up {
+	@media (min-width: $breakpoint-sm) { 
+        @content;
     }
+}
 
-    // 0 to 499
-    @else if $point == "sm-only" {
-        @media (min-width: 0) and (max-width: $break-sm - 1) { 
-            @content;
-        }
+@mixin breakpoint-md-up {
+	@media (min-width: $breakpoint-md) { 
+        @content;
     }
+}
 
-    // 0 to infinity
-    @else if $point == "sm-up" {
-        @media (min-width: 0) { 
-            @content;
-        }
+@mixin breakpoint-lg-up {
+	@media (min-width: $breakpoint-lg) { 
+        @content;
     }
+}
 
-    // 0 to 899
-    @else if $point == "md-down" {
-        @media (min-width: 0) and (max-width: $break-md - 1) {
-            @content;
-        }
+
+// Down
+
+@mixin breakpoint-sm-down {
+	@media (max-width: $breakpoint-md - 1) { 
+        @content;
     }
+}
 
-    // 500 to 899
-    @else if $point == "md-only" {
-        @media (min-width: $break-sm) and (max-width: $break-md - 1) {
-            @content;
-        }
+@mixin breakpoint-md-down {
+	@media (max-width: $breakpoint-lg - 1) { 
+        @content;
     }
+}
 
-    // 500 to infinity
-    @else if $point == "md-up" {
-        @media (min-width: $break-sm) {
-            @content;
-        }
+
+// Only
+
+@mixin breakpoint-xs-only {
+	@media (max-width: $breakpoint-sm - 1) { 
+        @content;
     }
+}
 
-    // 0 to 1199
-    @else if $point == "lg-down" {
-        @media (min-width: 0) and (max-width: $break-lg - 1) {
-            @content;
-        }
+@mixin breakpoint-sm-only {
+	@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md - 1) { 
+        @content;
     }
+}
 
-    // 900 to infinity
-    @else if $point == "lg-only" {
-        @media (min-width: $break-md) {
-            @content;
-        }
+@mixin breakpoint-md-only {
+	@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg - 1) { 
+        @content;
     }
+}
 
-    // 900 to infinity
-    @else if $point == "lg-up" {
-        @media (min-width: $break-md) {
-            @content;
-        }
+@mixin breakpoint-lg-only {
+	@media (min-width: $breakpoint-lg) { 
+        @content;
     }
 }

@@ -20,9 +20,9 @@ First and foremost, working groups are created to solve a specific problem facin
 
 When the Design Team leads communicated our team-wide strategy of achieving “design excellence”, a lot of questions came up around what exactly “excellence” meant. To help answer those questions, the Design Principles working group was formed with the clear goal of creating design principles to define design excellence.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/principles.jpeg">
-  <p class="body-caption text-center">We reviewed the goals of the Design Principles working group at every meeting</p>
+  <p class="jh-text-cms__img__caption">We reviewed the goals of the Design Principles working group at every meeting</p>
 </div>
 
 Once you have a goal, make sure everyone understands it. Review the goal at the beginning of every meeting to remind group members of what they’re trying to achieve. Communicate the goal of the group broadly as a way to establish yourselves as the people dedicated to, and invested in, finding a solution.
@@ -78,9 +78,9 @@ Some methods that we’ve used for creating transparency include:
 * Sending surveys
 
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/announcements.jpeg">
-  <p class="body-caption text-center">We frequently emailed relevant teams when there were important updates to the web toolkit</p>
+  <p class="jh-text-cms__img__caption">We frequently emailed relevant teams when there were important updates to the web toolkit</p>
 </div>
 
 We maintained Etsy’s web toolkit through a working group in the early days. The web toolkit was rapidly being adopted by every product team, so there were a lot of people invested in our progress. Whenever we had new patterns, bug fixes, or major updates to functionality, we sent announcement emails across the company to make it easy for everyone to keep up with our progress.
@@ -95,9 +95,9 @@ It might feel counter-intuitive or spammy to send this info out widely, but shar
 
 It’s important to evaluate and iterate on how you’re working together, especially since the work can be more ad-hoc than regular projects. Your time is precious; every little process improvement that you can make will have a big impact on the effectiveness of the group.
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/retrospectives.png">
-  <p class="body-caption text-center">The Style Guide working group ran remote-friendly retrospectives to understand what was working well and what was challenging</p>
+  <p class="jh-text-cms__img__caption">The Style Guide working group ran remote-friendly retrospectives to understand what was working well and what was challenging</p>
 </div>
 
 One way that we evaluate our process at Etsy is to run retrospectives. The Style Guide working group was able to make huge improvements by running retrospectives regularly. One insight we uncovered was designers were rarely able to devote as much time to the work as they thought. This helped us encourage participants to keep projects small. Another insight was that participants didn’t realize until late in the quarter that they needed engineering help. The following quarter, we recruited engineers at the very beginning of projects.
@@ -126,9 +126,9 @@ The dissolution of a working group can be the result of processes and teams chan
 The best part of the Style Guide working group was the demo day at the end of the quarter. We invited multiple teams across Etsy, shared snacks and beverages, and watched as everyone demoed their hard work from the past few months. Seeing all of the work back-to-back felt so good; we really felt like we were making a huge impact on Etsy.
 
 
-<div class="mt-sm-4 mb-sm-4 ml-md-n4 mr-md-n4 text-center">
+<div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/demo-days.jpeg">
-  <p class="body-caption text-center">Style Guide demo days were a great way to celebrate our hard work</p>
+  <p class="jh-text-cms__img__caption">Style Guide demo days were a great way to celebrate our hard work</p>
 </div>
 
 

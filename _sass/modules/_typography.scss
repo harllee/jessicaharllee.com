@@ -1,167 +1,102 @@
-body {
-    -webkit-font-smoothing: antialiased;
-    color: $gray-text;
-    font-family: $merriweather;
-    font-size: 110%;
-    line-height: 1.4;
+//////////////////////////
+//
+//  Typography
+// 
+//  - Headers
+//  - Body
+//  - Utilities
+//
+//////////////////////////
 
-    @include breakpoint(lg-up) {
-        font-size: 125%;
-    }
+
+// Headers
+
+.jh-header-1 {
+    font-family: $font-family-body;
+    font-size: $font-size-header-large;
+    font-weight: $font-weight-light;
+    line-height: $line-height-normal;
 }
 
-h1,
-.h1 {
-    font-family: $merriweather;
-    font-size: 2em;
-    font-weight: 300;
-    margin-top: $space * 2;
-    margin-bottom: $space * 2;
+.jh-header-2 {
+    font-family: $font-family-body;
+    font-size: $font-size-header-medium;
+    font-weight: $font-weight-light;
+    line-height: $line-height-normal;
 }
 
-h2,
-.h2 {
-    font-family: $merriweather;
-    font-size: 1.25em;
-    font-weight: 500;
-    margin-top: $space * 2;
-    margin-bottom: $space * 2;
-}
-
-h3,
-.h3 {
-    font-family: $merriweather;
-    font-size: 0.8em;
-    font-weight: 500;
-    margin-top: $space * 2;
-    margin-bottom: $space * 2;
-}
-
-.body-mono {
-    font-family: $source-code;
-    font-size: 0.8em;
-}
-
-.body-caption {
-    font-family: $source-code;
-    font-size: 0.8em;
-}
-
-p {
-    font-family: $merriweather;
-    font-size: 1em;
-    font-weight: 300;
-    margin-top: $space * 2;
-    margin-bottom: $space * 2;
+.jh-header-3 {
+    font-family: $font-family-body;
+    font-size: $font-size-header-small;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-normal;
 }
 
 
-a {
-    color: $blue-dark;
-    text-decoration: none;
-    transition: all 100ms ease-in;
+//////////////////////////
 
-    &:hover {
-        color: $blue;
-    }
+
+// Body
+
+.jh-body-medium {
+    font-family: $font-family-body;
+    font-size: $font-size-body-medium;
+    font-weight: $font-weight-light;
+    line-height: $line-height-normal;
 }
 
-p a,
-li a {
-    font-weight: 500;
-
-    &:hover {
-        color: $blue-dark;
-        background-color: $yellow;
-    }
+.jh-body-small {
+    font-family: $font-family-body;
+    font-size: $font-size-body-small;
+    font-weight: $font-weight-light;
+    line-height: $line-height-normal;
 }
 
-
-.prose {
-    
-    h1, h2, h3 {
-        margin-top: $space * 6;
-        margin-bottom: $space * 4;
-    }
-
-    p {
-        line-height: 1.75;
-    }
-
-    li {
-        font-weight: 300;
-        line-height: 1.75;
-
-        &:not(:first-child) {
-            margin-top: $space;
-        }
-    }
+.jh-body-accent {
+    font-family: $font-family-accent;
+    font-size: $font-size-body-small;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-normal;
 }
 
 
-// Typographic style utilities
 
-.bold {
-    font-weight: 700;
-}
+//////////////////////////
 
-.italic {
-    font-style: italic;
-}
 
-.text-decoration-none {
-    text-decoration: none;
-}
+// Utilities
+
+
+// Font weight
+.jh-font-weight-bold { font-weight: $font-weight-bold; }
+
+
+// Line height
+.jh-line-height-normal { line-height: $line-height-normal; }
+.jh-line-height-loose { line-height: $line-height-loose; }
+.jh-line-height-tight { line-height: $line-height-tight; }
 
 
 // Text alignment
 
-.text-left {
-    text-align: left;
+.jh-text-left { text-align: left; }
+.jh-text-center { text-align: center; }
+.jh-text-right { text-align: right; }
+
+@include breakpoint-sm-up {
+    .jh-text-sm-left { text-align: left; }
+    .jh-text-sm-center { text-align: center; }
+    .jh-text-sm-right { text-align: right; }
 }
 
-.text-center {
-    text-align: center;
+@include breakpoint-md-up {
+    .jh-text-md-left { text-align: left; }
+    .jh-text-md-center { text-align: center; }
+    .jh-text-md-right { text-align: right; }
 }
 
-.text-right {
-    text-align: right;
+@include breakpoint-lg-up {
+    .jh-text-lg-left { text-align: left; }
+    .jh-text-lg-center { text-align: center; }
+    .jh-text-lg-right { text-align: right; }
 }
-
-@include breakpoint(lg-up) {
-    .text-right-lg-up {
-        text-align: right;
-    }
-}
-
-
-// Lists
-
-.list-unstyled {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-
-
-// Code
-
-code {
-    color: $red;
-    font-size: 1.2em;
-}
-
-pre {
-    background-color: $gray-light;
-    padding: $space * 2;
-    -webkit-white-space: pre-wrap;
-    -ms-white-space: pre-wrap;
-    -moz-white-space: pre-wrap;
-    -o-white-space: pre-wrap;
-    white-space: pre-wrap;
-
-    code {
-        color: $gray-text;
-    }
-}
-

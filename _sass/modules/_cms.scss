@@ -1,0 +1,202 @@
+//////////////////////////
+//
+//  CMS content styling
+//
+//////////////////////////
+
+
+.jh-text-cms {
+    
+    // Default text styles
+
+    h1 {
+        font-family: $font-family-body;
+        font-size: $font-size-header-large;
+        font-weight: $font-weight-light;
+        line-height: $line-height-tight;
+        margin-bottom: $spacer-4;
+    }
+
+    h2 {
+        font-family: $font-family-body;
+        font-size: $font-size-header-medium;
+        font-weight: $font-weight-light;
+        line-height: $line-height-tight;
+        margin-bottom: $spacer-4;
+    }
+
+    h3 {
+        font-family: $font-family-body;
+        font-size: $font-size-header-small;
+        font-weight: $font-weight-regular;
+        line-height: $line-height-tight;
+        margin-bottom: $spacer-4;
+    }
+    
+
+    p {
+        font-family: $font-family-body;
+        font-size: $font-size-body-medium;
+        font-weight: $font-weight-light;
+        line-height: $line-height-loose;
+        margin-bottom: $spacer-4;
+    }
+
+    ul, ol {
+        margin-bottom: $spacer-4;
+    }
+
+    li {
+        font-weight: $font-weight-light;
+        line-height: $line-height-loose;
+        margin-bottom: $spacer-2;
+    }
+
+    hr {
+        margin-top: $spacer-5;
+        margin-bottom: $spacer-5;
+        border-top: $border-width-thin solid $color-blue;
+    }
+
+
+    // Link styles
+    p a,
+    li a {
+        color: $color-blue-dark;
+        font-weight: $font-weight-regular;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-blue-dark;
+            background-color: $color-yellow;
+        }
+    }
+
+    // Image container
+    .jh-text-cms__img {
+        margin-top: $spacer-5;
+        margin-bottom: $spacer-5;
+        text-align: center;
+    }
+
+    // Image caption
+    .jh-text-cms__img__caption {
+        color: $color-gray-light;
+        font-family: $font-family-accent;
+        font-size: $font-size-body-small;
+        font-weight: $font-weight-regular;
+        line-height: $line-height-normal;
+        margin-top: $spacer-2;
+        margin-bottom: $spacer-4;
+        text-align: left;
+
+        @include breakpoint-md-up {
+            margin-top: $spacer-3;
+        }
+    }
+
+    // Set the image to be full-width
+    .jh-text-cms__img--full-width {
+        margin-left: -$spacer-4;
+        margin-right: -$spacer-4;
+
+        .jh-text-cms__img__caption {
+            margin-left: $spacer-4;
+            margin-right: $spacer-4;
+        }
+
+        @include breakpoint-sm-up {
+            margin-left: -$spacer-5;
+            margin-right: -$spacer-5;
+
+            .jh-text-cms__img__caption {
+                margin-left: $spacer-5;
+                margin-right: $spacer-5;
+            }
+        }
+
+        @include breakpoint-md-up {
+            margin-left: -$spacer-6;
+            margin-right: -$spacer-6;
+
+            .jh-text-cms__img__caption {
+                margin-left: $spacer-6;
+                margin-right: $spacer-6;
+            }
+        }
+
+        @include breakpoint-lg-up {
+            margin-left: -$spacer-7;
+            margin-right: -$spacer-7;
+
+            .jh-text-cms__img__caption {
+                margin-left: $spacer-7;
+                margin-right: $spacer-7;
+            }
+        }
+    }
+
+    // Scrollable image container
+    .jh-text-cms__img--scrollable {
+        .jh-text-cms__img--scrollable__container {
+            background-color: $color-white;
+
+            @include breakpoint-md-up {
+                height: 600px;
+                overflow-y: scroll;
+                padding-right: $spacer-2;
+            }
+        }
+
+        // Style the scrollbar
+        ::-webkit-scrollbar {
+            -webkit-appearance: none;
+            width: $spacer-2;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: $color-blue-dark;
+            border-radius: $spacer-2;
+        }
+        ::-webkit-scrollbar-track-piece {
+            background-color: $color-blue;
+            border-radius: $spacer-3;
+        }
+    }
+
+    // Project details section
+    .jh-text-cms__project-details {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        margin-top: $spacer-5;
+
+        h3 {
+            margin-bottom: $spacer-2;
+            font-family: $font-family-accent;
+            font-size: $font-size-body-medium;
+            font-weight: $font-weight-bold;
+            line-height: $line-height-loose;
+        }
+
+        p {
+            font-family: $font-family-accent;
+        }
+
+        // First column
+        div:nth-of-type(2n+1) {
+            grid-column: span 12;
+
+            @include breakpoint-md-up {
+                grid-column: span 3;
+            }
+        }
+
+        // Second column
+        div:nth-of-type(2n) {
+            grid-column: span 12;
+
+            @include breakpoint-md-up {
+                grid-column: span 9;
+            }
+        }
+    }
+}

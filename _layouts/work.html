@@ -2,36 +2,29 @@
 layout: default
 ---
 
-<h1 class="mb-sm-3">{{page.title}}</h1>
+<h1 class="jh-header-1 jh-m-b-4">{{page.title}}</h1>
 
-<div class="prose mb-sm-4">
-	<p>Currently, I’m a Principal Product Designer at <a href="http://primary.com" target="_blank">Primary</a>. To me, product design is about being a part of the product process from start to finish; I’m involved in concepting and defining scope all the way to pushing code.</p>
+<div class="jh-body-medium jh-line-height-loose jh-m-b-5 jh-m-b-md-6">
+	<p class="jh-m-b-3">Currently, I’m a Principal Product Designer at <a href="http://primary.com" class="jh-link-blue-dark" target="_blank">Primary</a>. To me, product design is about being a part of the product process from start to finish; I’m involved in research and defining the problem all the way to pushing code.</p>
 	<p>Below is a sampling of some of the more in-depth projects I've done throughout the years.</p>
 </div>
 
-<h2 class="mb-sm-4">View select design projects</h2>
+<h2 class="jh-header-2 jh-m-b-4 jh-m-b-md-6">View select design projects</h2>
 
 
 {% for company in site.data.companies %}
-<div class="col-group mb-sm-4 mb-lg-5">
-	<div class="col col-sm-12 col-md-4 pr-sm-2 pr-lg-4 mb-sm-2 text-center">
-		<a href="{{company.url}}"><img src="{{company.logo}}" alt="{{company.name}}"></a>
-		<p class="body-mono">{{company.years}}</p>
+<div class="jh-grid jh-m-b-4 jh-m-b-md-5 {% unless company.position == 2 %} jh-b-b-1 jh-b-blue {% endunless %}">
+	<div class="jh-grid__col--md--4 jh-text-center jh-m-b-4 jh-m-b-md-0 jh-p-r-md-4 jh-p-r-lg-6">
+		<a href="{{company.url}}" class="jh-d-inline-block"><img src="{{company.logo}}" alt="{{company.name}}" class="jh-img-logo"></a>
+		<p class="jh-body-accent">{{company.years}}</p>
 	</div>
-	<div class="col col-sm-12 col-md-8">
+	<div class="jh-grid__col--md--8 jh-m-t-md-2 jh-m-b-5">
 		{% for item in site.work reversed %}
 			{% if item.company == company.name %}
-				<a href="{{item.url}}" class="display-block link-gray-text mb-sm-3 mb-lg-4">
-	                <h3 class="mb-sm-1">{{item.title}}</h3>
-	                <p class="body-mono mt-sm-0">{{item.description}}</p>
-	            </a>
+				{% include post_company_excerpt.html %}
 			{% endif %}
 		{% endfor %}
 	</div>
 </div>
-
-{% unless company.position == 2 %}
-	<hr>
-{% endunless %}
 
 {% endfor %}
