@@ -1,7 +1,6 @@
 ---
 title: Primary SVG animations
 date: 2020-01-01 16:07:00 -05:00
-published: true
 company: Primary
 year: 2020
 description: Animated illustrations throughout the Primary website.
