@@ -1,16 +1,14 @@
 ---
 title: Primary spot animations
-published: false
 date: 2020-01-01 16:07:00 -05:00
+published: false
 company: Primary
 year: 2020
 description: Spot animations throughout the Primary website.
 assets:
 - path: "/uploads/primary-swatch-builder_swatch-example.jpg"
   name: primary-swatch-builder_swatch-example
-
 ---
-
 
 Here are some examples of spot illustrations that I've animated with CSS for the Primary website. I was responsible for concepting and animating the  These illustrations were done by the Primary creative team, unless otherwise noted.
 
