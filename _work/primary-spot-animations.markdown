@@ -1,5 +1,6 @@
 ---
 title: Primary spot animations
+published: false
 date: 2020-01-01 16:07:00 -05:00
 company: Primary
 year: 2020
