@@ -46,9 +46,10 @@ url: http://www.jessicaharllee.com
 description: Jessica Harllee is a Principal Product Designer at Primary in Brooklyn
 permalink: pretty
 date_format: "%b %d, %Y"
-gems:
-- jekyll-feed
-- jekyll-sitemap
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
 exclude:
-- Gemfile.lock
-- node_modules
+  - Gemfile.lock
+  - node_modules
