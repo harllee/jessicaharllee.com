@@ -1,12 +1,12 @@
 ---
 title: About
 position: 4
-layout: about
 assets:
 - path: "/uploads/jess-red-shirt-full.jpg"
   name: jess-red-shirt-full
 - path: "/uploads/jessica-red-wall-landscape-d1c86b.jpg"
   name: jessica-red-wall-landscape-d1c86b
+layout: about
 ---
 
 <h1 class="jh-screenreader-only">About</h1>
@@ -59,5 +59,7 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 
 
 This site was built using [SiteLeaf](http://siteleaf.com) (largely thanks to the [SiteLeaf Hackday](http://jessicaharllee.com/notes/a-redesign-with-siteleaf)), [Sublime](http://www.sublimetext.com), Terminal, [Sass](http://sass-lang.com), [Github](https://github.com/harllee), Photoshop, Sketch, and [Typekit](http://typekit.com).
+
+I've been keeping a personal site since 2000, when I first learned HTML and CSS. [You can find a sampling of the old layouts here](http://jessicaharllee.com/archives).
 
 Photo by the amazing [Mike Edmonds](http://www.edmonds.photo), hire him! Thanks to [Kyle Turman](http://turman.co) for the :harllee-sweat-smile: Slackmoji/favicon.
