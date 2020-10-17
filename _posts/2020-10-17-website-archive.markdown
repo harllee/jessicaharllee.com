@@ -6,6 +6,9 @@ tags:
 - dev life
 ---
 
+![EkJNDY1XkAEzuvH.jpeg](/uploads/EkJNDY1XkAEzuvH.jpeg)
+
+
 I've kept a personal site since 2000, when I discovered Angelfire and taught myself HTML and CSS. My website was a creative outlet for me throughout high school, and for awhile I was even putting up a new site design every few weeks. I've saved nearly every version of my site, and decided to put up a small archive of past layouts for your viewing pleasure.
 
 [View my website archive](http://jessicaharllee.com/archives)
