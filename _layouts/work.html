@@ -15,8 +15,9 @@ layout: default
 {% for company in site.data.companies %}
 <div class="jh-grid jh-m-b-4 jh-m-b-md-5 {% unless company.position == 2 %} jh-b-b-1 jh-b-blue {% endunless %}">
 	<div class="jh-grid__col--md--4 jh-text-center jh-m-b-4 jh-m-b-md-0 jh-p-r-md-4 jh-p-r-lg-6">
-		<a href="{{company.url}}" class="jh-d-inline-block"><img src="{{company.logo}}" alt="{{company.name}}" class="jh-img-logo"></a>
-		<p class="jh-body-accent">{{company.years}}</p>
+		<h3 class="jh-screenreader-only">{{company.name}}</h3>
+		<a href="{{company.url}}" class="jh-d-inline-block"><img src="{{company.logo}}" alt="{{company.name}} logo" class="jh-img-logo"></a>
+		<p class="jh-body-accent jh-m-t-3">{{company.years}}</p>
 	</div>
 	<div class="jh-grid__col--md--8 jh-m-t-md-2 jh-m-b-5">
 		{% for item in site.work reversed %}
