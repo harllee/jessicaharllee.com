@@ -6,12 +6,12 @@ tags:
 - dev life
 ---
 
+I've kept a personal site since 2000, when I discovered Angelfire and taught myself HTML and CSS. My website was a creative outlet for me throughout high school, and for awhile I was even putting up a new site design every few weeks (truly cannot even imagine doing that nowadays). I've saved nearly every version of my site, and decided to put up a small archive of past layouts for your viewing pleasure.
+
 <div class="jh-text-cms__img">
-  <img src="/uploads/EkJNDY1XkAEzuvH.jpeg" alt="Screenshot of my website from 2002, with photos of the band Hey Mercedes, blue text boxes with white justified type, song lyrics, and a repeating checkered background.">
+  <a href="http://jessicaharllee.com/archives" class="jh-d-block"><img src="/uploads/EkJNDY1XkAEzuvH.jpeg" alt="Screenshot of my website from 2002, with photos of the band Hey Mercedes, blue text boxes with white justified type, song lyrics, and a repeating checkered background."></a>
   <p class="jh-text-cms__img__caption">My website circa 2002.</p>
 </div>
-
-I've kept a personal site since 2000, when I discovered Angelfire and taught myself HTML and CSS. My website was a creative outlet for me throughout high school, and for awhile I was even putting up a new site design every few weeks (truly cannot even imagine doing that nowadays). I've saved nearly every version of my site, and decided to put up a small archive of past layouts for your viewing pleasure.
 
 [View my website archive](http://jessicaharllee.com/archives)
 
