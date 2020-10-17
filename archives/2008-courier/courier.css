@@ -1,0 +1,80 @@
+#bgimage{
+background-image: url(../courier/images/bg.jpg);
+width:960px;
+height:630px;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+}
+
+#wrapper{
+width:850px;
+height:430px;
+margin-left:50px;
+margin-top:120px;
+font-family:"Courier New", Courier, monospace;
+font-size:11px;
+line-height:13px;
+float:left;
+}
+
+#header {
+width:820px;
+font-family:"Courier New", Courier, monospace;
+font-size:16px;
+float:left;
+}
+
+#navigation {
+width:100px;
+height:400px;
+margin-top:10px;
+padding:5px;
+float:left;
+line-height:13px;
+}
+
+#content { 
+margin-left:15px;
+margin-top:10px;
+width:500px;
+height:400px;
+float:left;
+}
+
+#description {
+margin-left:15px;
+margin-top:10px;
+padding:5px;
+width:200px;
+height:390px;
+float:left;
+}
+
+.name {
+font-size: 14px;
+line-height:15px;
+font-color:;
+}
+
+body {
+font-size:11px;
+line-height:13px;
+color:#292929;
+}
+
+a:link{
+color:white;
+background-color:#3399CC;
+text-decoration:underline;
+}
+
+a:hover{
+color:#292929;
+text-decoration:none;
+}
+
+a:visited{
+color:#3399CC;
+text-decoration:underline;
+}

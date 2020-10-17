@@ -1,0 +1,24 @@
+.text {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: black;
+	text-transform:uppercase;
+}
+a:link {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: #66CC00;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: #66CC00;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+}

@@ -1,0 +1,254 @@
+body {
+	font-size: 16px;
+	line-height: 26px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+
+#fragment-14478 {
+	width: 680px;
+	margin: 100px auto;
+}
+
+a:hover {
+	color: rgba(0, 102, 204, 1.00);
+	text-decoration: none;
+}
+
+a:link {
+	color: rgba(0, 102, 204, 1.00);
+}
+
+a:visited {
+	color: rgba(153, 0, 153, 1.00);
+}
+
+blockquote {
+	font-family: Arial;
+	font-size: 26px;
+	line-height: 42px;
+	font-style: italic;
+}
+
+blockquote a:link {
+	color: rgb(0, 102, 204);
+}
+
+blockquote a:visited {
+	color: rgb(153, 0, 153);
+}
+
+blockquote a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 34px;
+	line-height: 47px;
+	font-family: ff-meta-serif-web-pro-1;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-bottom: 68px;
+	margin-top: 68px;
+	text-transform: none;
+	color: rgba(51, 51, 51, 1.00);
+}
+
+h1 a:link {
+	color: rgba(4, 181, 216, 1.00);
+}
+
+h1 a:visited {
+  color: rgba(4, 181, 216, 1.00);
+}
+
+h1 a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 42px;
+	line-height: 68px;
+	font-family: Arial;
+	letter-spacing: 0px;
+}
+
+h2 a:link {
+	color: rgb(0, 102, 204);
+}
+
+h2 a:visited {
+	color: rgb(153, 0, 153);
+}
+
+h2 a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	font-family: Arial;
+	line-height: 42px;
+	letter-spacing: 0px;
+}
+
+h3 a:link {
+	color: rgb(0, 102, 204);
+}
+
+h3 a:visited {
+	color: rgb(153, 0, 153);
+}
+
+h3 a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+h4 {
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 1px;
+}
+
+h4 a:link {
+	color: rgb(0, 102, 204);
+}
+
+h4 a:visited {
+	color: rgb(153, 0, 153);
+}
+
+h4 a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+h5 {
+	font-family: Arial;
+	letter-spacing: 1px;
+	line-height: 26px;
+	font-size: 16px;
+}
+
+h5 a:link {
+	color: rgb(0, 102, 204);
+}
+
+h5 a:visited {
+	color: rgb(153, 0, 153);
+}
+
+h5 a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+h6 {
+	font-family: Arial;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 26px;
+	font-size: 16px;
+	letter-spacing: 0px;
+}
+
+h6 a:link {
+	color: rgb(0, 102, 204);
+}
+
+h6 a:visited {
+	color: rgb(153, 0, 153);
+}
+
+h6 a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+p {
+	font-size: 18px;
+	line-height: 30px;
+	font-family: ff-meta-serif-web-pro-1;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	color: rgba(51, 51, 51, 1.00);
+}
+
+p a:link {
+	color: rgba(4, 181, 216, 1.00);
+}
+
+p a:visited {
+  color: rgba(4, 181, 216, 1.00);
+}
+
+p a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+p.intro {
+	font-size: 26px;
+	line-height: 42px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+
+p.intro a:link {
+	color: rgba(4, 181, 216, 1.00);
+}
+
+p.intro a:visited {
+	color: rgba(4, 181, 216, 1.00);
+}
+
+p.intro a:hover {
+	color: rgb(0, 102, 204);
+	text-decoration: none;
+}
+
+p.links {
+	font-size: 18px;
+	line-height: 30px;
+	font-family: ff-meta-serif-web-pro-1;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	color: rgba(204, 204, 204, 1.00);
+}
+
+p.links a:link {
+  color: rgba(4, 181, 216, 1.00);
+}
+
+p.links a:visited {
+  color: rgba(4, 181, 216, 1.00);
+}
+
+p.links a:hover {
+  color: rgb(0, 102, 204);
+  text-decoration: none;
+}
+

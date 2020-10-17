@@ -1,0 +1,120 @@
+body {
+	background: url(../img/background.jpg);
+}
+
+#content {
+	width: 540px;
+	margin: 100px auto 0px;
+}
+
+h1 {
+	font-family: 'MEgalopolisExtraRegular';
+	font-size: 60px;
+	color: #03b6b0;
+	text-shadow: 0px 1px 1px #e1e1e1, 0px -1px 1px #02807c;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: Georgia, Times New Roman, serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: .95em;
+	color: #2d2d2d;
+	text-align:center;
+	margin-top: 0px;
+}
+
+h3 {
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #838383;
+	/*text-shadow: 0px 1px 1px #4c4c4c, 0px -1px 1px #dadada;*/
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 0px 15px;
+	padding: 0px;
+}
+
+h6 {
+	font-family: 'MEgalopolisExtraRegular';
+	font-size: 2em;
+	font-style: normal;
+	color: #c3c3c3;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 100px 0px 0px;
+}
+
+span.bold {
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #383838;
+}
+
+p {
+	font-family: Georgia, Times New Roman, serif;
+	font-style: italic;
+	font-size: 19px;
+	color: #a0a0a0;
+	text-align: center;
+	margin-top: 50px;
+}
+
+span.link {
+	font-family: 'MEgalopolisExtraRegular';
+	font-size: 21px;
+	font-style: normal;
+	color: #383838;
+	text-shadow: 0px 1px 1px #e1e1e1, 0px -1px 1px #202020;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+}
+
+span.link a{
+	color: #383838;
+	text-decoration: none;
+}
+
+span.link a:hover{ border-bottom: 4px solid #03b6b0;}
+span.link a:active{ color: #292929;}
+
+#portfolio {
+	width: 520px;
+	padding: 20px;
+	margin: 65px auto 0px;
+	/*background-color: #c2c2c2;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 0px 1px 1px #e8e8e8, 0px 1px 1px #7a7a7a inset;
+	-moz-box-shadow: 0px 1px 1px #e8e8e8, 0px 1px 1px #7a7a7a inset;
+	-webkit-box-shadow: 0px 1px 1px #e8e8e8, 0px 1px 1px #7a7a7a inset;*/
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li a{
+	float: left;
+	margin-right: 5px;
+	padding-bottom: 3px;
+}
+
+li a:hover{
+	border-bottom: 4px solid #03b6b0;
+}
+
+.last{margin-right:0px;}
+
+.clear{ clear:both;}

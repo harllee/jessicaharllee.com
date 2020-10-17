@@ -1,0 +1,29 @@
+.text {
+	font-family: tahoma;
+	font-size: 10pt;
+	color: #62544f;
+}
+a:link {
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #b1c9e1;
+}
+a:visited {
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #b1c9e1;
+}
+a:hover {
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #ece5cc;
+}
+a:active {
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #b1c9e1;
+}

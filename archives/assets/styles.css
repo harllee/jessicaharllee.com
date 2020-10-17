@@ -1,0 +1,86 @@
+#archives.container {
+	font-family: "source-code-pro-1","source-code-pro-2", Courier New, monospace;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: normal;
+}
+
+
+#archives.container h1, #archives.container h2 {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+#archives.container {
+	max-width: 600px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+#archives.container a {
+	border-bottom: 1px dotted #000;
+	text-decoration: none;
+	color: black;
+}
+
+#archives.container a:hover {
+	background-color: #ccd900;
+	border-bottom-color: transparent;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+#archives.container li {
+	margin-bottom: 10px;
+}
+
+
+#archives.archives-banner {	
+	background-color: black;
+	color: white;
+	padding: 10px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "source-code-pro-1","source-code-pro-2", Courier New, monospace;
+	line-height: 1.5;
+}
+
+#archives.archives-banner h1 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	font-style: normal;
+	color: white;
+	letter-spacing: 0;
+	font-family: "source-code-pro-1","source-code-pro-2", Courier New, monospace;
+	text-shadow: none;
+}
+
+#archives.archives-banner a {
+	color: white;
+	border-bottom: 1px dotted #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "source-code-pro-1","source-code-pro-2", Courier New, monospace;
+	font-size: 14px;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+#archives.archives-banner a:hover {
+	color: #ccd900;
+	border-bottom: 1px dotted #ccd900;
+}
