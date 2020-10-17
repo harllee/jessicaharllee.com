@@ -1,5 +1,0 @@
----
-title: yoga
-alias: Yoga
----
-
