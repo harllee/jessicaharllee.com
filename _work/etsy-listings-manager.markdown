@@ -100,7 +100,7 @@ When we had hit 10,000 shops in the prototype group, we were ready to announce t
     <h3>Team</h3>
   </div>
   <div>
-    <p>4 designers (me, plus <a href="http://aaron.mn">Aaron Shapiro</a>, <a href="https://broccolini.net">Diana Mounter</a>, and <a href="http://www.dennispkramer.com">Dennis Kramer</a>), 2 design leads, 2 product managers, 2 engineering managers, 7 engineers, 1 user researcher, 1 data analyst, 1 product education specialist</p>
+    <p>4 designers (me, plus <a href="http://aaron.mn">Aaron Shapiro</a>, <a href="https://broccolini.net">Diana Mounter</a>, and <a href="http://dennispkramer.com">Dennis Kramer</a>), 2 design leads, 2 product managers, 2 engineering managers, 7 engineers, 1 user researcher, 1 data analyst, 1 product education specialist</p>
   </div>
   <div>
     <h3>Released</h3>
