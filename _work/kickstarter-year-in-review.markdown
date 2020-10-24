@@ -66,7 +66,7 @@ Featured on [SiteInspire](http://www.siteinspire.com/websites/3105-the-best-of-k
         <h3>Core team</h3>
     </div>
     <div>
-        <p>3 designers (me, plus <a href="http://www.aaronrobbs.com">Aaron Robbs</a> and <a href="https://chrismuccioli.com">Chris Muccioli</a>), 1 writer, 1 engineer</p>
+        <p>3 designers (me, plus <a href="http://aaronrobbs.com">Aaron Robbs</a> and <a href="https://chrismuccioli.com">Chris Muccioli</a>), 1 writer, 1 engineer</p>
     </div>
     <div>
         <h3>Released</h3>
