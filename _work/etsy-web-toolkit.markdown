@@ -120,7 +120,7 @@ The creation of the web toolkit, its high adoption rate, and our working group e
 		<h3>Core team</h3>
 	</div>
 	<div>
-		<p>4 product designers, including myself, in the original core team. Later, a rotating group of designers and engineers were involved on a volunteer basis.</p>
+		<p>4 product designers (me, plus [Aaron Shapiro](http://aaron.mn), [Diana Mounter](https://broccolini.net), and [Dennis Kramer](http://www.dennispkramer.com)) in the original core team. Later, a rotating group of designers and engineers were involved on a volunteer basis.</p>
 	</div>
 	<div>
 		<h3>Years active</h3>
