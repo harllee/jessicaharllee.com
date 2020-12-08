@@ -5,6 +5,7 @@ tags:
 - personal
 - reflections
 - etsy
+- lessons learned
 ---
 
 *This is a slightly modified version of my Etsy last lecture, given September 9, 2019 during my last week at Etsy. Last lectures are an (optional) Etsy tradition in which departing employees share parting wisdom with their coworkers. There aren’t really any rules, prescribed topics, or required levels of polish for a last lecture; it’s up to the lecturer to decide what they think is important to share during their hour. I decided to share some raw thoughts about dealing with challenges, and thought I’d share it here with you.*

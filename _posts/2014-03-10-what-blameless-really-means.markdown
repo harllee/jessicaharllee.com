@@ -5,6 +5,7 @@ tags:
 - dev life
 - reflections
 - etsy
+- lessons learned
 color: green
 ---
 

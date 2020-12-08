@@ -5,6 +5,7 @@ tags:
 - etsy
 - design
 - irl
+- process
 ---
 
 [Catt Small](http://cattsmall.com) and I recently did an interview with [InVision](https://www.invisionapp.com/blog) for their interview series Inside Design. We spoke about what it was like designing for Etsy's buyers and sellers and our design team culture. We also had a super fun photoshoot slash brainstorming session with our design teammates in Brooklyn Bridge Park!

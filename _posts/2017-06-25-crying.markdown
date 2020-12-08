@@ -4,6 +4,7 @@ date: 2017-06-25 16:00:00 -04:00
 tags:
 - personal
 - reflections
+- lessons learned
 ---
 
 I cry pretty easily. Crying is emotional relief for me and is usually a sign of stress or feeling overwhelmed. It's not always a bad thing, either; I cry at commercials, at weddings, while watching Grey's. But usually if I'm crying, it's because of some kind of intense emotion.
@@ -38,7 +39,7 @@ And most importantly, I practiced asking for help. I talked to Jason about what 
 
 <div class="jh-text-cms__img jh-text-cms__img--full-width">
   <img src="/uploads/dont-cry.gif">
-  <p class="body-caption text-center">All of my feelings</p>
+  <p class="jh-text-cms__img__caption">All of my feelings</p>
 </div>
 
 Technically, I didn't hit my goal. I haven't stopped crying and I don't think I will; crying will always be part of how I deal with my emotions. But I feel more capable of recognizing the good kind of crying from the bad kind. And I feel more equipped to handle my next slump, whenever that may be.

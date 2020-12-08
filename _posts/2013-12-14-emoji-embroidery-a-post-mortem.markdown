@@ -5,6 +5,7 @@ tags:
 - embroidery
 - reflections
 - design
+- lessons learned
 color: yellow
 assets:
 - path: "/uploads/GCfltIhy6CJLM4B7XDe6eWoAFQbyxIEt_9ZQCpTKpaQ.jpeg"

@@ -5,6 +5,7 @@ tags:
 - personal
 - reflections
 - embroidery
+- lessons learned
 ---
 
 At my very first job, every employee had to take the [Strengthsfinder quiz](http://strengths.gallup.com/default.aspx). The quiz is a series of statements that you agree or disagree with, and at the end of the quiz you get a list of your top 5 strengths. The idea is that by identifying your strengths, it sets you up to maximize them at work. At the top of my list was Achiever.
