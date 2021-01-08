@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="description" content="{% if page.id %}{% if page.url contains 'notes' %}{{ page.excerpt }}{% elsif page.url contains 'work' %}{{ page.description }}{% endif %}{% else %}The product design portfolio and blog of Jessica Harllee.{% endif %}">
     <meta name="twitter:creator" content="@harllee">
 
     <title>
