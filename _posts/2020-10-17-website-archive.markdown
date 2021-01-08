@@ -1,10 +1,10 @@
 ---
 title: Website archive
-excerpt: I published past layouts for my personal site dating back to 2002.
 date: 2020-10-17 17:41:00 -04:00
 tags:
 - design
 - dev life
+excerpt: I published past layouts for my personal site dating back to 2002.
 ---
 
 I've kept a personal site since 2000, when I discovered Angelfire and taught myself HTML and CSS. My website was a creative outlet for me throughout high school, and for awhile I was even putting up a new site design every few weeks (truly cannot even imagine doing that nowadays). I've saved nearly every version of my site, and decided to put up a small archive of past layouts for your viewing pleasure.

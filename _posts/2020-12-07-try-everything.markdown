@@ -1,12 +1,13 @@
 ---
 title: Try everything
-excerpt: A design problem that I initially didn't think was solvable until I actually tried to solve it.
 date: 2020-12-07 17:56:00 -05:00
 tags:
 - design
 - primary
 - process
 - lessons learned
+excerpt: A design problem that I initially didn't think was solvable until I actually
+  tried to solve it.
 ---
 
 In September we launched a total rebrand of Primary, including a new logo, fresh packaging, and a totally redesigned [primary.com](http://primary.com). I had been a part of rebrands before, but never one that was so closely coordinated across so many teams at the company. It was thrilling.
