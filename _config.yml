@@ -43,7 +43,6 @@ defaults:
   values:
     sitemap: false
 url: http://www.jessicaharllee.com
-description: Jessica Harllee is a principal product designer in Brooklyn, New York
 permalink: pretty
 date_format: "%b %d, %Y"
 plugins:

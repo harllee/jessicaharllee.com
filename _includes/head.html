@@ -1,17 +1,21 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="description" content="Jessica Harllee is a Principal Product Designer at Primary in Brooklyn, New York."></head>
+    <meta name="twitter:creator" content="@harllee">
+    <meta name="twitter:card" content="summary">
+
     <title>
         {% if page.alias %}
-            {{site.title}} | Notes: {{page.alias}}
+            Notes tagged {{page.alias}} | {{site.title}}
+        {% elsif page.url == '/' %}
+            {{site.title}} | Principal product designer in Brooklyn, New York
         {% else %}
-            {{site.title}} | {{page.title}}
+            {{page.title}} | {{site.title}}
         {% endif %}
     </title>
-    <link rel="alternate" type="application/rss+xml" title="jessicaharllee.com RSS feed" href="http://jessicaharllee.com/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Jessica Harllee's RSS feed" href="http://jessicaharllee.com/feed.xml" />
     <link rel="stylesheet" type="text/css" href="/assets/base.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="https://jessicaharllee.com/favicon.ico" type="image/x-icon" />
     <script type="text/javascript" src="//use.typekit.net/rjw6ujq.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script type="text/javascript">
