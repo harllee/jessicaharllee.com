@@ -1,5 +1,6 @@
 ---
 title: Good challenges vs. bad challenges (Etsy last lecture)
+excerpt: My Last Lecture at Etsy where I reflect on different challenges I encountered, and determining whether they were the "good" or "bad" kind of challenging.
 date: 2019-11-12 16:22:00 -05:00
 tags:
 - personal

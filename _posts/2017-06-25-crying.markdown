@@ -1,5 +1,6 @@
 ---
 title: Crying
+excerpt: On crying at work, and that time it got to be too much to handle.
 date: 2017-06-25 16:00:00 -04:00
 tags:
 - personal

@@ -1,5 +1,6 @@
 ---
 title: What blameless really means
+excerpt: On blamelessness and applying it to yourself, too.
 date: 2014-03-10 09:40:00 -04:00
 tags:
 - dev life

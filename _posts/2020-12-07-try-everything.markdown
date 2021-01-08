@@ -1,5 +1,6 @@
 ---
 title: Try everything
+excerpt: A design problem that I initially didn't think was solvable until I actually tried to solve it.
 date: 2020-12-07 17:56:00 -05:00
 tags:
 - design

@@ -23,7 +23,9 @@ layout: default
 
 <div>
     {% for post in site.posts %}
-        {% if post.slug contains 'good-challenges-vs-bad-challenges' %}
+        {% if post.slug contains 'try-everything' %}
+            {% include post_excerpt.html %}
+        {% elsif post.slug contains 'good-challenges-vs-bad-challenges' %}
             {% include post_excerpt.html %}
         {% elsif post.slug contains 'crying' %}
             {% include post_excerpt.html %}
