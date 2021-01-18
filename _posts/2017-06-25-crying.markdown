@@ -6,7 +6,7 @@ tags:
 - reflections
 - lessons learned
 excerpt: On crying at work, and that time it got to be too much to handle.
-share_image: /uploads/notes-crying-share.jpg
+share_image: "/uploads/notes-crying-share.jpg"
 ---
 
 I cry pretty easily. Crying is emotional relief for me and is usually a sign of stress or feeling overwhelmed. It's not always a bad thing, either; I cry at commercials, at weddings, while watching Grey's. But usually if I'm crying, it's because of some kind of intense emotion.

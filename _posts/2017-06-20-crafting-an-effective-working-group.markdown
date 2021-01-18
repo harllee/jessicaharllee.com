@@ -6,7 +6,7 @@ tags:
 - how to
 - design
 - process
-share_image: /uploads/notes-working-group-share.jpg
+share_image: "/uploads/notes-working-group-share.jpg"
 ---
 
 At Etsy, some of the most interesting (and most difficult!) challenges we face as a design team don’t always have a clear or obvious owner. Our initiatives can span multiple product teams or even multiple disciplines. Without a dedicated team of people solving these problems, they’re easy to ignore.

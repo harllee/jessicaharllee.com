@@ -4,7 +4,7 @@ date: 2014-03-17 00:03:00 -04:00
 tags:
 - embroidery
 - irl
-share_image: /uploads/notes-emoji-embroidery-share.jpg
+share_image: "/uploads/notes-emoji-embroidery-share.jpg"
 assets:
 - path: "/uploads/huge_flea_flyer.gif"
 ---
