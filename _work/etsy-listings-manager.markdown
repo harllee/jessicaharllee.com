@@ -4,7 +4,7 @@ date: 2015-04-21 17:07:00 -04:00
 company: Etsy
 year: 2015
 description: A redesign and rewrite of the core of Etsy's seller tools.
-share_image: /uploads/work-listings-manager-share.jpg
+share_image: "/uploads/work-listings-manager-share.jpg"
 assets:
 - path: "/uploads/listing-form-crop.jpg"
   name: listing-form-crop
