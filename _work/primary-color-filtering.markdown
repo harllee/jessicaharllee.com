@@ -5,8 +5,9 @@ company: Primary
 year: 2020
 description: Rethink filtering on Primary to accommodate dozens of unique clothing
   colors.
+share_image: /uploads/work-color-filters-share.jpg
 assets:
-- path: "/uploads/primary-color-filter_product-card.jpg"
+- path: /uploads/primary-color-filter_product-card.jpg
   name: primary-color-filter_product-card
 - path: uploads/primary-color-filters_family-iteration.jpg
   name: primary-color-filters_family-iteration

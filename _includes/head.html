@@ -9,6 +9,7 @@
     {% else %}
         <title>{{page.title}} | {{site.title}}</title>
     {% endif %}
+    
     {% if page.id %}
         {% if page.url contains 'notes' %}
             <meta name="description" content="{{ page.excerpt | strip_html }}">
@@ -18,6 +19,15 @@
     {% else %}
         <meta name="description" content="The product design portfolio and blog of Jessica Harllee.">
     {% endif %}
+
+    {% if page.share_image %}
+        <meta property="og:image" content="https://jessicaharllee.com{{ page.share_image }}">
+        <meta name="twitter:image" content="https://jessicaharllee.com{{ page.share_image }}">
+    {% else %}
+        <meta property="og:image" content="https://jessicaharllee.com/uploads/jessica-harllee-share.jpg">
+        <meta name="twitter:image" content="https://jessicaharllee.com/uploads/jessica-harllee-share.jpg">
+    {% endif %}
+    
     <meta name="twitter:creator" content="@harllee">
 
     <link rel="alternate" type="application/rss+xml" title="Jessica Harllee's RSS feed" href="http://jessicaharllee.com/feed.xml" />
