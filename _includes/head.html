@@ -4,20 +4,29 @@
 
     {% if page.alias %}
         <title>Notes tagged {{page.alias}} | {{site.title}}</title>
+        <meta property="og:title" content="Notes tagged {{page.alias}} | {{site.title}}">
+        <meta name="twitter:title" content="Notes tagged {{page.alias}} | {{site.title}}">
     {% elsif page.url == '/' %}
         <title>{{site.title}} | Principal product designer in Brooklyn, New York</title>
+        <meta property="og:title" content="{{site.title}} | Principal product designer in Brooklyn, New York">
+        <meta name="twitter:title" content="{{site.title}} | Principal product designer in Brooklyn, New York">
     {% else %}
         <title>{{page.title}} | {{site.title}}</title>
+        <meta property="og:title" content="{{page.title}} | {{site.title}}">
+        <meta name="twitter:title" content="{{page.title}} | {{site.title}}">
     {% endif %}
     
     {% if page.id %}
         {% if page.url contains 'notes' %}
             <meta name="description" content="{{ page.excerpt | strip_html }}">
+            <meta property="og:description" content="{{ page.excerpt | strip_html }}">
         {% elsif page.url contains 'work' %}
             <meta name="description" content="{{ page.description | strip_html }}">
+            <meta property="og:description" content="{{ page.description | strip_html }}">
         {% endif %}
     {% else %}
         <meta name="description" content="The product design portfolio and blog of Jessica Harllee.">
+        <meta property="og:description" content="The product design portfolio and blog of Jessica Harllee.">
     {% endif %}
 
     {% if page.share_image %}
