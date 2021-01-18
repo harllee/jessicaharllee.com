@@ -4,7 +4,7 @@ date: 2020-01-20 16:07:00 -05:00
 company: Primary
 year: 2020
 description: A visual interface for creating and managing color swatches.
-share_image: /uploads/work-swatch-builder-share.jpg
+share_image: "/uploads/work-swatch-builder-share.jpg"
 assets:
 - path: "/uploads/primary-swatch-builder_swatch-example.jpg"
   name: primary-swatch-builder_swatch-example
