@@ -6,7 +6,7 @@ tags:
 - etsy
 - irl
 - process
-color: yellow
+share_image: /uploads/notes-redesigning-confidence-share.jpg
 ---
 
 This past April I spoke at [Industry Conf](https://industryconf.com) in Newcastle upon Tyne, United Kingdom. Industry Conf covers practical topics about the web, ranging from research to design to backend development.

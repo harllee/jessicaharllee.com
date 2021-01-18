@@ -6,7 +6,7 @@ tags:
 - etsy
 - irl
 - process
-color: red
+share_image: /uploads/notes-a-list-apart-share.jpg
 ---
 
 I had the honor of writing an article for A List Apart on the role research can play as we make our way through the design process. I had been reading A List Apart and referencing it since the earliest days that I was building websites, so this opportunity was especially exciting to me!
