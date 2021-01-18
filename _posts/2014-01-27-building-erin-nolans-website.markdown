@@ -6,7 +6,7 @@ tags:
 - design
 - siteleaf
 - how to
-share_image: /uploads/notes-siteleaf-share.jpg
+share_image: "/uploads/notes-siteleaf-share.jpg"
 assets:
 - path: "/uploads/Screen Shot 2014-01-28 at 10.55.52 AM.png"
 - path: "/uploads/Screen Shot 2014-01-28 at 11.13.48 AM.png"
