@@ -3,8 +3,8 @@ title: Inventory management
 date: 2017-05-10 21:39:00 -04:00
 company: Etsy
 year: 2017
-description: Give Etsy sellers the tools they need to accurately and easily manage
-  their inventory.
+description: Give Etsy sellers the tools they need to accurately and easily manage their inventory.
+share_image: /uploads/work-inventory-management-share.jpg
 assets:
 - path: "/uploads/etsy-inventory-variations-example.jpg"
   name: etsy-inventory-variations-example

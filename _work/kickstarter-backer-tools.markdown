@@ -3,8 +3,8 @@ title: Kickstarter backer tools
 date: 2013-10-21 17:07:00 -04:00
 company: Kickstarter
 year: 2013
-description: An overhaul of two features backers use to keep up with their backed
-  projects.
+description: An overhaul of two features backers use to keep up with their backed projects.
+share_image: /uploads/work-backer-history-share.jpg
 assets:
 - path: "/uploads/kickstarter-backer-tools-activity-social.jpg"
   name: kickstarter-backer-tools-activity-social

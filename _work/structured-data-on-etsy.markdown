@@ -5,6 +5,7 @@ company: Etsy
 year: 2017
 description: Collecting category-specific information from sellers to power search
   filters.
+  share_image: /uploads/work-structured-data-share.jpg
 assets:
 - path: "/uploads/etsy_sd_listing_form.jpg"
   name: etsy_sd_listing_form
