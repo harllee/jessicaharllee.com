@@ -1,5 +1,29 @@
 ---
-title: Structured Data On Etsy
+title: Structured data on Etsy
+date: 2017-05-21 17:07:00 -04:00
+company: Etsy
+year: 2017
+description: Collecting category-specific information from sellers to power search filters.
+share_image: /uploads/work-structured-data-share.jpg
+assets:
+- path: "/uploads/etsy_sd_listing_form.jpg"
+  name: etsy_sd_listing_form
+- path: "/uploads/etsy_sd_attribute_select.jpg"
+  name: etsy_sd_attribute_select
+- path: "/uploads/etsy_sd_attribute_input_unit.jpg"
+  name: etsy_sd_attribute_input_unit
+- path: "/uploads/etsy_sd_attribute_input.jpg"
+  name: etsy_sd_attribute_input
+- path: "/uploads/etsy_sd_attribute_radio.jpg"
+  name: etsy_sd_attribute_radio
+- path: "/uploads/etsy_sd_attribute_variations_selected.jpg"
+  name: etsy_sd_attribute_variations_selected
+- path: "/uploads/etsy_sd_attribute_variation.jpg"
+  name: etsy_sd_attribute_variation
+- path: "/uploads/etsy_sd_attributes_tool.jpg"
+  name: etsy_sd_attributes_tool
+- path: "/uploads/etsy_sd_listing_form_banner_inprogress.jpg"
+  name: etsy_sd_listing_form_banner_inprogress
 ---
 
 A common critique of buying something on Etsy is how challenging it can be to find exactly what you’re looking for. Up until recently, buyers mostly had to rely on text searches instead of filters; there were very few ways to effectively narrow what you were looking at. In 2017, we made huge strides in collecting information from sellers in a structured way, which we could then use to power search filters. I was responsible for designing the way we’d collect this information from sellers on each of their listings.
