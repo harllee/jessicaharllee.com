@@ -1,9 +1,9 @@
 ---
 title: Primary SVG animations
 date: 2020-01-01 16:07:00 -05:00
+published: false
 company: Primary
 year: 2020
-published: false
 description: Animated illustrations throughout the Primary website.
 assets:
 - path: "/uploads/primary-animation-404.jpg"

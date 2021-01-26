@@ -3,8 +3,9 @@ title: Primary website rebrand
 date: 2021-01-18 16:07:00 -05:00
 company: Primary
 year: 2020
-description: A full website rebrand of Primary, including a new, accessible design system
-share_image: /uploads/work-primary-rebrand-share.jpg
+description: A full website rebrand of Primary, including a new, accessible design
+  system
+share_image: "/uploads/work-primary-rebrand-share.jpg"
 assets:
 - path: "/uploads/primary-rebrand-before-after.jpg"
 - path: "/uploads/primary-rebrand-before-examples.jpg"
@@ -29,9 +30,7 @@ assets:
 - path: "/uploads/primary-rebrand-animation-footer.mp4"
 - path: "/uploads/primary-rebrand-animation-home.mp4"
 - path: "/uploads/primary-rebrand-plp-cms.mp4"
-
 ---
-
 
 In September 2020 we launched a multichannel rebrand of Primary: a new logo, new brand styleguide, fresh packaging, and an updated website.
 

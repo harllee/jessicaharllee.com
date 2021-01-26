@@ -1,7 +1,7 @@
 ---
 title: Emoji embroidery
+date: 2014-01-31 16:07:00 -05:00
 published: false
-date: 2014-1-31 16:07:00 -05:00
 position: 3
 color: yellow
 bg-color: blue
