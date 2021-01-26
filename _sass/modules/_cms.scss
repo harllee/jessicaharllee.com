@@ -22,6 +22,7 @@
         font-size: $font-size-header-medium;
         font-weight: $font-weight-light;
         line-height: $line-height-tight;
+        margin-top: $spacer-6;
         margin-bottom: $spacer-4;
     }
 
@@ -30,6 +31,7 @@
         font-size: $font-size-header-small;
         font-weight: $font-weight-regular;
         line-height: $line-height-tight;
+        margin-top: $spacer-6;
         margin-bottom: $spacer-4;
     }
     
@@ -77,6 +79,11 @@
         margin-top: $spacer-5;
         margin-bottom: $spacer-5;
         text-align: center;
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
     // Image caption
@@ -170,6 +177,7 @@
         margin-top: $spacer-5;
 
         h3 {
+            margin-top: $spacer-0;
             margin-bottom: $spacer-2;
             font-family: $font-family-accent;
             font-size: $font-size-body-medium;

@@ -1,5 +1,6 @@
 ---
 title: Kickstarter events and marketing
+date: 2013-8-31 16:07:00 -05:00
 published: false
 position: 5
 company: Kickstarter

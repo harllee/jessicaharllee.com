@@ -1,6 +1,7 @@
 ---
 title: Skillshare wireframing classes
 published: false
+date: 2013-01-18 16:07:00 -05:00
 position: 4
 assets:
 - path: "/uploads/portfolio_header_skillshare2.png"
