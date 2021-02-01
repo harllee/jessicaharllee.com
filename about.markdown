@@ -24,7 +24,7 @@ One day I hope to ~~run a 10K~~ ([did it!](http://jessicaharllee.com/notes/balan
 Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://twitter.com/harllee). I'm also currently mentoring through [Out of Office Hours](https://www.outofofficehours.com).
 
 <div class="jh-grid jh-m-t-3 jh-m-b-3">
-	<div class="jh-grid__col--md--6 jh-m-b-3">
+	<div class="jh-grid__col--md--6">
 		<h2>Interviews</h2>
 		<ul class="jh-list--unstyled jh-body-accent">
 			<li><a href="https://xd.adobe.com/ideas/perspectives/interviews/etsy-ux-drives-customer-centric-experiences-case-study/">UX Evolutions: How Etsy Creates User-Centric Experiences for Millions</a><br>Adobe XD Ideas 2019</li>	
@@ -35,7 +35,7 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 			<li><a href="http://www.designworklife.com/2013/12/11/interview-with-product-designer-jessica-harllee/">Badass Lady Creatives: Jessica Harllee</a><br>Design Work Life 2013</li>
 		</ul>
 	</div>
-	<div class="jh-grid__col--md--6 jh-m-b-3 jh-m-l-md-4">
+	<div class="jh-grid__col--md--6 jh-m-l-md-4">
 		<h2>Writing</h2>
 		<ul class="jh-list--unstyled jh-body-accent">
 			<li><a href="https://superyesmore.com/starting-every-day-at-zero-6666a0b5027ff6cd53a44b9ff4655b3f">Starting Every Day at Zero</a><br>The Human in the Machine 2017</li>
