@@ -27,7 +27,8 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 	<div class="jh-grid__col--md--6">
 		<h2>Interviews</h2>
 		<ul class="jh-list--unstyled jh-body-accent">
-			<li><a href="https://xd.adobe.com/ideas/perspectives/interviews/etsy-ux-drives-customer-centric-experiences-case-study/">UX Evolutions: How Etsy Creates User-Centric Experiences for Millions</a><br>Adobe XD Ideas 2019</li>	
+<li><a href="https://staff.design/jessica-harllee">Staff Design: Jessica Harllee</a><br>Staff Design 2021</li>			
+<li><a href="https://xd.adobe.com/ideas/perspectives/interviews/etsy-ux-drives-customer-centric-experiences-case-study/">UX Evolutions: How Etsy Creates User-Centric Experiences for Millions</a><br>Adobe XD Ideas 2019</li>	
 			<li><a href="https://interfacelovers.com/interviews/jessica-harllee">Interface Lovers: Jessica Harllee</a><br>Interface Lovers 2019</li>
 			<li><a href="https://www.invisionapp.com/inside-design/inside-design-etsy/">Inside Design: Etsy</a><br>Invision blog 2017</li>
 			<li><a href="http://spec.fm/podcasts/design-details/21184">Design Details 81: It's Complicated... (Live at Etsy)</a><br>Design Details 2015</li>
