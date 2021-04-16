@@ -276,14 +276,14 @@ While running an experiment was out of the question, we monitored key metrics to
 		<h3>Core team</h3>
 	</div>
 	<div>
-		<p>2 designers (me, Yue Zhang), 6 engineers, 1 CXO (Cap Watkins)</p>
-		<p>Creative team: 2 art directors (Gerard Zengal, June Bae), 1 part-time creative director (Deva Pardue)</p>
+		<p>2 designers (me, [Yue Zhang](http://yue.works)), 6 engineers, 1 CXO ([Cap Watkins](https://capwatkins.com))</p>
+		<p>Creative team: 2 art directors ([Gerard Zengal](https://www.linkedin.com/in/gerardzengel), [June Bae](https://www.linkedin.com/in/junebae/)), 1 part-time creative director ([Deva Pardue](https://devapardue.com))</p>
 	</div>
 	<div>
 		<h3>Partners</h3>
 	</div>
 	<div>
-		<p><a href="http://wearecollins.com">Collins</a> (Creative Director: Thomas Wilder, Senior Designer: Jump Jirakaweekul)</p>
+		<p><a href="http://wearecollins.com">Collins</a> (Creative Director: [Thomas Wilder](http://www.thomaswilder.com), Senior Designer: [Jump Jirakaweekul](https://jumpjirak.com))</p>
 	</div>
 	<div>
 		<h3>Released</h3>
@@ -301,6 +301,6 @@ While running an experiment was out of the question, we monitored key metrics to
 		<h3>Read more</h3>
 	</div>
 	<div>
-		<p><a href="https://www.primary.com/blog/posts/primary-rebrand-news">Launch announcement</a></p>
+		<p><a href="https://www.primary.com/blogs/using-our-words/primary-rebrand-news">Launch announcement</a></p>
 	</div>
 </div>
