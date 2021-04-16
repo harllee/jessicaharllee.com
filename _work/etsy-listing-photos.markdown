@@ -136,7 +136,7 @@ As we were launching, we monitored the Etsy forums and our support channels for 
 		<h3>Core team</h3>
 	</div>
 	<div>
-		<p>1 product manager, 1 engineering manager, 2 engineers, 1 product marketing manager, 1 product education specialist</p>
+		<p>1 product manager, 1 engineering manager, 2 engineers, 1 product marketing manager, 1 product education specialist, 1 art director (<a href="https://www.linkedin.com/in/samuelsherman">Sam Sherman</a>)</p>
 	</div>
 	<div>
 		<h3>Released</h3>
