@@ -164,12 +164,7 @@ Sellers were happy to finally be able to accurately track their item quantities 
 	</div>
 	<div>
 		<p>1 product manager, 1 engineering manager, 7 engineers, 1 product marketing manager, 1 product education specialist</p>
-	</div>
-<div>
-		<h3>Initial concepts and research</h3>
-	</div>
-	<div>
-		<p>[Dennis Kramer](http://www.dennispkramer.com), [Kyle Turman](http://turman.co)</p>
+<p>Initial concepts and research: [Dennis Kramer](http://www.dennispkramer.com), [Kyle Turman](http://turman.co)</p>
 	</div>
 	<div>
 		<h3>Released</h3>
