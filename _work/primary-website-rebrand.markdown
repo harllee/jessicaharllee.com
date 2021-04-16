@@ -276,14 +276,14 @@ While running an experiment was out of the question, we monitored key metrics to
 		<h3>Core team</h3>
 	</div>
 	<div>
-		<p>2 designers (me, [Yue Zhang](http://yue.works)), 6 engineers, 1 CXO ([Cap Watkins](https://capwatkins.com))</p>
-		<p>Creative team: 2 art directors ([Gerard Zengal](https://www.linkedin.com/in/gerardzengel), [June Bae](https://www.linkedin.com/in/junebae/)), 1 part-time creative director ([Deva Pardue](https://devapardue.com))</p>
+		<p>2 designers (me, <a href="http://yue.works">Yue Zhang</a>), 6 engineers, 1 CXO (<a href="https://capwatkins.com">Cap Watkins</a>)</p>
+		<p>Creative team: 2 art directors (<a href="https://www.linkedin.com/in/gerardzengel">Gerard Zengal</a>, <a href="https://www.linkedin.com/in/junebae/">June Bae</a>), 1 part-time creative director (<a href="https://devapardue.com">Deva Pardue</a>)</p>
 	</div>
 	<div>
 		<h3>Partners</h3>
 	</div>
 	<div>
-		<p><a href="http://wearecollins.com">Collins</a> (Creative Director: [Thomas Wilder](http://www.thomaswilder.com), Senior Designer: [Jump Jirakaweekul](https://jumpjirak.com))</p>
+		<p><a href="http://wearecollins.com">Collins</a> (Creative Director: <a href="http://www.thomaswilder.com">Thomas Wilder</a>, Senior Designer: <a href="https://jumpjirak.com">Jump Jirakaweekul</a>)</p>
 	</div>
 	<div>
 		<h3>Released</h3>
