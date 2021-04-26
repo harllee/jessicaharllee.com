@@ -62,6 +62,6 @@ Get in touch via [email](mailto:jessica.harllee@gmail.com) or [Twitter](http://t
 
 ## Meta
 
-This site was built using [SiteLeaf](http://siteleaf.com) (largely thanks to the [SiteLeaf Hackday](http://jessicaharllee.com/notes/a-redesign-with-siteleaf)), [Sublime](http://www.sublimetext.com), Terminal, [Sass](http://sass-lang.com), [Github](https://github.com/harllee), Figma, and [Typekit](http://typekit.com).
+This site was built using [SiteLeaf](http://siteleaf.com) (largely thanks to the [SiteLeaf Hackday](http://jessicaharllee.com/notes/a-redesign-with-siteleaf)), [Sublime](http://www.sublimetext.com), Terminal, [Sass](http://sass-lang.com), [Github](https://github.com/harllee), [Fathom Analytics](https://usefathom.com/ref/BVDH0S), Figma, and [Typekit](http://typekit.com).
 
 Photo by the amazing [Mike Edmonds](http://www.edmonds.photo), hire him! Thanks to [Kyle Turman](http://turman.co) for the :harllee-sweat-smile: Slackmoji/favicon.
