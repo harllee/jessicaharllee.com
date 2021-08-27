@@ -303,4 +303,10 @@ While running an experiment was out of the question, we monitored key metrics to
 	<div>
 		<p><a href="https://www.primary.com/blogs/using-our-words/primary-rebrand-news">Launch announcement</a></p>
 	</div>
+        <div>
+               <h3>Featured</h3>
+        </div>
+        <div>
+               <p><a href="https://www.typewolf.com/site-of-the-day/primary">Typewolf site of the day</a></p>
+        </div>
 </div>
