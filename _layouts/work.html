@@ -5,12 +5,33 @@ layout: default
 <h1 class="jh-header-1 jh-m-b-4">{{page.title}}</h1>
 
 <div class="jh-body-medium jh-line-height-loose jh-m-b-5 jh-m-b-md-6">
-	<p class="jh-m-b-3">Currently, I’m a Staff Product Designer at <a href="http://faire.com" class="jh-link-blue-dark" target="_blank">Faire</a>. I'm a generalist who loves every part of the process, from doing research and defining the problem all the way to writing reusable CSS and pushing code. My work has included complex tooling, marketing websites, optimizing conversion funnels, and design systems creation and adoption.</p>
+	<p class="jh-m-b-3">I'm a generalist who loves every part of the process, from doing research and defining the problem all the way to writing reusable CSS and pushing code. My work has included complex tooling, marketing websites, optimizing conversion funnels, and design systems creation and adoption.</p>
 	<p>Below is a sampling of some of the more in-depth projects I've done throughout the years.</p>
 </div>
 
-<h2 class="jh-header-2 jh-m-b-4 jh-m-b-md-6">View select design projects</h2>
+<h2 class="jh-header-2 jh-m-b-4 jh-m-b-md-6 jh-p-b-4">View select design projects</h2>
 
+<div class="jh-grid jh-m-b-4 jh-m-b-md-5 jh-b-b-1 jh-b-blue">
+	<div class="jh-grid__col--md--4 jh-text-center jh-m-b-4 jh-m-b-md-0 jh-p-r-md-4 jh-p-r-lg-6">
+		<h3 class="jh-screenreader-only">Faire</h3>
+		<a href="http://www.faire.com" class="jh-d-inline-block"><img src="/uploads/faire-logo.svg" alt="Faire logo" class="jh-img-logo" width="170"></a>
+		<p class="jh-body-accent jh-m-t-3">2021-2023</p>
+	</div>
+	<div class="jh-grid__col--md--8 jh-m-t-md-2 jh-m-b-5">
+		<div class="jh-m-b-4 jh-m-b-md-5">
+			<div class="jh-d-block">
+			    <h3 class="jh-header-3 jh-m-b-2">Brand CRM segmentation tooling</h3>
+			    <p class="jh-body-accent">Case study coming soon</p>
+			</div>
+		</div>
+		<div class="jh-m-b-4 jh-m-b-md-5">
+			<div class="jh-d-block">
+			    <h3 class="jh-header-3 jh-m-b-2">Brand CRM filters</h3>
+			    <p class="jh-body-accent">Case study coming soon</p>
+			</div>
+		</div>
+	</div>
+</div>
 
 {% for company in site.data.companies %}
 <div class="jh-grid jh-m-b-4 jh-m-b-md-5 {% unless company.position == 2 %} jh-b-b-1 jh-b-blue {% endunless %}">
@@ -27,5 +48,4 @@ layout: default
 		{% endfor %}
 	</div>
 </div>
-
 {% endfor %}

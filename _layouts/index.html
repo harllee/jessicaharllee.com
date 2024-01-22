@@ -3,17 +3,23 @@ layout: default
 ---
 
 <div class="jh-m-b-4">
-    <p class="jh-header-1">Jessica Harllee is a product designer, crafter, and snacker. Currently she's a Staff Product Designer at <a href="http://www.faire.com" class="jh-link-blue-dark">Faire</a>.</p>
+    <p class="jh-header-1 jh-m-b-4">Jessica Harllee is a staff product designer who designs and builds tools for small, creative businesses.</p>
+    <div class="jh-text-cms"><p>I've worked at two-sided marketplaces, including Faire, Etsy, and Kickstarter, worked in-house at a small business, and ran a (somewhat successful) Etsy shop. Occasionally, I write and speak about product design and being on the IC track.</p></div>
 </div>
 
 <hr class="jh-b-b-1 jh-b-blue jh-m-t-4 jh-m-b-4 jh-m-t-sm-5 jh-m-b-sm-5 jh-m-t-md-6 jh-m-b-md-6">
 
-<h2 class="jh-header-1 jh-m-b-4 jh-m-b-md-5">Latest work</h2>
+<h2 class="jh-header-1 jh-m-b-4 jh-m-b-md-5">Select work</h2>
 
 <div>
-	{% assign sorted_work = site.work | sort: 'date' | reverse %}
-    {% for item in sorted_work limit:3 %}
-        {% include post_company_excerpt.html %}
+    {% for item in site.work %}
+        {% if item.slug contains 'primary-website-rebrand' %}
+            {% include post_company_excerpt.html %}
+        {% elsif item.slug contains 'etsy-inventory-management' %}
+            {% include post_company_excerpt.html %}
+        {% elsif item.slug contains 'structured-data-on-etsy' %}
+            {% include post_company_excerpt.html %}
+        {% endif %}
     {% endfor %}
 </div>
 
@@ -28,8 +34,6 @@ layout: default
         {% elsif post.slug contains 'good-challenges-vs-bad-challenges' %}
             {% include post_excerpt.html %}
         {% elsif post.slug contains 'crying' %}
-            {% include post_excerpt.html %}
-        {% elsif post.slug contains 'what-blameless-really-means' %}
             {% include post_excerpt.html %}
         {% endif %}
     {% endfor %}

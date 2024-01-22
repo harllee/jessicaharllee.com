@@ -1,3 +1,9 @@
+#- name: Faire
+#  url: http://www.faire.com
+#  years: 2021-2023
+#  logo: /uploads/primary-logo.svg
+#  position: 0
+
 - name: Primary
   url: http://www.primary.com
   years: 2019-2021
@@ -20,4 +26,4 @@
 #   url: http://www.modea.com
 #   years: 2009–2011
 #   logo: /uploads/modea_logo.png
-#   position: 2
+#   position: 4
