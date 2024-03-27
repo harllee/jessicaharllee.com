@@ -1,9 +1,9 @@
 <div class="jh-m-t-5 jh-m-b-5">
-	<h2 class="jh-header-3 jh-m-b-4">Browse tags</h2>
+	<h2 class="jh-header-4 jh-m-b-4">Browse by topic</h2>
     <ul class="jh-list--unstyled jh-list--inline jh-flex-wrap-wrap jh-m-t-2">
 		{% for tag in site.tags %}
 		    <li class="jh-m-r-2 jh-m-b-2">
-                <a class="jh-button jh-button--small jh-button--blue" href="{{ tag.url }}">{{ tag.alias }}</a>
+                <a class="jh-button jh-button--small jh-button--lilac" href="{{ tag.url }}">{{ tag.alias }}</a>
             </li>
 		{% endfor %}
 	</ul>

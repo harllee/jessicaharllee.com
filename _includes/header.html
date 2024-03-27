@@ -1,25 +1,38 @@
-<div class="jh-bg-yellow jh-p-t-4 jh-p-b-4 jh-p-t-sm-5 jh-p-b-sm-5 jh-p-t-md-6 jh-p-b-md-6 jh-m-b-4 jh-m-b-sm-5 jh-m-b-md-6">
+<div
+    {% if page.color %}
+        style="background-color: #{{page.color}};"
+        class="jh-p-t-4 jh-p-b-4 jh-p-t-sm-5 jh-p-b-sm-5 jh-p-t-md-6 jh-p-b-md-6"
+    {% elsif page.url contains '/notes/' %}
+        class="jh-p-t-4 jh-p-b-4 jh-p-t-sm-5 jh-p-b-sm-5 jh-p-t-md-6 jh-p-b-md-6"
+    {% else %}
+        class="jh-bg-lilac jh-p-t-4 jh-p-b-3 jh-p-t-sm-5 jh-p-b-sm-4 jh-p-t-md-6 jh-p-b-md-5"
+    {% endif %}
+    >
     <div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7">
         <div class="jh-grid jh-text-center jh-text-md-left">
             <div class="jh-grid__col--md--6">
-                <h1 class="jh-header-3"><a href="/" class="jh-link-gray-dark">{{site.title}}</a></h1>
+                <h1 class="jh-body-accent jh-text-uppercase"><a href="/" class="jh-link-black">{{site.title}}</a></h1>
             </div>
             <div class="jh-grid__col--md--6">
-                <ol class="jh-list--inline jh-list--unstyled jh-flex-justify-content-center jh-flex-justify-content-md-flex-end jh-body-accent jh-m-t-3 jh-m-t-md-0">
-                    <li class="jh-m-r-3 jh-m-r-md-4 {% if page.url contains '/work/' %} jh-b-b-2 {% endif %}">
-                        <a href="/work" class="jh-link-gray-dark">Work</a>
+                <ol class="jh-list--inline jh-list--unstyled jh-flex-justify-content-center jh-flex-justify-content-md-flex-end jh-body-accent jh-text-uppercase jh-m-t-3 jh-m-t-md-0">
+                    <li class="jh-m-r-3">
+                        <a href="/work" class="jh-link-black {% if page.url contains '/work/' %} jh-link-wavy {% endif %}">Work</a>
                     </li>
-                    <li class="jh-m-r-3 jh-m-r-md-4 {% if page.url contains '/notes/' %} jh-b-b-2 {% endif %}">
-                        <a href="/notes" class="jh-link-gray-dark">Notes</a>
+                    <li aria-hidden="true" class="jh-header-2 jh-text-lilac-dark jh-m-r-3">*</li>
+                    <li class="jh-m-r-3">
+                        <a href="/notes" class="jh-link-black {% if page.url contains '/notes/' %} jh-link-wavy {% endif %}">Notes</a>
                     </li>
-                    <li class="jh-m-r-3 jh-m-r-md-4">
-                        <a href="http://harllee.etsy.com" class="jh-link-gray-dark">Shop</a>
-                    </li>
-                    <li class="{% if page.url contains '/about/' %} jh-b-b-2 {% endif %}">
-                        <a href="/about" class="jh-link-gray-dark">About</a>
+                    <li aria-hidden="true" class="jh-header-2 jh-text-lilac-dark jh-m-r-3">*</li>
+                    <li class="">
+                        <a href="/about" class="jh-link-black {% if page.url contains '/about/' %} jh-link-wavy {% endif %}">About</a>
                     </li>
                 </ol>
             </div>
         </div>
     </div>
 </div>
+{% if page.layout == 'about' %}
+    {% include edge-bottom-lilac.html %}
+{% elsif page.layout == 'work' %}
+    {% include edge-bottom-lilac.html %}
+{% endif %}

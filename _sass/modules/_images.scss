@@ -6,8 +6,4 @@
 
 
 // Logos
-.jh-img-logo {
-	@include breakpoint-sm-down {
-		max-width: 250px;
-	}
-}
+.jh-img-logo { max-width: 180px; }

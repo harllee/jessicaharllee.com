@@ -1,9 +1,11 @@
 ---
 title: Primary swatch builder
+color: 6AC1C6
 date: 2020-01-20 16:07:00 -05:00
 company: Primary
 year: 2020
 description: A visual interface for creating and managing color swatches.
+role: Design, front-end prototyping
 share_image: "/uploads/work-swatch-builder-share.jpg"
 assets:
 - path: "/uploads/primary-swatch-builder_swatch-example.jpg"

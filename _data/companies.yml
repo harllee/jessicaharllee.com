@@ -1,29 +1,29 @@
-#- name: Faire
-#  url: http://www.faire.com
-#  years: 2021-2023
-#  logo: /uploads/primary-logo.svg
-#  position: 0
+- name: Faire
+  url: http://www.faire.com
+  years: 2021-2023
+  logo: /uploads/faire-logo.svg
+  position: 0
 
 - name: Primary
   url: http://www.primary.com
   years: 2019-2021
   logo: /uploads/primary-logo.svg
-  position: 0
+  position: 1
 
 - name: Etsy
   url: http://www.etsy.com
   years: 2014–2019
   logo: /uploads/etsy-logo.svg
-  position: 1
+  position: 2
 
 - name: Kickstarter
   url: http://www.kickstarter.com
   years: 2011–2013
   logo: /uploads/kickstarter-logo.svg
-  position: 2
+  position: 3
 
-# - name: Modea
-#   url: http://www.modea.com
-#   years: 2009–2011
-#   logo: /uploads/modea_logo.png
-#   position: 4
+- name: Modea
+  url: http://www.modea.com
+  years: 2009–2011
+  logo: /uploads/modea-logo.svg
+  position: 4

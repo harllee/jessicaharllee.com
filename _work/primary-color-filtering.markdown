@@ -1,10 +1,12 @@
 ---
 title: Color filtering on Primary
+color: F088B9
 date: 2020-01-10 16:07:00 -05:00
 company: Primary
 year: 2020
 description: Rethink filtering on Primary to accommodate dozens of unique clothing
   colors.
+role: Design, front-end development
 share_image: "/uploads/work-color-filters-share.jpg"
 assets:
 - path: "/uploads/primary-color-filter_product-card.jpg"

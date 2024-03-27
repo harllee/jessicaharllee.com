@@ -2,12 +2,17 @@
 layout: default
 ---
 
-{% if page.title %}
-    <h1 class="jh-header-1 jh-m-b-4">{{page.title}}</h1>
-{% endif %}
+<div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7 jh-m-t-4 jh-m-t-sm-5 jh-m-t-md-6">
 
-{% for post in site.posts %}
-  {% include post_excerpt.html post=post %}
-{% endfor %}
+  <h2 class="jh-header-1 jh-m-b-4">Notes</h2>
+  <p class="jh-line-height-loose jh-m-b-3">Occasionally, I write when the mood strikes, especially about personal and professional challenges that I've faced.</p>
 
-{% include tags.html %}
+  <div class="jh-grid jh-grid--gutters--large jh-m-t-6">
+    {% for post in site.posts %}
+      {% include post_excerpt.html post=post %}
+    {% endfor %}
+  </div>
+
+  {% include tags.html %}
+
+</div>

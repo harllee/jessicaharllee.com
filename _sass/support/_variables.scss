@@ -14,24 +14,25 @@
 
 $breakpoint-sm: 500px;
 $breakpoint-md: 800px;
-$breakpoint-lg: 1100px;
+$breakpoint-lg: 1240px; // old 1100
 
 
 // Color
 
 $color-white: #ffffff;
-$color-black: #000000;
+$color-black: #222222;
 $color-transparent: transparent;
 
-$color-gray-dark: #263C32;
-$color-gray-light: #65746D; // text? UI? check contrast
+$color-gray-dark: #5D5D5D;
+$color-gray-dark-overlay: rgba(0,0,0, 0.6);
 
-$color-beige: #F9F5F1;
+$color-beige: #F1EAEA;
 
-$color-blue: #30DFEA; // check contrast
-$color-blue-dark: #0074A1; // check contrast
-$color-yellow: #ECFE1B; // check contrast
-$color-red: #ED0331; // check contrast
+$color-lilac: #EDA2FF;
+$color-lilac-dark: #BB2EDF; // text
+
+$color-blue: #CF2222;
+
 
 
 // Spacing
@@ -49,22 +50,25 @@ $spacer-8: $spacer-2 * 12;
 
 // Typography
 
-$font-family-body: "merriweather-1","merriweather-2", Georgia, Times New Roman, serif;
-$font-family-accent: "source-code-pro-1","source-code-pro-2", Courier New, monospace;
+$font-family-body: "DM Sans", sans-serif;
+$font-family-accent: "DM Mono", Courier New, monospace;
 
 $font-weight-light: 300;
-$font-weight-regular: 500;
+$font-weight-regular: 400;
 $font-weight-bold: 700;
 
 
 $font-size-mobile: 18px;
 $font-size-desktop: 20px;
 
-$font-size-body-medium: 1em;
-$font-size-body-small: $font-size-body-medium * 0.8;
-$font-size-header-small: $font-size-body-medium * 1.1;
-$font-size-header-medium: $font-size-body-medium * 1.5;
-$font-size-header-large: $font-size-body-medium * 2;
+$font-size-body-medium: 1em; // 20
+$font-size-body-reading: $font-size-body-medium * 1.1; // 22
+$font-size-body-large: $font-size-body-medium * 1.2; // 24
+$font-size-body-small: $font-size-body-medium * 0.8; // 16
+$font-size-label: $font-size-body-medium * 0.7; // 14
+$font-size-header-small: $font-size-body-medium * 1; // 20
+$font-size-header-medium: $font-size-body-medium * 1.2; // 24
+$font-size-header-large: $font-size-body-medium * 1.8; // 36
 
 $line-height-normal: 1.2;
 $line-height-loose: 1.6;
@@ -74,7 +78,7 @@ $line-height-tight: 1;
 // Borders
 
 $border-radius-rounded: 6px;
-$border-radius-button: 64px;
+$border-radius-button: 6px;
 $border-radius-circle: 50%;
 
 $border-width-thin: 1px;

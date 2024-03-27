@@ -1,7 +1,68 @@
 ---
 layout: default
 ---
+<div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7 jh-m-t-4 jh-m-t-sm-5 jh-m-t-md-6">
 
-<div class="jh-text-cms">
-	{{content}}
+	<h1 class="jh-screenreader-only">About</h1>
+
+	<div class="jh-grid jh-grid--gutters--large">
+		<div class="jh-grid__col--md--7">
+			<div class="jh-text-cms">
+				{{content}}
+			</div>
+		</div>
+		<div class="jh-grid__col--md--5">
+			{% for asset in page.assets limit:1 %}
+				<img src="{{ asset.path }}" alt="{{ asset.alt }}">
+			{% endfor %}
+		</div>
+	</div>
+
+
+	<div class="jh-grid jh-text-cms jh-m-t-3 jh-m-b-3">
+		<div class="jh-grid__col--md--6">
+			<h2>Interviews</h2>
+			<ul class="jh-list--unstyled">
+				<li><a href="https://staff.design/jessica-harllee">Staff Design: Jessica Harllee</a><br>Staff Design 2021</li>			
+				<li><a href="https://medium.com/thinking-design/ux-evolutions-how-etsy-creates-customer-centric-experiences-for-millions-of-users-9ea72d84c58a">UX Evolutions: How Etsy Creates User-Centric Experiences for Millions</a><br>Adobe XD Ideas 2019</li>	
+				<li><a href="https://interfacelovers.com/interviews/jessica-harllee">Interface Lovers: Jessica Harllee</a><br>Interface Lovers 2019</li>
+				<li><a href="https://www.invisionapp.com/inside-design/inside-design-etsy/">Inside Design: Etsy</a><br>Invision blog 2017</li>
+				<li><a href="http://spec.fm/podcasts/design-details/21184">Design Details 81: It's Complicated... (Live at Etsy)</a><br>Design Details 2015</li>
+				<li><a href="http://www.500.co/qa-jessicaharllee-warmgun/">Q&A with Etsy Designer, Jessica Harllee</a><br>500 Insights 2014</li>
+				<li><a href="http://www.designworklife.com/2013/12/11/interview-with-product-designer-jessica-harllee/">Badass Lady Creatives: Jessica Harllee</a><br>Design Work Life 2013</li>
+			</ul>
+		</div>
+		<div class="jh-grid__col--md--6 jh-m-l-md-4">
+			<h2>Writing</h2>
+			<ul class="jh-list--unstyled">
+				<li><a href="https://superyesmore.com/starting-every-day-at-zero-6666a0b5027ff6cd53a44b9ff4655b3f">Starting Every Day at Zero</a><br>The Human in the Machine 2017</li>
+				<li><a href="https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf">Crafting an Effective Working Group</a><br>Etsy Design blog 2017</li>
+				<li><a href="http://alistapart.com/article/sharing-our-work-testing-feedback-in-design">Sharing Our Work: Testing and Feedback in Design</a><br>A List Apart 2015</li>
+				<li><a href="https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/">Rebuilding the Foundation of Etsy’s Seller Tools</a><br>Code as Craft 2015</li>
+				<li><a href="http://etsydesign.com/news/improving-our-seller-onboarding/">Improving Seller Onboarding</a><br>Etsy Design blog 2015</li>
+			</ul>
+		</div>
+		<div class="jh-grid__col--md--12">
+			<h2>Speaking</h2>
+			<ul class="jh-list--unstyled">
+				<li><a href="https://www.linkedin.com/events/what-snextforics-exploringstaff7155956346037686272/comments/">What’s Next for ICs: Exploring Staff and Principal Designer Roles</a><br>Rosenfeld Media, 2024, Remote</li>
+				<li><a href="https://www.eventbrite.com/e/creating-a-user-centric-product-delivery-culture-etsy-tickets-59412583637">Creating a user centric product delivery culture @ Etsy</a><br>Women in Product NYC 2019, Brooklyn</li>
+				<li><a href="https://codeascraft.com/speakers/womenby-tech-lightning-talks/">Encouraging Designers to Craft Code</a><br>Women & Non-Binary Folks Talk Tech @ Code as Craft 2017, Brooklyn</li>
+				<li><a href="https://vimeo.com/industryconf">Redesigning with Confidence</a><br>Industry Conf 2015, Newcastle Upon Tyne</li>
+				<li>Redesigning with Confidence<br>Warm Gun Design Conference 2014, San Francisco</li>
+				<li>AIGA Louisville guest speaker<br>AIGA Louisville 2014, Louisville</li>
+				<li>Design Camp: Rinse, Wash, & Repeat<br>MoSo Conference 2014, Saskatoon</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="jh-text-cms jh-m-t-3 jh-m-b-3">
+
+		<h2>Meta</h2>
+
+		<p>This site was built using <a href="http://siteleaf.com">SiteLeaf</a> (largely thanks to the <a href="http://jessicaharllee.com/notes/a-redesign-with-siteleaf">SiteLeaf Hackday</a>), Sublime, Terminal, Sass, <a href="https://github.com/harllee">Github</a>, <a href="https://usefathom.com/ref/BVDH0S">Fathom Analytics</a>, Figma, and Google Fonts.</p>
+
+		<p>Photo by the amazing <a href="http://www.edmonds.photo">Mike Edmonds</a>, hire him! Thanks to <a href="http://turman.co">Kyle Turman</a> for the :harllee-sweat-smile: Slackmoji/favicon.</p>
+	</div>
+
 </div>

@@ -1,10 +1,12 @@
 ---
 title: Inventory management
+color: F5AC60
 date: 2017-05-10 21:39:00 -04:00
 company: Etsy
 year: 2017
 description: Give Etsy sellers the tools they need to accurately and easily manage
   their inventory.
+role: Lead designer, front-end development, hand model
 share_image: "/uploads/work-inventory-management-share.jpg"
 assets:
 - path: "/uploads/etsy-inventory-variations-example.jpg"

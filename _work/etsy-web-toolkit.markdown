@@ -1,9 +1,11 @@
 ---
 title: Web toolkit
+color: 48C0D1
 date: 2016-12-01 17:17:00 -05:00
 company: Etsy
 year: 2016
 description: The creation and maintenance of Etsy's first design system.
+role: Design, front-end development, documentation, project management, working group facilitator, evangelist and educator
 share_image: "/uploads/work-web-toolkit-share.jpg"
 ---
 

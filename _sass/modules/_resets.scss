@@ -18,10 +18,10 @@ body {
 
 body {
     -webkit-font-smoothing: antialiased;
-    color: $color-gray-dark;
+    color: $color-black;
     font-family: $font-family-body;
     font-size: $font-size-mobile;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-regular;
     line-height: $line-height-normal;
 
     @include breakpoint-md-up {
@@ -47,21 +47,22 @@ hr { border: 0; }
 // Code
 
 code {
-    color: $color-red;
-    font-size: $font-size-body-medium;
-    font-weight: $font-weight-bold;
+    color: $color-lilac-dark;
+    font-size: $font-size-body-small;
+    font-weight: $font-weight-regular;
 }
 
 pre {
-    background-color: $color-gray-dark;
+    background-color: $color-white;
+    border: 2px solid $color-beige;
     padding: $spacer-3;
     white-space: pre-wrap;
 
     code {
-        color: $color-blue;
-        font-weight: $font-weight-bold;
-        font-size: $font-size-body-medium;
-        line-height: $line-height-normal;
+        color: $color-lilac-dark;
+        font-weight: $font-weight-regular;
+        font-size: $font-size-body-small;
+        line-height: $line-height-loose;
     }
 }
 

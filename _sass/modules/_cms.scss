@@ -12,7 +12,7 @@
     h1 {
         font-family: $font-family-body;
         font-size: $font-size-header-large;
-        font-weight: $font-weight-light;
+        font-weight: $font-weight-bold;
         line-height: $line-height-tight;
         margin-bottom: $spacer-4;
     }
@@ -20,7 +20,7 @@
     h2 {
         font-family: $font-family-body;
         font-size: $font-size-header-medium;
-        font-weight: $font-weight-light;
+        font-weight: $font-weight-bold;
         line-height: $line-height-tight;
         margin-top: $spacer-6;
         margin-bottom: $spacer-4;
@@ -29,7 +29,7 @@
     h3 {
         font-family: $font-family-body;
         font-size: $font-size-header-small;
-        font-weight: $font-weight-regular;
+        font-weight: $font-weight-bold;
         line-height: $line-height-tight;
         margin-top: $spacer-6;
         margin-bottom: $spacer-4;
@@ -38,8 +38,8 @@
 
     p {
         font-family: $font-family-body;
-        font-size: $font-size-body-medium;
-        font-weight: $font-weight-light;
+        font-size: $font-size-body-reading;
+        font-weight: $font-weight-regular;
         line-height: $line-height-loose;
         margin-bottom: $spacer-4;
     }
@@ -49,7 +49,8 @@
     }
 
     li {
-        font-weight: $font-weight-light;
+        font-weight: $font-weight-regular;
+        font-size: $font-size-body-reading;
         line-height: $line-height-loose;
         margin-bottom: $spacer-2;
     }
@@ -57,20 +58,28 @@
     hr {
         margin-top: $spacer-5;
         margin-bottom: $spacer-5;
-        border-top: $border-width-thin solid $color-blue;
+        border: 0;
+        text-align: center;
+       
+        &:before {
+            content: '* * * *';
+            font-family: $font-family-accent;
+            color: $color-lilac;
+        }
     }
 
 
     // Link styles
     p a,
     li a {
-        color: $color-blue-dark;
+        color: $color-lilac-dark;
         font-weight: $font-weight-regular;
-        text-decoration: none;
+        text-decoration: underline;
+        text-decoration-style: dotted;
 
         &:hover {
-            color: $color-blue-dark;
-            background-color: $color-yellow;
+            color: $color-black;
+            text-decoration-style: solid;
         }
     }
 
@@ -79,6 +88,8 @@
         margin-top: $spacer-5;
         margin-bottom: $spacer-5;
         text-align: center;
+        // border-top: 2px solid $color-beige;
+        // border-bottom: 2px solid $color-beige;
 
         video {
             max-width: 100%;
@@ -88,7 +99,7 @@
 
     // Image caption
     .jh-text-cms__img__caption {
-        color: $color-gray-light;
+        color: $color-gray-dark;
         font-family: $font-family-accent;
         font-size: $font-size-body-small;
         font-weight: $font-weight-regular;
@@ -161,11 +172,11 @@
             width: $spacer-2;
         }
         ::-webkit-scrollbar-thumb {
-            background-color: $color-blue-dark;
+            background-color: $color-lilac;
             border-radius: $spacer-2;
         }
         ::-webkit-scrollbar-track-piece {
-            background-color: $color-blue;
+            background-color: rgba($color-lilac, 0.5);
             border-radius: $spacer-3;
         }
     }
@@ -180,13 +191,15 @@
             margin-top: $spacer-0;
             margin-bottom: $spacer-2;
             font-family: $font-family-accent;
-            font-size: $font-size-body-medium;
-            font-weight: $font-weight-bold;
+            font-size: $font-size-body-small;
+            font-weight: $font-weight-regular;
             line-height: $line-height-loose;
+            text-transform: uppercase;
         }
 
         p {
             font-family: $font-family-accent;
+            font-size: $font-size-body-small;
         }
 
         // First column

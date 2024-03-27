@@ -10,35 +10,50 @@
 .jh-text-white { color: $color-white; }
 .jh-text-black { color: $color-black; }
 .jh-text-gray-dark { color: $color-gray-dark; }
-.jh-text-gray-light { color: $color-gray-light; }
+.jh-text-gray-dark-overlay { color: $color-gray-dark-overlay; }
 .jh-text-blue { color: $color-blue; }
-.jh-text-blue-dark { color: $color-blue-dark; }
-.jh-text-yellow { color: $color-yellow; }
-.jh-text-red { color: $color-red; }
-
+.jh-text-lilac { color: $color-lilac; }
+.jh-text-lilac-dark { color: $color-lilac-dark; }
 
 
 // Background colors
 
 .jh-bg-white { background-color: $color-white; }
 .jh-bg-black { background-color: $color-black; }
-.jh-bg-gray-light { background-color: $color-gray-light; }
 .jh-bg-beige { background-color: $color-beige; }
 .jh-bg-blue { background-color: $color-blue; }
-.jh-bg-blue-dark { background-color: $color-blue-dark; }
-.jh-bg-yellow { background-color: $color-yellow; }
-.jh-bg-red { background-color: $color-red; }
+.jh-bg-lilac { background-color: $color-lilac; }
 
 
 // Link colors
 
-.jh-link-white {
-    color: $color-white;
+.jh-link-lilac-dark {
+    color: $color-lilac-dark;
+    transition: all $transition-hover-timing $transition-hover-easing;
+    text-decoration: underline;
+
+    &:hover {
+        color: $color-blue;
+    }
+}
+
+.jh-link-black {
+    color: $color-black;
     transition: all $transition-hover-timing $transition-hover-easing;
     text-decoration: none;
 
     &:hover {
-        color: $color-yellow;
+        color: $color-lilac-dark;
+    }
+}
+
+.jh-link-blue {
+    color: $color-blue;
+    transition: all $transition-hover-timing $transition-hover-easing;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-black;
     }
 }
 
@@ -48,29 +63,7 @@
     text-decoration: none;
 
     &:hover {
-        color: $color-blue-dark;
-    }
-}
-
-.jh-link-gray-light {
-    color: $color-gray-light;
-    transition: all $transition-hover-timing $transition-hover-easing;
-    text-decoration: none;
-
-    &:hover {
-        color: $color-gray-dark;
-    }
-}
-
-.jh-link-blue-dark {
-    color: $color-blue-dark;
-    font-weight: $font-weight-regular;
-    transition: all $transition-hover-timing $transition-hover-easing;
-    text-decoration: none;
-
-    &:hover {
-        background-color: $color-yellow;
-        color: $color-blue-dark;
+        color: $color-blue;
     }
 }
 
@@ -80,8 +73,40 @@
 .jh-b-white { border-color: $color-white; }
 .jh-b-black { border-color: $color-black; }
 .jh-b-gray-dark { border-color: $color-gray-dark; }
-.jh-b-gray-light { border-color: $color-gray-light; }
 .jh-b-blue { border-color: $color-blue; }
-.jh-b-blue-dark { border-color: $color-blue-dark; }
-.jh-b-yellow { border-color: $color-yellow; }
-.jh-b-red { border-color: $color-red; }
+
+
+// Torn edges
+
+.jh-edge-bottom {
+    height: 43px;
+    width: 100%;
+}
+
+.jh-edge-bottom-lilac { background: url("/uploads/edge-bottom-lilac.svg") top center repeat-x; }
+.jh-edge-bottom-48C0D1 { background: url("/uploads/edge-bottom-48C0D1.svg") top center repeat-x; }
+.jh-edge-bottom-FCE74E { background: url("/uploads/edge-bottom-FCE74E.svg") top center repeat-x; }
+.jh-edge-bottom-F5AC60 { background: url("/uploads/edge-bottom-F5AC60.svg") top center repeat-x; }
+.jh-edge-bottom-F088B9 { background: url("/uploads/edge-bottom-F088B9.svg") top center repeat-x; }
+.jh-edge-bottom-F9936A { background: url("/uploads/edge-bottom-F9936A.svg") top center repeat-x; }
+.jh-edge-bottom-6AC1C6 { background: url("/uploads/edge-bottom-6AC1C6.svg") top center repeat-x; }
+.jh-edge-bottom-C6D148 { background: url("/uploads/edge-bottom-C6D148.svg") top center repeat-x; }
+.jh-edge-bottom-AFAB77 { background: url("/uploads/edge-bottom-AFAB77.svg") top center repeat-x; }
+
+.jh-edge-top-notes { background: url("/uploads/edge-top-white.svg") 0px 1px repeat-x; }
+.jh-edge-bottom-notes { background: url("/uploads/edge-bottom-white.svg") -30% 0px repeat-x; }
+
+
+.jh-edge-top-white {
+    border-top-width: 21px;
+    border-top-style: solid;
+    border-image-source: url("/uploads/edge-top-white.svg");
+    border-image-slice: 42;
+}
+
+.jh-edge-bottom-white {
+    border-bottom-width: 21px;
+    border-bottom-style: solid;
+    border-image-source: url("/uploads/edge-bottom-white.svg");
+    border-image-slice: 42;
+}

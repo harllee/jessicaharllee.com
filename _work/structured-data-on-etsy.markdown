@@ -1,10 +1,12 @@
 ---
 title: Structured data on Etsy
+color: C6D148
 date: 2017-05-21 17:07:00 -04:00
 company: Etsy
 year: 2017
 description: Collecting category-specific information from sellers to power search
   filters.
+role: Lead designer, front-end development
 share_image: "/uploads/work-structured-data-share.jpg"
 assets:
 - path: "/uploads/etsy_sd_listing_form.jpg"

@@ -5,6 +5,7 @@ published: false
 company: Etsy
 year: 2017
 description: Let buyers pay sellers to gift wrap their orders.
+role: Design, front-end development
 assets:
 - path: "/uploads/gift-wrap-before-listing.jpg"
   name: gift-wrap-before-listing

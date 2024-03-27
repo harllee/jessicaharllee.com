@@ -38,6 +38,7 @@
     font-size: $font-size-body-small;
     font-weight: $font-weight-regular;
     padding: $spacer-2 $spacer-3;
+    text-transform: uppercase;
 }
 
 //////////////////////////
@@ -52,7 +53,7 @@
 
     &:hover {
         color: $color-white;
-        background-color: $color-blue-dark;
+        background-color: $color-blue;
     }
 
     &:focus {
@@ -66,21 +67,60 @@
 }
 
 
-.jh-button--blue {
-    background-color: $color-blue;
+.jh-button--lilac {
+    background-color: $color-lilac;
     color: $color-black;
 
     &:hover {
         color: $color-white;
-        background-color: $color-black;
+        background-color: $color-lilac-dark;
     }
 
     &:focus {
-        border-color: $color-blue-dark;
+        border-color: $color-blue;
         outline: 0;
     }
 
     &:disabled {
         opacity: 0.5;
+    }
+}
+
+
+//////////////////////////
+
+
+// Link styles
+
+
+.jh-link-arrow {
+
+    span {
+        text-decoration: underline;
+    }
+
+    &:after {
+        content: ' →';
+        font-family: $font-family-body;
+        font-size: $font-size-body-medium;
+        font-weight: $font-weight-regular;
+        line-height: $line-height-tight;
+        margin-left: $spacer-1;
+        transition: margin-left $transition-hover-timing $transition-hover-easing;
+    }
+
+    &:hover:after {
+        margin-left: $spacer-2;
+    }
+}
+
+.jh-link-wavy {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: from-font;
+    transition: text-decoration-style $transition-hover-timing $transition-hover-easing;
+
+    &:hover {
+        text-decoration-style: wavy;
     }
 }

@@ -1,25 +1,54 @@
 {% assign post = include.post %}
 
-{% if post.company %}
-	<p class="jh-m-b-3"><a class="jh-body-accent jh-link-gray-light" href="/work">{{post.company}}</a></p>
+
+{% if page.url contains '/work/' %}
+    <div {% if post.color %} style="background-color: #{{post.color}};"{% else %} class="jh-bg-lilac" {% endif %}>
+        <div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7 jh-p-t-5 jh-p-b-3">
+            <p class="jh-body-accent jh-font-weight-regular jh-text-uppercase jh-m-b-3">Project</p>
+            <h1 class="jh-header-1">{{ post.title }}</h1>
+            <div class="jh-d-md-flex jh-m-t-6">
+                <div class="jh-m-b-5 jh-m-r-md-6">
+                	<h3 class="jh-body-accent jh-font-weight-regular jh-text-uppercase jh-m-b-2">Company</h3>
+                    <p class="jh-body-accent jh-text-gray-dark-overlay jh-m-b-3">{{ post.company }}</p>
+                </div>
+                <div class="jh-m-b-5 jh-m-r-md-6">
+                    <h3 class="jh-body-accent jh-font-weight-regular jh-text-uppercase jh-m-b-2">Role</h3>
+                    <p class="jh-body-accent jh-text-gray-dark-overlay jh-m-b-3">{{ post.role }}</p>
+                </div>
+                <div>
+                    <h3 class="jh-body-accent jh-font-weight-regular jh-text-uppercase jh-m-b-2">Released</h3>
+                    <p class="jh-body-accent jh-text-gray-dark-overlay jh-m-b-3">{{ post.date | date: '%B %Y' }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include edge-bottom-lilac.html %}
+    <div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7 jh-m-t-4 jh-m-t-sm-5 jh-m-t-md-6">
+        <div class="jh-text-cms jh-m-b-3">
+          {{ post.content | markdownify }}
+        </div>
+    </div>
 {% endif %}
-<h1 class="jh-header-1 jh-m-b-5">{{post.title}}</h1>
-<div class="jh-text-cms jh-m-b-3">
-  {{ post.content | markdownify }}
-</div>
+
+
+
 {% if page.url contains '/notes/' %}
+    <h1 class="jh-header-1 jh-m-b-5">{{post.title}}</h1>
+    <div class="jh-text-cms jh-m-b-3">
+      {{ post.content | markdownify }}
+    </div>
 	{% if post.date %}
-		<div class="jh-m-t-5 jh-m-b-5">
-		    <p class="jh-body-accent jh-text-gray-light">Posted {{ post.date | date: site.date_format }}</p>
+		<div class="jh-m-t-7 jh-m-b-5">
+		    <p class="jh-body-accent jh-text-gray-dark">Posted {{ post.date | date: site.date_format }}</p>
 		</div>
 	{% endif %}
+    <div class="jh-m-t-5 jh-m-b-5">
+        <ul class="jh-list--unstyled jh-list--inline jh-flex-wrap-wrap jh-m-t-2">
+            {% for tag in post.tags %}
+                <li class="jh-m-r-2 jh-m-b-2">
+                    <a class="jh-button jh-button--small jh-button--lilac" href="/notes/tags/{{ tag | slugify }}">{{tag}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 {% endif %}
-<div class="jh-m-t-5 jh-m-b-5">
-    <ul class="jh-list--unstyled jh-list--inline jh-flex-wrap-wrap jh-m-t-2">
-        {% for tag in post.tags %}
-            <li class="jh-m-r-2 jh-m-b-2">
-                <a class="jh-button jh-button--small jh-button--blue" href="/notes/tags/{{ tag | slugify }}">{{tag}}</a>
-            </li>
-        {% endfor %}
-    </ul>
-</div>

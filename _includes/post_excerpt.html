@@ -1,10 +1,12 @@
 {% assign post = include.post %}
 {% assign is_excerpt = include.is_excerpt %}
 
-<div class="jh-m-b-5 jh-m-b-md-7">
-	<h2 class="jh-header-2 jh-m-b-3"><a href="{{post.url}}" class="jh-link-gray-dark">{{post.title}}</a></h2>
-	<div class="jh-text-cms jh-m-b-3">
-      	{{ post.excerpt | markdownify }}
-    </div>
-    <a href="{{post.url}}" class="jh-button jh-button--regular jh-button--black">Read more</a>
+<div class="jh-grid__col--md--6 jh-grid__col--lg--4 jh-d-flex jh-flex-direction-column jh-flex-justify-content-space-between jh-bg-white jh-edge-bottom-white jh-p-a-4 jh-m-b-4">
+	<div>
+		<h2 class="jh-header-2 jh-m-b-3"><a href="{{post.url}}" class="jh-link-black">{{post.title}}</a></h2>
+		<div class="jh-body-small jh-line-height-loose jh-text-gray-dark jh-m-b-3">
+	      	{{ post.excerpt | markdownify | strip_html | truncatewords: 28}}
+	    </div>
+	</div>
+    <a href="{{post.url}}" class="jh-d-block jh-link-arrow jh-link-black jh-body-accent jh-text-uppercase jh-m-t-6"><span>Read note</span></a>
 </div>

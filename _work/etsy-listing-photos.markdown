@@ -1,9 +1,12 @@
 ---
 title: Improving listing photos
+color: F9936A
+published: false
 date: 2017-07-21 17:07:00 -04:00
 company: Etsy
 year: 2017
 description: Increase the number and quality of Etsy listing photos.
+role: Design, front-end development
 share_image: "/uploads/work-listing-photos-share.jpg"
 assets:
 - path: "/uploads/listing-page-5-photos.gif"

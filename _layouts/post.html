@@ -2,4 +2,18 @@
 layout: default
 ---
 
-{% include post.html post=page %}
+{% if page.url contains '/notes/' %}
+
+	<div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-0 jh-p-r-0 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7">
+		<div aria-hidden="true" class="jh-edge-bottom jh-edge-top-notes"></div>
+		<div class="jh-bg-white jh-p-a-4 jh-p-a-sm-5 jh-p-a-md-6 jh-p-a-lg-7">
+			{% include post.html post=page %}
+		</div>
+		<div aria-hidden="true" class="jh-edge-bottom jh-edge-bottom-notes"></div>
+	</div>
+
+{% else %}
+
+	{% include post.html post=page %}
+
+{% endif %}

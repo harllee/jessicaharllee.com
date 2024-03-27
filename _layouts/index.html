@@ -2,39 +2,64 @@
 layout: default
 ---
 
-<div class="jh-m-b-4">
-    <p class="jh-header-1 jh-m-b-4">Jessica Harllee is a staff product designer who designs and builds tools for small, creative businesses.</p>
-    <div class="jh-text-cms"><p>I've worked at two-sided marketplaces, including Faire, Etsy, and Kickstarter, worked in-house at a small business, and ran a (somewhat successful) Etsy shop. Occasionally, I write and speak about product design and being on the IC track.</p></div>
+<div class="jh-bg-lilac jh-p-t-2 jh-p-t-sm-3 jh-p-t-md-4 jh-p-b-4 jh-p-b-sm-5 jh-p-b-md-6">
+    <div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-8">
+        <p class="jh-header-1 jh-m-b-4">Jessica Harllee is a staff product designer who designs and builds tools for small, creative businesses.</p>
+        <p class="jh-body-large jh-m-b-4">I've worked at two-sided marketplaces, including <a href="https://faire.com" class="jh-link-wavy jh-link-blue">Faire</a>, <a href="https://etsy.com" class="jh-link-wavy jh-link-blue">Etsy</a>, and <a href="https://kickstarter.com" class="jh-link-wavy jh-link-blue">Kickstarter</a>, worked in-house at a <a href="https://primary.com" class="jh-link-wavy jh-link-blue">D2C brand</a>, and sold embroidered wall hangings through my <a href="https://harllee.etsy.com" class="jh-link-wavy jh-link-blue">Etsy shop</a>. Occasionally, I write and speak about product design and being on the IC track.</p>
+        <a href="/about" class="jh-header-3 jh-link-arrow jh-link-black"><span>Learn more about me</span></a>
+    </div>
 </div>
 
-<hr class="jh-b-b-1 jh-b-blue jh-m-t-4 jh-m-b-4 jh-m-t-sm-5 jh-m-b-sm-5 jh-m-t-md-6 jh-m-b-md-6">
+{% include edge-bottom-lilac.html %}
 
-<h2 class="jh-header-1 jh-m-b-4 jh-m-b-md-5">Select work</h2>
+<div class="jh-max-width-lg jh-m-l-lg-auto jh-m-r-lg-auto jh-p-l-4 jh-p-r-4 jh-p-l-sm-5 jh-p-r-sm-5 jh-p-l-md-6 jh-p-r-md-6 jh-p-l-lg-7 jh-p-r-lg-7 jh-m-t-5 jh-m-t-sm-6 jh-m-t-md-8">
 
-<div>
-    {% for item in site.work %}
-        {% if item.slug contains 'primary-website-rebrand' %}
-            {% include post_company_excerpt.html %}
-        {% elsif item.slug contains 'etsy-inventory-management' %}
-            {% include post_company_excerpt.html %}
-        {% elsif item.slug contains 'structured-data-on-etsy' %}
-            {% include post_company_excerpt.html %}
-        {% endif %}
-    {% endfor %}
-</div>
+    <div class="jh-m-b-8">
+        <h2 class="jh-header-1 jh-m-b-4">Work</h2>
+        <p class="jh-line-height-loose jh-m-b-3">I'm a generalist who loves every part of the process, from doing research and defining the problem all the way to writing reusable CSS and pushing code. My work has included complex tooling, addressing longstanding debt, optimizing conversion funnels, and design systems creation and adoption.</p>
 
-<hr class="jh-b-b-1 jh-b-blue jh-m-t-4 jh-m-b-4 jh-m-t-sm-5 jh-m-b-sm-5 jh-m-t-md-6 jh-m-b-md-6">
+        <p class="jh-line-height-loose">Learn more about my work and process through the case studies below.</p>
 
-<h2 class="jh-header-1 jh-m-b-4 jh-m-b-md-5">Popular notes</h2>
+        <div class="jh-m-t-8">
+            {% for company in site.data.companies limit:3 %}
+                <div class="jh-grid jh-m-b-4">
+                    <div class="jh-grid__col--md--4 jh-text-center jh-m-b-4 jh-m-b-md-0 jh-p-r-md-4 jh-p-r-lg-6">
+                        <h3 class="jh-screenreader-only">{{company.name}}</h3>
+                        <a href="{{company.url}}" class="jh-d-inline-block"><img src="{{company.logo}}" alt="{{company.name}} logo" class="jh-img-logo"></a>
+                        <p class="jh-body-accent jh-m-t-3">{{company.years}}</p>
+                    </div>
+                    <div class="jh-grid__col--md--8 jh-m-t-md-2 jh-m-b-4">
+                        {% for item in site.work reversed %}
+                            {% if item.company == company.name %}
+                                {% include post_company_excerpt.html %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <p class="jh-body-small jh-text-gray-dark">Case studies have been simplified and edited for public viewing.</p>
+    </div>
 
-<div>
-    {% for post in site.posts %}
-        {% if post.slug contains 'try-everything' %}
-            {% include post_excerpt.html %}
-        {% elsif post.slug contains 'good-challenges-vs-bad-challenges' %}
-            {% include post_excerpt.html %}
-        {% elsif post.slug contains 'crying' %}
-            {% include post_excerpt.html %}
-        {% endif %}
-    {% endfor %}
+    {% include divider.html %}
+
+    <div class="jh-m-b-8">
+        <h2 class="jh-header-1 jh-m-b-4">Notes</h2>
+        <p class="jh-line-height-loose jh-m-b-3">Occasionally, I write when the mood strikes, especially about personal and professional challenges that I've faced.</p>
+
+        <div class="jh-grid jh-grid--gutters--large jh-m-t-6">
+            {% for post in site.posts %}
+                {% if post.slug contains 'try-everything' %}
+                    {% include post_excerpt.html %}
+                {% elsif post.slug contains 'good-challenges-vs-bad-challenges' %}
+                    {% include post_excerpt.html %}
+                {% elsif post.slug contains 'crying' %}
+                    {% include post_excerpt.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        {% include tags.html %}
+    </div>
+
 </div>

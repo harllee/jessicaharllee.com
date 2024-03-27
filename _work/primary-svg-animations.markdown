@@ -5,6 +5,7 @@ published: false
 company: Primary
 year: 2020
 description: Animated illustrations throughout the Primary website.
+role: Design, front-end development
 assets:
 - path: "/uploads/primary-animation-404.jpg"
   name: primary-animation-404
