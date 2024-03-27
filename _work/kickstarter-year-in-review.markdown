@@ -1,8 +1,8 @@
 ---
 title: Kickstarter Year in Review 2012
 date: 2012-12-31 16:07:00 -05:00
-company: Kickstarter
 published: false
+company: Kickstarter
 year: 2012
 description: A showcase of the best of Kickstarter during 2012.
 share_image: "/uploads/work-kickstarter-yir-share.jpg"

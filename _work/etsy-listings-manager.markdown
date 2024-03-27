@@ -1,7 +1,7 @@
 ---
 title: Listings Manager redesign
-color: F9936A
 date: 2015-04-21 17:07:00 -04:00
+color: F9936A
 company: Etsy
 year: 2015
 description: A redesign and rewrite of the core of Etsy's seller tools.
