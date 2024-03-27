@@ -1,7 +1,7 @@
 ---
 title: Structured data on Etsy
-color: C6D148
 date: 2017-05-21 17:07:00 -04:00
+color: C6D148
 company: Etsy
 year: 2017
 description: Collecting category-specific information from sellers to power search

@@ -1,7 +1,7 @@
 ---
 title: Color filtering on Primary
-color: F088B9
 date: 2020-01-10 16:07:00 -05:00
+color: F088B9
 company: Primary
 year: 2020
 description: Rethink filtering on Primary to accommodate dozens of unique clothing

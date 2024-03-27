@@ -1,7 +1,7 @@
 ---
 title: Primary website rebrand
-color: FCE74E
 date: 2021-01-18 16:07:00 -05:00
+color: FCE74E
 company: Primary
 year: 2020
 description: A full website rebrand of Primary, including a new, accessible design

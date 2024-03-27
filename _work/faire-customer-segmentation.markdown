@@ -1,16 +1,15 @@
 ---
 title: Customer segmentation
+date: 2023-08-01 17:07:00 -04:00
 color: AFAB77
-date: 2023-08-01 16:07:00 -05:00
-published: true
 company: Faire
 year: 2023
-description: A series of projects to improve Faire’s CRM tools through simplification and new features.
+description: A series of projects to improve Faire’s CRM tools through simplification
+  and new features.
 role: Design and strategy
 assets:
 - path: "/uploads/faire-customers-after.jpg"
   name: faire-customers-after
-
 ---
 
 Full case study coming soon and available upon request.
