@@ -85,5 +85,7 @@
 }
 
 .jh-grid--gutters--large {
-	grid-column-gap: $spacer-4;
+	@include breakpoint-sm-up {
+		grid-column-gap: $spacer-4;
+	}
 }
