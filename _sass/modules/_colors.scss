@@ -109,4 +109,8 @@
     border-bottom-style: solid;
     border-image-source: url("/uploads/edge-bottom-white.svg");
     border-image-slice: 42;
+
+    &:nth-of-type(even) {
+        border-image-source: url("/uploads/edge-bottom-white-2.svg");
+    }
 }
