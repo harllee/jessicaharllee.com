@@ -7,7 +7,7 @@ assets:
 layout: about
 ---
 
-I’m Jessica Harllee (she/her) and I'm a staff product designer. Most recently, I was at [Faire](http://faire.com), a wholesale marketplace connecting independent brands with local retailers. Before that, I was at [Primary](http://www.primary.com), a gender-non-prescriptive kids clothing brand, spent six years at [Etsy](http://www.etsy.com/people/harllee) (mostly focused on tools for Etsy sellers), was on the founding design team at [Kickstarter](http://www.kickstarter.com/profile/harllee), and worked at [Modea](http://www.modea.com), an ad agency. I was born and raised in northern Virginia, studied Visual Communications Design at Virginia Tech, and have lived in Brooklyn for over a decade.
+I’m Jessica Harllee (she/her) and I'm a staff+ product designer. Most recently, I was at [Faire](http://faire.com), a wholesale marketplace connecting independent brands with local retailers. Before that, I was at [Primary](http://www.primary.com), a gender-non-prescriptive kids clothing brand, spent six years at [Etsy](http://www.etsy.com/people/harllee) (mostly focused on tools for Etsy sellers), was on the founding design team at [Kickstarter](http://www.kickstarter.com/profile/harllee), and worked at [Modea](http://www.modea.com), an ad agency. I was born and raised in northern Virginia, studied Visual Communications Design at Virginia Tech, and have lived in Brooklyn for over a decade.
 
 I own too much jewelry, listen to a [constant stream of music](https://open.spotify.com/user/jessicaharllee), and love a good craft project. I’m obsessed with process and a well-organized Google doc, and believe that great design is nothing without great copy. I’m probably shorter than you. Currently, my favorite emoji is the :spiral-eyes:.
 
