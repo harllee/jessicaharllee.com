@@ -28,7 +28,6 @@ assets:
   name: faire-crm-before
 ---
 
-
 In 2023, Faire’s CRM pod spent two quarters refreshing and improving our customer segmentation tools for brands selling on Faire. I put together a lo-fi design vision outlining the desired end state for the improvements we wanted to make, then worked with the PM and EM to break that vision apart into a series of projects we could ship one-by-one. Through customer research and working closely with our customer-facing teams (such as customer support), we shipped an improved segmentation experience that simplified workflows, addressed design and tech debt, and moved business metrics.
 
 ### Jump to:
