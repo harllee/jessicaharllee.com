@@ -69,7 +69,7 @@ Heading into 2023 planning, the PM and I wrote a strategy doc that outlined our 
 
 A lot of really great longer-term ideas came out of the design sprint and the vision deck, and it became clear to us that in order to make those ideas successful, we’d need to heavily invest in improving our customer segmentation tools.
 
-Faire had existing segmentation tools, called lists, that allowed brands to create dynamic lists of customers based on specific criteria, but they were complicated to use and difficult to discover, and therefore rarely used by brands. The success of a brand’s outreach was dependent upon the right audience receiving the right message, and so we decided to focus on segmentation tooling first. We saw an opportunity to simplify our segmentation tools, fill in some missing feature gaps that were critical to reaching out to existing customers, and address some longstanding design and technical debt while we were at it.
+Faire had existing segmentation tools but they were complicated to use and difficult to discover and therefore rarely used by brands. The success of a brand’s outreach was dependent upon the right audience receiving the right message, and so we decided to focus on segmentation tooling first. We saw an opportunity to simplify our segmentation tools, fill in some missing feature gaps that were critical to reaching out to existing customers, and address some longstanding design and technical debt while we were at it.
 
 ## Current state audit
 
